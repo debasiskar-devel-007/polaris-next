@@ -1,0 +1,22 @@
+
+.common_width {
+    width: 1675px;
+    margin: 0 auto;
+}
+
+
+
+.service_page_banner_main_width {
+    padding: 255px 0 65px;
+}
+.service_bnr_left_cont h1 {
+    font-size: 90px;
+    line-height: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(239,239,243,1) 49%, rgba(209,208,219,1) 51%, rgba(255,255,255,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 3px #00000036);
+    -webkit-text-stroke: 1px #f2f4f8;
+    display: block;
+}
