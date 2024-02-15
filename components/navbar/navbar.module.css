@@ -1,6 +1,6 @@
 .common_width{width: 1860px;margin: 0 auto;}
 .polaris_header_sub1_wrp{display: flex;justify-content: space-between;align-items: center;    margin-bottom: 10px;}
-.polaris_header_main_wrp{padding: 10px 0 10px 0;}
+.polaris_header_main_wrp{padding: 10px 0 30px 0;}
 .polaris_header_sub1_sec1_wrp{width: 25%;}
 .polaris_header_sub1_sec2_wrp{width: 30%;}
 .polaris_header_sub1_sec1_wrp img{display: block;width: 100%;}
