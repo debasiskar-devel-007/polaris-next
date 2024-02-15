@@ -28,9 +28,9 @@ growth and success.</p>
             </div>
         </div>
     </div>
-          <div className={styles.polaris_demo_wrp}>
+          {/* <div className={styles.polaris_demo_wrp}>
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_bnr_demo.webp'/>
-          </div>
+          </div> */}
           
           <div className={styles.polaris_demo_wrp}>
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_blk1_img.webp'/>
