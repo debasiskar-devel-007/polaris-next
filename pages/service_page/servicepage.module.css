@@ -280,6 +280,7 @@
     .service_block1_right_cont {
         padding-left: 705px;
     }
+    
 }
 @media (max-width: 1420px) {
     .service_bnr_left_cont h1::before {
