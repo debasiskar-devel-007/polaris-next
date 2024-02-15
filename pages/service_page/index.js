@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./servicepage.module.css";
+import Navbar from '@/components/navbar/Navbar';
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
 
@@ -8,7 +9,9 @@ export default function index() {
     <>
 
     <div className={styles.polaris_service_page_full_width}>
+        
         <div className={styles.service_page_banner_main_width}>
+            <Navbar/>
             <div className={styles.common_width}>
                 <div className={styles.service_bnr_left_cont}>
                     <h1>OUR SERVICES</h1>
