@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './home.module.css'
+import Navbar from '../navbar/Navbar'
 
 export default function Homes() {
 
     
   return (
     <>
+    <Navbar/>
           <div className={styles.polaris_demo_wrp}>
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_bnr_demo.webp'/>
           </div>
