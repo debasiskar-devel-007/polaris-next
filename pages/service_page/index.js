@@ -19,15 +19,27 @@ export default function index() {
                             <h2>Ambulatory Surgery Center Development</h2>
                         </div>
                         <div className={`${styles.box_section} ${styles.yellow_box}`}>
-                            <h2>Healthcare Consulting</h2>
+                            <h2>Healthcare<br></br> Consulting</h2>
                         </div>
                         <div className={`${styles.box_section} ${styles.skyblue_box}`}>
-                            <h2>Operational Improvement</h2>
+                            <h2>Operational<br></br> Improvement</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div className={styles.service_demo_img}>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_banner_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block1_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img>
+        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
     </div>
 
     </>
