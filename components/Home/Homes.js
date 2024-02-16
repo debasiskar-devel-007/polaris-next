@@ -58,7 +58,7 @@ export default function Homes() {
             <div className={styles.common_width}>
               <div className={styles.polaris_blk2_sub2_wrp}>
                 <div className={styles.polaris_blk2_sub2_left_wrp}>
-                  <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_logo.png'/>
+                  <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_logo.png' />
                 </div>
                 <div className={styles.polaris_blk2_sub2_right_wrp}>
                   <h1>Healthcare is changing rapidly, faster than <span>at any other time.</span></h1>
@@ -69,11 +69,67 @@ export default function Homes() {
             </div>
           </div>
         </div>
-        {/* <div className={styles.polaris_blk3_main_wrp}>
+        <div className={styles.polaris_blk3_main_wrp}>
           <div className={styles.common_width}>
-            <div className={styles.polaris_blk3_sub_wrp}></div>
+            <div className={styles.polaris_blk3_sub_wrp}>
+              <h1>Services</h1>
+              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_page_table_img.webp' />
+              <div className={styles.polaris_blk3_sub_sec_wrp}>
+                <div className={`${styles.polaris_blk3_sub_sec_mini1_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
+                  <div className={styles.polaris_blk3_logo_wrp}>
+                    <div className={styles.polaris_blk3_logo_sec_wrp}>
+                      <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_healthcare_logo.png' />
+                    </div>
+                  </div>
+                  <div className={styles.polaris_blk3_text_wrp}>
+                    <p>35+ Years in
+                      the Healthcare
+                      Industry</p>
+                  </div>
+
+                </div>
+                <div className={`${styles.polaris_blk3_sub_sec_mini2_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
+                  <div className={styles.polaris_blk3_logo_wrp}>
+                    <div className={styles.polaris_blk3_logo_sec_wrp}>
+                      <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/business_tax_logo.png' />
+                    </div>
+                  </div>
+                  <div className={styles.polaris_blk3_text_wrp}>
+                    <p>50+ Years in 
+Business and 
+Tax Strategy 
+Planning</p>
+                  </div>
+                </div>
+                <div className={`${styles.polaris_blk3_sub_sec_mini3_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
+                  <div className={styles.polaris_blk3_logo_wrp}>
+                    <div className={styles.polaris_blk3_logo_sec_wrp}>
+                      <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/development_logo.png' />
+                    </div>
+                  </div>
+                  <div className={styles.polaris_blk3_text_wrp}>
+                    <p>20+ Healthcare 
+Development 
+Projects</p>
+                  </div>
+                </div>
+                <div className={`${styles.polaris_blk3_sub_sec_mini4_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
+                  <div className={styles.polaris_blk3_logo_wrp}>
+                    <div className={styles.polaris_blk3_logo_sec_wrp}>
+                      <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/business_transformations_logo.png' />
+                    </div>
+                  </div>
+                  <div className={styles.polaris_blk3_text_wrp}>
+                    <p>Endless 
+Business 
+Transformations</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
-        </div> */}
+        </div>
 
       </div>
 
@@ -88,9 +144,9 @@ export default function Homes() {
       {/* <div className={styles.polaris_demo_wrp}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_blk2_img.webp' />
       </div> */}
-      <div className={styles.polaris_demo_wrp}>
+      {/* <div className={styles.polaris_demo_wrp}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_blk3_img.webp' />
-      </div>
+      </div> */}
       <div className={styles.polaris_demo_wrp}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_last_blk_img.webp' />
       </div>
