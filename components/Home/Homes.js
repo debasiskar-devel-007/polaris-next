@@ -62,7 +62,7 @@ export default function Homes() {
                 </div>
                 <div className={styles.polaris_blk2_sub2_right_wrp}>
                   <h1>Healthcare is changing rapidly, faster than <span>at any other time.</span></h1>
-                  <p>Polaris Business Consultants brings together an innovative and winning formula - Donovan's over five decades of financial solutions with JD Martin Healthcare Advisors three-plus decades of experience in working within the healthcare industry. Polaris brings an experienced and innovative team together to provide an extensive offering of services to this rapidly changing market.</p>
+                  <p>Polaris Business Consultants brings together an innovative and winning formula - Donovan&apos;s over five decades of financial solutions with JD Martin Healthcare Advisors three-plus decades of experience in working within the healthcare industry. Polaris brings an experienced and innovative team together to provide an extensive offering of services to this rapidly changing market.</p>
                 </div>
 
               </div>
