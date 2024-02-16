@@ -27,7 +27,20 @@ growth and success.</p>
                 </div>
             </div>
         </div>
+
+
+        <div className={styles.polaris_blk1_main_wrp}>
+          <div className={styles.common_width}>
+            <div className={styles.polaris_blk1_sub_wrp}>
+              <h1>AMBULATORY SURGERY CENTER DEVELOPMENT COURSE</h1>
+              <p>Unlock the Blueprint of Success in Ambulatory Surgery Center Development! Join our immersive six-week course and gain comprehensive insights into the strategic stages of ASC development. Elevate your expertise, navigate regulatory intricacies, and master the art of creating a cutting-edge ambulatory surgery center. Transform your vision into reality with our expert-led program. Enroll now for a future in healthcare innovation!</p>
+              <button className={styles.polaris_home_button}>Click Here to Learn More</button>
+            </div>
+          </div>
+        </div>
     </div>
+
+    
           {/* <div className={styles.polaris_demo_wrp}>
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_bnr_demo.webp'/>
           </div> */}
