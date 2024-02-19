@@ -143,6 +143,8 @@ a {
 }
 }
 @media(max-width:1199px){
+  .polaris_header_main_wrp {
+    padding: 10px 0 15px 0;}
   .res_menu {display: block;background: #ddd;}
   .polaris_header_sub2_wrp{flex-wrap: wrap;}
   .polaris_header_sub2_left_wrp {
