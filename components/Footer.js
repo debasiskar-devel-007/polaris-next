@@ -18,7 +18,7 @@ export default function Footer() {
         <div className='polar_footer_sub'>
 
             <div className='polar_logo'>
-                <Link >
+                <Link href="/">
                 <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/poralis_header_logo.png"/>
                 </Link>
             </div>

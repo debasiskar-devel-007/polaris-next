@@ -93,7 +93,7 @@ a {
 .polaris_header_sub2_left_wrp ul{display: flex;justify-content: space-between;align-items: center;}
 .polaris_header_sub2_left_wrp ul li{width: fit-content;text-align: center;text-transform: uppercase;color: #2d3649;font-size: 20px;line-height: 26px;font-weight: 600;list-style: none;padding-right: 0px; position: relative; padding: 12px 15px; margin: 0 15px;}
 .polaris_header_sub2_left_wrp ul li::after{
-    content: ""; background: #d4d6da; position: absolute; height: 90%; width: 1px; right: -39px; top: 50%; transform: translateY(-50%); 
+    content: ""; background: #d4d6da; position: absolute; height: 60%; width: 1px; right: -39px; top: 50%; transform: translateY(-50%); 
 }
 .polaris_header_sub2_left_wrp ul li:last-child:after{display: none;}
 .polaris_header_sub2_left_wrp ul li:first-child{margin-left: 0;}
