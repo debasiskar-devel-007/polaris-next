@@ -159,7 +159,7 @@ padding: 60px 40px;}
   -webkit-text-stroke: 1px #f2f4f8;
   display: block;text-align: center;margin-bottom: 25px;}
 .polaris_blk4_sub_wrp{display: flex;justify-content: space-between;flex-wrap: wrap;}  
-.polaris_blk4_sub_sec_wrp{width: 32%;padding: 20px;border: 3px solid #fff;border-radius: 10px;display: flex;flex-direction: column;justify-content: center;align-items: center;background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/team_block_sec_bg.webp);
+.polaris_blk4_sub_sec_wrp{width: 32%;padding: 20px;border: 3px solid #fff;border-radius: 10px;display: flex;flex-direction: column;justify-content: space-between;align-items: center;background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/team_block_sec_bg.webp);
   background-repeat: no-repeat;background-size: cover;background-position: center;}
 .polaris_blk4_sub_sec_img_wrp{border: 3px solid #fff;border-radius: 10px;    height: 365px;overflow: hidden;margin-bottom: 20px;    width: 100%;}
 .polaris_blk4_sub_sec_img_wrp img{width: 100%;
@@ -207,6 +207,7 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 @media(max-width:1720px){
   .common_width{width: 96%;}
   .polaris_blk2_sub1_wrp{    width: 51%;}
+  .polaris_blk5_main_wrp{    background-position: right -178px bottom -256px, center;}
 }
 @media(max-width:1670px){
   .polaris_position_img{    right: 172px;}
@@ -268,6 +269,13 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                     }
                     .polaris_blk4_sub_sec_p_wrp p{    font-size: 21px;
                       line-height: 27px;}
+                      .polaris_blk5_sub_wrp h1{    font-size: 35px;
+                        line-height: 42px;
+                        font-weight: 700;}
+                        .polaris_home_button{font-size: 23px;
+                          line-height: 28px;}
+                          .team_sec_btn{font-size: 23px;
+                            line-height: 28px;}
 }
 @media(max-width:1350px){
   .polaris_home_sub_left1_wrp::after{    top: -57px;
