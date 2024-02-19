@@ -15,25 +15,28 @@ export default function Navbar() {
   const location = useRouter();
   const { pathname } = location;
 
+  const handleClick5 = () => {
+    setAnchorEl5((current) => !current);
+  };
 
   return (
   <>
-  <div className={styles.polaris_header_main_wrp}>
+  <div className="polaris_header_main_wrp">
    
-      <div className={styles.common_width}>
-      <div className={styles.polaris_header_sub1_wrp}>
-        <div className={styles.polaris_header_sub1_sec1_wrp}>
+      <div className="common_width">
+      <div className="polaris_header_sub1_wrp">
+        <div className="polaris_header_sub1_sec1_wrp">
          <Link> <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/poralis_header_logo.png'/></Link>
         </div>
 
-        <div className={styles.polaris_header_sub1_sec2_wrp}>
-          <div className={styles.polaris_header_sub1_sec2_1wrp}>
+        <div className="polaris_header_sub1_sec2_wrp">
+          <div className="polaris_header_sub1_sec2_1wrp">
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_navbar_fb_logo.png'/>
           </div>
-          <div className={styles.polaris_header_sub1_sec2_1wrp}>
+          <div className="polaris_header_sub1_sec2_1wrp">
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_navbar_tw_logo.png'/>
           </div>
-          <div className={styles.polaris_header_sub1_sec2_1wrp}>
+          <div className="polaris_header_sub1_sec2_1wrp">
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_navbar_insta_logo.png'/>
           </div>
 
@@ -42,13 +45,13 @@ export default function Navbar() {
         </div>
 
       </div>
-      <div className={styles.polaris_header_sub2_wrp}> 
-           <div className={styles.res_menu}>
-                <Button ><MenuIcon /></Button>
+      <div className="polaris_header_sub2_wrp"> 
+           <div className="res_menu">
+                <Button onClick={handleClick5}><MenuIcon /></Button>
             </div>
-        <div className={styles.polaris_header_sub2_left_wrp}>
+        <div className="polaris_header_sub2_left_wrp">
           <ul>
-            <li><Link >Home</Link></li>
+            <li className={(pathname && pathname == '/') ? 'active' : ''}><Link onClick={() => router.push('/')}>Home</Link></li>
             <li><Link>About</Link></li>
             <li><Link>Services</Link></li>
             <li><Link>Blog</Link></li>
@@ -59,11 +62,11 @@ export default function Navbar() {
 
           </ul>
         </div>
-        <div className={styles.polaris_header_sub2_right_wrp}>
-          <div className={styles.polaris_header_login_logo_wrp}>
+        <div className="polaris_header_sub2_right_wrp">
+          <div className="polaris_header_login_logo_wrp">
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/banner_login_logo.png'/>
           </div>
-          <div className={styles.polaris_header_login_text_wrp}>
+          <div className="polaris_header_login_text_wrp">
             <p>Log In</p>
           </div>
         </div>
