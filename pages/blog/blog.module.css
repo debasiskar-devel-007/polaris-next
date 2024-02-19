@@ -1,5 +1,5 @@
 
-.polaris_about_full_page_demo img {
+.polaris_blog_full_page_demo img {
     display: block;
     max-width: 100%;
 }
@@ -7,6 +7,6 @@
     position: relative;
     z-index: 3;
 }
-.polaris_about_banner_demo {
+.polaris_blog_banner_demo {
    margin-top: -277px;
 }
