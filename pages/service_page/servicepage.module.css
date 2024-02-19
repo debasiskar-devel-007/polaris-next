@@ -310,6 +310,9 @@
     top: 6px;
     left: 0;
 }
+.block_main_heading {
+    margin-bottom: 10px;
+}
 .grey_heading {
     font-size: 50px;
     line-height: 55px;
@@ -318,9 +321,37 @@
     background: linear-gradient(180deg, rgba(118,144,158,1) 25%, rgba(68,91,108,1) 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: block;
-    margin-bottom: 10px;
+    display: inline;
     font-family: "Roboto", sans-serif;
+}
+
+/* -----------block3------------- */
+.service_page_block3_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block3_left_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block3_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom left 195px, top left;
+    padding: 40px 0;
+}
+.service_block3_right_cont {
+    padding-left: 835px;
+}
+.block3_left_cont p {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #3b3d40;
+    margin-bottom: 10px;
+}
+.service_page_block3_main_width .cont_part1_sub_bullet_cont h5 {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -353,6 +384,14 @@
     }
     .service_block2_left_cont {
         padding-right: 565px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-position: bottom -75px left 45px, top left;
+    }
+    .service_block3_right_cont {
+        padding-left: 705px;
     }
 }
 @media (max-width: 1720px) {
@@ -436,6 +475,14 @@
     .block2_yellow_bar h1 {
         font-size: 55px;
         line-height: 60px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-position: bottom -55px left -55px, top left;
+    }
+    .service_block3_right_cont {
+        padding-left: 625px;
     }
 }
 @media (max-width: 1420px) {
@@ -804,7 +851,7 @@
         width: 15px;
         height: 15px;
     }
-    
+
     /* ---------block2----------- */
     .service_page_block2_main_width {
         background-size: 455px, cover;

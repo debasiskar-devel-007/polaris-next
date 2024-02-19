@@ -134,6 +134,31 @@ export default function index() {
                   <div className={styles.block_main_heading}>
                     <h1 className={styles.grey_heading}>Financial Planning and Analysis</h1>
                   </div>
+                  <h4 className={styles.pink_bullet}>We have over three (3) decades of experience managing and working at the executive level of hospitals, health systems, and large physician practices</h4>
+                  <h4 className={styles.pink_bullet}>Our practice is built on a thorough understanding of the discipline<br></br> of healthcare finance</h4>
+
+                  <div className={`${styles.block3_left_cont}`}>
+                    <p>Our financial planning and analysis services are built to address:</p>
+                        <div className={styles.cont_part1_sub_bullet_cont}>
+                            <h5>Financial improvement opportunities within individual service lines</h5>
+                            <h5>Planning for business expansion of current service lines</h5>
+                            <h5>Planning growth into service lines</h5>
+                            <h5>Performing financial due diligence on developing a new ambulatory surgery center</h5>
+                        </div>
+    
+                    <h4 className={styles.pink_bullet}>Whether our clients are wanting to improve current operations or plan for an expansion of the enterprise, we have the experience to guide the process</h4>
+                  </div>
+
+                  <div className={`${styles.block3_left_cont} ${styles.part_2}`}>
+                    <p>We have helped:</p>
+                        <div className={styles.cont_part1_sub_bullet_cont}>
+                            <h5>Hospitals improve financial performance in nearly every service line within the acute care setting</h5>
+                            <h5>Physician practices reduce overhead while improving service and service capacity</h5>
+                            <h5>With growth projects that include diverse partnerships, joint ventures, and large capital commitments</h5>
+                        </div>
+    
+                    <h4 className={styles.pink_bullet}>Because we have operations in hospitals, health systems, and physician practices; we have the expertise to guide our clients through the process</h4>
+                  </div>
                 </div>
             </div>
         </div>
