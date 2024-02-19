@@ -210,6 +210,8 @@ export default function Index() {
             </div>
         </div>
 
+        
+
         {/* <div className={styles.service_page_block6_main_width}>
           <div className={styles.common_width}>
 
