@@ -35,3 +35,43 @@ a {
 }
 
 
+/* -----------------------------loader & snackbar------------------------ */
+.home_polaris_home_from_sec__t1Lwa .MuiFormLabel-root {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 500;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiLinearProgress-root {
+  top: -28px;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiSnackbarContent-root {
+  visibility: hidden !important;
+  width: fit-content !important;
+  background-color: #eaebee !important;
+  color: #050404 !important;
+  text-align: left !important;
+  padding: 15px 20px !important;
+  position: fixed !important;
+  z-index: 100 !important;
+  left: 50% !important;
+  bottom: 100px !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  border-radius: 10px !important;
+  border: 1px solid #ebf0f2 !important;
+  letter-spacing: 1px !important;
+  transform: translateX(-50%) !important;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiSnackbarContent-root {
+  visibility: visible !important;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 10s !important;
+  animation: fadein 0.5s, fadeout 0.5s 10s ease !important;
+}
+/* -----------------------------loader & snackbar------------------------ */
+
+
+
