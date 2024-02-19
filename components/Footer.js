@@ -1,12 +1,33 @@
 import { Link } from '@mui/material'
 import { useRouter } from 'next/router';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 
 export default function Footer() {
 
     const router = useRouter();
     const location = useRouter();
     const { pathname } = location;
+    const [showTopBtn, setShowTopBtn] = useState(false);
+
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 100) {
+            setShowTopBtn(true);
+          } else {
+            setShowTopBtn(false);
+          }
+        });
+      }, []);
+    
+    
+      const goToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
 
   return (
     <>
@@ -56,6 +77,15 @@ export default function Footer() {
         </div>
 
     </div>
+
+    {/* <div className="top-to-btm">
+        {" "}
+        {showTopBtn && (
+          <a className="icon-position icon-style" onClick={goToTop}>
+            <KeyboardDoubleArrowUpIcon />
+          </a>
+        )}{" "}
+      </div> */}
 
 </div>
 

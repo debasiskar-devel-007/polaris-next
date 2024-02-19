@@ -264,7 +264,7 @@ export default function Index() {
 
                             />
 
-                            <h5>We won't send spam. Unsubscribe at any time.</h5>
+                            <h5>We won&apos;t send spam. Unsubscribe at any time.</h5>
                         </div>
                     </div>
                 </div>

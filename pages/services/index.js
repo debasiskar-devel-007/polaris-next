@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./servicepage.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
-import Head from 'next/head';
+
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
 
@@ -10,9 +10,7 @@ export default function Index() {
   return (
     <>
 
-    <Head>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap')</style>
-    </Head>
+    
 
     <div className="polaris_service_page_main_width">
 
@@ -102,7 +100,7 @@ export default function Index() {
 
                     <h4 className={styles.pink_bullet}>Having a sound strategy is critical to the success of your healthcare enterprise</h4>
 
-                    <div className={`${styles.block2_left_cont}`}>
+                    <div className={styles.block2_left_cont}>
                         <p>Our strategic planning process covers 4 key steps:</p>
                             <div className={styles.cont_part1_sub_bullet_cont}>
                               <h5>Market Study</h5>
