@@ -181,6 +181,7 @@ margin: 0 auto;font-size: 26px;line-height: 32px;font-weight: 500;color: #000;te
 .polaris_blk5_main_wrp{background-image:url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_blk5_man_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_block4_bg.webp);
 background-repeat: no-repeat;background-size:auto, cover;background-position:right -118px bottom -256px, center;padding: 40px 0;padding-top: 70px;   margin-top: -30px;
 }
+.polaris_blk5_sub_wrp h5{font-size: 30px;line-height: 36px;font-weight: 500;color: #2c3955;margin: 20px 0;}
 .polaris_blk5_sub_wrp{width: 53%;}
 .polaris_blk5_sub_sec_wrp{padding: 40px;background-color: #fff;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius: 15px;border: 1px solid #000;}
 .input_fields{width: 100%;margin-bottom: 15px;}
@@ -226,6 +227,7 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
     line-height: 28px;}
     .polaris_blk3_logo_sec_wrp{    width: 85px;
       height: 85px;}
+      .polaris_blk5_main_wrp{    background-position: right -268px bottom -256px, center;}
 }
 @media(max-width:1460px){
   .polaris_blk2_main1_wrp{    background-position: right 135px bottom 0px,right bottom;}
@@ -276,6 +278,9 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                           line-height: 28px;}
                           .team_sec_btn{font-size: 23px;
                             line-height: 28px;}
+                            .polaris_blk5_main_wrp{    background-position: right -338px bottom -256px, center;}
+                            .polaris_blk5_sub_wrp h5{    font-size: 24px;
+                              line-height: 30px;    margin: 17px 0;}
 }
 @media(max-width:1350px){
   .polaris_home_sub_left1_wrp::after{    top: -57px;

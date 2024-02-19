@@ -434,6 +434,7 @@ export default function Homes() {
                 
                 />
               </div>
+              <h5>We won't send spam. Unsubscribe at any time.</h5>
             </div>
           </div>
         </div>
