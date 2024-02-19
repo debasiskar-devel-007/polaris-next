@@ -212,10 +212,10 @@ a {
 
 
 
-/* ----------------about-page---------------- */
-.polaris_about_full_width .polaris_header_main_wrp {
+/* ----------------blog-page---------------- */
+.polaris_blog_full_width .polaris_header_main_wrp {
   position: relative;
   padding: 10px 0 85px 0;
   z-index: 3;
 }
-/* ----------------about-page---------------- */
+/* ----------------blog-page---------------- */
