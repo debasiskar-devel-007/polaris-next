@@ -27,7 +27,7 @@ export default function Footer() {
           
              <ul className="foot_ul">
                  <li className={(pathname && pathname == '/') ? 'active1' : ''}><Link onClick={() => router.push('/')}>Home</Link></li>
-                 <li><Link>About</Link></li>
+                 <li className={(pathname && pathname == '/about') ? 'active1' : ''}><Link onClick={() => router.push('/about')}>About</Link></li>
                  <li><Link>Services</Link></li>
                  <li><Link>Blog</Link></li>
                  <li><Link>Contact</Link></li>

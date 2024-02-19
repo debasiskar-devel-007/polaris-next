@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className={`polaris_header_sub2_left_wrp ${anchorEl5 ? "showdiv" : ""}`}>
           <ul className="nav_ul">
             <li className={(pathname && pathname == '/') ? 'active' : ''}><Link onClick={() => router.push('/')}>Home</Link></li>
-            <li><Link>About</Link></li>
+            <li className={(pathname && pathname == '/about') ? 'active' : ''}><Link onClick={() => router.push('/about')}>About</Link></li>
             <li><Link>Services</Link></li>
             <li><Link>Blog</Link></li>
             <li><Link>Contact</Link></li>
