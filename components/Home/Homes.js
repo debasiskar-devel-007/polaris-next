@@ -95,10 +95,10 @@ export default function Homes() {
                     </div>
                   </div>
                   <div className={styles.polaris_blk3_text_wrp}>
-                    <p>50+ Years in 
-Business and 
-Tax Strategy 
-Planning</p>
+                    <p>50+ Years in
+                      Business and
+                      Tax Strategy
+                      Planning</p>
                   </div>
                 </div>
                 <div className={`${styles.polaris_blk3_sub_sec_mini3_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
@@ -108,9 +108,9 @@ Planning</p>
                     </div>
                   </div>
                   <div className={styles.polaris_blk3_text_wrp}>
-                    <p>20+ Healthcare 
-Development 
-Projects</p>
+                    <p>20+ Healthcare
+                      Development
+                      Projects</p>
                   </div>
                 </div>
                 <div className={`${styles.polaris_blk3_sub_sec_mini4_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
@@ -120,14 +120,76 @@ Projects</p>
                     </div>
                   </div>
                   <div className={styles.polaris_blk3_text_wrp}>
-                    <p>Endless 
-Business 
-Transformations</p>
+                    <p>Endless
+                      Business
+                      Transformations</p>
                   </div>
                 </div>
 
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className={styles.polaris_blk4_main_wrp}>
+          <div className={styles.common_width}>
+
+            <div className={styles.polaris_blk4_main_sub_wrp}>
+              <h1>Our Leadership Team</h1>
+              <div className={styles.polaris_blk4_sub_wrp}>
+                <div className={styles.polaris_blk4_sub_sec_wrp}>
+                  <div className={styles.polaris_blk4_sub_sec_img_wrp}>
+                    <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jeff_img.webp' />
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_heading_wrp}>
+                    <h2>Jeff Donovan</h2>
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_p_wrp}>
+                    <p>Managing Partner
+                      Tax Planning</p>
+                  </div>
+                  <button className={styles.team_sec_btn}>Read Bio</button>
+                </div>
+                <div className={styles.polaris_blk4_sub_sec_wrp}>
+                  <div className={styles.polaris_blk4_sub_sec_img_wrp}>
+                    <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jhon_img.webp' />
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_heading_wrp}>
+                    <h2>John D Martin</h2>
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_p_wrp}>
+                    <p>Managing Director
+                      Healthcare Consulting</p>
+                  </div>
+                  <button className={styles.team_sec_btn}>Read Bio</button>
+
+                </div>
+                <div className={styles.polaris_blk4_sub_sec_wrp}>
+                  <div className={styles.polaris_blk4_sub_sec_img_wrp}>
+                    <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jay_img.webp' />
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_heading_wrp}>
+                    <h2>Jay Boughner</h2>
+                  </div>
+                  <div className={styles.polaris_blk4_sub_sec_p_wrp}>
+                    <p>Managing Director
+                      Process Design and Workflow</p>
+                  </div>
+                  <button className={styles.team_sec_btn}>Read Bio</button>
+
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className={styles.polaris_blk5_main_wrp}>
+          <div className={styles.common_width}>
+            
+            <div className={styles.polaris_blk5_sub_wrp}></div>
           </div>
         </div>
 
