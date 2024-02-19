@@ -193,3 +193,24 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 
 .polaris_blk5_main_wrp .polaris_home_button{margin: 0 0 0 auto;display: block;} 
 
+
+
+/* -----------------------------------------responsive--------------------------- */
+@media(max-width:1860px){
+  .polaris_position_img{    right: 265px;}
+}
+@media(max-width:1720px){
+  .common_width{width: 96%;}
+}
+@media(max-width:1670px){
+  .polaris_position_img{    right: 172px;}
+  .polaris_home_wrp{    background-position: right 1px bottom -288px,center;}
+}
+@media(max-width:1560px){
+  .polaris_position_img{    right: 46px;}
+  .polaris_home_wrp{    background-position: right 1px bottom -189px,center;}
+}
+@media(max-width:1420px){
+  .polaris_position_img{    right: -36px;}
+  .polaris_home_sub_left1_wrp{    border-radius: 0px 234px 65px 0px;}
+}
