@@ -79,7 +79,7 @@ a {
 .common_width{width: 1675px;margin: 0 auto;}
 .polaris_header_sub1_wrp{display: flex;justify-content: space-between;align-items: center;    margin-bottom: 10px;}
 .polaris_header_main_wrp{padding: 10px 0 85px 0;}
-.polaris_header_sub1_sec1_wrp{width: 25%;}
+.polaris_header_sub1_sec1_wrp {width: 364px;max-width: 100%;}
 .polaris_header_sub1_sec2_wrp{width: 30%;}
 .polaris_header_sub1_sec1_wrp img{display: block;width: 100%;}
 .polaris_header_sub1_sec2_wrp{display: flex;justify-content: space-between;align-items: center;padding-left: 65px;border-left: 1px solid #0071e5;width: fit-content;}
@@ -162,5 +162,11 @@ a {
   position: relative;
   width: 100%;
   text-align: center;
+}
+.polaris_header_sub2_right_wrp{
+  width: fit-content;
+}
+.polaris_header_sub2_left_wrp ul li::after{
+  display: none;
 }
 }
