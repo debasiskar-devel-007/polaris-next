@@ -190,6 +190,24 @@ export default function index() {
                 </div>
             </div>
         </div>
+
+        <div className={styles.service_page_block5_main_width}>
+            <div className={styles.common_width}>
+                <div className={styles.service_block5_right_cont}>
+                  <div className={styles.block_main_heading}>
+                    <h1 className={styles.grey_heading}>Revenue Cycle Review</h1>
+                  </div>
+
+                  <h4 className={styles.pink_bullet}>Revenue cycle management is the financial lifeblood of every healthcare enterprise</h4>
+                  <h4 className={styles.pink_bullet}>Managing the revenue cycle is demanding and involves clinical as well as non-clinical staff</h4>
+                  <h4 className={styles.pink_bullet}>We work with our clients to develop more efficient and effective workflows designed to help the provider receive the reimbursement they deserve</h4>
+
+                  <h5 className={styles.skyblue_bullet}>We work through teams that include physicians, nurses, allied health providers, and members of the business office revenue cycle team</h5>
+
+                  <h4 className={styles.pink_bullet}>We use the principles of lean six sigma to ensure that our clients design process that are efficient and effective</h4>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div className={styles.service_demo_img}>
@@ -197,7 +215,7 @@ export default function index() {
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block1_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img>

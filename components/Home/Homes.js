@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from './home.module.css'
 import Navbar from '../navbar/Navbar'
 import { LinearProgress, Snackbar, TextField } from '@mui/material';
+import Footer from '../Footer';
 
 export default function Homes() {
   const recaptchaRef = React.createRef();
@@ -436,7 +437,8 @@ export default function Homes() {
             </div>
           </div>
         </div>
-
+        
+      <Footer />
       </div>
 
 

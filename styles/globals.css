@@ -1,6 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
 
 
 
@@ -9,6 +9,8 @@
   padding: 0;
   margin: 0;
 }
+
+
 
 html,
 body {
@@ -170,3 +172,50 @@ a {
   display: none;
 }
 }
+
+
+/* -------------------header--end----------------------------------- */
+
+/* -------------------footer--start----------------------------------- */
+
+.polaris_footer_sub1_sec2_wrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  border-left: 1px solid #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.polaris_footer_sub1_sec2_1wrp {
+  width: 35%;
+  margin-left: 15px;
+}
+.foot_ul li {font-size: 19px; line-height: 24px; font-weight: 500; color: #fff; text-transform: uppercase; padding: 0 5%; border-right: 1px solid #fff;}
+.polar_logo img{display: block; width: 100%;}
+
+.polar_logo {width: 17%;}
+.polar_menu {width: 47%;}
+.polar_link {width: 29%; margin-left: 15px; display: flex; justify-content: space-between;}
+.polar_footer_sub {display: flex; align-items: center; justify-content: space-between;}
+.polar_footer_main {padding: 25px 0; background: #2a2f39;}
+.polar_link p {font-size: 20px; line-height: 24px; color: #474e5b; font-weight: 600;}
+
+.polar_menu .foot_ul {padding: 0; list-style-type: none; display: flex; justify-content: space-between;}
+.polar_menu .foot_ul li:last-child {border-right:none;}
+.active1 a{color: #de6707 !important;}
+/* -------------------footer--end----------------------------------- */
+
+
+
+
+
+
+/* ----------------blog-page---------------- */
+.polaris_blog_full_width .polaris_header_main_wrp {
+  position: relative;
+  padding: 10px 0 85px 0;
+  z-index: 3;
+}
+/* ----------------blog-page---------------- */
