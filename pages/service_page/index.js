@@ -1,12 +1,17 @@
 import React from 'react'
 import styles from "./servicepage.module.css";
 import Navbar from '@/components/navbar/Navbar';
+import Head from 'next/head';
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
 
 export default function index() {
   return (
     <>
+
+    <Head>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap')</style>
+    </Head>
 
     <div className={styles.polaris_service_page_full_width}>
         
@@ -71,6 +76,54 @@ export default function index() {
 
                         <h5>Traditional consulting services may be engaged on an individualized basis</h5>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.service_page_block2_main_width}>
+            <div className={styles.common_width}>
+                <div className={styles.block2_yellow_bar}>
+                    <h1>Healthcare Consulting</h1>
+                    <div className={styles.block2_yellow_bar_bullet_cont}>
+                      <p>We have been actively involved in the healthcare industry since 1986</p>
+                      <p>We are not just consultants, we are operators</p>
+                      <p>Healthcare consulting services</p>
+                    </div>
+                </div>
+
+                <div className={styles.service_block2_left_cont}>
+                    <h1 className={styles.grey_heading}>STRATEGIC Planning</h1>
+                    <p>We work with our clients to identify and prioritize strategies, assign responsibilities, and build accountability into every strategic plan</p>
+
+                    <h4 className={styles.pink_bullet}>Having a sound strategy is critical to the success of your healthcare enterprise</h4>
+
+                    <div className={`${styles.block2_left_cont}`}>
+                        <p>Our strategic planning process covers 4 key steps:</p>
+                            <div className={styles.cont_part1_sub_bullet_cont}>
+                              <h5>Market Study</h5>
+                              <h5>Physician Planning</h5>
+                              <h5>Joint Venture Planning</h5>
+                              <h5>Strategic Plan</h5>
+                            </div>
+    
+                            <h4 className={styles.pink_bullet}>Each step builds on the one before it; the culmination of which is a detailed, execution ready strategic plan that includes individual accountability</h4>
+                            <h4 className={styles.pink_bullet}>We work with our clients to identify up to ten (10) strategies to be deployed over the next 2-3 years</h4>
+                            <h4 className={styles.pink_bullet}>We recommend our clients focus on the top 5-7 strategies</h4>
+                      </div>
+
+                      <div className={`${styles.block2_left_cont} ${styles.part_1}`}>
+                        <p>At the conclusion of our process, you will receive a strategic plan with:</p>
+                            <div className={styles.cont_part1_sub_bullet_cont}>
+                              <h5>Top 5-7 strategies prioritized (could be more depending on the client situation)</h5>
+                              <h5>Detailed tasks for each strategy</h5>
+                              <h5>Timeline for completion of each strategy</h5>
+                              <h5>Individual responsibility for the execution of each strategy</h5>
+                            </div>
+    
+                            <h4 className={styles.pink_bullet}>The strategic plan is execution ready, and clients may begin implementation immediately</h4>
+                            <h4 className={styles.pink_bullet}>Our strategic planning process also includes built-in accountability with the board of directors or other governing body to ensure successful execution of the strategic plan</h4>
+                            <h4 className={styles.pink_bullet}>We are available to assist our clients with implementation if asked to do so</h4>
+                      </div>
                 </div>
             </div>
         </div>
