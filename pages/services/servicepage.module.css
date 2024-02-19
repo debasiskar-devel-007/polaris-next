@@ -429,8 +429,8 @@
 }
 .skyblue_bullet {
     position: relative;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 500;
     color: #3b3d40;
     padding-left: 45px;
@@ -602,6 +602,14 @@
         bottom: 85px;
         right: 475px;
     }
+
+    /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-position: bottom -85px left 25px, top left;
+    }
+    .service_block5_right_cont {
+        padding-left: 615px;
+    }
 }
 @media (max-width: 1520px) {
     /* -----------block3------------- */
@@ -760,6 +768,14 @@
     .block4_main_heading h1 {
         font-size: 39px;
         line-height: 45px;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-position: bottom -65px left -25px, top left;
+    }
+    .service_block5_right_cont {
+        padding-left: 555px;
     }
 }
 @media (max-width: 1260px) {
@@ -922,6 +938,19 @@
         right: unset;
         left: 0;
     }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_right_img.webp), linear-gradient(180deg, rgba(242,247,250,1) 0%, rgba(251,234,231,1) 100%);
+        background-repeat: no-repeat;
+        background-size: auto, cover;
+        background-position: bottom -65px center, center;
+        padding: 35px 0;
+    }
+    .service_block5_right_cont {
+        padding-left: 0;
+        padding-bottom: 465px;
+    }
 }
 @media (max-width: 768px) {
     .service_page_banner_main_width {
@@ -1030,6 +1059,16 @@
         bottom: 135px;
         right: unset;
         left: 0;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-size: 515px, cover;
+        background-position: bottom -25px center, center;
+        padding: 25px 0;
+    }
+    .service_block5_right_cont {
+        padding-bottom: 455px;
     }
 }
 @media (max-width: 599px) {
@@ -1226,6 +1265,26 @@
         margin-right: 0;
     }
     .cont_part1_sub_bullet_cont h5::before {
+        top: 5px;
+        left: 15px;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-size: 325px, cover;
+        background-position: bottom center, center;
+        padding: 15px 0;
+    }
+    .service_block5_right_cont {
+        padding-bottom: 305px;
+    }
+    .skyblue_bullet {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+        margin-right: 0;
+    }
+    .skyblue_bullet::before {
         top: 5px;
         left: 15px;
     }
