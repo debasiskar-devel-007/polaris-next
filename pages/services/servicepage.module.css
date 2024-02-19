@@ -419,6 +419,28 @@
     margin-bottom: 10px;
 }
 
+/* -------------block5-------------- */
+.skyblue_bullet {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.skyblue_bullet::before {
+    position: absolute;
+    content: '';
+    background: #1187c9;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 25px;
+}
+
 
 
 /* --------------responsive-start----------------- */
