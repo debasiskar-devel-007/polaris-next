@@ -56,10 +56,6 @@ export default function Navbar() {
             <li><Link>Services</Link></li>
             <li><Link>Blog</Link></li>
             <li><Link>Contact</Link></li>
-
-
-
-
           </ul>
         </div>
         <div className="polaris_header_sub2_right_wrp">
