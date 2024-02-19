@@ -1,0 +1,12 @@
+
+.polaris_about_full_page_demo img {
+    display: block;
+    max-width: 100%;
+}
+.header_main_wrp {
+    position: relative;
+    z-index: 3;
+}
+.polaris_about_banner_demo {
+   margin-top: -277px;
+}
