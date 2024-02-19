@@ -1,9 +1,21 @@
 
-import { Link } from '@mui/material'
-import React from 'react'
+import { Button, Link } from '@mui/material'
+import { useRouter } from 'next/router';
+import React, { useState } from 'react'
 import styles from './navbar.module.css'
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
+
+  const [anchorEl5, setAnchorEl5] = useState(null);
+
+  const handleClose5 = () => setAnchorEl5(false);
+
+  const router = useRouter();
+  const location = useRouter();
+  const { pathname } = location;
+
+
   return (
   <>
   <div className={styles.polaris_header_main_wrp}>
@@ -30,10 +42,13 @@ export default function Navbar() {
         </div>
 
       </div>
-      <div className={styles.polaris_header_sub2_wrp}>
+      <div className={styles.polaris_header_sub2_wrp}> 
+           <div className={styles.res_menu}>
+                <Button ><MenuIcon /></Button>
+            </div>
         <div className={styles.polaris_header_sub2_left_wrp}>
           <ul>
-            <li><Link>Home</Link></li>
+            <li><Link >Home</Link></li>
             <li><Link>About</Link></li>
             <li><Link>Services</Link></li>
             <li><Link>Blog</Link></li>
