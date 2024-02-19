@@ -18,7 +18,7 @@ export default function Footer() {
         <div className='polar_footer_sub'>
 
             <div className='polar_logo'>
-                <Link >
+                <Link href="/">
                 <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/poralis_header_logo.png"/>
                 </Link>
             </div>
@@ -30,13 +30,13 @@ export default function Footer() {
                  <li className={(pathname && pathname == '/about') ? 'active1' : ''}><Link onClick={() => router.push('/about')}>About</Link></li>
                  <li className={(pathname && pathname == '/services') ? 'active1' : ''}><Link onClick={() => router.push('/services')}>Services</Link></li>
                  <li className={(pathname && pathname == '/blog') ? 'active1' : ''}><Link onClick={() => router.push('/blog')}>Blog</Link></li>
-                 <li><Link>Contact</Link></li>
+                 <li className={(pathname && pathname == '/contact') ? 'active1' : ''}><Link onClick={() => router.push('/contact')}>Contact</Link></li>
              </ul>
-               
+             
             </div>
 
             <div className='polar_link'>
-               <span><p>© 2024 Polaris,  All rights reserved.</p> </span> <span><div className="polaris_footer_sub1_sec2_wrp">
+               <span><p>© 2024 Kajabi,  All rights reserved.</p> </span> <span><div className="polaris_footer_sub1_sec2_wrp">
           <div className="polaris_footer_sub1_sec2_1wrp">
            <Link href="https://www.facebook.com/kajabi" target="_blank"> <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_navbar_fb_logo.png'/> </Link>
           </div>

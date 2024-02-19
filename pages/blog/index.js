@@ -3,7 +3,7 @@ import styles from "./blog.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
 
-export default function index() {
+export default function Index() {
   return (
     <>
 
