@@ -83,7 +83,9 @@ export default function index() {
         <div className={styles.service_page_block2_main_width}>
             <div className={styles.common_width}>
                 <div className={styles.block2_yellow_bar}>
+                  <div className={styles.block_main_heading}>
                     <h1>Healthcare Consulting</h1>
+                  </div>
                     <div className={styles.block2_yellow_bar_bullet_cont}>
                       <p>We have been actively involved in the healthcare industry since 1986</p>
                       <p>We are not just consultants, we are operators</p>
