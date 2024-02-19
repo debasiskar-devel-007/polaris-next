@@ -83,7 +83,9 @@ export default function index() {
         <div className={styles.service_page_block2_main_width}>
             <div className={styles.common_width}>
                 <div className={styles.block2_yellow_bar}>
+                  <div className={styles.block_main_heading}>
                     <h1>Healthcare Consulting</h1>
+                  </div>
                     <div className={styles.block2_yellow_bar_bullet_cont}>
                       <p>We have been actively involved in the healthcare industry since 1986</p>
                       <p>We are not just consultants, we are operators</p>
@@ -127,13 +129,74 @@ export default function index() {
                 </div>
             </div>
         </div>
+
+        <div className={styles.service_page_block3_main_width}>
+            <div className={styles.common_width}>
+                <div className={styles.service_block3_right_cont}>
+                  <div className={styles.block_main_heading}>
+                    <h1 className={styles.grey_heading}>Financial Planning and Analysis</h1>
+                  </div>
+                  <h4 className={styles.pink_bullet}>We have over three (3) decades of experience managing and working at the executive level of hospitals, health systems, and large physician practices</h4>
+                  <h4 className={styles.pink_bullet}>Our practice is built on a thorough understanding of the discipline<br></br> of healthcare finance</h4>
+
+                  <div className={`${styles.block3_left_cont}`}>
+                    <p>Our financial planning and analysis services are built to address:</p>
+                        <div className={styles.cont_part1_sub_bullet_cont}>
+                            <h5>Financial improvement opportunities within individual service lines</h5>
+                            <h5>Planning for business expansion of current service lines</h5>
+                            <h5>Planning growth into service lines</h5>
+                            <h5>Performing financial due diligence on developing a new ambulatory surgery center</h5>
+                        </div>
+    
+                    <h4 className={styles.pink_bullet}>Whether our clients are wanting to improve current operations or plan for an expansion of the enterprise, we have the experience to guide the process</h4>
+                  </div>
+
+                  <div className={`${styles.block3_left_cont} ${styles.part_2}`}>
+                    <p>We have helped:</p>
+                        <div className={styles.cont_part1_sub_bullet_cont}>
+                            <h5>Hospitals improve financial performance in nearly every service line within the acute care setting</h5>
+                            <h5>Physician practices reduce overhead while improving service and service capacity</h5>
+                            <h5>With growth projects that include diverse partnerships, joint ventures, and large capital commitments</h5>
+                        </div>
+    
+                    <h4 className={styles.pink_bullet}>Because we have operations in hospitals, health systems, and physician practices; we have the expertise to guide our clients through the process</h4>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.service_page_block4_main_width}>
+            <div className={styles.common_width}>
+                <div className={styles.service_block4_left_cont}>
+                  <div className={styles.block4_main_heading}>
+                    <h1>Transactional Support</h1>
+                  </div>
+                  <div className={`${styles.block4_left_cont}`}>
+                    <p>We assist our clients with a broad range of transactions services,   including:</p>
+                    <div className={styles.cont_part1_sub_bullet_cont}>
+                      <h5>Financial due diligence</h5>
+                      <h5>Joint venture design and implementation</h5>
+                      <h5>Financial projections</h5>
+                      <h5>Capital raise assistance</h5>
+                      <h5>Partnership review and analysis</h5>
+                    </div>
+                  </div>
+                  <h4 className={styles.pink_bullet}>Our recommendations are provided from the perspective of the operator</h4>
+                  <h4 className={styles.pink_bullet}>We not only provide recommendations; we are available to help implement what we recommend</h4>
+
+                <div className={styles.pink_round_img}>
+                    <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block4_round_img.webp'></img>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div className={styles.service_demo_img}>
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_banner_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block1_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img> */}
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
