@@ -60,12 +60,14 @@ export default function Navbar() {
           
         </div>
         <div className="polaris_header_sub2_right_wrp">
+          <Link className='polar_nav_link' onClick={() => router.push('/login')}>
           <div className="polaris_header_login_logo_wrp">
             <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/banner_login_logo.png'/>
           </div>
           <div className="polaris_header_login_text_wrp">
             <p>Log In</p>
           </div>
+          </Link>
         </div>
 
       </div>

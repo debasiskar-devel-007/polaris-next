@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
 
             <div className='polar_link'>
-               <span><p>© 2024 Polaris,  All rights reserved.</p> </span> <span><div className="polaris_footer_sub1_sec2_wrp">
+               <span><p>© 2024 Kajabi,  All rights reserved.</p> </span> <span><div className="polaris_footer_sub1_sec2_wrp">
           <div className="polaris_footer_sub1_sec2_1wrp">
            <Link href="https://www.facebook.com/kajabi" target="_blank"> <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_navbar_fb_logo.png'/> </Link>
           </div>
