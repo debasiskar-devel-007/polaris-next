@@ -228,7 +228,77 @@ a {
  }
 
  .polar_logo {
-  width: 22%;
+  width: 220px;
+}
+.polar_menu .foot_ul li:first-child{
+  padding-left: 0;
+}
+.polar_menu .foot_ul li:last-child{
+  padding-right: 0;
+}
+
+.polar_menu {
+  width: 455px;
+  max-width: 100%;
+}
+}
+
+@media(max-width:768px){
+  .polar_logo {
+    width: 296px;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.polar_footer_sub{
+  flex-direction: column;
+}
+.polar_link {
+  margin-top: 25px;
+}
+.polaris_footer_sub1_sec2_wrp {
+   margin-left: 28px;
+  }
+  .polar_menu {
+    width: 585px;
+    max-width: 100%;
+}
+
+.foot_ul li {
+  font-size: 19px;
+  line-height: 24px;}
+}
+
+@media(max-width:550px){
+  .foot_ul li {
+    font-size: 15px;
+    line-height: 21px;
+    padding: 0 5%;
+}
+}
+
+@media(max-width:499px){
+  .foot_ul li {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 ;
+}
+.polar_menu .foot_ul{
+  flex-direction: column; align-items: center;
+}
+.polar_menu .foot_ul li {
+  margin-bottom: 10px;
+}
+
+.polar_menu .foot_ul li{
+  border: none;
+}
+
+.polar_link{
+  flex-direction: column;
+}
+
+.polaris_footer_sub1_sec2_wrp{
+  margin:12px 0 0; padding: 0; border-left: 0;
 }
 }
 /* -------------------footer--end----------------------------------- */
