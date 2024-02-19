@@ -323,3 +323,41 @@ a {
   z-index: 3;
 }
 /* ----------------blog-page---------------- */
+
+/* ----------------scrolltotop---------------- */
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 20;
+}
+
+.icon-style {
+  background-color: #0e5d89;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style svg {
+  font-size: 30px;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #0e5d89;
+  border: 2px solid #0e5d89;
+}
