@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./blog.module.css";
 import Navbar from '@/components/navbar/Navbar';
+import Footer from '@/components/Footer';
 
 export default function index() {
   return (
@@ -15,6 +16,7 @@ export default function index() {
           <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/blog_page/polaris_aboutus_block2_demo.webp'></img>
         </div>
       </div>
+      <Footer/>
     </div>
     </>
   )

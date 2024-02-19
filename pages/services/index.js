@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./servicepage.module.css";
 import Navbar from '@/components/navbar/Navbar';
+import Footer from '@/components/Footer';
 import Head from 'next/head';
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
@@ -13,7 +14,9 @@ export default function index() {
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap')</style>
     </Head>
 
-    <div className={styles.polaris_service_page_full_width}>
+    <div className="polaris_service_page_main_width">
+
+      <div className={styles.polaris_service_page_full_width}>
         
         <div className={styles.service_page_banner_main_width}>
             <Navbar/>
@@ -208,18 +211,23 @@ export default function index() {
                 </div>
             </div>
         </div>
-    </div>
+      </div>
 
-    <div className={styles.service_demo_img}>
+      
+
+      <div className={styles.service_demo_img}>
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_banner_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block1_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
+      </div>
+
+      <Footer/>
     </div>
 
     </>
