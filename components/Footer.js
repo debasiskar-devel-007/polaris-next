@@ -30,9 +30,9 @@ export default function Footer() {
                  <li className={(pathname && pathname == '/about') ? 'active1' : ''}><Link onClick={() => router.push('/about')}>About</Link></li>
                  <li className={(pathname && pathname == '/services') ? 'active1' : ''}><Link onClick={() => router.push('/services')}>Services</Link></li>
                  <li className={(pathname && pathname == '/blog') ? 'active1' : ''}><Link onClick={() => router.push('/blog')}>Blog</Link></li>
-                 <li><Link>Contact</Link></li>
+                 <li className={(pathname && pathname == '/contact') ? 'active1' : ''}><Link onClick={() => router.push('/contact')}>Contact</Link></li>
              </ul>
-               
+             
             </div>
 
             <div className='polar_link'>
