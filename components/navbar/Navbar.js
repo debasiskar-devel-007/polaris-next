@@ -49,8 +49,8 @@ export default function Navbar() {
            <div className="res_menu">
                 <Button onClick={handleClick5}><MenuIcon /></Button>
             </div>
-        <div className="polaris_header_sub2_left_wrp">
-          <ul>
+        <div className={`polaris_header_sub2_left_wrp ${anchorEl5 ? "showdiv" : ""}`}>
+          <ul className="nav_ul">
             <li className={(pathname && pathname == '/') ? 'active' : ''}><Link onClick={() => router.push('/')}>Home</Link></li>
             <li><Link>About</Link></li>
             <li><Link>Services</Link></li>

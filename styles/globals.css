@@ -62,4 +62,8 @@ a {
 .polaris_header_login_logo_wrp img{display: block;max-width:100%;}
 .polaris_header_login_text_wrp{width: 60%;}
 .polaris_header_login_text_wrp p{font-size: 20px;line-height: 26px;font-weight: 600;text-transform: uppercase;color: #2d3649;}
+.res_menu {display: none;}
 
+@media(max-width:1199px){
+  .res_menu {display: block;}
+}
