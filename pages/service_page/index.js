@@ -164,13 +164,39 @@ export default function index() {
                 </div>
             </div>
         </div>
+
+        <div className={styles.service_page_block4_main_width}>
+            <div className={styles.common_width}>
+                <div className={styles.service_block4_left_cont}>
+                  <div className={styles.block4_main_heading}>
+                    <h1>Transactional Support</h1>
+                  </div>
+                  <div className={`${styles.block4_left_cont}`}>
+                    <p>We assist our clients with a broad range of transactions services,   including:</p>
+                    <div className={styles.cont_part1_sub_bullet_cont}>
+                      <h5>Financial due diligence</h5>
+                      <h5>Joint venture design and implementation</h5>
+                      <h5>Financial projections</h5>
+                      <h5>Capital raise assistance</h5>
+                      <h5>Partnership review and analysis</h5>
+                    </div>
+                  </div>
+                  <h4 className={styles.pink_bullet}>Our recommendations are provided from the perspective of the operator</h4>
+                  <h4 className={styles.pink_bullet}>We not only provide recommendations; we are available to help implement what we recommend</h4>
+
+                <div className={styles.pink_round_img}>
+                    <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block4_round_img.webp'></img>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div className={styles.service_demo_img}>
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_banner_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block1_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block2_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
