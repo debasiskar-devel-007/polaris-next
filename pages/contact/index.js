@@ -4,6 +4,7 @@ import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/Footer'
 import { LinearProgress, Snackbar, TextField } from '@mui/material';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Index() {
     const recaptchaRef = React.createRef();
@@ -153,7 +154,15 @@ export default function Index() {
                 <Navbar />
                 <div className={styles.common_width}>
                     <div className={styles.contact_banner_sub_wrapper}>
-                        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/contact/contact_banner_sec_blk_img.webp' />
+                  
+                <h1><span>Contact</span></h1>
+                <h3><span>Polaris</span></h3>
+              
+                      <div className={styles.contact_banner_sub_sec_wrapper}>
+                        <img className={styles.contact_banner_sub_sec_wrapper_img} src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/green_bfr_new_img.png'/>
+
+                        <p>Have a question? Fill out the contact form below or email me directly.</p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -161,9 +170,24 @@ export default function Index() {
                 <div className={styles.common_width}>
                     <div className={styles.contact_block_sub_wrapper}>
                         <div className={styles.contact_block_sub_sec1_wrapper}>
-                            <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/contact/from_block_img.webp' />
+                          <h3>We would love to hear from you. </h3>
+                          <h1>John D Martin</h1>
+                          <p>Managing Director</p>
+                          <div className={styles.contact_block_sub_sec1_mini1_wrapper}>
+                            <span><Link href='mailto:JMartin@PolarisBusinessConsultants.com'>JMartin@PolarisBusinessConsultants.com</Link></span>
+                          </div>
+                          <div className={styles.contact_block_sub_sec1_mini2_wrapper}>
+                            <span><Link href=' https://www.facebook.com/kajabi' target="_blank">www.facebook.com/kajabi</Link></span>
+                          </div>
+                          <div className={styles.contact_block_sub_sec1_mini3_wrapper}>
+                            <span><Link href='https://twitter.com/kajabi' target="_blank">twitter.com/kajabi</Link></span>
+                          </div>
+                          <div className={styles.contact_block_sub_sec1_mini4_wrapper}>
+                            <span><Link href=' https://www.instagram.com/kajabi/' target="_blank">www.instagram.com/kajabi</Link></span>
+                          </div>
                         </div>
                         <div className={styles.contact_block_sub_sec2_wrapper}>
+                        <h1>Signup for our <span>weekly newsletter!</span></h1>
                             <form onSubmit={handleSubmit}>
                                 <div className={styles.polaris_home_from_sec}>
                                     <TextField

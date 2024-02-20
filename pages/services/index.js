@@ -346,33 +346,36 @@ export default function Index() {
           </div>
         </div>
 
-        
-
-        {/* <div className={styles.service_page_block6_main_width}>
+        <div className={styles.service_page_block8_main_width}>
           <div className={styles.common_width}>
+            <div className={styles.service_page_block8_left_cont}>
+            <h4 className={styles.pink_bullet}>Automation of manual processes involving a variety of systems and tasks</h4>
 
-            <div className={styles.service_page_block6_sky_box}>
-              <div className={styles.block6_sky_box_left_cont}>
-              <div className={styles.sky_box_heading}>
-                <h1>Operational Improvement</h1>
-              </div>
+            <div className={styles.cont_part1_sub_bullet_cont}>
+              <h5 className={styles.skyblue_bullet}>Excel-based workflows and project tracking</h5>
+              <h5 className={styles.skyblue_bullet}>Download of EMR, accounting, and other source information into Excel for key performance indicator and dashboard reporting, review, and analysis</h5>
+            </div>
 
-              <h4>Operational improvement is critical to every healthcare enterprise</h4>
-              <div className={styles.white_sub_bullet}>
-                <h5>Process improvement (Lean six sigma principles)</h5>
-                <h5>Improve revenue capture</h5>
-                <h5>Reduce cost</h5>
-              </div>
+            <h4 className={styles.pink_bullet}>Optimally, digitizes and automates business processes to reduce manual labor costs and process inefficiencies</h4>
+            <h4 className={styles.pink_bullet}>Business Process Automation (BPA) allows:</h4>
 
-              <h4>Our partner firms help our clients with:</h4>
-              <div className={styles.white_sub_bullet}>
-                <h5>Revenue Recovery Strategies</h5>
-                <h5>Workplace Automation</h5>
-              </div>
+            <h5 className={styles.skyblue_bullet}>Streamlining and automation of repetitive and manual tasks</h5>
+            <h5 className={styles.skyblue_bullet}>Frees up time and resources</h5>
+            <h5 className={styles.skyblue_bullet}>Allows staff to focus on more meaningful and high impact projects</h5>
+            
+            <h4 className={styles.pink_bullet}>Benefits of BPA:</h4>
+
+            <div className={styles.cont_part1_sub_bullet_cont}>
+              <h5 className={styles.skyblue_bullet}>Increase productivity</h5>
+              <h5 className={styles.skyblue_bullet}>Reduce errors</h5>
+              <h5 className={styles.skyblue_bullet}>Cost savings</h5>
+              <h5 className={styles.skyblue_bullet}>Time savings</h5>
+              <h5 className={styles.skyblue_bullet}>Scalability</h5>
             </div>
             </div>
           </div>
-        </div> */}
+        </div>
+
       </div>
 
       
@@ -386,7 +389,7 @@ export default function Index() {
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img> */}
       </div>
 
       <Footer/>

@@ -28,7 +28,9 @@ body {
     )
     rgb(var(--background-start-rgb));
     font-family: "Roboto", sans-serif;}
-
+ul, li{
+  list-style: none;
+}
 a {
   color: inherit !important;
   text-decoration: none !important;
