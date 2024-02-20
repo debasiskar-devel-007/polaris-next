@@ -262,6 +262,59 @@ export default function Index() {
 
               </div>
             </div>
+
+            <div className={styles.service_page_block6_part3_full_width}>
+              <div className={styles.common_width}>
+                <div className={styles.block6_part3_white_box}>
+                  <div className={styles.block6_part3_white_box_main_wrpr}>
+
+                    <div className={styles.part3_white_box_left_sec}>
+                      <div className={styles.part3_left_sec_grey_bar}>
+                        <h2>Their Tools:</h2>
+                      </div>
+                      <h5>Team of payer contract experts</h5>
+                      <h5>Most advanced forensic audit software system in the healthcare space</h5>
+                      <h5>Analyze paid claims to determine contractual compliance of each reimbursement</h5>
+                      <h5>System goes to work AFTER all claims are paid and AFTER all internal auditing and surveillance activities are complete</h5>
+                      <h5>NO UPFRONT COSTS; paid on a contingency basis once reimbursement has been recovered by the healthcare provider</h5>
+                      <h5>Access Healthcare takes 100% of the risk and effort to recover funds</h5>
+                    </div>
+
+                    <div className={`${styles.part3_white_box_left_sec} ${styles.part3_white_box_right_sec}`}>
+                      <div className={styles.white_box_right_sec_main_wrpr}>
+
+                        <div className={styles.white_box_right_sec_p1}>
+                          <div className={`${styles.part3_left_sec_grey_bar} ${styles.right_sec_grey_bar_p1}`}>
+                            <h2>Their market position:</h2>
+                          </div>
+                          <div className={styles.bullet_cont}>
+                            <h5>Hundreds of clients across the United States</h5>
+                            <h5>Billions of dollars of reimbursements and remittances audited</h5>
+                            <h5>Thousands of unique and often complex payers contracts audited </h5>
+                          </div>
+                        </div>
+
+                        <div className={styles.white_box_right_sec_p2}>
+                          <div className={`${styles.part3_left_sec_grey_bar} ${styles.right_sec_grey_bar_p2}`}>
+                            <h2>Their results:</h2>
+                          </div>
+                          <div className={styles.bullet_cont}>
+                            <h5>Found reimbursement non-compliance and underpayments for 100% of client base</h5>
+                            <h5>Typical results: 10-20% of gross payer receipts in recovery</h5>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div className={styles.white_box_right_sec_cont}>
+                        <h1>Visit their site at <span>https://adhcunderpayments.com/</span> for more information and blinded case studies</h1>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

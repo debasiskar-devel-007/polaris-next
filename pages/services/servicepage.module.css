@@ -577,6 +577,89 @@
     padding-bottom: 30px;
 }
 
+/* ----------block6-part3--------- */
+.block6_part3_white_box {
+    position: relative;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -5px #000000;
+    padding: 15px;
+    z-index: 3;
+}
+.part3_left_sec_grey_bar {
+    background: #e7e7e7;
+    border-radius: 10px 0 0 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.part3_left_sec_grey_bar h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+.part3_white_box_left_sec h5 {
+    position: relative;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #34383d;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.part3_white_box_left_sec h5::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/services_green_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 35px;
+    height: 35px;
+    top: -2px;
+    left: 0;
+}
+.part3_white_box_left_sec {
+    width: 40%;
+    border-right: 1px solid #e1e1e4;
+}
+.block6_part3_white_box_main_wrpr {
+    display: flex;
+}
+.white_box_right_sec_main_wrpr {
+    display: flex;
+}
+.part3_left_sec_grey_bar.right_sec_grey_bar_p1 {
+    border-radius: 0;
+}
+.white_box_right_sec_p1 {
+    border-right: 1px solid #e1e1e4;
+}
+.part3_left_sec_grey_bar.right_sec_grey_bar_p2 {
+    border-radius: 0 10px 10px 0;
+}
+.part3_white_box_right_sec {
+    width: 60%;
+    border: none;
+}
+.white_box_right_sec_cont {
+    padding: 25px 25px 0 25px;
+}
+.white_box_right_sec_cont h1 {
+    font-size: 33px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.white_box_right_sec_cont h1 span {
+    color: #1daaf0;
+}
+.bullet_cont {
+    padding-left: 15px;
+}
+
 
 
 
