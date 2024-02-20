@@ -2,10 +2,18 @@ import React from 'react'
 import styles from "./blog.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export default function Index() {
   return (
     <>
+    <Head>
+        <title>Polaris-Blog</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
 
     <div className="polaris_blog_full_width">
       <div className={styles.polaris_blog_full_page_demo}>

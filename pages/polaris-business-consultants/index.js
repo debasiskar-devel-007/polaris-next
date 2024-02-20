@@ -7,9 +7,14 @@ import Head from 'next/head'
 export default function Index() {
   return (
     <>
+   
     <Head>
-      <title>Polaris Business Consultants</title>
-    </Head>
+        <title>Polaris Business Consultants</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
 
      <Navbar />
      <div className={styles.PBC_banner}>

@@ -148,7 +148,7 @@ export default function Homes() {
         <title>Home</title>
         <link
           rel="icon"
-          href="https://all-frontend-assets.s3.amazonaws.com/access_health_underpayment_ui_next/onsite_extendable_labs/onsite_fab_icon_new.png"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
         </Head>
 
