@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import styles from './home.module.css'
 import Navbar from '../navbar/Navbar'
-import { LinearProgress, Snackbar, TextField } from '@mui/material';
+import { LinearProgress, Link, Snackbar, TextField } from '@mui/material';
 import Footer from '../Footer';
-import Link from 'next/link';
+
 import Head from 'next/head';
 
 export default function Homes() {
@@ -356,7 +356,7 @@ export default function Homes() {
                     <p>Managing Partner
                       Tax Planning</p>
                   </div>
-                  <button className={styles.team_sec_btn}>Read Bio</button>
+                  <button className={styles.team_sec_btn}><Link href='/bio-jeffdonovan'>Read Bio</Link></button>
                 </div>
                 <div className={styles.polaris_blk4_sub_sec_wrp}>
                   <div className={styles.polaris_blk4_sub_sec_img_wrp}>
@@ -369,7 +369,7 @@ export default function Homes() {
                     <p>Managing Director
                       Healthcare Consulting</p>
                   </div>
-                  <button className={styles.team_sec_btn}>Read Bio</button>
+                  <button className={styles.team_sec_btn}><Link href=''>Read Bio</Link></button>
 
                 </div>
                 <div className={styles.polaris_blk4_sub_sec_wrp}>
@@ -383,7 +383,7 @@ export default function Homes() {
                     <p>Managing Director
                       Process Design and Workflow</p>
                   </div>
-                  <button className={styles.team_sec_btn}>Read Bio</button>
+                  <button className={styles.team_sec_btn}><Link href='/bio-jayboughner'>Read Bio</Link></button>
 
                 </div>
 
