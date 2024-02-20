@@ -59,6 +59,7 @@
     border-radius: 5px;
     padding: 30px;
     position: relative;
+    padding-right: 84px;
 }
 
 .p_30 p {
@@ -141,3 +142,14 @@
     padding-right:630px ;
 }
 .polar_about_block2 .font_26 p {color: #313337;}
+
+/* --------------------------block2------------------------ */
+
+
+/* --------------------------responsive------------------------ */
+
+@media(max-width:1760px){
+    .common_width{
+        width: 96%;
+    }
+}

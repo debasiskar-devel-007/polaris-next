@@ -1,3 +1,136 @@
-.demo_img img{display: block;width: 100%;}
-.demo_1img img{display: block;width: 100%;}
-.demo_1img{margin-top: -282px;}
+    .demo_img img{display: block;width: 100%;}
+    .demo_1img img{display: block;width: 100%;}
+    .demo_1img{margin-top: -282px;}
+    .common_width{
+        width: 1677px;
+        margin: 0 auto;
+    }
+    .PBC_banner{
+        background:url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBCBanner_doctors.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_Banner_ambulance.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_banner_BGimage.webp);
+        background-repeat: no-repeat;
+        background-size: 683px, 768px, 100%;
+        background-position:bottom -72px right 421px , right bottom -65px, top center;
+        margin-top: -277px;
+        padding-top: 277px;
+        padding-bottom: 80px;
+    }
+    .PBC_banner_wrpr{
+        width: 70%;
+    }
+    .PBC_bannerTop{
+        position: relative;
+        padding-left: 185px;
+        margin-bottom: 45px;
+    }
+    .PBC_bannerTop h1{
+        position: relative;
+        font-size: 79px;
+        font-weight: 800;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 35%, rgba(208,207,218,1) 50%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0px 0px 5px #221f6b63) drop-shadow(0px 0px 3px #221f6b63) drop-shadow(0px 0px 2px #221f6b63);
+        -webkit-text-stroke: 2px #f2f4f8;
+        display: inline;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        line-height: 73px;
+    }
+    .PBC_bannerTop::before {
+        position: absolute;
+        content: '';
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/docGlobe.png);
+        background-size: 100% 100%;
+        width: 190px;
+        height: 149px;
+        top: 50%;
+        left: -20px;
+        transform: translateY(-43%);
+    }
+    .PBC_bannerBottom{
+        position: relative;
+        width: 72%;
+    }
+    .PBC_bannerBottom p{
+        padding: 18px 20px;
+        background:url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_bannerBottom_BGimage.webp), linear-gradient(0deg, rgba(255,124,28,1) 0%, rgba(255,178,58,1) 100%);
+        background-repeat: no-repeat;
+        background-size: contain , 100%;
+        background-position: right center, center;
+        width: 100%;
+        padding-right: 47px;
+        border-radius: 15px;
+        border: 2px solid #fff;
+        position: relative;
+        z-index: 1;
+        font-size: 38px;
+        font-weight: 600;
+        color: #000000;
+        text-transform: capitalize;
+        line-height: 41px;
+        text-shadow: 0 1px 1px #ffea03;
+    }
+    .PBC_bannerBottom img{
+        position: absolute;
+        right: -170px;
+        top: 30%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+    .PBC_bannerBottom::after{
+        background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_bannerBottom_shadow.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top center;
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 65px;
+        left: 52%;
+        bottom: -28px;
+        transform: translateX(-50%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

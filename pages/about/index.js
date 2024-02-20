@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./about.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 export default function Index() {
   return (
