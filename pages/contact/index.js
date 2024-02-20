@@ -3,6 +3,7 @@ import styles from './contact.module.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/Footer'
 import { LinearProgress, Snackbar, TextField } from '@mui/material';
+import Head from 'next/head';
 
 export default function Index() {
     const recaptchaRef = React.createRef();
@@ -140,6 +141,13 @@ export default function Index() {
 
     return (
         <>
+        <Head>
+        <title>Polaris-Contact</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
 
             <div className={styles.contact_banner_main_wrapper}>
                 <Navbar />

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./servicepage.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
@@ -9,7 +10,13 @@ import Footer from '@/components/Footer';
 export default function Index() {
   return (
     <>
-
+ <Head>
+        <title>Polaris-Services</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
     
 
     <div className="polaris_service_page_main_width">
