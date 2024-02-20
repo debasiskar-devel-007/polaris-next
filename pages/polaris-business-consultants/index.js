@@ -115,7 +115,7 @@ export default function Index() {
       </div>
      {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk1_img.webp'/>
-     </div>
+     </div> */}
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
      </div>
@@ -124,7 +124,7 @@ export default function Index() {
      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk4_img.webp'/>
-     </div> */}
+     </div>
     <Footer />
     </>
    
