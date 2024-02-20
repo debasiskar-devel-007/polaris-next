@@ -167,8 +167,8 @@ export default function Homes() {
         <div className={styles.polaris_blk1_main_wrp}>
           <div className={styles.common_width}>
             <div className={styles.polaris_blk1_sub_wrp}>
-              <h1>AMBULATORY SURGERY CENTER DEVELOPMENT COURSE</h1>
-              <p>Unlock the Blueprint of Success in Ambulatory Surgery Center Development! Join our immersive six-week course and gain comprehensive insights into the strategic stages of ASC development. Elevate your expertise, navigate regulatory intricacies, and master the art of creating a cutting-edge ambulatory surgery center. Transform your vision into reality with our expert-led program. Enroll now for a future in healthcare innovation!</p>
+              <h1><span>AMBULATORY SURGERY CENTER DEVELOPMENT COURSE</span></h1>
+              <p>Unlock the Blueprint of Success in Ambulatory Surgery Center Development! Join our immersive six-week course and gain comprehensive insights into the strategic stages of ASC development. Elevate your expertise, navigate regulatory intricacies, and master the art of creating a cutting-edge ambulatory surgery center. Transform your vision into reality with our expert-led program. <span>Enroll now</span> for a future in healthcare innovation!</p>
               <Link href="/polaris-business-consultants"><button className={styles.polaris_home_button}>Click Here to Learn More</button></Link>
             </div>
           </div>
