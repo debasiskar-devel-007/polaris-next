@@ -7,18 +7,19 @@
     background-position: right 1px bottom -420px,center;
     position: relative;
     padding-bottom: 65px;z-index: 999999;}
-.polaris_home_sub_left_wrp h1{    position: relative;
-    font-size: 85px;
-    line-height: 90px;
-    font-weight: 800;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(239,239,243,1) 49%, rgba(209,208,219,1) 51%, rgba(255,255,255,1) 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0px 0px 5px #000000);
-    -webkit-text-stroke: 1px #f2f4f8;
-    display: block;
-    padding-left: 185px;
-    margin-bottom: 30px;}
+.polaris_home_sub_left_wrp h1{  padding-left: 185px;position: relative; margin-bottom: 30px; }
+    .polaris_home_sub_left_wrp h1 span{   
+      font-size: 85px;
+      line-height: 90px;
+      font-weight: 800;
+      background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(239,239,243,1) 49%, rgba(209,208,219,1) 51%, rgba(255,255,255,1) 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0px 0px 5px #000000);
+      -webkit-text-stroke: 1px #f2f4f8;
+      display: inline;
+    
+     }
     .polaris_home_sub_left_wrp h1::before{    position: absolute;
         content: '';
         background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_sec_round_img.webp);

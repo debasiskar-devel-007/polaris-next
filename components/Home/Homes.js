@@ -150,7 +150,7 @@ export default function Homes() {
           <div className={styles.common_width}>
             <div className={styles.polaris_home_sub_wrp}>
               <div className={styles.polaris_home_sub_left_wrp}>
-                <h1>POLARIS BUSINESS CONSULTANTS</h1>
+                <h1><span>POLARIS BUSINESS CONSULTANTS</span></h1>
               </div>
               <div className={styles.polaris_home_sub_left1_wrp}>
                 <h1>Experts in <span>Strategic</span> Healthcare & Financial  Consulting</h1>
