@@ -171,9 +171,20 @@
         color: #c5d0e0;
         font-weight: 500;
         margin-bottom: 15px;}
-    .polar_about_block2 .font_26p {
+   
+        .polar_about_block2 .font_26 p{
             font-size: 21px;
             line-height: 28px;
+        }
+
+        .polar_about_block2 { background-position: bottom right -90px, top right;}
+
+        .polar_block2_sub{
+            padding-right: 0;
+        }
+
+        .polar_about_block2{
+            background:#e5e9ee;    padding: 20px 0;
         }
 }
 @media(max-width:1499px){
@@ -245,22 +256,25 @@
         margin-bottom: 35px;
     }
 
-    .pol_orng_wrpr {
-        
-        padding-right: 120px;}
+    .pol_orng_wrpr {padding-right: 120px;}
 
         .polar_block1_sub {
             padding-left: 0px;
         }
         .polar_about_block1 {
-            background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/blockIMG/about_blue_bg.webp);
+            background:#091c33;;
             background-repeat: no-repeat, no-repeat;
             background-size:cover;
             background-position: center;
+            padding: 20px 0;
         }
 
         .gred_txt h1 span br {
             display: none;
+        }
+
+        .polar_about_block2 .font_26 p{
+       margin-bottom: 15px;
         }
         
 }
@@ -288,4 +302,22 @@
         display: none;
     }
     .pol_orng_wrpr {padding: 15px;}
+
+    .pol_bnnr_h1 {
+        margin-bottom: 12px;
+    }
+
+    .pol_about_bnnrleft .pol_bnnr_h1 h1::before {
+        width: 100px;
+        height: 81px;
+    }
+
+    .pol_bnnr_h1 h1 {
+        font-size: 65px;
+        line-height: 70px;
+        padding-left: 85px;}
+
+    .polar_about_block1, .polar_about_block2{
+        padding: 10px 0;
+        }
 }
