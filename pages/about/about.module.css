@@ -323,3 +323,15 @@
         padding: 10px 0;
         }
 }
+@media (max-width:520px){
+   
+    .pol_about_bnnrleft {
+        padding-right: 0;
+        padding-bottom: 342px;
+    }
+    
+    .polaris_about_bnnr {
+        background-size: 459px, cover;
+        padding-bottom: 0;
+    }
+}

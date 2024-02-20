@@ -78,14 +78,14 @@ export default function Footer() {
 
     </div>
 
-    {/* <div className="top-to-btm">
+    <div className="top-to-btm">
         {" "}
         {showTopBtn && (
           <a className="icon-position icon-style" onClick={goToTop}>
             <KeyboardDoubleArrowUpIcon />
           </a>
         )}{" "}
-      </div> */}
+      </div>
 
 </div>
 
