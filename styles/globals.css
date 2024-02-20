@@ -353,12 +353,12 @@ a {
 }
 
 .icon-style svg {
-  font-size: 30px;
+  font-size: 30px; color: #fff;
 }
 
 .icon-style:hover {
   animation: none;
-  background: #fff;
+  /* background: #fff; */
   color: #0e5d89;
   border: 2px solid #0e5d89;
 }
