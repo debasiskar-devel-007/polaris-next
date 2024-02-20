@@ -131,6 +131,38 @@ background-repeat: no-repeat;background-position: center;background-size: 100% 1
   .polaris_blk3_logo_sec_wrp img{display: block;width: 100%;margin-bottom: 0;box-shadow:none}
   .polaris_blk3_text_wrp{width: 67%;}
   .polaris_blk3_text_wrp p{font-size: 30px;line-height: 36px;font-weight: 700;color: #fff;}
+  .polaris_blk3_1sub_wrp{background-color: #fff;padding: 20px;border-radius: 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-bottom: 20px;display: flex;justify-content: center;
+    align-items: center;}
+  .polaris_blk3_evn_od{width: 33%;display: flex;flex-direction: column;border-right: 3px solid #d4d4d9;}
+  .polaris_blk3_evn_od:last-child{border-right: none;}
+  .polaris_blk3_evn_od_heading{background-color: #ededef;padding: 10px 20px;border-radius: 10px 0px 0 10px;display: flex;justify-content: center;align-items: center;}
+  .polaris_blk3_evn_od:nth-child(2) .polaris_blk3_evn_od_heading{border-radius: unset;}
+  .polaris_blk3_evn_od:nth-child(3) .polaris_blk3_evn_od_heading{border-radius: 0px 10px 10px 0px;}
+  .polaris_blk3_evn_od_heading h1{font-size: 26px;line-height: 32px;font-weight: 500;color: #000;text-align: center;margin-bottom: 0;}
+  .polaris_blk3_evn_od_heading_white{background-color: #ffffff;padding:10px 20px;border-radius: 10px;display: flex;justify-content: left;
+    align-items: center;
+    padding-left: 151px;}
+  .polaris_blk3_evn_od_heading_white p{font-size: 20px;line-height: 26px;font-weight: 400;color: #34383d;text-align: center;position: relative;margin-left: 25px;}
+  .polaris_blk3_evn_od_heading_white p::after{    content: '';
+    position: absolute;
+    background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/green_bullet_point.png);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 24px;
+    left: -31px;
+    top: 0px;}
+    .polaris_blk3_evn_od_heading_gray{background-color: #f7f7f7;padding:10px 20px;border-radius: 10px;display: flex;justify-content: left;
+      align-items: center;
+      padding-left: 151px;}
+    .polaris_blk3_evn_od_heading_gray p{font-size: 20px;line-height: 26px;font-weight: 400;color: #34383d;text-align: center;position: relative;margin-left: 25px;}
+    .polaris_blk3_evn_od_heading_gray p::after{    content: '';
+      position: absolute;
+      background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/green_bullet_point.png);
+      background-repeat: no-repeat;
+      width: 23px;
+      height: 24px;
+      left: -31px;
+      top: 0px;}
 
 
   /* -------------------------------------------------block4----------------------------------------------- */
