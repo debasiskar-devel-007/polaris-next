@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./servicepage.module.css";
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
@@ -9,7 +10,13 @@ import Footer from '@/components/Footer';
 export default function Index() {
   return (
     <>
-
+ <Head>
+        <title>Polaris-Services</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
     
 
     <div className="polaris_service_page_main_width">
@@ -255,6 +262,87 @@ export default function Index() {
 
               </div>
             </div>
+
+            <div className={styles.service_page_block6_part3_full_width}>
+              <div className={styles.common_width}>
+                <div className={styles.block6_part3_white_box}>
+                  <div className={styles.block6_part3_white_box_main_wrpr}>
+
+                    <div className={styles.part3_white_box_left_sec}>
+                      <div className={styles.part3_left_sec_grey_bar}>
+                        <h2>Their Tools:</h2>
+                      </div>
+                      <div className={styles.bullet_cont_part1}>
+                        <h5>Team of payer contract experts</h5>
+                        <h5>Most advanced forensic audit software system in the healthcare space</h5>
+                        <h5>Analyze paid claims to determine contractual compliance of each reimbursement</h5>
+                        <h5>System goes to work AFTER all claims are paid and AFTER all internal auditing and surveillance   activities are complete</h5>
+                        <h5>NO UPFRONT COSTS; paid on a contingency basis once reimbursement has been recovered by the healthcare   provider</h5>
+                        <h5>Access Healthcare takes 100% of the risk and effort to recover funds</h5>
+                      </div>
+                    </div>
+
+                    <div className={`${styles.part3_white_box_left_sec} ${styles.part3_white_box_right_sec}`}>
+                      <div className={styles.white_box_right_sec_main_wrpr}>
+
+                        <div className={styles.white_box_right_sec_p1}>
+                          <div className={`${styles.part3_left_sec_grey_bar} ${styles.right_sec_grey_bar_p1}`}>
+                            <h2>Their market position:</h2>
+                          </div>
+                          <div className={`${styles.bullet_cont_part1} ${styles.bullet_cont}`}>
+                            <h5>Hundreds of clients across the United States</h5>
+                            <h5>Billions of dollars of reimbursements and remittances audited</h5>
+                            <h5>Thousands of unique and often complex payers contracts audited </h5>
+                          </div>
+                        </div>
+
+                        <div className={styles.white_box_right_sec_p2}>
+                          <div className={`${styles.part3_left_sec_grey_bar} ${styles.right_sec_grey_bar_p2}`}>
+                            <h2>Their results:</h2>
+                          </div>
+                          <div className={`${styles.bullet_cont_part1} ${styles.bullet_cont}`}>
+                            <h5>Found reimbursement non-compliance and underpayments for 100% of client base</h5>
+                            <h5>Typical results: 10-20% of gross payer receipts in recovery</h5>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div className={styles.white_box_right_sec_cont}>
+                        <h1>Visit their site at <span>https://adhcunderpayments.com/</span> for more information and blinded case studies</h1>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.service_page_block7_main_width}>
+          <div className={styles.common_width}>
+            <div className={styles.service_page_block7_right_cont}>
+              <div className={styles.block4_main_heading}>
+                <h1>Workplace Automation</h1>
+              </div>
+
+              <h4 className={styles.pink_bullet}>Every healthcare organization struggles with:</h4>
+
+              <div className={styles.cont_part1_sub_bullet_cont}>
+                <h5 className={styles.skyblue_bullet}>Staffing shortages, staff costs, and the volume of work to be completed</h5>
+                <h5 className={styles.skyblue_bullet}>Manually entering key information into disparate systems by multiple staff members bottlenecks in the processing of key information</h5>
+                <h5 className={styles.skyblue_bullet}>Delays in information processing due to staff time constraints (PTO, sick days, competing projects and deadlines)</h5>
+              </div>
+
+              <h4 className={styles.pink_bullet}>Business process automation is critical to capturing critical information in a timely and efficient manner, improving staff performance, and lowering operating costs for the provider</h4>
+              <h4 className={styles.pink_bullet}>Our business partner, Optimally, provides businesses with enterprise-level business process automation</h4>
+
+              <div className={styles.cont_part1_sub_bullet_cont}>
+                <h5 className={styles.skyblue_bullet}>No upfront costs</h5>
+                <h5 className={styles.skyblue_bullet}>No need for internal IT support</h5>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -296,8 +384,8 @@ export default function Index() {
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img> */}
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
       </div>
 
