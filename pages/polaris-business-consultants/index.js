@@ -34,6 +34,9 @@ export default function Index() {
      {/* <div className={styles.demo_1img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_banner_img.webp'/>
      </div> */}
+
+     {/* -------------- block1 ------------ */}
+
       <div className={styles.PBC_block1}>
          <div className={styles.common_width}>
             <div className={styles.PBC_block1_wrpr}>
@@ -45,6 +48,9 @@ export default function Index() {
             </div>
          </div>
       </div>
+
+      {/* -------------- block2 ------------ */}
+
       <div className={styles.PBC_block2}>
          <div className={styles.common_width}>
             <div className={styles.PBC_block2_wrpr}>
@@ -116,7 +122,28 @@ export default function Index() {
      {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk1_img.webp'/>
      </div> */}
-     <div className={styles.demo_img}>
+
+      {/* -------------- block3 ------------ */}
+      <div className={styles.PBC_block3}>
+         <div className={styles.common_width}>
+            <div className={styles.PBC_block3_wrpr}>
+               <h1>PRE-RELEASE SURVEY</h1>
+               <p>What are your top 3 concerns regarding the development of an ambulatory surgery center?</p>
+               <p>How long has it been since your last strategic plan was developed?</p>
+               <div className={styles.PBC_B3_inner}>
+                  
+                     <h3>Within 1 year  </h3>
+                     <h3>1-3 years</h3>
+                     <h3>More than 3 years</h3>
+                  
+               </div>
+               <p>What is your top concern regarding strategic planning?</p>
+               <h2>Bonus: ASC Development Life Cycle</h2>
+               <p>Receive for taking the survey and registering for the course</p>
+            </div>
+         </div>
+      </div>
+     {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
      </div>
      <div className={styles.demo_img}>
@@ -124,7 +151,7 @@ export default function Index() {
      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk4_img.webp'/>
-     </div>
+     </div> */}
     <Footer />
     </>
    
