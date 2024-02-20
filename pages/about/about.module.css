@@ -84,7 +84,7 @@
     background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/blockIMG/polar_about_block1_couple_bg.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/blockIMG/about_blue_bg.webp);
     background-repeat: no-repeat, no-repeat;
     background-size: auto 100%, 100% 100%;
-    background-position: bottom left 118px, top right;
+    background-position: bottom left 56px, top right;
     /* padding: 255px 0 65px; */
     padding: 35px;
 }
@@ -126,3 +126,18 @@
 .padding_35 {
     padding-left: 35px;
 }
+
+/* --------------------------block2------------------------ */
+
+.polar_about_block2 {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/polar_about_block2_bg_img.webp),#e5e9ee;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom right, top right;
+    /* padding: 255px 0 65px; */
+    padding: 35px;
+}
+.polar_block2_sub {
+    padding-right:630px ;
+}
+.polar_about_block2 .font_26 p {color: #313337;}

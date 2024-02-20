@@ -59,6 +59,33 @@ export default function Index() {
 
       </div>
 
+      <div className={styles.polar_about_block2}>
+
+        <div className={styles.common_width}>
+           
+           <div className={styles.polar_block2_sub}>
+
+          
+
+            <div className={`${styles.font_26}`}>
+                 <p>Polaris Business Consultants brings an experienced and innovative team together to 
+provide an extensive offering of financial and operational consulting services to this 
+rapidly changing market. We are a full-service consulting firm that brings together an 
+innovative and winning formula. We have over five decades of providing financial solutions with three-plus decades of experience in working within the healthcare industry.</p>
+                 <p>Whether you are looking to improve your existing business, add additional services, or grow into new markets; Polaris has the experience you need to develop a business strategy and plan that will help you realize your business goals.
+</p>
+                 <p>Polaris offers its clients a complete offering of services that include: strategic planning, financial advising, operational improvement, growth and expansion, project management and development, transactional advice, and partnership development. We bring a 
+complete business resource package to our customers. Our customers have access to critical financial and operational consulting services provided by a team of experts who are not just consultants. Many of our consultants have worked in industry and understand how to provide recommendations that are execution ready. In fact, Polaris stands ready to help its customers implement and manage their growth plans.</p>
+            </div>
+
+            
+
+           </div>
+
+        </div>
+
+      </div>
+
      </div>
     {/* <div className={styles.polaris_about_full_width}>
    
