@@ -320,6 +320,32 @@ export default function Index() {
           </div>
         </div>
 
+        <div className={styles.service_page_block7_main_width}>
+          <div className={styles.common_width}>
+            <div className={styles.service_page_block7_right_cont}>
+              <div className={styles.block4_main_heading}>
+                <h1>Workplace Automation</h1>
+              </div>
+
+              <h4 className={styles.pink_bullet}>Every healthcare organization struggles with:</h4>
+
+              <div className={styles.cont_part1_sub_bullet_cont}>
+                <h5 className={styles.skyblue_bullet}>Staffing shortages, staff costs, and the volume of work to be completed</h5>
+                <h5 className={styles.skyblue_bullet}>Manually entering key information into disparate systems by multiple staff members bottlenecks in the processing of key information</h5>
+                <h5 className={styles.skyblue_bullet}>Delays in information processing due to staff time constraints (PTO, sick days, competing projects and deadlines)</h5>
+              </div>
+
+              <h4 className={styles.pink_bullet}>Business process automation is critical to capturing critical information in a timely and efficient manner, improving staff performance, and lowering operating costs for the provider</h4>
+              <h4 className={styles.pink_bullet}>Our business partner, Optimally, provides businesses with enterprise-level business process automation</h4>
+
+              <div className={styles.cont_part1_sub_bullet_cont}>
+                <h5 className={styles.skyblue_bullet}>No upfront costs</h5>
+                <h5 className={styles.skyblue_bullet}>No need for internal IT support</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
         
 
         {/* <div className={styles.service_page_block6_main_width}>
@@ -358,7 +384,7 @@ export default function Index() {
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block3_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block4_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img> */}
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
       </div>
