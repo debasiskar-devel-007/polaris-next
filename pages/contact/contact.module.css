@@ -133,5 +133,17 @@ justify-content: space-between;}
                                                     -webkit-text-fill-color: transparent;}
 
 
-        @media(max-width:1720px){.common_width{width: 96%;}}        
+        @media(max-width:1720px){.common_width{width: 96%;}}
+        @media(max-width:1640px){
+            .contact_banner_sub_sec_wrapper p{    font-size: 30px;
+                line-height: 36px;}
+        }
+        @media(max-width:1520px){
+            .contact_banner_main_wrapper{    background-position: right 54px bottom ,center;}
+        }  
+        @media(max-width:1399px){
+            .contact_banner_main_wrapper{    background-position: right -40px bottom ,center;}
+            .contact_banner_sub_sec_wrapper p{    font-size: 25px;
+                line-height: 31px;}
+        }      
 
