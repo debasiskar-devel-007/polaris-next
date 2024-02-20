@@ -4,6 +4,7 @@ import Navbar from '../navbar/Navbar'
 import { LinearProgress, Snackbar, TextField } from '@mui/material';
 import Footer from '../Footer';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Homes() {
   const recaptchaRef = React.createRef();
@@ -142,6 +143,14 @@ export default function Homes() {
 
   return (
     <>
+
+<Head>
+        <title>Home</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/access_health_underpayment_ui_next/onsite_extendable_labs/onsite_fab_icon_new.png"
+        />
+        </Head>
 
       <div className={styles.polaris_home_main_wrp}>
         <div className={styles.polaris_home_wrp}>
