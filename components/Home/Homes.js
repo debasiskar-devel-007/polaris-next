@@ -217,7 +217,71 @@ export default function Homes() {
           <div className={styles.common_width}>
             <div className={styles.polaris_blk3_sub_wrp}>
               <h1>Services</h1>
-              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_page_table_img.webp' />
+              <div className={styles.polaris_blk3_1sub_wrp}>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                
+
+              </div>
+              {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_page_table_img.webp' /> */}
               <div className={styles.polaris_blk3_sub_sec_wrp}>
                 <div className={`${styles.polaris_blk3_sub_sec_mini1_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
                   <div className={styles.polaris_blk3_logo_wrp}>
