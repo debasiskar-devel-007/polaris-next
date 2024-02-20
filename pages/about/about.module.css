@@ -73,7 +73,7 @@
     background-size:contain;
     width: 250px;
     height: 261px;
-    top: 23%;
+    top: 29%;
     transform: translateY(-50%);
     right:-160px;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@
     background-size: auto 100%, 100% 100%;
     background-position: bottom left 56px, top right;
     /* padding: 255px 0 65px; */
-    padding: 35px;
+    padding: 35px 0;
 }
 .polar_block1_sub {
     padding-left: 630px;
@@ -151,5 +151,187 @@
 @media(max-width:1760px){
     .common_width{
         width: 96%;
+    }
+}
+@media(max-width:1599px){
+  .gred_txt h1 {
+        font-size: 42px;
+        line-height: 47px;
+    }
+
+    .polar_about_block1 .font_26 p {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    
+    .font_20 p {
+        font-size: 19px;
+        line-height: 25px;
+        color: #c5d0e0;
+        font-weight: 500;
+        margin-bottom: 15px;}
+   
+        .polar_about_block2 .font_26 p{
+            font-size: 21px;
+            line-height: 28px;
+        }
+
+        .polar_about_block2 { background-position: bottom right -90px, top right;}
+
+        
+
+        
+}
+@media(max-width:1499px){
+    .p_30 p {
+        font-size: 27px;
+        line-height: 34px;
+    
+    }
+    .pol_orng_wrpr{
+    padding: 22px;
+    padding-right: 85px;
+    }
+
+    .pol_orng_wrpr::after {
+       
+        width: 183px;
+        height: 241px;
+        right: -97px;
+        top: 47%;
+    }    
+
+    .pol_bnnr_h1 h1 {
+        font-size: 102px;
+        line-height: 105px;
+    }
+}
+
+@media(max-width:1360px){
+    .polaris_about_bnnr {
+         background-position: bottom right -150px, top right;
+        }
+
+    .pol_about_bnnrleft {
+            padding-right: 580px;
+        }
+}
+
+@media(max-width:1270px){
+    .gred_txt h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .polar_about_block1 .font_26 p {
+        font-size: 20px;
+        line-height: 26px;
+        
+    }
+
+    .polar_about_block1 {background-position: bottom left -14px, top right;}
+}
+
+@media(max-width:1199px){
+    .polaris_about_bnnr{
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/blockIMG/about_us_bnnr_responsive_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/about_page/blockIMG/about_bnnr_bg.webp);
+        background-repeat: no-repeat, no-repeat; background-position: bottom center, top right;  background-size: auto, cover;
+    }
+    .pol_about_bnnrleft {
+        padding-right: 0; padding-bottom: 500px;
+    }
+    .pol_orng_wrpr::after {
+        width: 123px;
+        height: 146px;
+        right: -2px;
+        top: 29%;
+    }
+
+    .pol_bnnr_h1 {
+        margin-bottom: 35px;
+    }
+
+    .pol_orng_wrpr {padding-right: 120px;}
+
+        .polar_block1_sub {
+            padding-left: 0px;
+        }
+        .polar_about_block1 {
+            background:#091c33;;
+            background-repeat: no-repeat, no-repeat;
+            background-size:cover;
+            background-position: center;
+            padding: 20px 0;
+        }
+
+        .gred_txt h1 span br {
+            display: none;
+        }
+
+        .polar_about_block2 .font_26 p{
+       margin-bottom: 15px;
+        }
+
+        .polar_about_block2{
+            background:#e5e9ee;    padding: 20px 0;
+        }
+        .polar_block2_sub{
+            padding-right: 0;
+        }
+}
+@media (max-width:699px){
+    .pol_about_bnnrleft {
+        padding-right: 0;
+        padding-bottom: 462px;
+    }
+    .polaris_about_bnnr {
+         background-size: 640px, cover;padding-bottom: 0;
+        }
+}
+@media (max-width:650px){
+    .pol_bnnr_h1 h1 {
+        font-size: 85px;
+        line-height: 100px;
+        padding-left: 135px;
+    }
+    
+    .pol_about_bnnrleft .pol_bnnr_h1 h1::before {
+        width: 150px;
+        height: 121px;
+    }
+    .pol_orng_wrpr::after{
+        display: none;
+    }
+    .pol_orng_wrpr {padding: 15px;}
+
+    .pol_bnnr_h1 {
+        margin-bottom: 12px;
+    }
+
+    .pol_about_bnnrleft .pol_bnnr_h1 h1::before {
+        width: 100px;
+        height: 81px;
+    }
+
+    .pol_bnnr_h1 h1 {
+        font-size: 65px;
+        line-height: 70px;
+        padding-left: 85px;}
+
+    .polar_about_block1, .polar_about_block2{
+        padding: 10px 0;
+        }
+}
+@media (max-width:520px){
+   
+    .pol_about_bnnrleft {
+        padding-right: 0;
+        padding-bottom: 342px;
+    }
+    
+    .polaris_about_bnnr {
+        background-size: 459px, cover;
+        padding-bottom: 0;
     }
 }
