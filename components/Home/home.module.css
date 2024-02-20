@@ -46,7 +46,9 @@ background-repeat: no-repeat;background-position: center;background-size: 100% 1
     left: 805px;
     background-repeat: no-repeat;}
     .polaris_home_sub_left1_wrp h1{font-size: 48px;line-height: 54px;font-weight: 700;font-style: italic;text-transform: uppercase;color: #153243;margin-bottom: 20px;width: 70%;    margin-left: 85px;}
-    .polaris_home_sub_left1_wrp h1 span{color: #feae00;}
+    .polaris_home_sub_left1_wrp h1 span{background: linear-gradient(180deg, rgba(251,192,0,1) 0%, rgba(255,140,0,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;}
     .polaris_home_sub_left1_mini1_wrp{background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/banner_yellow_bg.webp);
     background-repeat: no-repeat;background-position: center;background-size: 100% 100%;width: 70%;padding: 20px;position: absolute;left: 21px;
     bottom: 43px;}
