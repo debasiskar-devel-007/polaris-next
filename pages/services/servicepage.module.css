@@ -1,0 +1,1396 @@
+
+.service_demo_img img{display: block; max-width: 100%;}
+.common_width {
+    width: 1675px;
+    margin: 0 auto;
+}
+
+
+
+.service_page_banner_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_doctor_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_main_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom -60px right 110px, top right;
+    /* padding: 255px 0 65px; */
+    padding-bottom: 65px;
+}
+.service_bnr_left_cont {
+    padding-right: 775px;
+}
+.service_bnr_left_cont h1 {
+    position: relative;
+    font-size: 85px;
+    line-height: 90px;
+    font-weight: 800;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(239,239,243,1) 49%, rgba(209,208,219,1) 51%, rgba(255,255,255,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 5px #000000);
+    -webkit-text-stroke: 1px #f2f4f8;
+    display: block;
+    padding-left: 185px;
+    margin-bottom: 30px;
+}
+.service_bnr_left_cont h1::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_sec_round_img.webp);
+    background-size: 100% 100%;
+    width: 190px;
+    height: 149px;
+    top: -30px;
+    left: -10px;
+}
+.service_bnr_left_cont p {
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.box_sec_main_wrpr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box_section {
+    position: relative;
+    width: 33%;
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_green_box_img.webp), linear-gradient(180deg, rgba(152,234,34,1) 0%, rgba(55,197,5,1) 100%);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom right;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px; 
+}
+.box_section::after {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_green_box_shadow_img.webp);
+    background-size: 100% 100%;
+    width: 295px;
+    height: 71px;
+    bottom: -75px;
+    left: 0;
+}
+.box_section h2 {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0;
+}
+.box_section h2::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_white_bar_img.webp);
+    background-size: 100% 100%;
+    width: 9px;
+    height: 38px;
+    top: 6px;
+    left: 0;
+}
+.box_section.yellow_box {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_yellow_box_shadow_img.webp), linear-gradient(180deg, rgba(230,216,1,1) 0%, rgba(244,184,76,1) 100%);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom right;
+}
+.box_section.skyblue_box {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_skyblue_box_shadow_img.webp), linear-gradient(180deg, rgba(0,234,255,1) 0%, rgba(1,144,211,1) 100%);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom right;
+}
+
+/* ---------block1---------- */
+.service_page_block1_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_block1_left_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_block1_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom left 45px, top right;
+    padding: 40px 0;
+}
+.green_heading {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/block1_green_bar_bg_img.webp), linear-gradient(180deg, rgba(152,234,34,1) 0%, rgba(55,197,5,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: top right, center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.green_heading h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(253,254,254,1) 0%, rgba(204,210,212,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 2px 3px #323232);
+    display: block;
+}
+.service_block1_right_cont p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #c5d0e0;
+    margin-bottom: 15px;
+}
+.service_block1_right_cont h4 {
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #0dd1ff;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.service_block1_right_cont h4::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/block1_red_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 19px;
+    height: 19px;
+    top: 6px;
+    left: 0;
+}
+.service_block1_right_cont h5 {
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #c5d0e0;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.service_block1_right_cont h5::before {
+    position: absolute;
+    content: '';
+    background: #1187c9;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 6px;
+    left: 25px;
+}
+.service_block1_right_cont {
+    padding-left: 795px;
+}
+.cont_part1_sub_bullet_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ----------block2------------ */
+.service_page_block2_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block2_right_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block2_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom -35px right -25px, center;
+    padding: 40px 0;
+}
+.block2_yellow_bar {
+    position: relative;
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_service_block2_yellow_bg_img.webp), linear-gradient(35deg, rgba(244,183,78,1) 20%, rgba(230,217,0,1) 80%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: top right, center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -5px #252525;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.block2_yellow_bar::after {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_service_block2_yellow_before_img.webp);
+    background-size: 100% 100%;
+    /* width: 1677px; */
+    width: 100%;
+    height: 109px;
+    bottom: -110px;
+    left: 0;
+}
+.block2_yellow_bar h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(253,253,253,1) 20%, rgba(205,211,213,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 2px 5px #636363);
+    display: inline;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.block2_yellow_bar p {
+    position: relative;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #3b3d40;
+    text-transform: uppercase;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.block2_yellow_bar p::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_service_block2_yellow_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 39px;
+    height: 38px;
+    top: 2px;
+    left: 0;
+}
+.block2_yellow_bar_bullet_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service_page_block2_main_width .cont_part1_sub_bullet_cont h5 {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cont_part1_sub_bullet_cont h5::before {
+    position: absolute;
+    content: '';
+    background: #1187c9;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 25px;
+}
+.service_block2_left_cont {
+    padding-right: 635px;
+}
+.service_block2_left_cont p {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #3b3d40;
+    margin-bottom: 10px;
+}
+.pink_bullet {
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.pink_bullet::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/block1_red_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 19px;
+    height: 19px;
+    top: 6px;
+    left: 0;
+}
+.block_main_heading {
+    margin-bottom: 10px;
+}
+.grey_heading {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(118,144,158,1) 25%, rgba(68,91,108,1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-family: "Roboto", sans-serif;
+}
+
+/* -----------block3------------- */
+.service_page_block3_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block3_left_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block3_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom left 195px, top left;
+    padding: 40px 0;
+}
+.service_block3_right_cont {
+    padding-left: 835px;
+}
+.block3_left_cont p {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #3b3d40;
+    margin-bottom: 10px;
+}
+.service_page_block3_main_width .cont_part1_sub_bullet_cont h5 {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* -------------block4--------------- */
+.service_page_block4_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block4_right_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block4_bg_img.webp), #2a3746;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 100%, 100% 100%, cover;
+    background-position: bottom right, top left, center;
+    padding: 40px 0;
+}
+.service_page_block4_main_width .cont_part1_sub_bullet_cont h5 {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.block4_main_heading {
+    margin-bottom: 10px;
+}
+.block4_main_heading h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    filter: drop-shadow(1px 2px 4px #323232);
+    background: linear-gradient(180deg, rgba(252,252,252,1) 25%, rgba(169,173,178,1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-family: "Roboto", sans-serif;
+}
+.service_page_block4_main_width .cont_part1_sub_bullet_cont {
+    flex-direction: column;
+}
+.service_page_block4_main_width .pink_bullet {
+    color: #c5d0e0;
+}
+.service_page_block4_main_width .cont_part1_sub_bullet_cont h5 {
+    color: #ffffff;
+}
+.service_page_block4_main_width .service_block4_left_cont {
+    position: relative;
+    padding-right: 905px;
+}
+.pink_round_img {
+    position: absolute;
+    width: 233px;
+    height: 209px;
+    bottom: 0;
+    right: 565px;
+}
+.pink_round_img img {
+    display: block;
+    max-width: 100%;
+}
+.block4_left_cont p {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #00bcfa;
+    margin-bottom: 10px;
+}
+
+/* -------------block5-------------- */
+.service_page_block5_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_right_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_bg_img.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 100% 100%;
+    background-position: bottom -75px left 205px, top left;
+    padding: 40px 0;
+}
+.skyblue_bullet {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #3b3d40;
+    padding-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.skyblue_bullet::before {
+    position: absolute;
+    content: '';
+    background: #1187c9;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 25px;
+}
+.service_block5_right_cont {
+    padding-left: 825px;
+}
+
+/* ----------block6------------ */
+.service_page_block6_main_width {
+    padding-bottom: 40px;
+}
+
+/* -------------block6-part-------------- */
+.service_page_block6_sky_box {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block6_skybox_bg_img.webp), linear-gradient(195deg, rgba(29,220,248,1) 50%, rgba(11,162,240,1) 70%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: top right, center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -4px #313131;
+    padding: 15px;
+}
+.white_sub_bullet {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sky_box_heading {
+    margin-bottom: 10px;
+}
+.sky_box_heading h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 2px 3px #797979);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(210,214,217,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-family: "Roboto", sans-serif;
+}
+.service_page_block6_sky_box h4 {
+    position: relative;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #3b3d40;
+    text-transform: uppercase;
+    padding-left: 45px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.service_page_block6_sky_box h4::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/services_green_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 0;
+}
+.white_sub_bullet h5 {
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #3b3d40;
+    padding-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.white_sub_bullet h5:first-child {
+    padding-left: 65px;
+}
+.white_sub_bullet h5::before {
+    position: absolute;
+    content: '';
+    background: #ffffff;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 8px;
+    left: 10px;
+}
+.white_sub_bullet h5:first-child::before {
+    left: 45px;
+} 
+.block6_sky_box_left_cont {
+    padding-right: 415px;
+}
+
+
+
+
+
+/* --------------responsive-start----------------- */
+
+@media (max-width: 1820px) {
+    .common_width {
+        width: 96%;
+    }
+    .service_page_banner_main_width {
+        background-position: bottom -60px right 35px, top right;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 82px;
+        line-height: 88px;
+    }
+
+    /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-position: bottom left -45px, top right;
+    }
+    .service_block1_right_cont {
+        padding-left: 705px;
+    }
+
+    /* ----------block2---------- */
+    .service_page_block2_main_width {
+        background-position: bottom -35px right -115px, center;
+    }
+    .service_block2_left_cont {
+        padding-right: 565px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-position: bottom -75px left 45px, top left;
+    }
+    .service_block3_right_cont {
+        padding-left: 705px;
+    }
+
+    /* -------------block4--------------- */
+    .service_page_block4_main_width {
+        background-position: bottom right -65px, top left, center;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 815px;
+    }
+}
+@media (max-width: 1720px) {
+    .service_page_banner_main_width {
+        background-size: 675px, 100% 100%;
+        background-position: bottom -45px right 35px, top right;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 74px;
+        line-height: 80px;
+        padding-left: 155px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 160px;
+        height: 120px;
+        top: -25px;
+    }
+    .service_bnr_left_cont p {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    .box_section {
+        padding: 15px;
+    }
+    .box_section h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 1620px) {
+    .service_page_banner_main_width {
+        background-size: 675px, 100% 100%;
+        background-position: bottom right -25px, top right;
+        padding-bottom: 45px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 65px;
+        line-height: 70px;
+        padding-left: 125px;
+        margin-bottom: 25px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 140px;
+        height: 105px;
+        top: -20px;
+    }
+    .box_sec_main_wrpr {
+        justify-content: space-between;
+    }
+    .box_section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .skyblue_box {
+        margin: 0 auto;
+    }
+    .service_bnr_left_cont {
+        padding-right: 45%;
+    }
+
+    /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-position: bottom left -105px, top right;
+    }
+    .service_block1_right_cont {
+        padding-left: 655px;
+    }
+    .green_heading h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    /* ----------block2---------- */
+    .service_page_block2_main_width {
+        background-position: bottom right -155px, center;
+    }
+    .service_block2_left_cont {
+        padding-right: 525px;
+    }
+    .block2_yellow_bar h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: auto, cover;
+        background-position: bottom -55px left -55px, top center;
+    }
+    .service_block3_right_cont {
+        padding-left: 625px;
+    }
+
+    /* -------------block4--------------- */
+    .service_page_block4_main_width {
+        background-position: bottom right -225px, top left, center;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 705px;
+    }
+    .pink_round_img {
+        bottom: 85px;
+        right: 475px;
+    }
+
+    /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-position: bottom -85px left 25px, top left;
+    }
+    .service_block5_right_cont {
+        padding-left: 615px;
+    }
+}
+@media (max-width: 1520px) {
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: auto, cover;
+        background-position: bottom left -55px, top center;
+    }
+    .service_block3_right_cont {
+        padding-left: 625px;
+    }
+
+    /* -------------block4--------------- */
+    .service_page_block4_main_width {
+        background-position: bottom right -285px, top left, center;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 705px;
+    }
+    .pink_round_img {
+        bottom: 85px;
+        right: 475px;
+    }
+}
+@media (max-width: 1420px) {
+    .service_bnr_left_cont h1::before {
+        width: 110px;
+        height: 85px;
+        top: -10px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 60px;
+        line-height: 65px;
+        padding-left: 100px;
+        margin-bottom: 20px;
+    }
+    .service_bnr_left_cont p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .service_bnr_left_cont {
+        padding-right: 48%;
+    }
+    .service_page_banner_main_width {
+        background-size: 675px, 100% 100%;
+        background-position: bottom right -75px, top right;
+        padding-bottom: 40px;
+    }
+
+     /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-position: bottom left -135px, top right;
+    }
+    .service_block1_right_cont {
+        padding-left: 625px;
+    }
+    .green_heading h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    /* ----------block2---------- */
+    .service_page_block2_main_width {
+        background-position: bottom right -185px, center;
+    }
+    .service_block2_left_cont {
+        padding-right: 485px;
+    }
+    .block2_yellow_bar h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .block2_yellow_bar p {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .grey_heading {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .service_block2_left_cont p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: auto, cover;
+        background-position: bottom left -125px, top center;
+    }
+    .service_block3_right_cont {
+        padding-left: 555px;
+    }
+    .block3_left_cont p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /* -------------block4--------------- */
+    .service_page_block4_main_width {
+        background-position: bottom right -325px, top left, center;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 675px;
+    }
+    .pink_round_img {
+        bottom: 95px;
+        right: 425px;
+    }
+    .block4_main_heading h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .block4_left_cont p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 1366px) {
+    /* ----------block2---------- */
+    .service_page_block2_main_width {
+        background-position: bottom right -205px, center;
+    }
+    .service_block2_left_cont {
+        padding-right: 475px;
+    }
+    .block2_yellow_bar h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .block2_yellow_bar p {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 35px;
+    }
+    .block2_yellow_bar p::before {
+        width: 35px;
+        height: 35px;
+        top: 1px;
+    }
+    .grey_heading {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: auto, cover;
+        background-position: bottom left -135px, top center;
+    }
+    .service_block3_right_cont {
+        padding-left: 535px;
+    }
+
+    /* -----------block4----------- */
+    .block4_main_heading h1 {
+        font-size: 39px;
+        line-height: 45px;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-position: bottom -65px left -25px, top left;
+    }
+    .service_block5_right_cont {
+        padding-left: 555px;
+    }
+}
+@media (max-width: 1260px) {
+    .service_page_banner_main_width {
+        background-size: 685px, 100% 100%;
+        background-position: bottom right -115px, top right;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 90px;
+        height: 70px;
+        top: -5px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 55px;
+        line-height: 60px;
+        padding-left: 85px;
+    }
+
+      /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-position: bottom left -175px, top right;
+    }
+    .service_block1_right_cont {
+        padding-left: 585px;
+    }
+    .green_heading {
+        margin-bottom: 10px;
+    }
+    .green_heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .service_block1_right_cont p {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .service_block1_right_cont h4 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    /* -----------block3----------- */
+    .service_page_block3_main_width .pink_bullet br {
+        display: none;
+    }
+
+    /* -----------block4----------- */
+    .service_page_block4_main_width {
+        background-position: bottom right -345px, top left, center;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 645px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .service_page_banner_main_width {
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_doctor_img_1199v.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/polaris_banner_main_bg_img.webp);
+        background-repeat: no-repeat, no-repeat;
+        background-size: 745px, cover;
+        background-position: bottom center, top center;
+    }
+    .service_bnr_left_cont {
+        padding-right: 0;
+        padding-bottom: 515px;
+    }
+    .box_section h2 br {
+        display: none;
+    }
+    .box_section h2::before {
+        width: 8px;
+        height: 30px;
+        top: -4px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 90px;
+        height: 70px;
+        top: 5px;
+    }
+
+      /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-size: auto, cover;
+        background-position: bottom -155px center, top center;
+        padding: 35px 0;
+    }
+    .service_block1_right_cont {
+        padding-left: 0;
+        padding-bottom: 575px;
+    }
+
+    /* ---------block2----------- */
+    .service_page_block2_main_width {
+        background-size: 825px, cover;
+        background-position: bottom -185px center, center;
+        padding: 35px 0;
+    }
+    .service_block2_left_cont {
+        padding-right: 0;
+        padding-bottom: 575px;
+    }
+    .block2_yellow_bar {
+        margin-bottom: 20px;
+    }
+    .block2_yellow_bar h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .block2_yellow_bar p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .block2_yellow_bar p::before {
+        width: 30px;
+        height: 30px;
+        top: 2px;
+    }
+    .grey_heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .service_block2_left_cont p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: auto, cover;
+        background-position: bottom -235px center, bottom center;
+        padding: 35px 0;
+    }
+    .service_block3_right_cont {
+        padding-left: 0;
+        padding-bottom: 535px;
+    }
+
+    /* -----------block4----------- */
+    .service_page_block4_main_width {
+        background-size: auto, cover, cover;
+        background-position: bottom right, top left, center;
+        padding: 35px 0;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-right: 0;
+        padding-bottom: 430px;
+    }
+    .block4_main_heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .pink_round_img {
+        bottom: 95px;
+        right: unset;
+        left: 0;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_right_img.webp), linear-gradient(180deg, rgba(242,247,250,1) 0%, rgba(251,234,231,1) 100%);
+        background-repeat: no-repeat;
+        background-size: auto, cover;
+        background-position: bottom -65px center, center;
+        padding: 35px 0;
+    }
+    .service_block5_right_cont {
+        padding-left: 0;
+        padding-bottom: 465px;
+    }
+}
+@media (max-width: 768px) {
+    .service_page_banner_main_width {
+        background-size: 595px, cover;
+        background-position: bottom center, top center;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 90px;
+        height: 70px;
+        top: 0;
+    }
+    .box_section {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .box_section::after {
+        width: 100%;
+    }
+    .box_section h2::before {
+        display: none;
+    }
+    .service_bnr_left_cont {
+        padding-bottom: 395px;
+    }
+
+      /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-size: 605px, cover;
+        background-position: bottom -155px center, top center;
+        padding: 25px 0;
+    }
+    .service_block1_right_cont {
+        padding-bottom: 415px;
+    }
+    .green_heading h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    /* ---------block2----------- */
+    .service_page_block2_main_width {
+        background-size: 705px, cover;
+        background-position: bottom -45px center, center;
+        padding: 25px 0;
+    }
+    .service_block2_left_cont {
+        padding-bottom: 605px;
+    }
+    .block2_yellow_bar {
+        margin-bottom: 15px;
+    }
+    .block2_yellow_bar h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .block2_yellow_bar p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .block2_yellow_bar p::before {
+        width: 30px;
+        height: 30px;
+        top: 2px;
+    }
+    .grey_heading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .service_block2_left_cont p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: 495px, cover;
+        background-position: bottom -75px center, bottom center;
+        padding: 25px 0;
+    }
+    .service_block3_right_cont {
+        padding-bottom: 485px;
+    }
+
+    /* -----------block4----------- */
+    .service_page_block4_main_width {
+        background-size: 775px, cover, cover;
+        background-position: bottom center, top left, center;
+        padding: 25px 0;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-bottom: 369px;
+    }
+    .block4_main_heading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .pink_round_img {
+        width: 175px;
+        height: auto;
+        bottom: 135px;
+        right: unset;
+        left: 0;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-size: 515px, cover;
+        background-position: bottom -25px center, center;
+        padding: 25px 0;
+    }
+    .service_block5_right_cont {
+        padding-bottom: 455px;
+    }
+}
+@media (max-width: 599px) {
+    .service_page_banner_main_width {
+        background-size: 495px, cover;
+        background-position: bottom center, top center;
+    }
+    .service_bnr_left_cont {
+        padding-bottom: 335px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 47px;
+        line-height: 52px;
+        padding-left: 75px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 80px;
+        height: 60px;
+    }
+
+      /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-size: 495px, cover;
+        background-position: bottom -85px center, top center;
+        padding: 25px 0;
+    }
+    .service_block1_right_cont {
+        padding-bottom: 375px;
+    }
+}
+@media (max-width: 499px) {
+    .service_page_banner_main_width {
+        background-size: 395px, cover;
+        background-position: bottom center, top center;
+    }
+    .service_bnr_left_cont {
+        padding-bottom: 255px;
+    }
+    .service_bnr_left_cont p {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+    .service_bnr_left_cont h1 {
+        font-size: 35px;
+        line-height: 40px;
+        padding-left: 60px;
+        margin-bottom: 10px;
+    }
+    .service_bnr_left_cont h1::before {
+        width: 70px;
+        height: 55px;
+    }
+    .box_section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+       /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-size: 395px, cover;
+        background-position: bottom center, top center;
+        padding: 15px 0;
+    }
+    .service_block1_right_cont {
+        padding-bottom: 375px;
+    }
+    .green_heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .service_block1_right_cont p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .service_block1_right_cont h4 {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 25px;
+    }
+    .service_block1_right_cont h4::before {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* ---------block2----------- */
+    .service_page_block2_main_width {
+        background-size: 455px, cover;
+        background-position: bottom center, center;
+        padding: 15px 0;
+    }
+    .service_block2_left_cont {
+        padding-bottom: 425px;
+    }
+    .block2_yellow_bar {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .block2_yellow_bar h1 {
+        display: inline;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .block2_yellow_bar p {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 30px;
+    }
+    .block2_yellow_bar p::before {
+        width: 25px;
+        height: 25px;
+        top: 4px;
+    }
+    .grey_heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .service_block2_left_cont p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .pink_bullet {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 25px;
+        margin-bottom: 10px;
+    }
+    .pink_bullet::before {
+        width: 15px;
+        height: 15px;
+    }
+    .service_page_block2_main_width .cont_part1_sub_bullet_cont h5 {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+        margin-right: 0;
+    }
+    .service_page_block2_main_width .cont_part1_sub_bullet_cont h5::before {
+        top: 5px;
+        left: 15px;
+    }
+
+     /* -----------block3------------- */
+    .service_page_block3_main_width {
+        background-size: 325px, cover;
+        background-position: bottom center, bottom center;
+        padding: 15px 0;
+    }
+    .service_block3_right_cont {
+        padding-bottom: 365px;
+    }
+    .service_page_block3_main_width .cont_part1_sub_bullet_cont h5 {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+        margin-right: 0;
+    }
+    .service_page_block3_main_width .cont_part1_sub_bullet_cont h5::before {
+        top: 5px;
+        left: 15px;
+    }
+    .pink_bullet::before {
+        width: 15px;
+        height: 15px;
+    }
+
+     /* -----------block4----------- */
+    .service_page_block4_main_width {
+        background-size: 505px, cover, cover;
+        background-position: bottom center, top left, center;
+        padding: 15px 0;
+    }
+    .service_page_block4_main_width .service_block4_left_cont {
+        padding-bottom: 245px;
+    }
+    .block4_main_heading h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .pink_round_img {
+        width: 125px;
+        bottom: 65px;
+        left: -15px;
+    }
+    .block4_left_cont p {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .service_page_block4_main_width .cont_part1_sub_bullet_cont h5 {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+        margin-right: 0;
+    }
+    .cont_part1_sub_bullet_cont h5::before {
+        top: 5px;
+        left: 15px;
+    }
+
+     /* -------------block5-------------- */
+    .service_page_block5_main_width {
+        background-size: 325px, cover;
+        background-position: bottom center, center;
+        padding: 15px 0;
+    }
+    .service_block5_right_cont {
+        padding-bottom: 305px;
+    }
+    .skyblue_bullet {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+        margin-right: 0;
+    }
+    .skyblue_bullet::before {
+        top: 5px;
+        left: 15px;
+    }
+}
+@media (max-width: 399px) {
+    .service_page_banner_main_width {
+        background-size: 325px, cover;
+        background-position: bottom center, top center;
+    }
+    .service_bnr_left_cont {
+        padding-bottom: 205px;
+    }
+
+    /* ---------block1---------- */
+    .service_page_block1_main_width {
+        background-size: 325px, cover;
+    }
+    .service_block1_right_cont {
+        padding-bottom: 305px;
+    }
+}

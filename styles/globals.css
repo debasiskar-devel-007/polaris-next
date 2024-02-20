@@ -1,14 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+
 
 html,
 body {
@@ -29,9 +31,333 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
 }
 
 
+/* -----------------------------loader & snackbar------------------------ */
+.home_polaris_home_from_sec__t1Lwa .MuiFormLabel-root {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 500;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiLinearProgress-root {
+  top: -28px;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiSnackbarContent-root {
+  visibility: hidden !important;
+  width: fit-content !important;
+  background-color: #eaebee !important;
+  color: #050404 !important;
+  text-align: left !important;
+  padding: 15px 20px !important;
+  position: fixed !important;
+  z-index: 100 !important;
+  left: 50% !important;
+  bottom: 100px !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  border-radius: 10px !important;
+  border: 1px solid #ebf0f2 !important;
+  letter-spacing: 1px !important;
+  transform: translateX(-50%) !important;
+}
+
+.home_polaris_home_from_sec__t1Lwa .MuiSnackbarContent-root {
+  visibility: visible !important;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 10s !important;
+  animation: fadein 0.5s, fadeout 0.5s 10s ease !important;
+}
+/* -----------------------------loader & snackbar------------------------ */
+
+
+
+/* ---------------------------header------------------------------------ */
+.common_width{width: 1675px;margin: 0 auto;}
+.polaris_header_sub1_wrp{display: flex;justify-content: space-between;align-items: center;    margin-bottom: 10px;}
+.polaris_header_main_wrp{padding: 10px 0 85px 0; z-index: 9; position: relative;}
+.polaris_header_sub1_sec1_wrp {width: 364px;max-width: 100%;}
+.polaris_header_sub1_sec2_wrp{width: 30%;}
+.polaris_header_sub1_sec1_wrp img{display: block;width: 100%;}
+.polaris_header_sub1_sec2_wrp{display: flex;justify-content: space-between;align-items: center;padding-left: 15px;border-left: 1px solid #0071e5;width: fit-content; margin-left: 15px;}
+.polaris_header_sub1_sec2_1wrp{ width: 35%; margin-left: 10px;}
+.polaris_header_sub1_sec2_1wrp img{display: block;max-width: 100%;}
+/* .polaris_header_main_wrp{background-color: #000;} */
+.polaris_header_sub2_wrp{background-color: #fff;padding: 15px 20px;border-radius: 10px;display: flex;justify-content: space-between;align-items: center;}
+.polaris_header_sub2_left_wrp{width: 52%;}
+.polaris_header_sub2_left_wrp ul{display: flex;justify-content: space-between;align-items: center;}
+.polaris_header_sub2_left_wrp ul li{width: fit-content;text-align: center;text-transform: uppercase;color: #2d3649;font-size: 20px;line-height: 26px;font-weight: 600;list-style: none;padding-right: 0px; position: relative; padding: 12px 15px; margin: 0 15px;}
+.polaris_header_sub2_left_wrp ul li::after{
+    content: ""; background: #d4d6da; position: absolute; height: 60%; width: 1px; right: -39px; top: 50%; transform: translateY(-50%); 
+}
+.polaris_header_sub2_left_wrp ul li:last-child:after{display: none;}
+.polaris_header_sub2_left_wrp ul li:first-child{margin-left: 0;}
+.active{background: linear-gradient(180deg, rgba(255,195,0,1) 0%, rgba(255,130,0,1) 100%); border: 1px solid #de6707;border-radius: 5px; }
+.active a {color: #fff !important;}
+.polaris_header_sub2_left_wrp ul li:last-child{border-right: none;}
+.polaris_header_sub2_right_wrp{width: 10%;}
+.polar_nav_link{
+  display: flex;justify-content: space-between;align-items: center; 
+}
+.polaris_header_login_logo_wrp{width: 30%;}
+.polaris_header_login_logo_wrp img{display: block;max-width:100%;}
+.polaris_header_login_text_wrp{width: 60%;}
+.polaris_header_login_text_wrp p{font-size: 20px;line-height: 26px;font-weight: 600;text-transform: uppercase;color: #2d3649;}
+.res_menu {display: none;}
+
+@media(max-width:1760px){
+  .common_width{width: 96%;}
+}
+@media(max-width:1600px){
+  .polaris_header_sub2_left_wrp ul li::after {
+     right: -30px;}
+}
+
+@media(max-width:1499px){
+  .polaris_header_sub2_left_wrp ul li {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .polaris_header_sub2_left_wrp ul li::after {
+    right: -29px;}
+}
+
+@media(max-width:1440px){
+  .polaris_header_sub2_left_wrp ul li::after {
+    right: -25px;
+  }
+}
+@media (max-width: 1366px){
+  .polaris_header_sub2_left_wrp ul li::after {
+    right: -19px;
+}
+
+.polaris_header_login_text_wrp p {
+  font-size: 18px;
+  line-height: 24px;
+}
+}
+@media(max-width:1199px){
+  .polaris_header_main_wrp {
+    padding: 10px 0 15px 0;}
+  .res_menu {display: block;background: #efefef;}
+  .polaris_header_sub2_wrp{flex-wrap: wrap;padding: 10px;}
+  .polaris_header_sub2_left_wrp {
+    display: none;
+  }
+  .showdiv {
+    display: block;
+}
+.polaris_header_main_wrp .polaris_header_sub2_left_wrp {
+  order: 3;
+  width: 100%;
+  margin-top: 15px;
+  background: #efefef;
+  padding: 10px;
+}
+.polaris_header_sub2_left_wrp ul.nav_ul{
+  flex-direction: column;
+  align-items: center;
+}
+
+.polaris_header_main_wrp .polaris_header_sub2_left_wrp ul.nav_ul li {
+  margin: 0;
+ 
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 10px 15px;
+}
+.polaris_header_sub2_right_wrp{
+  width: fit-content;
+}
+.polaris_header_sub2_left_wrp ul li::after{
+  display: none;
+}
+}
+
+
+/* -------------------header--end----------------------------------- */
+
+/* -------------------footer--start----------------------------------- */
+
+.polaris_footer_sub1_sec2_wrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  border-left: 1px solid #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.polaris_footer_sub1_sec2_1wrp {
+  width: 35%;
+  margin-left: 15px;
+}
+.foot_ul li {font-size: 19px; line-height: 24px; font-weight: 500; color: #fff; text-transform: uppercase; padding: 0 5%; border-right: 1px solid #fff;}
+.polar_logo img{display: block; width: 100%;}
+
+.polar_logo {width: 17%;}
+.polar_menu {width: 47%;}
+.polar_link {width: 29%; margin-left: 15px; display: flex; justify-content: space-between; align-items: center;}
+.polar_footer_sub {display: flex; align-items: center; justify-content: space-between;flex-wrap: wrap;}
+.polar_footer_main {padding: 25px 0; background: #2a2f39;}
+.polar_link p {font-size: 20px; line-height: 24px; color: #474e5b; font-weight: 600;}
+
+.polar_menu .foot_ul {padding: 0; list-style-type: none; display: flex; justify-content: space-between; }
+.polar_menu .foot_ul li:last-child {border-right:none;}
+.active1 a{color: #de6707 !important;}
+
+@media(max-width:1499px){
+  .polar_link p {
+    font-size: 16px;
+    line-height: 24px;}
+
+    .foot_ul li {
+      font-size: 15px;
+      line-height: 21px; 
+      padding: 0 4%;}
+}
+
+@media(max-width:1024px){
+  .polar_link {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .polar_logo {
+  width: 220px;
+}
+.polar_menu .foot_ul li:first-child{
+  padding-left: 0;
+}
+.polar_menu .foot_ul li:last-child{
+  padding-right: 0;
+}
+
+.polar_menu {
+  width: 455px;
+  max-width: 100%;
+}
+}
+
+@media(max-width:768px){
+  .polar_logo {
+    width: 296px;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.polar_footer_sub{
+  flex-direction: column;
+}
+.polar_link {
+  margin-top: 25px;
+}
+.polaris_footer_sub1_sec2_wrp {
+   margin-left: 28px;
+  }
+  .polar_menu {
+    width: 585px;
+    max-width: 100%;
+}
+
+.foot_ul li {
+  font-size: 19px;
+  line-height: 24px;}
+}
+
+@media(max-width:550px){
+  .foot_ul li {
+    font-size: 15px;
+    line-height: 21px;
+    padding: 0 5%;
+}
+}
+
+@media(max-width:499px){
+  .foot_ul li {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 ;
+}
+.polar_menu .foot_ul{
+  flex-direction: column; align-items: center;
+}
+.polar_menu .foot_ul li {
+  margin-bottom: 10px;
+}
+
+.polar_menu .foot_ul li{
+  border: none;
+}
+
+.polar_link{
+  flex-direction: column;
+}
+
+.polaris_footer_sub1_sec2_wrp{
+  margin:12px 0 0; padding: 0; border-left: 0;
+}
+}
+/* -------------------footer--end----------------------------------- */
+
+
+
+
+
+
+/* ----------------blog-page---------------- */
+.polaris_blog_full_width .polaris_header_main_wrp {
+  position: relative;
+  padding: 10px 0 85px 0;
+  z-index: 3;
+}
+/* ----------------blog-page---------------- */
+
+/* ----------------scrolltotop---------------- */
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 20;
+}
+
+.icon-style {
+  background-color: #0e5d89;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style svg {
+  font-size: 30px;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #fff;
+  color: #0e5d89;
+  border: 2px solid #0e5d89;
+}
