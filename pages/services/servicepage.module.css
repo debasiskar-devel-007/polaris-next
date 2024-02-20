@@ -573,7 +573,7 @@
     background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block6_part2_bg_img.webp);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: top right;
+    background-position: top -175px right -125px;
     padding-bottom: 30px;
 }
 
@@ -658,6 +658,9 @@
 }
 .bullet_cont {
     padding-left: 15px;
+}
+.bullet_cont_part1 {
+    padding-right: 10px;
 }
 
 
@@ -894,6 +897,22 @@
     .block6_sky_box_left_cont {
         padding-right: 355px;
     }
+
+    /* ----------block6-part3--------- */
+    .white_box_right_sec_cont h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .part3_white_box_left_sec h5 {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 35px;
+    } 
+    .part3_white_box_left_sec h5::before {
+        width: 30px;
+        height: 30px;
+        top: 0px;
+    }
 }
 @media (max-width: 1420px) {
     .service_bnr_left_cont h1::before {
@@ -1068,6 +1087,12 @@
     .service_page_block6_sky_box h4 {
         font-size: 26px;
         line-height: 31px;
+    }
+
+    /* ----------block6-part3--------- */
+    .white_box_right_sec_cont h1 {
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 @media (max-width: 1260px) {
@@ -1272,6 +1297,24 @@
         right: 5%;
         transform: translateX(-50%);
     }
+
+    /* ----------block6-part3--------- */
+    .block6_part3_white_box_main_wrpr {
+        flex-direction: column;
+    }
+    .part3_white_box_left_sec {
+        width: 100%;
+        border: none;
+    }
+    .white_box_right_sec_cont {
+        padding: 20px 20px 0 20px;
+    }
+    .part3_left_sec_grey_bar {
+        border-radius: 10px;
+    }
+    .part3_left_sec_grey_bar.right_sec_grey_bar_p1 {
+        border-radius: 10px 0 0 10px;
+    }
 }
 @media (max-width: 999px) {
     /* ----------block6-part2------------ */
@@ -1443,6 +1486,48 @@
      /* ----------block6-part2------------ */
     .part2_right_girl {
         right: -18%;
+    }
+
+    /* ----------block6-part3--------- */
+    .part3_white_box_left_sec {
+        width: 100%;
+    }
+    .white_box_right_sec_cont {
+        padding: 20px 20px 0 20px;
+    }
+    .part3_left_sec_grey_bar {
+        border-radius: 10px;
+    }
+    .part3_left_sec_grey_bar.right_sec_grey_bar_p1 {
+        border-radius: 10px;
+    }
+    .white_box_right_sec_main_wrpr {
+        flex-direction: column;
+    }
+    .part3_left_sec_grey_bar h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .white_box_right_sec_p1 {
+        border: none;
+    }
+    .part3_left_sec_grey_bar.right_sec_grey_bar_p2 {
+        border-radius: 10px;
+    }
+    .part3_white_box_left_sec h5::before {
+        width: 25px;
+        height: 25px;
+    }
+    .part3_white_box_left_sec h5 {
+        padding-left: 28px;
+    }
+    .white_box_right_sec_cont h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .white_box_right_sec_cont {
+        padding: 0;
+        padding-top: 15px;
     }
 
 }
@@ -1722,6 +1807,61 @@
     }
     .block6_part2_left_cont {
         padding-bottom: 445px;
+    }
+
+    /* ----------block6-part3--------- */
+    .part3_white_box_left_sec {
+        width: 100%;
+    }
+    .white_box_right_sec_cont {
+        padding: 0;
+    }
+    .part3_left_sec_grey_bar {
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .part3_left_sec_grey_bar.right_sec_grey_bar_p1 {
+        border-radius: 10px;
+    }
+    .white_box_right_sec_main_wrpr {
+        flex-direction: column;
+    }
+    .part3_left_sec_grey_bar h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .white_box_right_sec_p1 {
+        border: none;
+    }
+    .part3_left_sec_grey_bar.right_sec_grey_bar_p2 {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .bullet_cont_part1 {
+        padding: 0;
+    }
+    .part3_white_box_left_sec h5::before {
+        width: 22px;
+        height: 22px;
+        top: 0;
+    }
+    .part3_white_box_left_sec h5 {
+        padding-left: 25px;
+    }
+    .white_box_right_sec_cont h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+    .block6_part3_white_box {
+        padding: 10px;
+    }
+    .service_page_block6_main_width {
+        padding-bottom: 15px;
+    }
+    .white_box_right_sec_cont h1 span {
+        word-break: break-all;
     }
 }
 @media (max-width: 425px) {
