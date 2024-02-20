@@ -28,7 +28,9 @@ body {
     )
     rgb(var(--background-start-rgb));
     font-family: "Roboto", sans-serif;}
-
+ul, li{
+  list-style: none;
+}
 a {
   color: inherit !important;
   text-decoration: none !important;
@@ -336,7 +338,7 @@ a {
 }
 
 .icon-style {
-  background-color: #0e5d89;
+  background-color: #29acf5;
   border: 2px solid #fff;
   border-radius: 50%;
   height: 50px;
