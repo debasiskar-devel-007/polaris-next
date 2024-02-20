@@ -663,6 +663,24 @@
     padding-right: 10px;
 }
 
+/* ----------block7------------ */
+.service_page_block7_main_width {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block7_left_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block7_bg_img.webp), #00000a;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 875px, 100% 100%, cover;
+    background-position: bottom -125px left 35px, top right, center;
+    padding: 40px 0;
+}
+.service_page_block7_right_cont {
+    padding-left: 765px;
+}
+.service_page_block7_main_width .pink_bullet {
+    color: #c5d0e0;
+}
+.service_page_block7_main_width .skyblue_bullet {
+    color: #ffffff;
+}
+
 
 
 
@@ -711,6 +729,14 @@
     }
     .service_page_block4_main_width .service_block4_left_cont {
         padding-right: 815px;
+    }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-position: bottom -125px left -85px, top right, center;
+    }
+    .service_page_block7_right_cont {
+        padding-left: 725px;
     }
 }
 @media (max-width: 1720px) {
@@ -913,6 +939,14 @@
         height: 30px;
         top: 0px;
     }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-position: bottom -135px left -165px, top right, center;
+    }
+    .service_page_block7_right_cont {
+        padding-left: 645px;
+    }
 }
 @media (max-width: 1420px) {
     .service_bnr_left_cont h1::before {
@@ -1094,6 +1128,15 @@
         font-size: 25px;
         line-height: 30px;
     }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-size: 825px, 100% 100%, cover;
+        background-position: bottom -65px left -175px, top right, center;
+    }
+    .service_page_block7_right_cont {
+        padding-left: 575px;
+    }
 }
 @media (max-width: 1260px) {
     .service_page_banner_main_width {
@@ -1147,6 +1190,15 @@
     }
     .service_page_block4_main_width .service_block4_left_cont {
         padding-right: 645px;
+    }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-size: 775px, 100% 100%, cover;
+        background-position: bottom left -185px, top right, center;
+    }
+    .service_page_block7_right_cont {
+        padding-left: 515px;
     }
 }
 
@@ -1314,6 +1366,20 @@
     }
     .part3_left_sec_grey_bar.right_sec_grey_bar_p1 {
         border-radius: 10px 0 0 10px;
+    }
+    .service_page_block6_main_width {
+        padding-bottom: 35px;
+    }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-size: 775px, cover, cover;
+        background-position: bottom -95px center, top right, center;
+        padding: 35px 0;
+    }
+    .service_page_block7_right_cont {
+        padding-left: 0;
+        padding-bottom: 465px;
     }
 }
 @media (max-width: 999px) {
@@ -1528,6 +1594,19 @@
     .white_box_right_sec_cont {
         padding: 0;
         padding-top: 15px;
+    }
+    .service_page_block6_main_width {
+        padding-bottom: 25px;
+    }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-size: 635px, cover, cover;
+        background-position: bottom -35px center, top right, center;
+        padding: 25px 0;
+    }
+    .service_page_block7_right_cont {
+        padding-bottom: 435px;
     }
 
 }
@@ -1862,6 +1941,16 @@
     }
     .white_box_right_sec_cont h1 span {
         word-break: break-all;
+    }
+
+    /* ----------block7------------ */
+    .service_page_block7_main_width {
+        background-size: 435px, cover, cover;
+        background-position: bottom center, top right, center;
+        padding: 15px 0;
+    }
+    .service_page_block7_right_cont {
+        padding-bottom: 325px;
     }
 }
 @media (max-width: 425px) {
