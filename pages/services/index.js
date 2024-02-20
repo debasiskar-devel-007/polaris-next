@@ -346,6 +346,36 @@ export default function Index() {
           </div>
         </div>
 
+        <div className={styles.service_page_block8_main_width}>
+          <div className={styles.common_width}>
+            <div className={styles.service_page_block8_left_cont}>
+            <h4 className={styles.pink_bullet}>Automation of manual processes involving a variety of systems and tasks</h4>
+
+            <div className={styles.cont_part1_sub_bullet_cont}>
+              <h5 className={styles.skyblue_bullet}>Excel-based workflows and project tracking</h5>
+              <h5 className={styles.skyblue_bullet}>Download of EMR, accounting, and other source information into Excel for key performance indicator and dashboard reporting, review, and analysis</h5>
+            </div>
+
+            <h4 className={styles.pink_bullet}>Optimally, digitizes and automates business processes to reduce manual labor costs and process inefficiencies</h4>
+            <h4 className={styles.pink_bullet}>Business Process Automation (BPA) allows:</h4>
+
+            <h5 className={styles.skyblue_bullet}>Streamlining and automation of repetitive and manual tasks</h5>
+            <h5 className={styles.skyblue_bullet}>Frees up time and resources</h5>
+            <h5 className={styles.skyblue_bullet}>Allows staff to focus on more meaningful and high impact projects</h5>
+            
+            <h4 className={styles.pink_bullet}>Benefits of BPA:</h4>
+
+            <div className={styles.cont_part1_sub_bullet_cont}>
+              <h5 className={styles.skyblue_bullet}>Increase productivity</h5>
+              <h5 className={styles.skyblue_bullet}>Reduce errors</h5>
+              <h5 className={styles.skyblue_bullet}>Cost savings</h5>
+              <h5 className={styles.skyblue_bullet}>Time savings</h5>
+              <h5 className={styles.skyblue_bullet}>Scalability</h5>
+            </div>
+            </div>
+          </div>
+        </div>
+
         
 
         {/* <div className={styles.service_page_block6_main_width}>
