@@ -271,6 +271,9 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 }
 
 @media(max-width:1420px){
+  .polaris_blk3_evn_od_heading_gray{padding-left: 61px;}
+  .polaris_blk3_evn_od_heading_white{    padding-left: 61px;}
+  .polaris_blk3_evn_od_heading h1{font-size: 21px !important;line-height: 27px !important;}
   .polaris_position_img{    right: 94px;
     bottom: -189px;}
   /* .polaris_home_sub_left1_wrp{    border-radius: 0px 234px 65px 0px;} */
