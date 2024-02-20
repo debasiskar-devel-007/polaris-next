@@ -120,9 +120,9 @@ export default function Index() {
         if (!user?.address) {
             errorObject.address = "Address is Required";
         }
-        if (!user?.write_a_message) {
-            errorObject.write_a_message = "Write a Message is Required";
-        }
+        // if (!user?.write_a_message) {
+        //     errorObject.write_a_message = "Write a Message is Required";
+        // }
 
 
         if (Object.keys(errorObject).length > 0) {
