@@ -179,13 +179,9 @@
 
         .polar_about_block2 { background-position: bottom right -90px, top right;}
 
-        .polar_block2_sub{
-            padding-right: 0;
-        }
+        
 
-        .polar_about_block2{
-            background:#e5e9ee;    padding: 20px 0;
-        }
+        
 }
 @media(max-width:1499px){
     .p_30 p {
@@ -276,7 +272,13 @@
         .polar_about_block2 .font_26 p{
        margin-bottom: 15px;
         }
-        
+
+        .polar_about_block2{
+            background:#e5e9ee;    padding: 20px 0;
+        }
+        .polar_block2_sub{
+            padding-right: 0;
+        }
 }
 @media (max-width:699px){
     .pol_about_bnnrleft {
