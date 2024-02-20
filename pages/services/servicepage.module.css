@@ -561,9 +561,9 @@
 }
 .part2_right_girl {
     position: absolute;
-    width: 596px;
+    width: 595px;
     height: auto;
-    bottom: -295px;
+    bottom: -325px;
     right: -25px;
 }
 .part2_right_girl img {
@@ -796,7 +796,7 @@
     /* ---------block6-skybox---------- */
     /* ---------block6-part2---------- */
     .part2_right_girl {
-        bottom: -295px;
+        bottom: -355px;
         right: -65px;
     }
     .block6_part2_left_cont {
@@ -902,7 +902,7 @@
         height: 35px;
     }
     .part2_right_girl {
-        bottom: -275px;
+        bottom: -325px;
         right: -95px;
     }
     .block6_part2_left_cont {
@@ -949,7 +949,7 @@
     }
     .part2_right_girl {
         width: 535px;
-        bottom: -115px;
+        bottom: -195px;
     }
     .block6_part2_left_cont {
         padding-right: 475px;

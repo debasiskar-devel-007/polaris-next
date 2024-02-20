@@ -376,33 +376,6 @@ export default function Index() {
           </div>
         </div>
 
-        
-
-        {/* <div className={styles.service_page_block6_main_width}>
-          <div className={styles.common_width}>
-
-            <div className={styles.service_page_block6_sky_box}>
-              <div className={styles.block6_sky_box_left_cont}>
-              <div className={styles.sky_box_heading}>
-                <h1>Operational Improvement</h1>
-              </div>
-
-              <h4>Operational improvement is critical to every healthcare enterprise</h4>
-              <div className={styles.white_sub_bullet}>
-                <h5>Process improvement (Lean six sigma principles)</h5>
-                <h5>Improve revenue capture</h5>
-                <h5>Reduce cost</h5>
-              </div>
-
-              <h4>Our partner firms help our clients with:</h4>
-              <div className={styles.white_sub_bullet}>
-                <h5>Revenue Recovery Strategies</h5>
-                <h5>Workplace Automation</h5>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       
@@ -416,7 +389,7 @@ export default function Index() {
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block5_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block6_demo.webp'></img> */}
         {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block7_demo.webp'></img> */}
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img>
+        {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/Polaris_service_block8_demo.webp'></img> */}
       </div>
 
       <Footer/>
