@@ -4,6 +4,7 @@ import Navbar from '../navbar/Navbar'
 import { LinearProgress, Snackbar, TextField } from '@mui/material';
 import Footer from '../Footer';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Homes() {
   const recaptchaRef = React.createRef();
@@ -143,6 +144,14 @@ export default function Homes() {
   return (
     <>
 
+<Head>
+        <title>Home</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+        </Head>
+
       <div className={styles.polaris_home_main_wrp}>
         <div className={styles.polaris_home_wrp}>
           <img className={styles.polaris_position_img} src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_banner_man_img.webp' />
@@ -167,8 +176,8 @@ export default function Homes() {
         <div className={styles.polaris_blk1_main_wrp}>
           <div className={styles.common_width}>
             <div className={styles.polaris_blk1_sub_wrp}>
-              <h1>AMBULATORY SURGERY CENTER DEVELOPMENT COURSE</h1>
-              <p>Unlock the Blueprint of Success in Ambulatory Surgery Center Development! Join our immersive six-week course and gain comprehensive insights into the strategic stages of ASC development. Elevate your expertise, navigate regulatory intricacies, and master the art of creating a cutting-edge ambulatory surgery center. Transform your vision into reality with our expert-led program. Enroll now for a future in healthcare innovation!</p>
+              <h1><span>AMBULATORY SURGERY CENTER DEVELOPMENT COURSE</span></h1>
+              <p>Unlock the Blueprint of Success in Ambulatory Surgery Center Development! Join our immersive six-week course and gain comprehensive insights into the strategic stages of ASC development. Elevate your expertise, navigate regulatory intricacies, and master the art of creating a cutting-edge ambulatory surgery center. Transform your vision into reality with our expert-led program. <span>Enroll now</span> for a future in healthcare innovation!</p>
               <Link href="/polaris-business-consultants"><button className={styles.polaris_home_button}>Click Here to Learn More</button></Link>
             </div>
           </div>
@@ -208,7 +217,71 @@ export default function Homes() {
           <div className={styles.common_width}>
             <div className={styles.polaris_blk3_sub_wrp}>
               <h1>Services</h1>
-              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_page_table_img.webp' />
+              <div className={styles.polaris_blk3_1sub_wrp}>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                <div className={styles.polaris_blk3_evn_od}>
+                  <div className={styles.polaris_blk3_evn_od_heading}>
+                    <h1>Ambulatory Surgery Center Development</h1>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Video Training Series</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Mastermind Group</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                    <p>Mentoring</p>
+                  </div>
+                  <div className={styles.polaris_blk3_evn_od_heading_gray}>
+                    <p>Consulting</p>
+                  </div>
+
+
+
+                </div>
+                
+
+              </div>
+              {/* <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/home_page_table_img.webp' /> */}
               <div className={styles.polaris_blk3_sub_sec_wrp}>
                 <div className={`${styles.polaris_blk3_sub_sec_mini1_wrp} ${styles.polaris_blk3_sub_sec_mini_wrp}`}>
                   <div className={styles.polaris_blk3_logo_wrp}>
