@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './home.module.css'
 import Navbar from '../navbar/Navbar'
 import { LinearProgress, Link, Snackbar, TextField } from '@mui/material';
@@ -13,6 +13,9 @@ export default function Homes() {
   const [loader, setLoader] = useState(false)
   const [SnackbarState, setSnackbarStare] = useState(false);
   const [newSecThreeOpen, setNewSecThreeOpen] = useState(false)
+  useEffect(()=>{
+    console.log(loader,"loader");
+  },[loader])
 
   const handleInput = (e) => {
     let name = e.target.name;
@@ -105,9 +108,6 @@ export default function Homes() {
     if (!user?.first_name) {
       errorObject.first_name = "First Name is Required";
     }
-    if (!user?.last_name) {
-      errorObject.last_name = "Last Name is Required";
-    }
     if (!user?.email_id) {
       errorObject.email_id = "Email is Required";
     } else if (!/\S+@\S+\.\S+/.test(user.email_id)) {
@@ -118,10 +118,6 @@ export default function Homes() {
     if (!user?.contact_number) {
       errorObject.contact_number = " Phone Number is Required";
     }
-
-    if (!user?.address) {
-      errorObject.address = "Address is Required";
-    }
     // if (!user?.write_a_message) {
     //   errorObject.write_a_message = "Write a Message is Required";
     // }
@@ -129,8 +125,11 @@ export default function Homes() {
 
     if (Object.keys(errorObject).length > 0) {
       setError(errorObject);
+      console.log("uyftgfg",errorObject);
     } else {
       submitapi()
+      console.log("uyftgfg");
+
     }
   };
 
@@ -400,7 +399,7 @@ export default function Homes() {
             <div className={styles.polaris_blk5_sub_wrp}>
               <h1>Signup for our <span>weekly newsletter!</span></h1>
               <div className={styles.polaris_blk5_sub_sec_wrp}>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className={styles.hm_form}>
                   <div className={styles.polaris_home_from_sec}>
                     <TextField
                       className={styles.input_fields}

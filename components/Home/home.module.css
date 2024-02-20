@@ -234,7 +234,7 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 
 .polaris_blk5_main_wrp .polaris_home_button{margin: 0 0 0 auto;display: block;} 
 
-
+.hm_form {margin-bottom: 5PX;}
 
 /* -----------------------------------------responsive--------------------------- */
 @media(max-width:1860px){

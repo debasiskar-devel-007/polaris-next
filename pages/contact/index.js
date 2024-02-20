@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './contact.module.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/Footer'
@@ -13,6 +13,10 @@ export default function Index() {
     const [loader, setLoader] = useState(false)
     const [SnackbarState, setSnackbarStare] = useState(false);
     const [newSecThreeOpen, setNewSecThreeOpen] = useState(false)
+
+    useEffect(()=>{
+        console.log(loader,"loader");
+      },[loader])
 
     const handleInput = (e) => {
         let name = e.target.name;
@@ -105,9 +109,7 @@ export default function Index() {
         if (!user?.first_name) {
             errorObject.first_name = "First Name is Required";
         }
-        if (!user?.last_name) {
-            errorObject.last_name = "Last Name is Required";
-        }
+       
         if (!user?.email_id) {
             errorObject.email_id = "Email is Required";
         } else if (!/\S+@\S+\.\S+/.test(user.email_id)) {
@@ -119,9 +121,7 @@ export default function Index() {
             errorObject.contact_number = " Phone Number is Required";
         }
 
-        if (!user?.address) {
-            errorObject.address = "Address is Required";
-        }
+        
         // if (!user?.write_a_message) {
         //     errorObject.write_a_message = "Write a Message is Required";
         // }
