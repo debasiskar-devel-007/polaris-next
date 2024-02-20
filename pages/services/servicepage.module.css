@@ -1190,6 +1190,18 @@
         transform: translateX(-50%);
     }
 }
+@media (max-width: 999px) {
+    /* ----------block6-part2------------ */
+    .part2_right_girl {
+        right: -5%;
+    }
+}
+@media (max-width: 880px) {
+    /* ----------block6-part2------------ */
+    .part2_right_girl {
+        right: -12%;
+    }
+}
 @media (max-width: 768px) {
     .service_page_banner_main_width {
         background-size: 595px, cover;
@@ -1344,6 +1356,18 @@
     .white_sub_bullet h5 {
         padding-left: 45px;
     }
+
+     /* ----------block6-part2------------ */
+    .part2_right_girl {
+        right: -18%;
+    }
+
+}
+@media (max-width: 699px) {
+    /* ----------block6-part2------------ */
+    .part2_right_girl {
+        right: -30%;
+    }
 }
 @media (max-width: 599px) {
     .service_page_banner_main_width {
@@ -1371,6 +1395,11 @@
     }
     .service_block1_right_cont {
         padding-bottom: 375px;
+    }
+
+    /* ----------block6-part2------------ */
+    .part2_right_girl {
+        right: -43%;
     }
 }
 @media (max-width: 499px) {
@@ -1598,7 +1627,28 @@
     .white_sub_bullet h5:first-child {
         padding-left: 25px;
     }
+
+    /* ------------block6-part2---------------- */
+    .pink_bullet span {
+        word-break: break-all;
+    }
+    .part2_right_girl {
+        width: 335px;
+        bottom: -175px;
+        right: -32%;
+    }
+    .block6_part2_left_cont {
+        padding-bottom: 445px;
+    }
 }
+@media (max-width: 425px) {
+    /* ------------block6-part2---------------- */
+    .part2_right_girl {
+        width: 335px;
+        bottom: -175px;
+        right: -40%;
+    }
+} 
 @media (max-width: 399px) {
     .service_page_banner_main_width {
         background-size: 325px, cover;
@@ -1614,5 +1664,23 @@
     }
     .service_block1_right_cont {
         padding-bottom: 305px;
+    }
+
+    /* ------------block6-part2---------------- */
+    .part2_right_girl {
+        width: 285px;
+        bottom: -175px;
+        right: -35%;
+    }
+    .block6_part2_left_cont {
+        padding-bottom: 355px;
+    }
+}
+@media (max-width: 330px) {
+    /* ------------block6-part2---------------- */
+    .part2_right_girl {
+        width: 285px;
+        bottom: -175px;
+        right: -48%;
     }
 }

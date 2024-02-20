@@ -1,3 +1,117 @@
-.demo_img img{display: block;width: 100%;}
-.demo_1img img{display: block;width: 100%;}
-.demo_1img{margin-top: -282px;}
+    .demo_img img{display: block;width: 100%;}
+    .demo_1img img{display: block;width: 100%;}
+    .demo_1img{margin-top: -282px;}
+    .common_width{
+        width: 1677px;
+        margin: 0 auto;
+    }
+    .PBC_banner{
+        background:url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBCBanner_doctors.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_Banner_ambulance.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_banner_BGimage.webp);
+        background-repeat: no-repeat;
+        background-size: 683px, contain, 100%;
+        background-position:bottom -72px right 442px , right bottom -76px, top center;
+        margin-top: -277px;
+        padding-top: 277px;
+        padding-bottom: 80px;
+    }
+    .PBC_banner_wrpr{
+        width: 70%;
+    }
+    .PBC_bannerTop{
+        position: relative;
+        padding-left: 185px;
+        margin-bottom: 30px;
+    }
+    .PBC_bannerTop h1{
+        position: relative;
+        font-size: 79px;
+        line-height: 90px;
+        font-weight: 800;
+        background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(239,239,243,1) 49%, rgba(209,208,219,1) 51%, rgba(255,255,255,1) 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0px 0px 5px #000000);
+        -webkit-text-stroke: 1px #f2f4f8;
+        display: inline;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        line-height: 73px;
+    }
+    .PBC_bannerTop::before {
+        position: absolute;
+        content: '';
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/docGlobe.png);
+        background-size: 100% 100%;
+        width: 190px;
+        height: 149px;
+        top: -30px;
+        left: -10px;
+    }
+    .PBC_bannerBottom{
+        padding: 18px 20px;
+        background: linear-gradient(0deg, rgba(255,124,28,1) 0%, rgba(255,178,58,1) 100%);
+        position: relative;
+        width: 72%;
+        padding-right: 47px;
+        border-radius: 15px;
+        border: 2px solid #fff;
+    }
+    .PBC_bannerBottom p{
+        font-size: 38px;
+        font-weight: 600;
+        color: #000000;
+        text-transform: capitalize;
+        line-height: 41px;
+        text-shadow: 0 1px 1px #ffea03;
+    }
+    .PBC_bannerBottom img{
+        position: absolute;
+        right: -160px;
+        top: 30%;
+        transform: translateY(-50%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
