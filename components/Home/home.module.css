@@ -353,3 +353,43 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
   line-height: 26px;}
   .polaris_blk3_text_wrp{width: 64%;}
 }
+
+@media(max-width:1199px){
+  .polaris_home_sub_left_wrp{width: 100%;}
+  .polaris_home_sub_left1_wrp{background-image: none;background-color: #fff;border-radius: 10px;width: 100%;    margin-bottom: 500px;padding-bottom: 30px;}
+  .polaris_home_sub_left1_mini1_wrp{background-image: none;background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/contact/contact_banner_yellow_bg.webp);background-repeat: no-repeat;background-position: center;background-size: 100% 100%;border-radius: 10px;width: 100%;position: unset;}
+  .polaris_home_sub_left1_wrp h1{margin-left: 0;width: 100%;}
+  .polaris_home_sub_left1_wrp::after{display: none;}
+  .polaris_position_img{right: 7%;
+    bottom: -189px;
+    transform: translateX(-50%);}
+    .polaris_home_wrp{background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_banner_bg.webp);background-repeat: no-repeat;background-position: center;background-size: cover;}
+    .polaris_blk1_sub_wrp{padding-left: 0;padding-bottom: 500px;} 
+    .polaris_blk1_main_wrp{    background-position: bottom center,left -100px bottom,center;}
+    .polaris_blk1_sub_wrp h1 span{    font-size: 40px;
+      line-height: 47px;}
+      .polaris_blk1_main_wrp .polaris_home_button{margin: 0 auto;display: block;}
+      .polaris_blk2_sub1_wrp{    width: 100%;padding-bottom: 570px;}
+      .polaris_blk2_main1_wrp{    background-position: bottom right 321px,right bottom; }
+      .polaris_blk2_sub2_wrp{flex-direction: column;    padding: 25px 25px;}
+      .polaris_blk2_sub2_left_wrp{width: 50%;margin-bottom: 20px;} 
+      .polaris_blk2_sub2_right_wrp{width: 70%;}.polaris_blk2_sub2_right_wrp{width: 100%;}
+      .polaris_blk2_main_wrp{    padding-bottom: 20px;}
+      .polaris_blk3_main_wrp{    padding: 20px 0;}
+      .polaris_blk3_evn_od{width: 49%;}
+      .polaris_blk3_1sub_wrp{flex-wrap: wrap;}
+      .polaris_blk3_evn_od:last-child{width: calc(100% - 20px);    margin-top: 20px;}
+      .polaris_blk3_evn_od:nth-of-type(2){border-right: none;}
+      .polaris_blk3_sub_sec_mini_wrp{width: 50%;}
+      .polaris_blk4_sub_sec_wrp{width: 48%;margin-bottom: 20px;}
+      .polaris_blk4_sub_sec_wrp:last-child{margin: 0 auto;}
+      .polaris_blk5_sub_wrp{width: 100%;padding-bottom: 750px;}
+      .polaris_blk5_main_wrp{    background-position: bottom -256px center, center;}
+      
+}
+@media(max-width:899px){
+  .polaris_position_img{    right: -10%;}
+}
+@media(max-width:768px){
+  .polaris_position_img{    right: -17%;}
+}
