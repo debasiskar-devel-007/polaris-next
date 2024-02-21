@@ -376,14 +376,14 @@
         line-height: 30px;
     }
     .block1_white_box_main_wrpr {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .block1_white_box_left_sec {
         width: 40%;
+        margin-bottom: 20px;
     }
     .block1_white_box_right_sec {
         width: 100%;
-        margin-bottom: 20px;
     }
 }
 @media (max-width: 768px) {
@@ -418,11 +418,9 @@
     .block1_white_box_grey_bar {
         margin-bottom: 15px;
     }
-    .block1_white_box_right_sec {
-        margin-bottom: 15px;
-    }
     .block1_white_box_left_sec {
         width: 60%;
+        margin-bottom: 15px;
     }
     .j_donovan_page_block1_white_box {
         padding: 15px;
@@ -488,11 +486,9 @@
     .block1_white_box_grey_bar {
         margin-bottom: 10px;
     }
-    .block1_white_box_right_sec {
-        margin-bottom: 5px;
-    }
     .block1_white_box_left_sec {
         width: 100%;
+        margin-bottom: 10px;
     }
     .j_donovan_page_block1_white_box {
         padding: 10px;
