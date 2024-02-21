@@ -270,9 +270,9 @@ export default function Index() {
             </div>
          </div>
       </div>
-     <div className={styles.demo_img}>
+     {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
-     </div>
+     </div> */}
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>
