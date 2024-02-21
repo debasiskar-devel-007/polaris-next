@@ -254,10 +254,10 @@ export default function Index() {
                   </div>
 
                   <h4 className={styles.pink_bullet}>Electronic Medical Record (EMR) systems are well tuned to ensure that healthcare providers collect every dollar that is on the explanation of benefits as the allowable charge.</h4>
-                  <h4 className={styles.pink_bullet}>However, EMR systems are not necessarily designed to ensure that the provider has been paid for what is contractually owed to them for individual procedures or groups of procedures based on that provider’s specific commercial insurance contracts</h4>
-                  <h4 className={styles.pink_bullet}>Our partner firm has developed a proprietary process that allows them to convert client contracts into a database and compare what should have been paid contractually against what was reimbursed based on the explanation of benefits</h4>
-                  <h4 className={styles.pink_bullet}>Access Health is our business partner <span><Link href="https://adhcunderpayments.com/" target="_blank">(https://adhcunderpayments.com/)</Link></span></h4>
-                  <h4 className={styles.pink_bullet}>Their specialty is underpayment recovery through their Medical Underpayment Review and Recapture Program</h4>
+                  <h4 className={styles.pink_bullet}>However, EMR systems are not necessarily designed to ensure that the provider has been paid for what is contractually owed to them for individual procedures or groups of procedures based on that provider’s specific commercial insurance contracts.</h4>
+                  <h4 className={styles.pink_bullet}>Our partner firm has developed a proprietary process that allows them to convert client contracts into a database and compare what should have been paid contractually against what was reimbursed based on the explanation of benefits.</h4>
+                  <h4 className={styles.pink_bullet}>Access Health is our business partner <span><Link href="https://adhcunderpayments.com/" target="_blank">(https://adhcunderpayments.com/)</Link></span>.</h4>
+                  <h4 className={styles.pink_bullet}>Their specialty is underpayment recovery through their Medical Underpayment Review and Recapture Program.</h4>
 
                   <div className={styles.part2_right_girl}>
                     <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block6_main_girl_img.webp'></img>

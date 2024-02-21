@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/navbar/Navbar'
+import Head from 'next/head'
 import React from 'react'
 import styles from './jeffD.module.css'
 import Head from 'next/head'
