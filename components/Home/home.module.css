@@ -325,20 +325,28 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                               line-height: 30px;    margin: 17px 0;}
 }
 @media(max-width:1350px){
-  .polaris_home_sub_left1_wrp::after{    top: -57px;
+  /* .polaris_home_sub_left1_wrp::after{    top: -57px;
     left: 665px;
-}
+} */
+.polaris_home_sub_left1_wrp::after{    background-size: 120px;    top: -39px;
+  left: 755px;}
 .polaris_blk1_main_wrp{    background-position: left -21px bottom,left -100px bottom,center;}
+}
+@media(max-width:1330px){
+  .polaris_home_sub_left1_wrp::after{top: -24px;
+    left: 645px;}
 }
 @media(max-width:1299px){
   .polaris_home_sub_left1_mini1_wrp p{font-size: 20px;
     line-height: 25px;}
     .polaris_home_sub_left_wrp h1{    font-size: 53px;
       line-height: 62px;}
+      .polaris_home_sub_left_wrp h1 span{    font-size: 70px;
+        line-height: 79px;}
 }
 @media(max-width:1250px){
-  .polaris_home_sub_left1_wrp::after{    top: -57px;
-    left: 665px;
+  .polaris_home_sub_left1_wrp::after{      top: -12px;
+    left: 595px;
 }
 .polaris_blk2_sub1_wrp{    width: 50%;}
 .polaris_blk3_text_wrp p{    font-size: 20px;
