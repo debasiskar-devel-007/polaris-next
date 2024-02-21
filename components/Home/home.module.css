@@ -210,8 +210,10 @@ padding: 60px 40px;}
   display: block;text-transform: uppercase;text-align: center;} 
 .polaris_blk4_sub_sec_p_wrp {width: 80%;margin: 0 auto; margin-bottom: 20px;}  
 .polaris_blk4_sub_sec_p_wrp p{font-size: 27px;line-height: 33px;font-weight: 400;text-align: center;color: #011128;}
-.team_sec_btn{background: linear-gradient(180deg, rgba(241,242,244,1) 0%, rgba(156,162,172,1) 100%);padding: 10px 30px;border-radius: 10px;border: 1px solid #000;
+.team_sec_btn{background: linear-gradient(180deg, rgba(241,242,244,1) 0%, rgba(156,162,172,1) 100%);border-radius: 10px;border: 1px solid #000;
 margin: 0 auto;font-size: 26px;line-height: 32px;font-weight: 500;color: #000;text-align: center;cursor: pointer;}
+
+.team_sec_btn a {display: block; padding: 10px 30px;}
 
 
 /* ----------------------------------------------------------block5------------------------------------------------- */
@@ -232,7 +234,7 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 
 .polaris_blk5_main_wrp .polaris_home_button{margin: 0 0 0 auto;display: block;} 
 
-
+.hm_form {margin-bottom: 5PX;}
 
 /* -----------------------------------------responsive--------------------------- */
 @media(max-width:1860px){
