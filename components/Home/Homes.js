@@ -161,7 +161,7 @@ export default function Homes() {
                 <h1><span>POLARIS BUSINESS CONSULTANTS</span></h1>
               </div>
               <div className={styles.polaris_home_sub_left1_wrp}>
-                <h1>Experts in <span>Strategic</span> Healthcare & Financial  Consulting</h1>
+                <h1><span className={styles.spn1}>Experts in <span className={styles.gredtxt}>Strategic</span> </span> <span className={styles.spn2}>Healthcare & Financial</span> <span className={styles.spn3}> Consulting</span></h1>
                 <div className={styles.polaris_home_sub_left1_mini1_wrp}>
                   <p>Your partner in creating sustainable strategic, financial, and operational strategies to provide for continued
                     growth and success.</p>
