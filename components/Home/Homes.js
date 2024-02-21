@@ -368,7 +368,7 @@ export default function Homes() {
                     <p>Managing Director
                       Healthcare Consulting</p>
                   </div>
-                  <button className={styles.team_sec_btn}><Link href=''>Read Bio</Link></button>
+                  <button className={styles.team_sec_btn}><Link href='/bio-johnmartin'>Read Bio</Link></button>
 
                 </div>
                 <div className={styles.polaris_blk4_sub_sec_wrp}>
