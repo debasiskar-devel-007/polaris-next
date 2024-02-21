@@ -1,10 +1,18 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/navbar/Navbar'
+import Head from 'next/head'
 import React from 'react'
 import styles from './johnD.module.css'
 export default function index() {
   return (
     <>
+
+<Head>
+    <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+    </Head>
       <Navbar />
       <div className={styles.polaris_JDM_BIO_width}>
    

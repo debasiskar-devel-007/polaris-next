@@ -146,7 +146,9 @@ a {
 @media(max-width:1199px){
   .polaris_header_main_wrp {
     padding: 10px 0 15px 0;}
-  .res_menu {display: block;background: #efefef;}
+  .res_menu {display: block;background: #1bb3de;
+    border-radius: 5px;}
+    .res_menu button .MuiSvgIcon-root {color: #fff;}
   .polaris_header_sub2_wrp{flex-wrap: wrap;padding: 10px;}
   .polaris_header_sub2_left_wrp {
     display: none;
@@ -180,6 +182,15 @@ a {
 .polaris_header_sub2_left_wrp ul li::after{
   display: none;
 }
+}
+@media(max-width:499px){
+  .polaris_header_sub1_sec1_wrp {
+    width: 214px;
+    max-width: 100%;
+  }
+  .polaris_header_sub1_sec2_wrp {
+    
+    padding-left: 0px;}
 }
 
 
@@ -371,4 +382,9 @@ a {
 /* ================jeff-donovan=============== */
 .polaris_j_donovan_page_main_width .polaris_header_main_wrp {
   padding: 10px 0 45px 0;
+}
+
+/* ================jay-boughner=============== */
+.polaris_j_boughner_page_main_width .polaris_header_main_wrp {
+  padding: 10px 0 35px 0;
 }

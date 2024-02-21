@@ -174,16 +174,16 @@ export default function Index() {
                           <h1>John D Martin</h1>
                           <p>Managing Director</p>
                           <div className={styles.contact_block_sub_sec1_mini1_wrapper}>
-                            <span><Link href='mailto:JMartin@PolarisBusinessConsultants.com'>JMartin@PolarisBusinessConsultants.com</Link></span>
+                           <p> <span><Link href='mailto:JMartin@PolarisBusinessConsultants.com'>JMartin@PolarisBusinessConsultants.com</Link></span></p>
                           </div>
                           <div className={styles.contact_block_sub_sec1_mini2_wrapper}>
-                            <span><Link href=' https://www.facebook.com/kajabi' target="_blank">www.facebook.com/kajabi</Link></span>
+                           <p> <span><Link href=' https://www.facebook.com/kajabi' target="_blank">www.facebook.com/kajabi</Link></span></p>
                           </div>
                           <div className={styles.contact_block_sub_sec1_mini3_wrapper}>
-                            <span><Link href='https://twitter.com/kajabi' target="_blank">twitter.com/kajabi</Link></span>
+                           <p> <span><Link href='https://twitter.com/kajabi' target="_blank">twitter.com/kajabi</Link></span></p>
                           </div>
                           <div className={styles.contact_block_sub_sec1_mini4_wrapper}>
-                            <span><Link href=' https://www.instagram.com/kajabi/' target="_blank">www.instagram.com/kajabi</Link></span>
+                           <p> <span><Link href=' https://www.instagram.com/kajabi/' target="_blank">www.instagram.com/kajabi</Link></span></p>
                           </div>
                         </div>
                         <div className={styles.contact_block_sub_sec2_wrapper}>
