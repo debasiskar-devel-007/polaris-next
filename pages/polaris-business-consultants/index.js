@@ -143,6 +143,109 @@ export default function Index() {
             </div>
          </div>
       </div>
+
+      {/* -------------- block3 ------------ */}
+
+      <div className={styles.PBC_block4}>
+         <div className={styles.PBC_block4_wrpr1}>
+            <div className={styles.common_width}>
+               <div className={styles.PBC_B4_wrpr1_Inner1}>
+                  <h1>MODULE 1: PROJECT ASSESSMENT</h1>
+                  <p>Welcome to Module 1 of the Ambulatory Surgical Center Development Class, where we embark on the foundational phase of Project Assessment. In this module, participants will be introduced to the essential components that set the stage for a successful ambulatory surgical center (ASC) development journey. We will kick off with an exploration of the critical role of a comprehensive Market Study, laying the groundwork for informed decision-making. Building on this, we delve into the intricacies of Strategic Planning, emphasizing the importance of a well-crafted strategy in shaping the trajectory of ASC development. As a culmination, participants will engage in a Completion Survey, providing a comprehensive overview of the key takeaways from this module. Join us as we navigate the fundamental aspects of project assessment, equipping participants with the knowledge and tools necessary for a strategic and informed approach to ASC development.</p>
+               </div>
+               <div className={styles.PBC_B4_wrpr1_Inner2}>
+                  <h2>MASTERING MARKET DYNAMICS: A COMPREHENSIVE GUIDE TO AMBULATORY SURGICAL <br/> CENTER DEVELOPMENT.  </h2>
+                  <div className={styles.PBC_B4_wrpr1_Inner2Box}>
+                     <h3>Market Study</h3>
+                     <div className={styles.PBC_B4_wrpr1_Inner2Flex}>
+                        <div className={styles.PBC_B4_wrpr1_Inner2mini}>
+                           <h4>Market Definitions</h4>
+                           <p>Primary</p>
+                           <p>Secondary</p>
+                           <p> By zip code; country</p>
+                        </div>
+                        <div className={styles.PBC_B4_wrpr1_Inner2mini}>
+                           <h4>Market and Market Share Targets</h4>
+                           <p>Current</p>
+                           <p>Targeted</p>
+                           <p>Timeframe</p>
+                        </div>
+                        <div className={styles.PBC_B4_wrpr1_Inner2mini}>
+                           <h4>Targeted Growth</h4>
+                           <p>Location(s) </p>
+                           <p>Physician recruitment Satellite clinics / locations</p>
+                           <p>Partnerships</p>
+                        </div>
+                     </div>
+                  </div>
+                  <h5><span>Bonus: Market</span> <span>Planning Worksheet</span></h5>
+               </div>   
+            </div>
+         </div>
+
+         <div className={styles.PBC_block4_wrpr2}>
+            <div className={styles.common_width}>
+               <h1>STRATEGIC EXCELLENCE IN ASC DEVELOPMENT: GROWTH, RECRUITMENT,  AND PARTNERSHIPS</h1>
+               <h2>Strategic Planning</h2>
+               <div className={styles.PBC_B4_wrpr2_Inner1}>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Market Study / Baseline for Strategic Plan</span></h3>
+                     <p>Focus on “Targeted Growth”</p>
+                     <p>Physician recruitment</p>
+                     <p>Potential partnerships</p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Targeted Growth: Service Offering(s)</span></h3>
+                     <p>Single speciality</p>
+                     <p>Multi-speciality</p>
+                     <p>Excluded specialities</p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Physician Recruitment: Initial Physician List</span></h3>
+                     <p>Individual physicians </p>
+                     <p>Physician groups</p>
+                     <p>Number of active participants <span>Current</span> <span>Planned / Desired</span></p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Potential Partnerships</span></h3>
+                     <p>Hospitals</p>
+                     <p>Physician groups</p>
+                     <p>Development companies</p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Anticipated / Expected Financial Results</span></h3>
+                     <p>At most 5-7 strategies</p>
+                     <p>Assign tasks per strategy 
+                        <span>Responsible</span>
+                        <span>Start date</span>
+                        <span>End date</span>
+                        <span>Progress notes</span>
+                        <span>Monthly / Quarterly updates</span>
+                     </p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Accountability is Critical</span></h3>
+                     <p>Strategy level </p>
+                     <p>Task level</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div className={styles.common_width}>
+            <div className={styles.PBC_block4_wrpr3}>
+               <div className={styles.PBC_block4_wrpr3_Inner}>
+                  <h1>Potential Partnerships</h1>
+                  <p>What is your top question regarding strategic-planning?</p>
+                  <p>What is your top question about beginning the process of developing an ambulatory surgical center?</p>
+               </div>
+               <div className={styles.PBC_block4_wrpr3_Inner}>
+                  <h1>Bonus: Strategic Planning Worksheet - Template</h1>
+                  <p>Receive bonus when survey is completed</p>
+               </div>
+            </div>
+         </div>
+      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
      </div>
