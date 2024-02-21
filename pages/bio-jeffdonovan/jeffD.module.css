@@ -59,6 +59,90 @@
     right: -140px;
 }
 
+/* ---------block1---------- */
+.j_donovan_page_block1_main_width {
+    padding: 40px 0;
+}
+.j_donovan_page_block1_white_box {
+    background: #f1f3f8;
+    border: 1px solid #bdc1c5;
+    border-radius: 10px;
+    padding: 20px;
+}
+.block1_white_box_grey_bar {
+    background: linear-gradient(180deg, rgba(245,246,248,1) 0%, rgba(162,172,191,1) 100%);
+    border: 1px solid #636363;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.block1_white_box_grey_bar h1 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(71,94,125,1) 0%, rgba(15,29,46,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #909bac6a;
+}
+.block1_white_box_left_sec {
+    width: 25%;
+}
+.white_box_left_sec_img_box {
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px -5px #000000;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.left_sec_img_sub_box {
+    overflow: hidden;
+}
+.white_box_left_sec_img_box img {
+    display: block;
+    max-width: 100%;
+}
+.white_box_left_sec_sky_box {
+    background: #00d8ff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px -5px #000000;
+    padding: 15px;
+}
+.white_box_left_sec_sky_box h2 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #012228;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.white_box_left_sec_sky_box h3 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.block1_white_box_main_wrpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block1_white_box_right_sec {
+    width: 73%;
+}
+.block1_white_box_right_sec p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -108,6 +192,12 @@
         top: -60px;
         right: -95px;
     }
+
+    /* ----------block1----------- */
+    .block1_white_box_grey_bar h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
 }
 @media (max-width: 1520px) {
     .j_donovan_page_banner_main_width {
@@ -127,6 +217,12 @@
         height: 250px;
         top: -60px;
         right: -85px;
+    }
+
+    /* ----------block1----------- */
+    .block1_white_box_grey_bar h1 {
+        font-size: 50px;
+        line-height: 55px;
     }
 }
 @media (max-width: 1420px) {
@@ -149,6 +245,20 @@
         top: -60px;
         right: -85px;
     }
+
+    /* ----------block1----------- */
+    .block1_white_box_grey_bar h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .block1_white_box_right_sec p {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .white_box_left_sec_sky_box h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
 }
 @media (max-width: 1366px) {
     .j_donovan_page_banner_main_width {
@@ -170,6 +280,20 @@
         top: -50px;
         right: -115px;
     }
+
+     /* ----------block1----------- */
+     .block1_white_box_grey_bar h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .block1_white_box_right_sec p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .white_box_left_sec_sky_box h2 {
+        font-size: 26px;
+        line-height: 31px;
+    }
 }
 @media (max-width: 1260px) {
     .j_donovan_page_banner_main_width {
@@ -190,6 +314,20 @@
         height: 190px;
         top: -40px;
         right: -110px;
+    }
+
+     /* ----------block1----------- */
+     .block1_white_box_grey_bar h1 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+    .block1_white_box_right_sec p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .white_box_left_sec_sky_box h2 {
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 @media (max-width: 1199px) {
@@ -217,6 +355,36 @@
         top: -85px;
         right: -95px;
     }
+
+    /* ----------block1----------- */
+    .j_donovan_page_block1_main_width {
+        padding: 35px 0;
+    }
+    .block1_white_box_grey_bar {
+        margin-bottom: 20px;
+    }
+    .block1_white_box_grey_bar h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .block1_white_box_right_sec p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .white_box_left_sec_sky_box h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .block1_white_box_main_wrpr {
+        flex-direction: column-reverse;
+    }
+    .block1_white_box_left_sec {
+        width: 40%;
+    }
+    .block1_white_box_right_sec {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 768px) {
     .j_donovan_page_banner_main_width {
@@ -241,6 +409,26 @@
         height: 190px;
         top: -75px;
         right: -78px;
+    }
+
+    /* ----------block1----------- */
+    .j_donovan_page_block1_main_width {
+        padding: 25px 0;
+    }
+    .block1_white_box_grey_bar {
+        margin-bottom: 15px;
+    }
+    .block1_white_box_right_sec {
+        margin-bottom: 15px;
+    }
+    .block1_white_box_left_sec {
+        width: 60%;
+    }
+    .j_donovan_page_block1_white_box {
+        padding: 15px;
+    }
+    .white_box_left_sec_img_box {
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 599px) {
@@ -287,6 +475,35 @@
         height: 100px;
         top: -105px;
         right: -5px;
+    }
+
+    /* ----------block1----------- */
+    .j_donovan_page_block1_main_width {
+        padding: 15px 0;
+    }
+    .block1_white_box_grey_bar {
+        margin-bottom: 10px;
+    }
+    .block1_white_box_right_sec {
+        margin-bottom: 5px;
+    }
+    .block1_white_box_left_sec {
+        width: 100%;
+    }
+    .j_donovan_page_block1_white_box {
+        padding: 10px;
+    }
+    .white_box_left_sec_img_box {
+        margin-bottom: 15px;
+    }
+    .white_box_left_sec_sky_box h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+    .white_box_left_sec_sky_box h3 {
+        font-size: 22px;
+        line-height: 28px;
     }
 }
 
