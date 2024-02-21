@@ -81,7 +81,7 @@ export default function Index() {
               </div>
 
               <div className={styles.blog_para}>
-                <h4>In the ever-evolving landscape of healthcare, financial executives are facing a trifecta of challenges that could make or break the future of their organizations. Rising costs, staff shortages, and declining reimbursements are creating a perfect storm, leaving many healthcare institutions with...</h4>
+                <h4>As a seasoned healthcare financial executive with over 35 years of experience, I understand the intricacies of healthcare finance. Financial planning and analysis (FP&A) can be a game-changer when it comes to identifying opportunities to improve revenue. When those outside of the finance...</h4>
               </div>
 
 
