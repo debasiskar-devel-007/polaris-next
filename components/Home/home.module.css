@@ -353,3 +353,26 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
   line-height: 26px;}
   .polaris_blk3_text_wrp{width: 64%;}
 }
+
+@media(max-width:1199px){
+  .polaris_home_sub_left_wrp{width: 100%;}
+  .polaris_home_sub_left1_wrp{background-image: none;background-color: #fff;border-radius: 10px;width: 100%;    margin-bottom: 500px;padding-bottom: 30px;}
+  .polaris_home_sub_left1_mini1_wrp{background-image: none;background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/contact/contact_banner_yellow_bg.webp);background-repeat: no-repeat;background-position: center;background-size: 100% 100%;border-radius: 10px;width: 100%;position: unset;}
+  .polaris_home_sub_left1_wrp h1{margin-left: 0;width: 100%;}
+  .polaris_home_sub_left1_wrp::after{display: none;}
+  .polaris_position_img{right: 7%;
+    bottom: -189px;
+    transform: translateX(-50%);}
+    .polaris_home_wrp{background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_home_banner_bg.webp);background-repeat: no-repeat;background-position: center;background-size: cover;}
+    .polaris_blk1_sub_wrp{padding-left: 0;padding-bottom: 500px;} 
+    .polaris_blk1_main_wrp{    background-position: bottom center,left -100px bottom,center;}
+    .polaris_blk1_sub_wrp h1 span{    font-size: 40px;
+      line-height: 47px;}
+      .polaris_blk1_main_wrp .polaris_home_button{margin: 0 auto;display: block;}
+}
+@media(max-width:899px){
+  .polaris_position_img{    right: -10%;}
+}
+@media(max-width:768px){
+  .polaris_position_img{    right: -17%;}
+}
