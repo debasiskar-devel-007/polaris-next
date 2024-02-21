@@ -430,6 +430,10 @@
     .white_box_left_sec_img_box {
         margin-bottom: 20px;
     }
+    .block1_white_box_grey_bar h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 @media (max-width: 599px) {
     .j_donovan_page_banner_main_width {
@@ -501,10 +505,13 @@
         line-height: 30px;
         margin-bottom: 2px;
     }
-    
     .white_box_left_sec_sky_box h3 {
         font-size: 22px;
         line-height: 28px;
+    }
+    .block1_white_box_grey_bar h1 {
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 
