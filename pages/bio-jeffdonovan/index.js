@@ -26,15 +26,15 @@ export default function index() {
 
     </div>
 
-    <div className={styles.polaris_JD_BIO_width}>
+    {/* <div className={styles.polaris_JD_BIO_width}>
       <div className={styles.jd_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_bio_jeff_d_bnnr_img.webp"/>
       </div>
       <div className={styles.jd_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_jeff_d_block1_img.webp"/>
       </div>
-    </div>
-    
+    </div> */}
+
     <Footer />
 
   </div>

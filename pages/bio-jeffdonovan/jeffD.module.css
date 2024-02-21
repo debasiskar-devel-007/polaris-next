@@ -11,7 +11,7 @@
     background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jeff_donovan/donovan_banner_right_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jeff_donovan/donovan_banner_bg_img.webp);
     background-repeat: no-repeat, no-repeat;
     background-size: auto, 100% 100%;
-    background-position: bottom -60px right 110px, top right;
+    background-position: bottom -25px right, top right;
     /* padding: 255px 0 65px; */
     padding-bottom: 55px;
 }
@@ -28,7 +28,7 @@
     filter: drop-shadow(0px 0px 5px #000000);
     -webkit-text-stroke: 1px #f2f4f8;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .yellow_box_sec_main_width {
     position: relative;
@@ -46,6 +46,7 @@
     font-weight: 600;
     color: #000000;
     text-transform: uppercase;
+    padding-right: 145px;
 }
 .yellow_box_sec_main_width::after {
     position: absolute;
@@ -57,3 +58,164 @@
     top: -60px;
     right: -140px;
 }
+
+
+
+
+/* ---------------responsive-start------------------- */
+@media (max-width: 1820px) {
+    .common_width {
+        width: 96%;
+    }
+    .j_donovan_page_banner_main_width {
+        background-position: bottom -10px right -75px, top right;
+    }
+}
+@media (max-width: 1720px) {
+    .j_donovan_page_banner_main_width {
+        background-position: bottom -45px right -75px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 135px;
+        line-height: 140px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 250px;
+        height: 280px;
+        top: -60px;
+        right: -95px;
+    }
+}
+@media (max-width: 1620px) {
+    .j_donovan_page_banner_main_width {
+        background-position: bottom -75px right -85px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 125px;
+        line-height: 130px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 250px;
+        height: 280px;
+        top: -60px;
+        right: -95px;
+    }
+}
+@media (max-width: 1520px) {
+    .j_donovan_page_banner_main_width {
+        background-position: bottom -105px right -85px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 115px;
+        line-height: 120px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 50px;
+        line-height: 55px;
+        padding-right: 125px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 220px;
+        height: 250px;
+        top: -60px;
+        right: -85px;
+    }
+}
+@media (max-width: 1420px) {
+    .j_donovan_page_banner_main_width {
+        background-size: 825px, 100% 100%;
+        background-position: bottom -85px right -45px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 115px;
+        line-height: 120px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 45px;
+        line-height: 50px;
+        padding-right: 105px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 200px;
+        height: 230px;
+        top: -60px;
+        right: -85px;
+    }
+}
+@media (max-width: 1366px) {
+    .j_donovan_page_banner_main_width {
+        background-size: 775px, 100% 100%;
+        background-position: bottom -75px right -35px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 105px;
+        line-height: 110px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 40px;
+        line-height: 45px;
+        padding-right: 70px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 170px;
+        height: 200px;
+        top: -50px;
+        right: -115px;
+    }
+}
+@media (max-width: 1260px) {
+    .j_donovan_page_banner_main_width {
+        background-size: 735px, 100% 100%;
+        background-position: bottom -68px right -15px, top right;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 95px;
+        line-height: 100px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 37px;
+        line-height: 43px;
+        padding-right: 30px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 160px;
+        height: 190px;
+        top: -40px;
+        right: -110px;
+    }
+}
+@media (max-width: 1199px) {
+    .j_donovan_page_banner_main_width {
+        background-size: 735px, cover;
+        background-position: bottom center, top right;
+        padding-bottom: 35px;
+    }
+    .j_donovan_bnr_left_cont {
+        padding-right: 10%;
+        padding-bottom: 395px;
+    }
+    .j_donovan_bnr_left_cont h1 {
+        font-size: 95px;
+        line-height: 100px;
+    }
+    .yellow_box_sec_main_width h2 {
+        font-size: 37px;
+        line-height: 43px;
+        padding-right: 30px;
+    }
+    .yellow_box_sec_main_width::after {
+        width: 190px;
+        height: 210px;
+        top: -85px;
+        right: -125px;
+    }
+}
+
