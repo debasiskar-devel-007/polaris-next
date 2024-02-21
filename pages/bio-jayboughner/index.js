@@ -1,11 +1,18 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/navbar/Navbar'
+import Head from 'next/head'
 import React from 'react'
 import styles from './jayB.module.css'
 
 export default function Index() {
   return (
     <>
+    <Head>
+    <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+    </Head>
 
   <div className="polaris_j_boughner_page_main_width">
 

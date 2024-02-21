@@ -77,7 +77,7 @@ export default function Index() {
               </div>
 
               <div className={styles.pol_blog_orng_div}>
-                  <p>Oct 11, 2023</p>
+                  <p>Oct 25, 2023</p>
               </div>
 
               <div className={styles.blog_para}>
@@ -220,7 +220,7 @@ export default function Index() {
 </div>
 
 <div className={styles.pol_blog_orng_div}>
-    <p>Oct 11, 2023</p>
+    <p>Oct 9, 2023</p>
 </div>
 
 <div className={styles.blog_para}>
