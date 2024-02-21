@@ -13,6 +13,10 @@ export default function Index() {
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
+           <meta property="og:title" content="Polaris Business Consultants - Blog"></meta>
+        <meta name="keywords" content="Ambulatory Surgery Center Planning, Business Development, Financial Planning and Analysis, Polaris Business Consultants, ASC Strategy, ASC Financial Management, ASC Consulting Services"></meta>
+        <meta property="og:description" content="Discover expert insights on Ambulatory Surgery Center planning, business development, and financial planning with Polaris Business Consultants. Gain industry-leading knowledge and optimize your ASC for success."></meta>
+        <meta property="og:url" content="https://polaris.betoparedes.com/blog "></meta>
         </Head>
 
       <div className={styles.polaris_main_wdth}>
@@ -77,11 +81,11 @@ export default function Index() {
               </div>
 
               <div className={styles.pol_blog_orng_div}>
-                  <p>Oct 11, 2023</p>
+                  <p>Oct 25, 2023</p>
               </div>
 
               <div className={styles.blog_para}>
-                <h4>In the ever-evolving landscape of healthcare, financial executives are facing a trifecta of challenges that could make or break the future of their organizations. Rising costs, staff shortages, and declining reimbursements are creating a perfect storm, leaving many healthcare institutions with...</h4>
+                <h4>As a seasoned healthcare financial executive with over 35 years of experience, I understand the intricacies of healthcare finance. Financial planning and analysis (FP&A) can be a game-changer when it comes to identifying opportunities to improve revenue. When those outside of the finance...</h4>
               </div>
 
 
@@ -220,7 +224,7 @@ export default function Index() {
 </div>
 
 <div className={styles.pol_blog_orng_div}>
-    <p>Oct 11, 2023</p>
+    <p>Oct 9, 2023</p>
 </div>
 
 <div className={styles.blog_para}>

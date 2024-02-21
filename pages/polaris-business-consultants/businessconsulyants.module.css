@@ -135,7 +135,8 @@
         padding: 20px;
     }
     .PBC_block2_wrpr h1,
-    .PBC_B4_wrpr1_Inner1 h1{
+    .PBC_B4_wrpr1_Inner1 h1,
+    .PBC_block4_wrpr4 h1{
         font-size: 50px;
         font-weight: 900;
         background: linear-gradient(0deg, #021d33 0%, #4b6b70 100%);        -webkit-background-clip: text;
@@ -145,7 +146,8 @@
         text-transform: uppercase;
     }
     .PBC_block2_wrpr p ,
-    .PBC_B4_wrpr1_Inner1 p{
+    .PBC_B4_wrpr1_Inner1 p,
+    .PBC_block4_wrpr4 p{
         font-size: 25px;
         font-weight: 500;
         color: #353a42;
@@ -291,7 +293,6 @@
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: bottom center;
-        height: 2520px;
     }
     .PBC_block4_wrpr1{
         background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Block4_1BGimage.webp);
@@ -470,6 +471,7 @@
         line-height: 34px;
         position: relative;
         padding-left: 30px;
+        margin-top: 10px;
     }
     .PBC_block4_wrpr3_Inner p::after{
         content: '';
@@ -493,6 +495,58 @@
         border-radius: 15px;
         border: 2px solid #000;
     }
+    .PBC_block4_wrpr4{
+        padding: 40px 0;
+    }
+    .PBC_block4_wrpr4 .PBC_B4_wrpr1_Inner2Box h6{
+        display: block;
+        font-size: 25px;
+        font-weight: 500;
+        color: #000;
+        line-height: 33px;
+        margin-right: 30px;
+        max-width: 500px;
+    }
+    .PBC_block4_wrpr4 .PBC_B4_wrpr1_Inner2Box h6 span{
+        display: block;
+        position: relative;
+        padding-left: 30px;
+        width: fit-content;
+        font-size: 21px;
+        color: #353a42;
+    }
+    .PBC_block4_wrpr4 .PBC_B4_wrpr1_Inner2Box h6 span::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(0deg, rgba(4,53,114,1) 0%, rgba(6,201,243,1) 100%);
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 17px;
+        width: 17px;
+        left: 6px;
+        top: 6px;
+    }
+    .PBC_B4_wrpr1_Inner2Boxflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

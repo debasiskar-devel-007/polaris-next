@@ -7,7 +7,18 @@ import Head from 'next/head';
 export default function Index() {
   return (
     <>
-    
+    <Head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>About</title>
+        <link
+          rel="icon"
+          href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
+        />
+         <meta property="og:title" content=" Polaris Business Consultants - About"></meta>
+        <meta name="keywords" content=" healthcare consulting, strategic planning, financial advising, operational improvement"></meta>
+        <meta property="og:description" content="  Polaris Business Consultants offers comprehensive healthcare consulting services, including strategic planning, financial advising, operational improvement, and more. Our experienced team of industry professionals stands ready to help you develop and manage your growth plans."></meta>
+        <meta property="og:url" content="https://polaris.betoparedes.com/about "></meta>
+        </Head>
 
      <div className={styles.polaris_about_main}>
 
