@@ -334,7 +334,7 @@ a {
   position: fixed;
   bottom: 50px;
   right: 25px;
-  z-index: 20;
+  z-index: 999999999;
 }
 
 .icon-style {
@@ -363,3 +363,17 @@ a {
   border: 2px solid #0e5d89;
 }
 
+
+
+
+
+
+/* ================jeff-donovan=============== */
+.polaris_j_donovan_page_main_width .polaris_header_main_wrp {
+  padding: 10px 0 45px 0;
+}
+
+/* ================jay-boughner=============== */
+.polaris_j_boughner_page_main_width .polaris_header_main_wrp {
+  padding: 10px 0 35px 0;
+}
