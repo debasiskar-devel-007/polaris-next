@@ -85,7 +85,6 @@
     background: linear-gradient(180deg, rgba(71,94,125,1) 0%, rgba(15,29,46,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #909bac6a;
 }
 .block1_white_box_left_sec {
     width: 25%;
