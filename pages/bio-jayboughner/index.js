@@ -18,6 +18,9 @@ export default function Index() {
         <meta name="keywords" content="Jay Boughner, Managing Director, Donovan CPAs, Partner, Process Design, Workflow, Business Strategy, Finance, Accounting, IT, Growth, Development, Experience"></meta>
         <meta property="og:description" content="Jay Boughner is a seasoned Managing Director and Partner at Donovan CPAs, with over 25 years of experience in business strategy and finance. Focused on helping clients achieve success in accounting, finance, and IT, Jay is known for his passion for partnering with businesses to establish a solid financial foundation and effective processes. "></meta>
         <meta property="og:url" content="  https://polaris.betoparedes.com/bio-jayboughner "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Bio-Jay_Boughner_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
   <div className="polaris_j_boughner_page_main_width">
