@@ -173,8 +173,8 @@ justify-content: space-between;}
 
         } 
         @media(max-width:1199px){
-            .contact_banner_sub_wrapper{width: 100%;margin-top: 0px;padding-bottom: 400px;}
-            .contact_banner_main_wrapper{    background-position: bottom center,center;}
+            .contact_banner_sub_wrapper{width: 100%;margin-top: 0px;padding-bottom: 52%;padding-top: 10px;}
+            .contact_banner_main_wrapper{    background-position: bottom center,center;    background-size: 100%, cover;}
             .contact_banner_sub_sec_wrapper_img{display: none;}
             .contact_block_sub_wrapper{flex-direction:column ;}
             .contact_block_sub_sec1_wrapper{width: 100%;margin-bottom: 20px;}
@@ -189,7 +189,9 @@ justify-content: space-between;}
             .contact_block_sub_sec1_mini4_wrapper span{      font-size: 16px;
                 line-height: 22px;margin-left: 47px;}
                
-
+                .contact_banner_sub_sec_wrapper p{margin-right: 0;    font-size: 20px;
+                    line-height: 26px;
+                }
                 .contact_block_sub_sec1_mini1_wrapper::after{width: 48px;
                     height: 46px;    top: 4px;}
                     .contact_block_sub_sec1_mini2_wrapper::after{width: 48px;
@@ -200,6 +202,14 @@ justify-content: space-between;}
                                 height: 49px;    top: -13px;}
                                 .polaris_home_button{margin: 0 auto;font-size: 23px;
                                     line-height: 29px;}
+                                    .contact_banner_sub_wrapper h1 span{font-size: 63px;
+                                        line-height: 68px;}
+                                        .contact_banner_sub_wrapper h3 span{    font-size: 45px;
+                                            line-height: 51px;}
+                                            .contact_banner_sub_wrapper h1::before{    width: 100px;
+                                                height: 81px;}
+                                                .contact_banner_sub_wrapper h1{    padding-left: 103px;    margin-bottom: 8px;}
+                                                .contact_banner_sub_wrapper h3{ padding-left: 103px;}
         }   
         @media(max-width:650px){
             .contact_block_sub_sec1_mini1_wrapper p{   margin-left: 47px;position: relative;}
@@ -215,6 +225,7 @@ justify-content: space-between;}
                             line-height: 30px;}
                             .contact_block_sub_sec2_wrapper h5{    font-size: 18px;
                                 line-height: 24px;}
+
         }
         @media(max-width:399px){
             .contact_block_sub_sec1_mini2_wrapper p{   margin-left: 47px;position: relative;}
@@ -228,5 +239,10 @@ justify-content: space-between;}
             .contact_block_sub_sec1_mini4_wrapper p{   margin-left: 47px;position: relative;}
             .contact_block_sub_sec1_mini4_wrapper span{margin-left: 0;word-break: break-all;}
             .contact_block_sub_sec1_mini4_wrapper::after{ top: 4px;}
+
+            .contact_banner_sub_wrapper h1 span{    font-size: 44px;
+                line-height: 55px;}
+                .contact_banner_sub_wrapper h3 span{    font-size: 43px;
+                    line-height: 40px;}
         }
         
