@@ -4,15 +4,22 @@ import Head from 'next/head'
 import React from 'react'
 import styles from './jeffD.module.css'
 
+
 export default function index() {
   return (
     <>
-<Head>
-    <link
+      <Head>
+        <title>Jeffdonovan</title>
+        <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
-    </Head>
+          <meta property="og:title" content="Jeff Donovan, Certified Public Accountant (CPA) | Tax Planning & Financial Strategies"></meta>
+        <meta name="keywords" content="Jeff Donovan, CPA, Tax Planning, Financial Strategies, Business Valuations, Forensic Accounting, Certified Valuation Analyst, Master Analyst in Financial Forensics, Indiana University"></meta>
+        <meta property="og:description" content="Meet Jeff Donovan, a Managing Partner with extensive experience in tax planning, business valuations, and forensic accounting. With a Bachelor's degree in Accounting from Indiana University, Jeff offers clients the knowledge and resources to navigate complex financial decisions. "></meta>
+        <meta property="og:url" content=" https://polaris.betoparedes.com/bio-jeffdonovan "></meta>
+        </Head>
+
   <div className="polaris_j_donovan_page_main_width">
 
     <div className={styles.polaris_j_donovan_page_full_width}>

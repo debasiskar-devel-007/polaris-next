@@ -14,6 +14,10 @@ export default function Index() {
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
+          <meta property="og:title" content="Polaris Business Consultants | Ambulatory Surgery Center Development Course"></meta>
+        <meta name="keywords" content="Ambulatory Surgery Center, ASC, Ambulatory Surgical Center, Surgery Center Development, Ambulatory Surgery Center Course, Polaris Business Consultants"></meta>
+        <meta property="og:description" content="Join the Ambulatory Surgery Center Development Course by Polaris Business Consultants. Gain insights into ASC establishment, regulatory compliance, strategic planning, and more. Let's embark on this transformative journey together!"></meta>
+        <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
         </Head>
 
      <Navbar />
@@ -245,10 +249,34 @@ export default function Index() {
                </div>
             </div>
          </div>
+         <div className={styles.PBC_block4_wrpr4}>
+            <div className={styles.common_width}>
+               <h1>MODULE 2: PRE-PROJECT PLANNING</h1>
+               <p>In Module 2 of the Ambulatory Surgical Center Development Class, we delve into the critical phase of Pre-Project Planning. This module focuses on laying the foundation for a Successful ambulatory surgical center (ASC) by addressing key elements in the preliminary design stage. Participants will learn the significance of engaging architects, leveraging insights from the market study and strategic plan to estimate facility size based on anticipated volume. The module covers the intricacies of determining the number of operating rooms (ORs), pre-op beds, and post-op beds, while also emphasizing the creation of a block diagram. Other essential considerations such as the incorporation of a medical office building, ancillary services, and estimating facility construction costs will be thoroughly explored. Join us as we navigate the intricacies of pre-project planning, providing participants with the tools and knowledge necessary for effective ASC development in this vital phase.</p>
+               <div className={styles.PBC_B4_wrpr1_Inner2}>
+                  <h2>PRELIMINARY DESIGN MASTERY: CRAFTING THE BLUEPRINT FOR SUCCESSFUL AMBULATORY SURGICAL CENTER DEVELOPMENT</h2>
+                  <div className={styles.PBC_B4_wrpr1_Inner2Box}>
+                     <h3>Preliminary Design</h3>
+                        <div className={styles.PBC_B4_wrpr1_Inner2Boxflex}>
+                           <h6>1. Engage architect </h6>
+                           <h6>2. Estimate facility size based on volume </h6>
+                           <h6>3. (market study / strategic plan)</h6>
+                           <h6>4. Number ORs, pre-op beds, post-op beds</h6>
+                           <h6>5. Create block diagram</h6>
+                           <h6>6. Other considerations 
+                              <span>Medical office building </span>
+                              <span>Ancillary services</span>
+                           </h6>
+                           <h6>7. Estimate facility construction cost</h6>
+                        </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-     <div className={styles.demo_img}>
+     {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
-     </div>
+     </div> */}
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>
