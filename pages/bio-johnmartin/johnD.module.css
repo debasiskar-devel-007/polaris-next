@@ -156,7 +156,7 @@
 @media (max-width: 1366px) {
     .j_martin_page_banner_main_width {
         background-size: 735px, 100% 100%;
-        background-position: bottom -260px right -35px, top right;
+        background-position: bottom -260px right, top right;
     }
     .j_martin_bnr_left_cont h1 {
         font-size: 105px;
@@ -176,8 +176,8 @@
 }
 @media (max-width: 1260px) {
     .j_martin_page_banner_main_width {
-        background-size: 735px, 100% 100%;
-        background-position: bottom -68px right -15px, top right;
+        background-size: 685px, 100% 100%;
+        background-position: bottom -235px right 15px, top right;
     }
     .j_martin_bnr_left_cont h1 {
         font-size: 95px;
