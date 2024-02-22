@@ -228,6 +228,9 @@
 .bullet_cont_part_main_width.part_3 {
     width: 25%;
 }
+.part_3 .green_bullet_cont_wrpr {
+    flex-direction: column;
+}
 
 
 
@@ -343,6 +346,16 @@
         font-size: 23px;
         line-height: 28px;
     }
+
+    /* -----------block2------------ */
+    .block2_grey_bar h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .block2_white_box_sub_heading h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
 }
 @media (max-width: 1366px) {
     .j_martin_page_banner_main_width {
@@ -405,6 +418,12 @@
         font-size: 20px;
         line-height: 25px;
     }
+
+    /* -----------block2------------ */
+    .block2_grey_bar h1 {
+        font-size: 38px;
+        line-height: 43px;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -463,6 +482,37 @@
     .j_martin_page_block1_white_box {
         padding: 20px;
     }
+
+    /* -----------block2------------ */
+    .block2_grey_bar h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .block2_white_box_sub_heading h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .bullet_cont_part_main_width.part_3 {
+        width: 28%;
+    }
+}
+@media (max-width: 999px) {
+    .block2_bullet_cont_main_wrpr {
+        flex-direction: column;
+    }
+    .bullet_cont_part_main_width {
+        width: 100%;
+    }
+    .bullet_cont_part_main_width.part_3 {
+        width: 100%;
+    }
+    .green_bullet_cont_wrpr {
+        justify-content: flex-start;
+    }
+    .part_3 .green_bullet_cont_wrpr {
+        flex-direction: unset;
+        justify-content: flex-start;
+    }
 }
 @media (max-width: 768px) {
     .j_martin_page_banner_main_width {
@@ -510,6 +560,59 @@
         line-height: 35px;
     }
     .block1_white_box_right_sec p {
+        margin-bottom: 15px;
+    }
+
+    /* -------------block2-------------- */
+    /* .j_martin_page_block2_main_width {
+        padding: 10px 0;
+    } */
+    .block2_grey_bar {
+        top: 0;
+        padding: 10px 15px;
+        margin-bottom: 15px;
+    }
+    .block2_blue_box_sub_white_box {
+        top: 0;
+    }
+    .j_martin_page_block2_blue_box {
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .block2_grey_bar h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .block2_white_box_sub_heading h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .orange_bullet_cont {
+        font-size: 22px;
+        line-height: 28px;
+        padding-left: 25px;
+    }
+    .orange_bullet_cont::before {
+        width: 18px;
+        height: 18px;
+        top: 6px;
+    }
+    .green_bullet_cont {
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 45px;
+    }
+    .green_bullet_cont::before {
+        width: 13px;
+        height: 13px;
+        top: 4px;
+        left: 25px;
+    }
+    .block2_blue_box_sub_white_box p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .block2_white_box_sub_heading {
         margin-bottom: 15px;
     }
 }
@@ -581,6 +684,57 @@
     }
     .block1_white_box_right_sec p {
         margin-bottom: 10px;
+    }
+
+    /* --------------block2-------------- */
+    .j_martin_page_block2_blue_box {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .block2_grey_bar {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .block2_grey_bar h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .block2_blue_box_sub_white_box {
+        padding: 10px;
+    }
+    .block2_blue_box_sub_white_box p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .block2_white_box_sub_heading {
+        margin-bottom: 10px;
+    }
+    .block2_white_box_sub_heading h2 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .orange_bullet_cont {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .orange_bullet_cont::before {
+        width: 15px;
+        height: 15px;
+        top: 5px;
+    }
+    .green_bullet_cont {
+        font-size: 17px;
+        line-height: 22px;
+        padding-left: 40px;
+    }
+    .green_bullet_cont::before {
+        width: 12px;
+        height: 12px;
+        top: 5px;
+        left: 20px;
     }
 }
 
