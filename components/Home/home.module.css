@@ -323,8 +323,10 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
    left: 22px;
 } */
 .polaris_home_sub_left1_wrp::after{
-  top: -75px;
-  left: 460px
+  top: -58px;
+  left: 510px;
+  width: 260px;
+  height: 247px;
 }
 
 .polaris_home_sub_left1_mini1_wrp{
@@ -384,6 +386,14 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                               line-height: 30px;    margin: 17px 0;}
                               .polaris_blk3_evn_od_heading h1{    font-size: 14px !important;
                                 line-height: 20px !important;}
+}
+@media(max-width:1499px){
+  .polaris_home_sub_left1_wrp::after {
+    top: -58px;
+    left: 510px;
+    width: 225px;
+    height: 218px;
+  }
 }
 
 @media(max-width:1350px){
