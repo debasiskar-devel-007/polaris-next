@@ -343,7 +343,7 @@ a {
 
 .icon-position {
   position: fixed;
-  bottom: 50px;
+  bottom: 145px;
   right: 25px;
   z-index: 999999999;
 }
@@ -387,4 +387,34 @@ a {
 /* ================jay-boughner=============== */
 .polaris_j_boughner_page_main_width .polaris_header_main_wrp {
   padding: 10px 0 35px 0;
+}
+
+
+
+/* ----------------snakebar----------------- */
+.MuiSnackbarContent-root {
+  visibility: hidden !important;
+  width: fit-content !important;
+  background-color: #eaebee !important;
+  color: #ffffff !important;
+  text-align: left !important;
+  padding: 15px !important;
+  position: fixed !important;
+  z-index: 100 !important;
+  left: 50% !important;
+  bottom: 135px !important;
+  font-size: 18px !important;
+  line-height: 23px !important;
+  font-weight: 500 !important;
+  border-radius: 10px !important;
+  border: 1px solid #ebf0f2 !important;
+  letter-spacing: 1px !important;
+  transform: translateX(-50%) !important;
+  background: #444444 !important;
+}
+
+.MuiSnackbarContent-root {
+  visibility: visible !important;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 10s !important;
+  animation: fadein 0.5s, fadeout 0.5s 10s ease !important;
 }

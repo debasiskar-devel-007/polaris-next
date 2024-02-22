@@ -157,6 +157,8 @@ export default function Index() {
         <meta property="og:image:height" content="627"></meta>
         </Head>
 
+        <div className="contact_page_full_width">
+
             <div className={styles.contact_banner_main_wrapper}>
                 <Navbar />
                 <div className={styles.common_width}>
@@ -308,6 +310,8 @@ export default function Index() {
                     </div>
                 </div>
             </div>
+
+        </div>
 
             <Footer />
         </>
