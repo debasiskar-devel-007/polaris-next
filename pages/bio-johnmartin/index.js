@@ -107,9 +107,11 @@ export default function index() {
       <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp"/>
       </div>
-      <div className={styles.JDM_bio_page}>
+      {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
-      </div>
+      </div> */}
+  
+    </div>
 
        {/* -------------------------------------------------------------------souvik--------------------------------------------------------------------------- */}
   <div className={styles.polaris_j_martin_page_key_main_main_blk}>
@@ -117,11 +119,9 @@ export default function index() {
       <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
         <h1>Key Career Accomplishments</h1>
       </div>
+      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}></div>
     </div>
   </div>
-      
-      
-    </div>
     <Footer />
     </>
   )
