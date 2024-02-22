@@ -126,100 +126,100 @@ export default function index() {
             </div>
           </div>
 
-      <div className={styles.common_width}>
-        <div className={styles.blue_heading}>
-          <h1>Resume Details</h1>
-        </div>
-      </div>
-
-      <div className={styles.j_martin_page_block3_main_width}>
-        <div className={styles.common_width}>
-          <div className={styles.j_martin_page_grey_box}>
-            
-            <div className={styles.block3_sky_bar}>
-              <div className={styles.sky_bar_main_wrpr}>
-
-                <div className={styles.sky_bar_left_section}>
-                  <h2>Polaris Business Consultants</h2>
-                  <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
-                </div>
-
-                <div className={styles.sky_bar_right_section}>
-                  <h3>September, 2023 – Current</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.block3_cont_part}>
-              <h2>Managing Director – Healthcare Consulting</h2>
-              <p>In September, 2023, JD Martin Healthcare Advisors was combined into Polaris Business Consultants. The focus of this consulting practice remains the same:</p>
-
-              <div className={styles.block3_bullet_cont_part}>
-                <div className={styles.orange_bullet_cont_wrpr}>
-                  <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                  <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
-                  <h3 className={styles.orange_bullet_cont}>Project Development</h3>
-                  <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
-                  <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
-                </div>
-
-                <div className={styles.green_bullet_cont_wrpr}>
-                  <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
-                  <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
-                </div>
-              </div>
-
-              <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
+          <div className={styles.common_width}>
+            <div className={styles.blue_heading}>
+              <h1>Resume Details</h1>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div className={styles.j_martin_page_block4_main_width}>
-        <div className={styles.common_width}>
-          <div className={styles.j_martin_page_grey_box}>
-            
-            <div className={styles.block3_sky_bar}>
-              <div className={styles.sky_bar_main_wrpr}>
+          <div className={styles.j_martin_page_block3_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
 
-                <div className={styles.sky_bar_left_section}>
-                  <h2>JD Martin Enterprises</h2>
-                  <h2>d/b/a JD Martin Healthcare Advisors</h2>
-                  <p>9046 E 10th Street Indianapolis, IN 46219</p>
+                <div className={styles.block3_sky_bar}>
+                  <div className={styles.sky_bar_main_wrpr}>
+
+                    <div className={styles.sky_bar_left_section}>
+                      <h2>Polaris Business Consultants</h2>
+                      <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
+                    </div>
+
+                    <div className={styles.sky_bar_right_section}>
+                      <h3>September, 2023 – Current</h3>
+                    </div>
+                  </div>
                 </div>
 
-                <div className={styles.sky_bar_right_section}>
-                  <h3>April, 2018 – Current</h3>
+                <div className={styles.block3_cont_part}>
+                  <h2>Managing Director – Healthcare Consulting</h2>
+                  <p>In September, 2023, JD Martin Healthcare Advisors was combined into Polaris Business Consultants. The focus of this consulting practice remains the same:</p>
+
+                  <div className={styles.block3_bullet_cont_part}>
+                    <div className={styles.orange_bullet_cont_wrpr}>
+                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                      <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                      <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+                      <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
+                      <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+                    </div>
+
+                    <div className={styles.green_bullet_cont_wrpr}>
+                      <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                      <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                    </div>
+                  </div>
+
+                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
                 </div>
               </div>
-            </div>
-
-            <div className={styles.block3_cont_part}>
-              <h2>Managing Partner</h2>
-              <p>In April, 2018, I became the Managing Partner of JD Martin Enterprises d/b/a JD Martin Healthcare Advisors. The focus of my consulting practice is:</p>
-
-              <div className={styles.block3_bullet_cont_part}>
-                <div className={styles.orange_bullet_cont_wrpr}>
-                  <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                  <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
-                  <h3 className={styles.orange_bullet_cont}>Project Development</h3>
-                  <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
-                  <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
-                </div>
-
-                <div className={styles.green_bullet_cont_wrpr}>
-                  <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
-                  <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
-                </div>
-              </div>
-
-              <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
             </div>
           </div>
-        </div>
-      </div>
 
-    </div>
+          <div className={styles.j_martin_page_block4_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.block3_sky_bar}>
+                  <div className={styles.sky_bar_main_wrpr}>
+
+                    <div className={styles.sky_bar_left_section}>
+                      <h2>JD Martin Enterprises</h2>
+                      <h2>d/b/a JD Martin Healthcare Advisors</h2>
+                      <p>9046 E 10th Street Indianapolis, IN 46219</p>
+                    </div>
+
+                    <div className={styles.sky_bar_right_section}>
+                      <h3>April, 2018 – Current</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={styles.block3_cont_part}>
+                  <h2>Managing Partner</h2>
+                  <p>In April, 2018, I became the Managing Partner of JD Martin Enterprises d/b/a JD Martin Healthcare Advisors. The focus of my consulting practice is:</p>
+
+                  <div className={styles.block3_bullet_cont_part}>
+                    <div className={styles.orange_bullet_cont_wrpr}>
+                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                      <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                      <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+                      <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
+                      <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+                    </div>
+
+                    <div className={styles.green_bullet_cont_wrpr}>
+                      <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                      <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                    </div>
+                  </div>
+
+                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </div>
 
@@ -245,14 +245,14 @@ export default function index() {
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
         </div>
-        {/* <div className={styles.JDM_bio_page}>
+        <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
-      </div> */}
+      </div>
 
       </div>
 
       {/* -------------------------------------------------------------------souvik--------------------------------------------------------------------------- */}
-      <div className={styles.polaris_j_martin_page_key_main_main_blk}>
+      {/* <div className={styles.polaris_j_martin_page_key_main_main_blk}>
         <div className={styles.common_width}>
           <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
             <h1>Key Career Accomplishments</h1>
@@ -347,8 +347,8 @@ export default function index() {
                 <h6>Roatan, Honduras</h6>
                 <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
                   <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                    <p>Worked with local hospital owner, physicians and developer to create plans for an ambulatory surgery center to be developed in an 
-“economic free trade zone” on the island of Roatan</p>
+                    <p>Worked with local hospital owner, physicians and developer to create plans for an ambulatory surgery center to be developed in an
+                      “economic free trade zone” on the island of Roatan</p>
                   </div>
                   <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
                     <p>Initial capital and operating budgets were developed</p>
@@ -359,17 +359,17 @@ export default function index() {
                   <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
                     <p>Designed to provide advanced surgery services to locals and as a travel medicine program</p>
                   </div>
-                  
-                  
-                
-                 
+
+
+
+
 
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   )
