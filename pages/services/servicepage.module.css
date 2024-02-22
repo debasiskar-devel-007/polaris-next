@@ -1301,6 +1301,10 @@
     .box_section h2::before {
         top: 0;
     }
+    .service_bnr_left_cont p {
+        color: #ffffff;
+        text-shadow: 1px 1px 5px #000000;
+    }
 
       /* ---------block1---------- */
     .service_page_block1_main_width {

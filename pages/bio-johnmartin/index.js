@@ -205,51 +205,85 @@ export default function index() {
 
             </div>
           </div>
+
+
           <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
             <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
               <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
                 <h2>Service Line Strategies</h2>
               </div>
-              <p>Assessed and implemented strategies in every major service line within a full-service hospital setting including:
-</p>
-              <div className={styles.block2_bullet_cont_main_wrpr}>
-               
-
-                <div className={styles.bullet_cont_part_main_width}>
-                  <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                  <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
-
-                  {/* <div className={styles.green_bullet_cont_wrpr}>
-                    <h5 className={styles.green_bullet_cont}>Financial Improvement</h5>
-                    <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
-                    <h5 className={styles.green_bullet_cont}>Operational Budgeting</h5>
-                    <h5 className={styles.green_bullet_cont}>Capital Budgeting</h5>
-                    <h5 className={styles.green_bullet_cont}>Financial Statement Review and Analysis</h5>
-                  </div> */}
-                </div>
-
-                <div className={`${styles.bullet_cont_part_main_width} ${styles.part_2}`}>
-                  <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
-                  <h3 className={styles.orange_bullet_cont}>Project Development</h3>
-
-                  {/* <div className={styles.green_bullet_cont_wrpr}>
-                    <h5 className={styles.green_bullet_cont}>Facility Design</h5>
-                    <h5 className={styles.green_bullet_cont}>Project Management</h5>
-                    <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5>
-                  </div> */}
-                </div>
-
-                <div className={`${styles.bullet_cont_part_main_width} ${styles.part_3}`}>
-                  <h3 className={styles.orange_bullet_cont}>Transactions </h3>
-
-                  {/* <h5 className={styles.green_bullet_cont}>Structure</h5>
-                  <h5 className={styles.green_bullet_cont}>Physician / Hospital Partnerships</h5>
-                  <h5 className={styles.green_bullet_cont}>Analysis</h5>
-                  <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5> */}
-                </div>
-
+              <p>Assessed and implemented strategies in every major service line within a full-service hospital setting including:</p>
+             <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Orthopedics</p>
               </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>General Surgery</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Minimally Invasive Surgery</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Oncology</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Cardiology</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Bariatrics</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Women’s Health</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Pediatrics</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Behavior Health / Autism</p>
+              </div>
+
+             </div>
             </div>
+          </div>
+          <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+          <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                <h2>Service Line Strategies</h2>
+              </div>
+              <p>Assessed and implemented strategies in every major service line within a full-service hospital setting including:</p>
+             <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Orthopedics</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>General Surgery</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Minimally Invasive Surgery</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Oncology</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Cardiology</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Bariatrics</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Women’s Health</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Pediatrics</p>
+              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                <p>Behavior Health / Autism</p>
+              </div>
+
+             </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>

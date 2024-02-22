@@ -65,8 +65,8 @@ background-repeat: no-repeat;background-position: center;background-size: 100% 1
 
     /* ----------------------------------block1----------------------------------- */
     .polaris_blk1_main_wrp{background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_block1_man_img.webp),
-        url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_block1_img.webp),
-        url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_1st_blk_bg.webp);background-repeat: no-repeat;background-size: auto,auto,cover;
+        url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_block1_img_new.webp),
+        url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_1st_blk_bg_new.webp);background-repeat: no-repeat;background-size: auto,auto,cover;
         background-position: left 280px bottom,left -100px bottom,center;padding: 40px 0;    position: relative;
         z-index: 999999;}
     .polaris_blk1_sub_wrp{padding-left: 42%;} 
