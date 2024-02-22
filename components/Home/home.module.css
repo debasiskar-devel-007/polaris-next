@@ -387,7 +387,7 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                               .polaris_blk3_evn_od_heading h1{    font-size: 14px !important;
                                 line-height: 20px !important;}
 }
-@media(max-width:1499px){
+@media(max-width:1399px){
   .polaris_home_sub_left1_wrp::after {
     top: -58px;
     left: 510px;
