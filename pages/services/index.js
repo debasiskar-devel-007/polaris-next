@@ -21,6 +21,9 @@ export default function Index() {
         <meta name="keywords" content=" Comprehensive Healthcare, strategic planning, healthcare consulting services"></meta>
         <meta property="og:description" content=" Polaris provides comprehensive healthcare consulting services, including ASC development, strategic planning, financial analysis, operational improvement, transactional support, and revenue cycle review. Our services encompass ASC development training and education, strategic planning, financial planning, transactional support, and operational improvement."></meta>
         <meta property="og:url" content="https://polaris.betoparedes.com/services  "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_SERVICE_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
     
 

@@ -139,7 +139,7 @@ background-repeat: no-repeat;background-position: center;background-size: 100% 1
   .polaris_blk3_text_wrp{width: 67%;}
   .polaris_blk3_text_wrp p{font-size: 30px;line-height: 36px;font-weight: 700;color: #fff;}
   .polaris_blk3_1sub_wrp{background-color: #fff;padding: 20px;border-radius: 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-bottom: 20px;display: flex;justify-content: center;
-    align-items: center;}
+    align-items: start;}
   .polaris_blk3_evn_od{width: 33%;display: flex;flex-direction: column;border-right: 3px solid #d4d4d9;}
   .polaris_blk3_evn_od:last-child{border-right: none;}
   .polaris_blk3_evn_od_heading{background-color: #ededef;padding:20px 10px;border-radius: 10px 0px 0 10px;display: flex;justify-content: center;align-items: center;}

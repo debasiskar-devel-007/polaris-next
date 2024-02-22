@@ -9,7 +9,7 @@ export default function index() {
   return (
     <>
       <Head>
-        <title>Jeffdonovan</title>
+        <title>Bio-JeffDonovan</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
