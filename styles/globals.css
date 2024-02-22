@@ -98,6 +98,8 @@ a {
 }
 .polaris_header_sub2_left_wrp ul li:last-child:after{display: none;}
 .polaris_header_sub2_left_wrp ul li:first-child{margin-left: 0;}
+.polaris_header_sub2_left_wrp ul li:hover{background: linear-gradient(180deg, rgba(255,195,0,1) 0%, rgba(255,130,0,1) 100%); border: 1px solid #de6707;border-radius: 5px;}
+.polaris_header_sub2_left_wrp ul li:hover a{color: #fff !important;}
 .active{background: linear-gradient(180deg, rgba(255,195,0,1) 0%, rgba(255,130,0,1) 100%); border: 1px solid #de6707;border-radius: 5px; }
 .active a {color: #fff !important;}
 .polaris_header_sub2_left_wrp ul li:last-child{border-right: none;}

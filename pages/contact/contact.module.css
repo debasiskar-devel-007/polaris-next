@@ -81,7 +81,7 @@ justify-content: space-between;}
                               .contact_block_sub_sec1_wrapper h3{font-size: 35px;line-height: 41px;font-weight: 700;color: #fcf700;text-transform: uppercase;margin-bottom: 30px;}
                               .contact_block_sub_sec1_wrapper h1{font-size: 60px;line-height: 66px;font-weight: 700;text-transform: uppercase;background: linear-gradient(180deg, rgba(253,253,253,1) 0%, rgba(176,179,184,1) 100%);    -webkit-background-clip: text;
                                 -webkit-text-fill-color: transparent;display: inline;margin-bottom: 15px;}
-                            .contact_block_sub_sec1_wrapper p{font-size: 32px;line-height: 38px;font-weight: 400;color: #d0dce8;margin-bottom: 20px;}  
+                            .contact_block_sub_sec1_wrapper p{font-size: 32px;line-height: 38px;font-weight: 400;color: #d0dce8;margin-bottom: 20px;    word-wrap: break-word;}  
                             .contact_block_sub_sec1_mini1_wrapper{position: relative;margin-bottom: 45px;}  
                             .contact_block_sub_sec1_mini1_wrapper span{margin-left: 60px;font-size: 26px;line-height: 32px;font-weight: 400;color: #d0dce8;}
                             .contact_block_sub_sec1_mini1_wrapper::after{    content: '';
@@ -176,7 +176,7 @@ justify-content: space-between;}
             .contact_banner_sub_wrapper{width: 100%;margin-top: 0px;padding-bottom: 52%;padding-top: 10px;}
             .contact_banner_main_wrapper{    background-position: bottom center,center;    background-size: 100%, cover;}
             .contact_banner_sub_sec_wrapper_img{display: none;}
-            .contact_block_sub_wrapper{flex-direction:column ;}
+            .contact_block_sub_wrapper{flex-direction:column-reverse ;}
             .contact_block_sub_sec1_wrapper{width: 100%;margin-bottom: 20px;}
 .contact_block_sub_sec2_wrapper{width: 100%;}
 .contact_block_sub_sec1_mini4_wrapper{    margin-bottom: 20px;}
@@ -195,11 +195,11 @@ justify-content: space-between;}
                 .contact_block_sub_sec1_mini1_wrapper::after{width: 48px;
                     height: 46px;    top: 4px;}
                     .contact_block_sub_sec1_mini2_wrapper::after{width: 48px;
-                        height: 49px;    top: -13px;}
+                        height: 49px;    top: -2px;}
                         .contact_block_sub_sec1_mini3_wrapper::after{width: 48px;
-                            height: 49px;    top: -13px;}
+                            height: 49px;    top: -2px;}
                             .contact_block_sub_sec1_mini4_wrapper::after{width: 48px;
-                                height: 49px;    top: -13px;}
+                                height: 49px;    top: -2px;}
                                 .polaris_home_button{margin: 0 auto;font-size: 23px;
                                     line-height: 29px;}
                                     .contact_banner_sub_wrapper h1 span{font-size: 63px;
@@ -210,22 +210,44 @@ justify-content: space-between;}
                                                 height: 81px;}
                                                 .contact_banner_sub_wrapper h1{    padding-left: 103px;    margin-bottom: 8px;}
                                                 .contact_banner_sub_wrapper h3{ padding-left: 103px;}
+                                                .contact_block_sub_sec1_mini1_wrapper,.contact_block_sub_sec1_mini2_wrapper,.contact_block_sub_sec1_mini3_wrapper,.contact_block_sub_sec1_mini4_wrapper {width: 49%;}
+                                               .contact_block_social_flx{display: flex; justify-content: space-between; flex-wrap: wrap;}
         }   
         @media(max-width:650px){
             .contact_block_sub_sec1_mini1_wrapper p{   margin-left: 47px;position: relative;}
             .contact_block_sub_sec1_mini1_wrapper span{margin-left: 0;word-break: break-all;}
-            .contact_block_sub_sec1_mini1_wrapper::after{ top: 4px;}
+            .contact_block_sub_sec1_mini1_wrapper::after{ top: 0px;     width: 38px;
+                height: 38px; background-size: 100% 100%}
             .contact_block_sub_sec1_wrapper h1{    font-size: 35px;
                 line-height: 42px;}
                 .contact_block_sub_sec1_wrapper p{    font-size: 25px;
-                    line-height: 33px;}
+                    line-height: 33px; margin-bottom: 12px;}
                     .contact_block_sub_sec1_wrapper h3{    font-size: 21px;
-                        line-height: 27px;}
+                        line-height: 27px;    margin-bottom: 20px;}
                         .contact_block_sub_sec2_wrapper h1{    font-size: 24px;
                             line-height: 30px;}
                             .contact_block_sub_sec2_wrapper h5{    font-size: 18px;
                                 line-height: 24px;}
-
+                                .contact_block_sub_sec1_mini1_wrapper,.contact_block_sub_sec1_mini2_wrapper,.contact_block_sub_sec1_mini3_wrapper,.contact_block_sub_sec1_mini4_wrapper {width: 100%;}
+                                .contact_block_sub_sec1_mini2_wrapper::after {
+                                    width: 40px;
+                                    height: 40px;
+                                    top: 4px;
+                                    background-size: 100% 100%
+                                }
+                                .contact_block_sub_sec1_mini3_wrapper::after {
+                                    width: 40px;
+                                    height: 40px;
+                                    top: -2px;
+                                    background-size: 100% 100%
+                                }
+                                .contact_block_sub_sec1_mini4_wrapper::after {
+                                    width: 40px;
+                                    height: 40px;
+                                    top: -2px;
+                                    background-size: 100% 100%;}
+                                .contact_block_sub_sec1_mini1_wrapper,.contact_block_sub_sec1_mini2_wrapper,.contact_block_sub_sec1_mini3_wrapper,.contact_block_sub_sec1_mini4_wrapper { margin-bottom: 12px;  }
+                                .contact_block_sub_sec1_mini1_wrapper{  margin-top: 15px;}
         }
         @media(max-width:399px){
             .contact_block_sub_sec1_mini2_wrapper p{   margin-left: 47px;position: relative;}
