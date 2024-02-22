@@ -245,19 +245,19 @@ export default function Homes() {
                 </div>
                 <div className={styles.polaris_blk3_evn_od}>
                   <div className={styles.polaris_blk3_evn_od_heading}>
-                    <h1>Ambulatory Surgery Center Development</h1>
+                    <h1>Healthcare Consulting</h1>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Video Training Series</p>
+                    <p>Strategic Planning</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Mastermind Group</p>
+                    <p>Financial Planning and Analysis</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Mentoring</p>
+                    <p>Transactional Support</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Consulting</p>
+                    <p>Revenue Cycle Review</p>
                   </div>
 
 
@@ -265,20 +265,20 @@ export default function Homes() {
                 </div>
                 <div className={styles.polaris_blk3_evn_od}>
                   <div className={styles.polaris_blk3_evn_od_heading}>
-                    <h1>Ambulatory Surgery Center Development</h1>
+                    <h1>Operational Improvement</h1>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Video Training Series</p>
+                    <p>Revenue Recovery Strategies</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Mastermind Group</p>
+                    <p>Workplace Automation</p>
                   </div>
-                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                  {/* <div className={styles.polaris_blk3_evn_od_heading_white}>
                     <p>Mentoring</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
                     <p>Consulting</p>
-                  </div>
+                  </div> */}
 
 
 
