@@ -128,6 +128,33 @@ export default function index() {
         </div>
       </div>
 
+      <div className={styles.common_width}>
+        <div className={styles.blue_heading}>
+          <h1>Resume Details</h1>
+        </div>
+      </div>
+
+      <div className={styles.j_martin_page_block3_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_grey_box}>
+            
+            <div className={styles.block3_sky_bar}>
+              <div className={styles.sky_bar_main_wrpr}>
+
+                <div className={styles.sky_bar_left_section}>
+                  <h2>Polaris Business Consultants</h2>
+                  <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
+                </div>
+
+                <div className={styles.sky_bar_right_section}>
+                  <h3>September, 2023 – Current</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>

@@ -161,7 +161,7 @@
     line-height: 30px;
     font-weight: 500;
     color: #000000;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .block2_white_box_sub_heading {
     background: #bed1e4;
@@ -232,6 +232,61 @@
     flex-direction: column;
 }
 
+/* ---------blue_heading----------- */
+.blue_heading {
+    background: linear-gradient(180deg, rgba(47,74,108,1) 0%, rgba(32,42,65,1) 100%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.blue_heading h1 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(210,214,217,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(1px 1px 3px #000000);
+    display: inline-block;
+}
+
+/* ----------block3----------- */
+.j_martin_page_grey_box {
+    background: #f1f3f8;
+    border: 1px solid #c1c4c8;
+    border-radius: 10px;
+    padding: 30px;
+}
+.block3_sky_bar {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/block3_sky_bar_bg_img.webp), linear-gradient(180deg, rgba(17,189,237,1) 0%, rgba(17,159,243,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: top right, center;
+    border-radius: 6px;
+    padding: 20px;
+}
+.sky_bar_left_section h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.sky_bar_left_section p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+.sky_bar_right_section h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
 
 
 
@@ -286,6 +341,12 @@
 
     /* ----------block1----------- */
     .block1_white_box_grey_bar h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading h1 {
         font-size: 55px;
         line-height: 60px;
     }
@@ -356,6 +417,12 @@
         font-size: 35px;
         line-height: 40px;
     }
+
+    /* ------------blue-heading------------- */
+    .blue_heading h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
 }
 @media (max-width: 1366px) {
     .j_martin_page_banner_main_width {
@@ -386,6 +453,12 @@
     .block1_white_box_right_sec p {
         font-size: 22px;
         line-height: 28px;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading h1 {
+        font-size: 45px;
+        line-height: 50px;
     }
 }
 @media (max-width: 1260px) {
@@ -423,6 +496,12 @@
     .block2_grey_bar h1 {
         font-size: 38px;
         line-height: 43px;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading h1 {
+        font-size: 40px;
+        line-height: 45px;
     }
 }
 
@@ -494,6 +573,12 @@
     }
     .bullet_cont_part_main_width.part_3 {
         width: 28%;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading h1 {
+        font-size: 35px;
+        line-height: 40px;
     }
 }
 @media (max-width: 999px) {
@@ -611,9 +696,19 @@
     .block2_blue_box_sub_white_box p {
         font-size: 22px;
         line-height: 28px;
+        margin-bottom: 15px;
     }
     .block2_white_box_sub_heading {
         margin-bottom: 15px;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading {
+        margin-bottom: 25px;
+    }
+    .blue_heading h1 {
+        font-size: 30px;
+        line-height: 35px;
     }
 }
 @media (max-width: 599px) {
@@ -735,6 +830,17 @@
         height: 12px;
         top: 5px;
         left: 20px;
+    }
+
+    /* ------------blue-heading------------- */
+    .blue_heading {
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .blue_heading h1 {
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 
