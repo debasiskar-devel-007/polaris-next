@@ -18,9 +18,6 @@ export default function Index() {
         <meta name="keywords" content="Ambulatory Surgery Center, ASC, Ambulatory Surgical Center, Surgery Center Development, Ambulatory Surgery Center Course, Polaris Business Consultants"></meta>
         <meta property="og:description" content="Join the Ambulatory Surgery Center Development Course by Polaris Business Consultants. Gain insights into ASC establishment, regulatory compliance, strategic planning, and more. Let's embark on this transformative journey together!"></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
-        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_Polaris_Business_Consultants_OG_image.webp"></meta>
-        <meta property="og:image:width" content="1200"></meta>
-        <meta property="og:image:height" content="627"></meta>
         </Head>
 
      <Navbar />
@@ -311,6 +308,194 @@ export default function Index() {
             </div>
          </div>
       </div>
+
+
+      <div className={styles.PBC_block6}>
+         <div className={styles.common_width}>
+            <h1>STRATEGIC INVESTMENT FRAMEWORK:CAPITAL COMMITMENT, OWNERSHIP STRUCTURES, AND FINANCING STRATEGIES IN ASC DEVELOPMENT</h1>
+            <h2>Investment Structure</h2>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_Flex}`}>
+               <h3>Estimated Total Capital Commitment</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Facility construction</p>
+                  <p>Capital equipment</p>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_Flex}`}>
+               <h3>Capital Raise / Financing</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Corporate structure
+                     <span>ASC only</span>
+                     <span>Include real estate</span>
+                  </p>
+                  <p>Ownership allocation among partners
+                     <span>Current</span>
+                     <span>Future</span>
+                  </p>
+                  <p>Capital Structure
+                     <span>Debt</span>
+                     <span>Equity</span>
+                  </p>
+                  <p>Physician ownership
+                     <span>Active owners</span>
+                     <span>Passive owners</span>
+                  </p>
+               </div>
+            </div>
+            <div className={styles.PBC_block6_innerBlock}>
+               <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_block6_innerBlockImage.webp" />
+               <div className={styles.PBC_B6_innerBlock_SubWrpr}>
+                  <h1>STRATEGIC FINANCIAL PLANNING FOR ASC SUCCESS:STRATEGIC FINANCIAL PLANNING FROM COMPREHENSIVE FIVE-YEAR PLANS</h1>
+                  <h4>Financial Projection – Initial</h4>
+                  <p>Order of magnitude projection</p>
+                  <p>Assumed volume and mix of cases</p>
+                  <p>Broad revenue and expense assumptions</p>
+                  <p>Initial financial plan based on:</p>
+                  <div className={styles.BlackBullet}>
+                     <h5>Market study / strategic plan</h5>
+                     <h5>Size and scope of project </h5>
+                     <h5>Investment structure</h5>
+                  </div>
+                  <p>Projection packet</p>
+                  <div className={styles.BlackBullet}>
+                     <h5>Assumptions</h5>
+                     <h5>Five year financial projection</h5>
+                     <h5>Capital budget</h5>
+                  </div>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_innerBlock2}`}>
+               <h3>Completion Survey (take before next module)</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>What is your top question about Pre-Project Planning?</p>
+                  <p>What is your top question or concern about beginning the process of planning and developing an ASC?</p>
+               </div>
+               <h3>Bonus: Pre-Planning Project Checklist</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Receive bonus when survey is completed</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div className={styles.PBC_block7}>
+         <div className={styles.common_width}>
+            <h1>MODULE 3: PLANNING AND DEVELOPMENT: FACILITY DESIGN AND CONSTRUCTION</h1>
+            <h4>In this ASC Development course section dedicated to Legal, Regulatory, and Organizational intricacies, where we delve into the critical legal and structural aspects shaping the foundation of ambulatory surgical centers (ASCs). Explore project-specific legal considerations, including joint venture structures and the pivotal decision on physician, hospital, and ASC development company partnerships. Navigate the process of determining entity types, recruiting investors, and crafting comprehensive investor decks. Uncover the nuances of board organization and development, defining size, representation, and committee structures with a focus on administrative and medical committees. This section also provides insights into refining financial projections, evaluating financing alternatives, conducting payer analyses, and tightening projection assumptions. Join us as we delve into the multifaceted landscape of ASC development, covering legal, regulatory, and organizational dimensions crucial for success.</h4>
+            <div className={styles.PBC_block7_innerBlock}>
+               <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_block7_innerBlockImage.webp"  />
+                  <h2>NAVIGATING LEGAL AND ORGANIZATIONAL FRAMEWORKS IN ASC DEVELOPMENT: STRUCTURING JOINT  VENTURES, ENTITIES, AND BOARDS</h2>
+               <div className={styles.PBC_B7_innerBlock_SubWrpr}>
+                  <h3>LEGAL / REGULATORY / ORGANIZATIONAL</h3>
+                  <div className={styles.PBC_B7_innerBlock_Flex}>
+                     <div className={styles.PBC_B7_MiniBlock}>
+                        <p>Project specific legal issues</p>
+                        <div className={styles.BlackBullet}>
+                           <h5>Joint venture structure</h5>
+                           <h6>i. Only physician and physician group partners?</h6>
+                           <h6>ii. Hospital (for profit vs. non-profit)?</h6>
+                           <h6>iii. ASC development company?</h6>
+                        </div>
+                     </div>
+                     <div className={styles.PBC_B7_MiniBlock}>
+                        <p>Determine entity type</p>
+                        <p>Recruit investors</p>
+                        <div className={styles.BlackBullet}>
+                           <h5>Develop investor deck </h5>
+                           <h5>Equity partners </h5>
+                           <h5>Debt partners</h5>
+                        </div>
+                     </div>
+                     <div className={styles.PBC_B7_MiniBlock}>
+                        <p>Board organization and development</p>
+                        <div className={styles.BlackBullet}>
+                           <h5>Size of board</h5>
+                           <h5>Representation</h5>
+                           <h6>i. Hospital executives </h6>
+                           <h6>ii. Participating physicians</h6>
+                           <h6>iii. Local business leaders</h6>
+                        </div>
+                     </div>
+                     <div className={styles.PBC_B7_MiniBlock}>
+                        <p>Committee structure and operating authority</p>
+                        <div className={styles.BlackBullet}>
+                           <h5>Administrative committees</h5>
+                           <h5> Medical committees </h5>
+                           <h5>Scope of authority (sample authority matrix)</h5>
+                           <h5>Participation requirements</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block7_wrprBlue}`}>
+               <h3>STRATEGIC FINANCIAL PROJECTIONS IN ASC DEVELOPMENT:<br/> ANALYZING ALTERNATIVES, REFINING ASSUMPTIONS, AND CRAFTING COMPREHENSIVE PLANS</h3>
+                  <h6>Financial Projections</h6>
+                  <div className={styles.PBC_block6_wrprWhite}>
+                     <p>Financing alternatives </p>
+                     <p>  Payer analysis </p>
+                     <p>Tighten projection assumptions</p>
+                     <div className={styles.BlackBullet}>
+                        <h5>Volume and revenue analysis</h5>
+                        <h5>Expense analysis</h5>
+                     </div>
+                     <p>Develop charge master</p>
+                     <p>Financial projections – second draft</p>
+                  </div>
+            </div>
+         </div>
+      </div>
+
+      <div className={styles.PBC_block8}>
+         <div className={styles.common_width}>
+            <h1>ARCHITECTING SUCCESS:A COMPREHENSIVE GUIDE TO FACILITY DEVELOPMENT IN ASC PLANNING AND CONSTRUCTION</h1>
+            <h2>Facility Development: Design and Construction</h2>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block7_wrprBlue}  ${styles.PBC_block8_wrprBlue}`}>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <div className={styles.BlackBullet}>
+                     <p>Real estate</p>
+                     <h5>How will real estate be held?</h5>
+                     <h5>Secure land</h5>
+                  </div>
+                  <div className={styles.BlackBullet}>
+                     <p> Architecture</p>
+                     <h5>Schematic design</h5>
+                     <h5>Design development</h5>
+                     <h5>Construction drawings</h5>
+                  </div>
+                  <p>Interior design</p>
+                  <p>Capital equipment</p>
+                  <p>Construction</p>
+                  <p>Facility management</p>
+                  <p>Physical plant management</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div className={styles.PBC_block9}>
+         <div className={styles.common_width}>
+            <div className={`${styles.PBC_block6_wrprBlue}  ${styles.PBC_block7_wrprBlue}`}>
+               <h3>Completion Survey (take before next module)</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>What is your top question or concern about the Planning and Development process?</p>
+                  <p>What is your top question or concern about Non-Clinical Operations?</p>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue}  ${styles.PBC_block7_wrprBlue}`}>
+               <h3>Bonus: Planning and Development Checklist</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Receive bonus when survey is completed </p>
+               </div>
+            </div>
+            <div className={styles.PBC_block9_inner}>
+               <h1>MODULE 4 : PLANNING AND DEVELOPMENT: NON-CLINICAL OPERATIONS</h1>
+               <p>Delve into the Non-Clinical Operations module in our ASC Development course, exploring the administrative landscape of ambulatory surgical centers (ASCs). Covering licensure, accreditation, HIPAA compliance, financial management, information systems, revenue cycles, payer relations, human resources, marketing, medical records, support services, and facility considerations. This module invites participants to share concerns and questions through a Completion Survey, shaping discussions on non-clinical and clinical operations. Completing the survey unlocks a bonus Non-Clinical Operations Checklist, ensuring a comprehensive grasp of key operational dimensions. Join us in navigating the essential components of non-clinical operations crucial for ASC success.</p>
+               
+            </div>
+         </div>
+      </div>      
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>
