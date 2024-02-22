@@ -44,7 +44,7 @@ export default function index() {
 
   </div>
   
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={styles.polaris_JDM_BIO_width}>
    
       <div className={styles.JDM_bio_page}>
