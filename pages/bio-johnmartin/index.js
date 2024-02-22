@@ -43,6 +43,24 @@ export default function index() {
     </div>
 
   </div>
+
+
+
+
+
+
+
+
+
+
+  {/* -------------------------------------------------------------------souvik--------------------------------------------------------------------------- */}
+  <div className={styles.polaris_j_martin_page_key_main_main_blk}>
+    <div className={styles.common_width}>
+      <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
+        <h1>Key Career Accomplishments</h1>
+      </div>
+    </div>
+  </div>
   
       {/* <Navbar /> */}
       <div className={styles.polaris_JDM_BIO_width}>
