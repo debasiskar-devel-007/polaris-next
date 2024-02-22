@@ -492,13 +492,143 @@ export default function Index() {
             <div className={styles.PBC_block9_inner}>
                <h1>MODULE 4 : PLANNING AND DEVELOPMENT: NON-CLINICAL OPERATIONS</h1>
                <p>Delve into the Non-Clinical Operations module in our ASC Development course, exploring the administrative landscape of ambulatory surgical centers (ASCs). Covering licensure, accreditation, HIPAA compliance, financial management, information systems, revenue cycles, payer relations, human resources, marketing, medical records, support services, and facility considerations. This module invites participants to share concerns and questions through a Completion Survey, shaping discussions on non-clinical and clinical operations. Completing the survey unlocks a bonus Non-Clinical Operations Checklist, ensuring a comprehensive grasp of key operational dimensions. Join us in navigating the essential components of non-clinical operations crucial for ASC success.</p>
-               
+               <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block9_wrprBlue} `}>
+                  <h3>FOUNDATIONS OF ASC GOVERNANCE:ADMINISTRATION, PHYSICIAN COLLABORATION, LICENSURE AND HIPAA COMPLIANCE</h3>
+                  <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
+                     <h5>Administration:</h5>
+                     <h6>1. Physicians </h6>
+                     <h6>2. Licensure / Accreditation</h6>
+                     <h6>3. HIPAA</h6>
+                  </div>
+                  <h3>FINANCIAL EXCELLENCE INASC OPERATIONS: MANAGEMENT, INFORMATION SYSTEMS, REVENUE CYCLE, AND PAYER RELATIONS</h3>
+                  <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
+                     <h5>Financial management:</h5>
+                     <h6>1. Information systems </h6>
+                     <h6>2. Revenue cycle </h6>
+                     <h6>3. Payer relations</h6>
+                  </div>   
+               </div>
+               <h1>OPTIMIZING NON-CLINICAL OPERATIONS IN ASCS:HUMAN RESOURCES MARKETING, RECORDS, FACILITIES, AND BEYOND</h1>
+               <div className={styles.PBC_B6_Miniwrpr}>
+                  <p>Human resources</p>
+                  <p>Marketing</p>
+                  <p>Medical records</p>
+                  <p>Support services</p>
+                  <p>Facility</p>
+                  <p>Miscellaneous</p>
+               </div>
+               <div className={styles.PBC_B6_Miniwrpr2}>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Completion Survey (take before next module)</span></h3>
+                     <p>What is your top question or concern about Non-Clinical Operations?</p>
+                     <p>What is your top question or concern about Clinical Operations?</p>
+                  </div>
+                  <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                     <h3><span>Bonus: Non-Clinical Operations Checklist</span></h3>
+                     <p>Receive bonus when survey is completed </p>
+                  </div>
+               </div>
             </div>
          </div>
       </div>      
-     <div className={styles.demo_img}>
+
+      <div className={styles.PBC_block10}>
+         <div className={styles.common_width}>
+            <h1>MODULE 5: PLANNING AND DEVELOPMENT: CLINICAL OPERATIONS</h1>
+            <p>Delve into the Non-Clinical Operations module in our ASC Development course, exploring the administrative landscape of ambulatory surgical centers (ASCs). Covering licensure, accreditationExplore the intricacies of Clinical Operations in Module 5 of the Ambulatory Surgical Center Development Class. This comprehensive module navigates through key components crucial for successful planning and development. From establishing administration and medical staff leadership to crafting policies, procedures, and quality management protocols, participants will gain insights into EMS and transfer agreements, credentialing processes, and supporting physician coverage models. The module concludes with a Completion Survey, enabling participants to express their top concerns about Clinical Operations and Go-Live Planning. Additionally, completing the survey unlocks a valuable Clinical Operations Checklist, ensuring a comprehensive understanding of essential clinical operational dimensions. Join us as we delve into the heart of ASC development. HIPAA compliance, financial management, information systems, revenue cycles, payer relations, human resources, marketing, medical records, support services, and facility considerations. This module invites participants to share concerns and questions through a Completion Survey, shaping discussions on non-clinical and clinical operations. Completing the survey unlocks a bonus Non-Clinical Operations Checklist, ensuring a comprehensive grasp of key operational dimensions. Join us in navigating the essential components of non-clinical operations crucial for ASC success.</p>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block9_wrprBlue} `}>
+               <h3>NAVIGATING ASC OPERATIONS: ADMINISTRATION, EMS AGREEMENTS, AND TRANSFER AGREEMENTS</h3>
+               <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
+                  <h5>Administration:</h5>
+                  <h6>1. EMS agreements </h6>
+                  <h6>2. Transfer agreements</h6>
+               </div>
+            </div>
+            <h1>BUILDING EXCELLENCE: MEDICAL STAFF LEADERSHIP AND CREDENTIALING IN ASC DEVELOPMENT</h1>
+            <h2>MEDICAL STAFF</h2>
+            <div className={styles.PBC_B4_wrpr2_Inner1}>
+               <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                  <h3><span>Establish physician leadership</span></h3>
+                  <p>Chief medical officer</p>
+                  <p>Chief of anesthesia</p>
+               </div>
+               <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                  <h3><span>Establish medical staff office</span></h3>
+                  <p>Administrative / Committee structure</p>
+                  <p>Develop medical staff bylaws</p>
+                  <p>Draft medical staff rules and regulations</p>
+               </div>
+               <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                  <h3><span>Credentialing </span></h3>
+                  <p>Physician credentialing process</p>
+                  <p>Allied health credentialing process</p>
+                  <p>Complete initial credentialing process</p>
+               </div>
+            </div>
+            <div className={styles.PBC_block10_SubWrpr}>
+               <div className={styles.PBC_block10_InnerBlockWrpr}>
+                  <div className={styles.PBC_B10_InnerBlockHeader}>
+                     <h4>OPTIMIZING CLINICAL TEAMS:PHYSICIAN COVERAGE MODELS AND COLLABORATIONS IN ASC DEVELOPMENT</h4>
+                  </div>
+                  <h6>Supporting physician coverage models</h6>
+                  <div className={styles.PBC_B10_InnerBlockList}>
+                     <h5>Anesthesia</h5>
+                     <h5>Hospitalist</h5>
+                     <h5>Radiologist</h5>
+                     <h5>Consulting physician agreements</h5>
+                  </div>
+                  <div className={styles.PBC_B10_InnerBlockHeader}>
+                     <h4>STRATEGIC GOVERNANCE:DEVELOPING POLICIES AND PROCEDURES IN AMBULATORY SURGERY CENTERS</h4>
+                  </div>
+                  <h6>Policies and procedures</h6>
+                  <div className={styles.PBC_B10_InnerBlockList}>
+                     <h5>Department level</h5>
+                     <h5>Patient related processes and protocols</h5>
+                     <h5>Medical administration</h5>
+                  </div>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block9_wrprBlue} ${styles.PBC_block10_wrprBlue}`}>
+               <h3>EXCEL IN EXCELLENCE:A COURSE ON QUALITY PREPAREDNESS AND CLINICAL OPERATIONS IN AMBULATORY SURGERY CENTERS</h3>
+               <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
+                  <h5>Quality preparedness:</h5>
+                  <span>
+                  <h6>1. Clinical quality improvement plan </h6>
+                  <h6>2. Quality management</h6>
+                  <h6>3. Outcomes management and report card</h6>
+                  <h6>4. Environment of care</h6>
+                  </span>
+               </div>
+            </div>
+            <div className={`${styles.PBC_B4_wrpr2_Inner1} ${styles.PBC_B10_wrpr_Inner1}`}>
+               <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                  <h3><span>Completion Survey (take before next module)</span></h3>
+                  <p>What is your top question or concern about Clinical Operations?</p>
+                  <p>What is your top question or concern about Go-Live Planning?</p>
+               </div>
+               <div className={styles.PBC_B4_wrpr2_InnerBoxs}>
+                  <h3><span>Bonus: Clinical Operations Checklist</span></h3>
+                  <p>Receive bonus when survey is completed</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div className={styles.PBC_block11}>
+         <div className={styles.common_width}>
+            <h1>MODULE 6: GO LIVE</h1>
+            <p>Welcome to Module 6 of the Ambulatory Surgical Center Development Class – the pivotal stage of Go Live. In this crucial phase, we dive into the grand opening, rigorously testing both clinical and non-clinical systems to ensure a seamless transition. Accreditation preparedness takes center stage, setting the foundation for operational excellence. As we navigate through Go-Live Planning, your insights matter. Share your top questions and concerns through the Completion Survey, guiding our coaching program tailored to address your needs. Completing the survey unlocks a valuable Go-Live Planning Checklist, empowering you with essential tools for a successful launch. Join us in this dynamic transition towards operational excellence in ambulatory surgical center development.</p>
+            {/* <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block9_wrprBlue} ${styles.PBC_block11_wrprBlue}`}>
+                  <h3>SEAMLESS UNVEILING: NAVIGATING GO-LIVE AND ENSURING EXCELLENCE IN ASC OPERATIONS SURGICAL CENTER DEVELOPMENT</h3>
+               <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
+
+               </div>
+            </div> */}
+         </div>
+      </div>
+     {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
-     </div>
+     </div> */}
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk4_img.webp'/>
      </div>
