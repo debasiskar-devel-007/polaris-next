@@ -96,7 +96,7 @@
     border-radius: 6px;
     box-shadow: 1px 1px 10px -5px #000000;
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 0;
 }
 .left_sec_img_sub_box {
     overflow: hidden;
