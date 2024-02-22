@@ -160,6 +160,8 @@ export default function Homes() {
         <meta property="og:image:height" content="627"></meta>
         </Head>
 
+    <div className="polaris_home_full_width">
+
       <div className={styles.polaris_home_main_wrp}>
         <div className={styles.polaris_home_wrp}>
           <img className={styles.polaris_position_img} src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_banner_man_img.webp' />
@@ -523,6 +525,8 @@ export default function Homes() {
         
       <Footer />
       </div>
+
+    </div>
 
 
       {/* <div className={styles.polaris_demo_wrp}>
