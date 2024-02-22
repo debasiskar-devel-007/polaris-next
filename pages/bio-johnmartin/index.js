@@ -68,6 +68,21 @@ export default function index() {
         </div>
       </div>
 
+      <div className={styles.j_martin_page_block2_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_block2_blue_box}>
+
+            <div className={styles.block2_grey_bar}>
+              <h1>Career Highlights</h1>
+            </div>
+
+            <div className={styles.block2_blue_box_sub_white_box}>
+              <p>John is a senior executive with over thirty-five years of progressive financial management, strategic planning, and operational experience in the healthcare industry. In addition to all facets of financial and operational management, he has most recently been involved with financial feasibility studies, joint venture planning and execution, physician hospital development, physician/hospital integration, process improvement, hospital and physician practice management, and enterprise level strategic and operational planning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
