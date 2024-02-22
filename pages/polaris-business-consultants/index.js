@@ -14,6 +14,10 @@ export default function Index() {
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
+          <meta property="og:title" content="Polaris Business Consultants | Ambulatory Surgery Center Development Course"></meta>
+        <meta name="keywords" content="Ambulatory Surgery Center, ASC, Ambulatory Surgical Center, Surgery Center Development, Ambulatory Surgery Center Course, Polaris Business Consultants"></meta>
+        <meta property="og:description" content="Join the Ambulatory Surgery Center Development Course by Polaris Business Consultants. Gain insights into ASC establishment, regulatory compliance, strategic planning, and more. Let's embark on this transformative journey together!"></meta>
+        <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
         </Head>
 
      <Navbar />

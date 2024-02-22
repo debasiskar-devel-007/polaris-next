@@ -148,6 +148,10 @@ export default function Index() {
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
+         <meta property="og:title" content="Contact Polaris Business Consultants for Expert Business Solutions"></meta>
+        <meta name="keywords" content="Polaris Business Consultants, John D Martin, business consulting, expert solutions, tailored strategies, growth, success, services, contact form, email, newsletter.s"></meta>
+        <meta property="og:description" content="Get in touch with John D Martin, Managing Director at Polaris Business Consultants. Ask questions, inquire about services, or sign up for the weekly newsletter. Polaris specializes in business consulting, providing tailored strategies for growth and success."></meta>
+        <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
         </Head>
 
             <div className={styles.contact_banner_main_wrapper}>
