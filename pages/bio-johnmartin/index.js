@@ -113,10 +113,12 @@ export default function index() {
                 <div className={`${styles.bullet_cont_part_main_width} ${styles.part_3}`}>
                   <h3 className={styles.orange_bullet_cont}>Transactions </h3>
 
-                  <h5 className={styles.green_bullet_cont}>Structure</h5>
-                  <h5 className={styles.green_bullet_cont}>Physician / Hospital Partnerships</h5>
-                  <h5 className={styles.green_bullet_cont}>Analysis</h5>
-                  <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5>
+                  <div className={styles.green_bullet_cont_wrpr}>
+                    <h5 className={styles.green_bullet_cont}>Structure</h5>
+                    <h5 className={styles.green_bullet_cont}>Physician / Hospital Partnerships</h5>
+                    <h5 className={styles.green_bullet_cont}>Analysis</h5>
+                    <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5>
+                  </div>
                 </div>
 
               </div>
