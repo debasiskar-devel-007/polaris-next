@@ -308,6 +308,89 @@ export default function Index() {
             </div>
          </div>
       </div>
+
+
+      <div className={styles.PBC_block6}>
+         <div className={styles.common_width}>
+            <h1>STRATEGIC INVESTMENT FRAMEWORK:CAPITAL COMMITMENT, OWNERSHIP STRUCTURES, AND FINANCING STRATEGIES IN ASC DEVELOPMENT</h1>
+            <h2>Investment Structure</h2>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_Flex}`}>
+               <h3>Estimated Total Capital Commitment</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Facility construction</p>
+                  <p>Capital equipment</p>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_Flex}`}>
+               <h3>Capital Raise / Financing</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Corporate structure
+                     <span>ASC only</span>
+                     <span>Include real estate</span>
+                  </p>
+                  <p>Ownership allocation among partners
+                     <span>Current</span>
+                     <span>Future</span>
+                  </p>
+                  <p>Capital Structure
+                     <span>Debt</span>
+                     <span>Equity</span>
+                  </p>
+                  <p>Physician ownership
+                     <span>Active owners</span>
+                     <span>Passive owners</span>
+                  </p>
+               </div>
+            </div>
+            <div className={styles.PBC_block6_innerBlock}>
+               <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_block6_innerBlockImage.webp" />
+               <div className={styles.PBC_B6_innerBlock_SubWrpr}>
+                  <h1>STRATEGIC FINANCIAL PLANNING FOR ASC SUCCESS:STRATEGIC FINANCIAL PLANNING FROM COMPREHENSIVE FIVE-YEAR PLANS</h1>
+                  <h4>Financial Projection – Initial</h4>
+                  <p>Order of magnitude projection</p>
+                  <p>Assumed volume and mix of cases</p>
+                  <p>Broad revenue and expense assumptions</p>
+                  <p>Initial financial plan based on:</p>
+                  <div className={styles.BlackBullet}>
+                     <h5>Market study / strategic plan</h5>
+                     <h5>Size and scope of project </h5>
+                     <h5>Investment structure</h5>
+                  </div>
+                  <p>Projection packet</p>
+                  <div className={styles.BlackBullet}>
+                     <h5>Assumptions</h5>
+                     <h5>Five year financial projection</h5>
+                     <h5>Capital budget</h5>
+                  </div>
+               </div>
+            </div>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block6_innerBlock2}`}>
+               <h3>Completion Survey (take before next module)</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>What is your top question about Pre-Project Planning?</p>
+                  <p>What is your top question or concern about beginning the process of planning and developing an ASC?</p>
+               </div>
+               <h3>Bonus: Pre-Planning Project Checklist</h3>
+               <div className={styles.PBC_block6_wrprWhite}>
+                  <p>Receive bonus when survey is completed</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div className={styles.PBC_block7}>
+         <div className={styles.common_width}>
+            <h1>MODULE 3: PLANNING AND DEVELOPMENT: FACILITY DESIGN AND CONSTRUCTION</h1>
+            <p>In this ASC Development course section dedicated to Legal, Regulatory, and Organizational intricacies, where we delve into the critical legal and structural aspects shaping the foundation of ambulatory surgical centers (ASCs). Explore project-specific legal considerations, including joint venture structures and the pivotal decision on physician, hospital, and ASC development company partnerships. Navigate the process of determining entity types, recruiting investors, and crafting comprehensive investor decks. Uncover the nuances of board organization and development, defining size, representation, and committee structures with a focus on administrative and medical committees. This section also provides insights into refining financial projections, evaluating financing alternatives, conducting payer analyses, and tightening projection assumptions. Join us as we delve into the multifaceted landscape of ASC development, covering legal, regulatory, and organizational dimensions crucial for success.</p>
+            <div className={styles.PBC_block7_innerBlock}>
+               <img src="" alt="" />
+                  <h2>NAVIGATING LEGAL AND ORGANIZATIONAL FRAMEWORKS IN ASC DEVELOPMENT: STRUCTURING JOINT  VENTURES, ENTITIES, AND BOARDS</h2>
+               <div className={styles.PBC_B7_innerBlock_SubWrpr}>
+                  <h3>LEGAL / REGULATORY / ORGANIZATIONAL</h3>
+               </div>
+            </div>
+         </div>
+      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>
