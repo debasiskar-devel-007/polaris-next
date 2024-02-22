@@ -146,7 +146,7 @@ export default function Homes() {
 
 <Head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>Home</title>
+        <title>Polaris Business Consultants</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
@@ -155,7 +155,12 @@ export default function Homes() {
         <meta name="keywords" content=" Polaris Business Consultants, healthcare consulting, ambulatory surgical center development, financial planning, operational improvement, workflow automation, healthcare industry."></meta>
         <meta property="og:description" content=" Polaris Business Consultants is your partner in creating sustainable strategic, financial, and operational strategies for continued growth and success. Our services include ambulatory surgical center development training, healthcare consulting specializing in strategic and financial planning, transactions support, and operational improvement."></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/"></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_home_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
+
+    <div className="polaris_home_full_width">
 
       <div className={styles.polaris_home_main_wrp}>
         <div className={styles.polaris_home_wrp}>
@@ -245,19 +250,19 @@ export default function Homes() {
                 </div>
                 <div className={styles.polaris_blk3_evn_od}>
                   <div className={styles.polaris_blk3_evn_od_heading}>
-                    <h1>Ambulatory Surgery Center Development</h1>
+                    <h1>Healthcare Consulting</h1>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Video Training Series</p>
+                    <p>Strategic Planning</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Mastermind Group</p>
+                    <p>Financial Planning and Analysis</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Mentoring</p>
+                    <p>Transactional Support</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Consulting</p>
+                    <p>Revenue Cycle Review</p>
                   </div>
 
 
@@ -265,20 +270,20 @@ export default function Homes() {
                 </div>
                 <div className={styles.polaris_blk3_evn_od}>
                   <div className={styles.polaris_blk3_evn_od_heading}>
-                    <h1>Ambulatory Surgery Center Development</h1>
+                    <h1>Operational Improvement</h1>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_white}>
-                    <p>Video Training Series</p>
+                    <p>Revenue Recovery Strategies</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
-                    <p>Mastermind Group</p>
+                    <p>Workplace Automation</p>
                   </div>
-                  <div className={styles.polaris_blk3_evn_od_heading_white}>
+                  {/* <div className={styles.polaris_blk3_evn_od_heading_white}>
                     <p>Mentoring</p>
                   </div>
                   <div className={styles.polaris_blk3_evn_od_heading_gray}>
                     <p>Consulting</p>
-                  </div>
+                  </div> */}
 
 
 
@@ -520,6 +525,8 @@ export default function Homes() {
         
       <Footer />
       </div>
+
+    </div>
 
 
       {/* <div className={styles.polaris_demo_wrp}>

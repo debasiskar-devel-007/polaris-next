@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <>
     <Head>
-        <title>Polaris-Blog</title>
+        <title>Ambulatory Surgery Center Development</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
@@ -17,6 +17,9 @@ export default function Index() {
         <meta name="keywords" content="Ambulatory Surgery Center Planning, Business Development, Financial Planning and Analysis, Polaris Business Consultants, ASC Strategy, ASC Financial Management, ASC Consulting Services"></meta>
         <meta property="og:description" content="Discover expert insights on Ambulatory Surgery Center planning, business development, and financial planning with Polaris Business Consultants. Gain industry-leading knowledge and optimize your ASC for success."></meta>
         <meta property="og:url" content="https://polaris.betoparedes.com/blog "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/Polaris_Ambulatory_Blog_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
       <div className={styles.polaris_main_wdth}>

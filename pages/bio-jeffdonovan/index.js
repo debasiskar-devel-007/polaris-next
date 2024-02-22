@@ -9,7 +9,7 @@ export default function index() {
   return (
     <>
       <Head>
-        <title>Jeffdonovan</title>
+        <title>Bio-JeffDonovan</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
@@ -18,6 +18,9 @@ export default function index() {
         <meta name="keywords" content="Jeff Donovan, CPA, Tax Planning, Financial Strategies, Business Valuations, Forensic Accounting, Certified Valuation Analyst, Master Analyst in Financial Forensics, Indiana University"></meta>
         <meta property="og:description" content="Meet Jeff Donovan, a Managing Partner with extensive experience in tax planning, business valuations, and forensic accounting. With a Bachelor's degree in Accounting from Indiana University, Jeff offers clients the knowledge and resources to navigate complex financial decisions. "></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/bio-jeffdonovan "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Bio-Jeffdonovan_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
   <div className="polaris_j_donovan_page_main_width">

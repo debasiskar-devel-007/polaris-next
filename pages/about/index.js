@@ -18,6 +18,9 @@ export default function Index() {
         <meta name="keywords" content=" healthcare consulting, strategic planning, financial advising, operational improvement"></meta>
         <meta property="og:description" content="  Polaris Business Consultants offers comprehensive healthcare consulting services, including strategic planning, financial advising, operational improvement, and more. Our experienced team of industry professionals stands ready to help you develop and manage your growth plans."></meta>
         <meta property="og:url" content="https://polaris.betoparedes.com/about "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_About_Us_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
      <div className={styles.polaris_about_main}>

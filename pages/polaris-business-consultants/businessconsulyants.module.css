@@ -136,7 +136,8 @@
     }
     .PBC_block2_wrpr h1,
     .PBC_B4_wrpr1_Inner1 h1,
-    .PBC_block4_wrpr4 h1{
+    .PBC_block4_wrpr4 h1,
+    .PBC_block7 h1{
         font-size: 50px;
         font-weight: 900;
         background: linear-gradient(0deg, #021d33 0%, #4b6b70 100%);        -webkit-background-clip: text;
@@ -272,7 +273,8 @@
         left: 0px;
         top: 7px;
     }
-    .PBC_block3 p::after{
+    .PBC_block3 p::after,
+    .PBC_block5_wrpr p::after{
         content: '';
         position: absolute;
         background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/SkyBlue_window_Bullate.png);
@@ -306,7 +308,8 @@
         margin: 0 0 0 auto;
         
     }
-    .PBC_B4_wrpr1_Inner2{
+    .PBC_B4_wrpr1_Inner2,
+    .PBC_block6_wrprBlue{
         padding: 20px;
         border: 3px solid #0e8fb2;
         background: linear-gradient(0deg, rgba(19,167,210,1) 0%, rgba(104,228,250,1) 100%);
@@ -324,7 +327,8 @@
         display: inline;
         padding-right: 10px;
     }
-    .PBC_B4_wrpr1_Inner2Box{
+    .PBC_B4_wrpr1_Inner2Box,
+    .PBC_block6_wrprWhite{
         background: linear-gradient(0deg, rgba(209,213,218,1) 0%, rgba(255,255,255,1) 100%);
         border-radius: 15px;
         padding: 20px;
@@ -382,7 +386,9 @@
         text-shadow: 0 0 5px #002b37c2;
         margin-top: 20px;
     }
-    .PBC_block4_wrpr2 h1{
+    .PBC_block4_wrpr2 h1,
+    .PBC_block6 h1,
+    .PBC_block7_innerBlock h2{
         font-size: 40px;
         font-weight: 900;
         background: linear-gradient(0deg, #021d33 0%, #4b6b70 100%);
@@ -530,6 +536,315 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* -------------- block5 ------------ */
+    .PBC_block5{
+        padding: 40px 0;
+    }
+    .PBC_block5 h1{
+        font-size: 40px;
+        font-weight: 900;
+        background: linear-gradient(0deg, rgba(165,168,174,1) 0%, rgba(255,255,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline;
+        line-height: 47px;
+        text-transform: uppercase;
+    }
+    .PBC_block5 h2{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #d2ff00;
+        margin-top: 20px;
+    }
+    .PBC_block5_wrpr{
+        width: 40%;
+    }
+    .PBC_block5_wrpr p{
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #c5d0e0;
+        margin-top: 20px;
+        position: relative;
+        padding-left: 30px;
+    }
+    .PBC_block5_wrprInner{
+        background: linear-gradient(0deg, rgba(209,213,218,1) 0%, rgba(255,255,255,1) 100%);
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        box-shadow: 0 0 8px 1px #11697f59;
+        margin-top: 15px;
+    }
+    .PBC_block5_wrprInner h3{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #000;
+        position: relative;
+        padding-left: 30px;
+        display: inline-block;
+        
+    }
+    .PBC_block5_wrprInner h3::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(0deg, rgba(183,24,25,1) 0%, rgba(241,165,91,1) 100%);
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 17px;
+        width: 17px;
+        left: 6px;
+        top: 6px;
+    }
+
+    .PBC_block5_wrprInner h3 span{
+        padding-left: 35px;
+        position: relative;
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    .PBC_block5_wrprInner h3 span::after{
+        content: '';
+        position: absolute;
+        background: #2261c7;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        left: 15px;
+        top: 6px;
+    }
+
+    .PBC_block5{
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Block5_BGimage2.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Block5_BGimage1.webp);
+        background-repeat: no-repeat;
+        background-size: 1051px , cover;
+        background-position: bottom -45px right, center;
+    }
+    /* =============== block6 =============== */
+    .PBC_block6 h2,
+    .PBC_B7_innerBlock_SubWrpr h3{
+        font-size: 35px;
+        font-weight: 700;
+        color: #0a81a0;
+        line-height: 34px;
+    }
+    .PBC_block6_wrprBlue h3{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 39px;
+        background: linear-gradient(0deg, rgba(1,11,36,1) 0%, rgba(16,81,118,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline;
+    }
+    .PBC_block6_Flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .PBC_block6_wrprWhite p{
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 29px;
+        color: #353a42;
+        padding-left: 30px;
+        display: inline-block;
+        position: relative;
+        max-width: 279px;
+    }
+    .PBC_block6_wrprBlue{
+        padding: 6px;
+        padding-left: 26px;
+    }
+    .PBC_block6_wrprWhite{
+        margin-top: 0;
+        min-width: 60%;
+        padding: 7px;
+        display: flex;
+        border-radius: 7px;
+    }
+    .PBC_block6_wrprWhite p::after{
+        content: '';
+        position: absolute;
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Orange_window_Bullate.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 19px;
+        width: 19px;
+        left: 7px;
+        top: 4px;
+    }
+    .PBC_block6{
+        padding: 50px 0;
+    }
+    .PBC_block6_wrprWhite p span{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #000;
+        padding-left: 30px;
+        position: relative;
+        margin-top: 5px;
+    }
+    .PBC_block6_wrprWhite p span::after,
+    .BlackBullet h5::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(0deg, rgba(1,11,36,1) 0%, rgba(16,81,118,1) 100%);
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        left: 11px;
+        top: 10px;
+    }
+    .PBC_B6_innerBlock_SubWrpr{
+        width: 60%;
+        margin: 0 0 0 auto;
+    }
+    .PBC_block6_innerBlock{
+        padding: 40px 0;
+        position: relative;
+    }
+    .PBC_B6_innerBlock_SubWrpr h4{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #353a42;
+        margin-top: 20px;
+    }
+    .PBC_B6_innerBlock_SubWrpr p{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #353a42;
+        margin-top: 5px;
+        position: relative;
+        padding-left: 30px;
+    }
+    .PBC_B6_innerBlock_SubWrpr p::after{
+        content: '';
+        position: absolute;
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Orange_window_Bullate.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        height: 19px;
+        width: 19px;
+        left: 0px;
+        top: 4px;
+    }
+    .BlackBullet h5{
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #353a42;
+        margin-top: 5px;
+        white-space: nowrap;
+        padding-left: 30px;
+        position: relative;
+    }
+    .BlackBullet{
+        display: flex;
+        align-items: center;
+    }
+    .BlackBullet h5::after{
+        top: 8px;
+    }
+    .PBC_block6_innerBlock img{
+        position: absolute;
+        top: 50%;
+        left: -76px;
+        transform: translateY(-50%);
+    }
+    .PBC_block6_innerBlock2{
+        padding:  25px;
+        margin-top: 0;
+    }
+    .PBC_block6_innerBlock2 p{
+        max-width: unset;
+    }
+    .PBC_block6_innerBlock2 .PBC_block6_wrprWhite{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 16px;
+    }
+
+    /* ============= block7 ============== */
+    .PBC_block7{
+        padding-bottom: 40px;
+    }
+    .PBC_block7 p{
+        font-size: 26px;
+        font-weight: 500;
+        color: #353a42;
+        line-height: 32px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .PBC_B7_innerBlock_SubWrpr{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .PBC_B7_innerBlock_SubWrpr{
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

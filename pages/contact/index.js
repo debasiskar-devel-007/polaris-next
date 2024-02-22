@@ -152,7 +152,12 @@ export default function Index() {
         <meta name="keywords" content="Polaris Business Consultants, John D Martin, business consulting, expert solutions, tailored strategies, growth, success, services, contact form, email, newsletter.s"></meta>
         <meta property="og:description" content="Get in touch with John D Martin, Managing Director at Polaris Business Consultants. Ask questions, inquire about services, or sign up for the weekly newsletter. Polaris specializes in business consulting, providing tailored strategies for growth and success."></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_Contact_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
+
+        <div className="contact_page_full_width">
 
             <div className={styles.contact_banner_main_wrapper}>
                 <Navbar />
@@ -305,6 +310,8 @@ export default function Index() {
                     </div>
                 </div>
             </div>
+
+        </div>
 
             <Footer />
         </>
