@@ -122,7 +122,11 @@ export default function index() {
       <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
         <h1>Key Career Accomplishments</h1>
       </div>
-      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}></div>
+      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+        <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+          <h2>Specialization</h2>
+        </div>
+      </div>
     </div>
   </div>
     <Footer />
