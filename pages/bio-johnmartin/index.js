@@ -175,6 +175,50 @@ export default function index() {
         </div>
       </div>
 
+      <div className={styles.j_martin_page_block4_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_grey_box}>
+            
+            <div className={styles.block3_sky_bar}>
+              <div className={styles.sky_bar_main_wrpr}>
+
+                <div className={styles.sky_bar_left_section}>
+                  <h2>JD Martin Enterprises</h2>
+                  <h2>d/b/a JD Martin Healthcare Advisors</h2>
+                  <p>9046 E 10th Street Indianapolis, IN 46219</p>
+                </div>
+
+                <div className={styles.sky_bar_right_section}>
+                  <h3>April, 2018 – Current</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.block3_cont_part}>
+              <h2>Managing Partner</h2>
+              <p>In April, 2018, I became the Managing Partner of JD Martin Enterprises d/b/a JD Martin Healthcare Advisors. The focus of my consulting practice is:</p>
+
+              <div className={styles.block3_bullet_cont_part}>
+                <div className={styles.orange_bullet_cont_wrpr}>
+                  <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                  <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                  <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+                  <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
+                  <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+                </div>
+
+                <div className={styles.green_bullet_cont_wrpr}>
+                  <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                  <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                </div>
+              </div>
+
+              <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
       </div>

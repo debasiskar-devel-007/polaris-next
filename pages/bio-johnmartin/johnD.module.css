@@ -322,6 +322,10 @@
     margin-bottom: 10px;
 }
 
+/* ----------block4----------- */
+.j_martin_page_block4_main_width .orange_bullet_cont {
+    margin-right: 25px;
+}
 
 
 
@@ -988,8 +992,13 @@
     .block3_cont_part p:last-child {
         margin-bottom: 0;
     }
-}
 
+    /* ------------block4----------- */
+    /* ----------block4----------- */
+    .j_martin_page_block4_main_width .orange_bullet_cont {
+        margin-right: 0;
+    }
+}
 
         /* ---------------------------------------------biswarup------------------------------------------- */
 
