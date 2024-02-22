@@ -22,6 +22,27 @@ export default function index() {
         <meta property="og:image:height" content="627"></meta>
         </Head>
 
+
+  <div className="polaris_j_martin_page_main_width">
+
+    <div className={styles.polaris_j_martin_page_full_width}>
+
+      <div className={styles.j_martin_page_banner_main_width}>
+      <Navbar/>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_bnr_left_cont}>
+            <h1>BIO</h1>
+
+            <div className={styles.yellow_box_sec_main_width}>
+              <h2>Our leadership team</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
       <Navbar />
       <div className={styles.polaris_JDM_BIO_width}>
    
