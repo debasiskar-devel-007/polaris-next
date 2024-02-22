@@ -142,7 +142,7 @@ background-repeat: no-repeat;background-position: center;background-size: 100% 1
     align-items: start;}
   .polaris_blk3_evn_od{width: 33%;display: flex;flex-direction: column;border-right: 3px solid #d4d4d9;}
   .polaris_blk3_evn_od:last-child{border-right: none;}
-  .polaris_blk3_evn_od_heading{background-color: #ededef;padding:20px 10px;border-radius: 10px 0px 0 10px;display: flex;justify-content: center;align-items: center;}
+  .polaris_blk3_evn_od_heading{background-color: #ededef;padding:20px 10px;border-radius: 10px 0px 0 10px;justify-content: center;align-items: center;}
   .polaris_blk3_evn_od:nth-child(2) .polaris_blk3_evn_od_heading{border-radius: unset;}
   .polaris_blk3_evn_od:nth-child(3) .polaris_blk3_evn_od_heading{border-radius: 0px 10px 10px 0px;}
   .polaris_blk3_evn_od_heading h1{font-size: 23px;line-height: 32px;font-weight: 500;color: #000;text-align: center;margin-bottom: 0;}
@@ -255,6 +255,8 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
   .common_width{width: 96%;}
   .polaris_blk2_sub1_wrp{    width: 51%;}
   .polaris_blk5_main_wrp{    background-position: right -178px bottom -256px, center;}
+  .polaris_blk3_evn_od_heading h1{    font-size: 18px;
+    line-height: 25px;}
 }
 @media(max-width:1670px){
   .polaris_position_img{    right: 172px;}
@@ -262,6 +264,14 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
   .polaris_blk3_text_wrp p{    font-size: 25px;
     line-height: 32px;}
 }
+@media(max-width:1590px){
+  .polaris_blk3_evn_od_heading_gray{    padding-left: 80px;}
+  .polaris_blk3_evn_od_heading_white{    padding-left: 80px;}
+  .polaris_blk3_evn_od_heading_white p{font-size: 17px;line-height: 23px;}
+  .polaris_blk3_evn_od_heading_gray p{font-size: 17px;line-height: 23px;}
+
+}
+
 @media(max-width:1580px){
   .polaris_blk1_main_wrp{    background-position: left 79px bottom,left -100px bottom,center;}
   .polaris_blk2_main1_wrp{    background-position: right 270px bottom -100px,right bottom;}
@@ -335,6 +345,8 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
                             .polaris_blk5_main_wrp{    background-position: right -338px bottom -256px, center;}
                             .polaris_blk5_sub_wrp h5{    font-size: 24px;
                               line-height: 30px;    margin: 17px 0;}
+                              .polaris_blk3_evn_od_heading h1{    font-size: 14px !important;
+                                line-height: 20px !important;}
 }
 
 @media(max-width:1350px){
@@ -372,6 +384,9 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
 }
 
 @media(max-width:1199px){
+  .polaris_blk3_evn_od_heading{border-radius: 10px;}
+  .polaris_blk3_evn_od:nth-child(2) .polaris_blk3_evn_od_heading{border-radius: 10px;}
+  .polaris_blk3_evn_od:nth-child(3) .polaris_blk3_evn_od_heading{border-radius: 10px;}
   .polaris_home_sub_left_wrp{width: 100%;}
   .polaris_home_sub_left1_wrp{background-image: none;background-color: #fff;border-radius: 10px;width: 100%;    margin-bottom: 500px;padding-bottom: 30px;}
   .polaris_home_sub_left1_mini1_wrp{background-image: none;background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/contact/contact_banner_yellow_bg.webp);background-repeat: no-repeat;background-position: center;background-size: 100% 100%;border-radius: 10px;width: 100%;position: unset;}
@@ -393,7 +408,8 @@ background-repeat: no-repeat;background-size:auto, cover;background-position:rig
       .polaris_blk2_sub2_right_wrp{width: 70%;}.polaris_blk2_sub2_right_wrp{width: 100%;}
       .polaris_blk2_main_wrp{    padding-bottom: 20px;}
       .polaris_blk3_main_wrp{    padding: 20px 0;}
-      .polaris_blk3_evn_od{width: 49%;}
+      .polaris_blk3_evn_od{width: 100%;    margin-bottom: 20px;
+        border-right: none;}
       .polaris_blk3_1sub_wrp{flex-wrap: wrap;}
       .polaris_blk3_evn_od:last-child{width: calc(100% - 20px);    margin-top: 20px;}
       .polaris_blk3_evn_od:nth-of-type(2){border-right: none;}
