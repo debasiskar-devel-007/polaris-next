@@ -117,7 +117,9 @@ export default function Homes() {
 
     if (!user?.contact_number) {
       errorObject.contact_number = " Phone Number is Required";
-    }
+    }else if (user.contact_number.toString().length != 14) {
+      errorObject.contact_number = "* Phone Number must be 10 digits";
+  }
     // if (!user?.write_a_message) {
     //   errorObject.write_a_message = "Write a Message is Required";
     // }
