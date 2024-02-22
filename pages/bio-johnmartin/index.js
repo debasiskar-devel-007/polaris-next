@@ -79,6 +79,48 @@ export default function index() {
 
             <div className={styles.block2_blue_box_sub_white_box}>
               <p>John is a senior executive with over thirty-five years of progressive financial management, strategic planning, and operational experience in the healthcare industry. In addition to all facets of financial and operational management, he has most recently been involved with financial feasibility studies, joint venture planning and execution, physician hospital development, physician/hospital integration, process improvement, hospital and physician practice management, and enterprise level strategic and operational planning.</p>
+
+              <div className={styles.block2_white_box_sub_heading}>
+                <h2>Specific areas of expertise include:</h2>
+              </div>
+
+              <div className={styles.block2_bullet_cont_main_wrpr}>
+
+                <div className={styles.bullet_cont_part_main_width}>
+                  <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                  <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+
+                  <div className={styles.green_bullet_cont_wrpr}>
+                    <h5 className={styles.green_bullet_cont}>Financial Improvement</h5>
+                    <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                    <h5 className={styles.green_bullet_cont}>Operational Budgeting</h5>
+                    <h5 className={styles.green_bullet_cont}>Capital Budgeting</h5>
+                    <h5 className={styles.green_bullet_cont}>Financial Statement Review and Analysis</h5>
+                  </div>
+                </div>
+
+                <div className={`${styles.bullet_cont_part_main_width} ${styles.part_2}`}>
+                  <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                  <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+
+                  <div className={styles.green_bullet_cont_wrpr}>
+                    <h5 className={styles.green_bullet_cont}>Facility Design</h5>
+                    <h5 className={styles.green_bullet_cont}>Project Management</h5>
+                    <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5>
+                  </div>
+                </div>
+
+                <div className={`${styles.bullet_cont_part_main_width} ${styles.part_3}`}>
+                  <h3 className={styles.orange_bullet_cont}>Transactions </h3>
+
+                  <h5 className={styles.green_bullet_cont}>Structure</h5>
+                  <h5 className={styles.green_bullet_cont}>Physician / Hospital Partnerships</h5>
+                  <h5 className={styles.green_bullet_cont}>Analysis</h5>
+                  <h5 className={styles.green_bullet_cont}>Financial Due Diligence</h5>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
@@ -122,7 +164,11 @@ export default function index() {
       <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
         <h1>Key Career Accomplishments</h1>
       </div>
-      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}></div>
+      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+        <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+          <h2>Specialization</h2>
+        </div>
+      </div>
     </div>
   </div>
     <Footer />

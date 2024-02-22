@@ -137,7 +137,8 @@
     .PBC_block2_wrpr h1,
     .PBC_B4_wrpr1_Inner1 h1,
     .PBC_block4_wrpr4 h1,
-    .PBC_block7 h1{
+    .PBC_block7 h1,
+    .PBC_block9 h1{
         font-size: 50px;
         font-weight: 900;
         background: linear-gradient(0deg, #021d33 0%, #4b6b70 100%);        -webkit-background-clip: text;
@@ -541,7 +542,8 @@
     .PBC_block5{
         padding: 40px 0;
     }
-    .PBC_block5 h1{
+    .PBC_block5 h1,
+    .PBC_block8 h1{
         font-size: 40px;
         font-weight: 900;
         background: linear-gradient(0deg, rgba(165,168,174,1) 0%, rgba(255,255,255,1) 100%);
@@ -551,7 +553,8 @@
         line-height: 47px;
         text-transform: uppercase;
     }
-    .PBC_block5 h2{
+    .PBC_block5 h2,
+    .PBC_block8 h2{
         font-size: 35px;
         font-weight: 700;
         line-height: 34px;
@@ -718,7 +721,8 @@
         color: #353a42;
         margin-top: 20px;
     }
-    .PBC_B6_innerBlock_SubWrpr p{
+    .PBC_B6_innerBlock_SubWrpr p,
+    .PBC_block7 p{
         font-size: 26px;
         font-weight: 700;
         line-height: 34px;
@@ -727,7 +731,8 @@
         position: relative;
         padding-left: 30px;
     }
-    .PBC_B6_innerBlock_SubWrpr p::after{
+    .PBC_B6_innerBlock_SubWrpr p::after,
+    .PBC_block7 p::after{
         content: '';
         position: absolute;
         background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/Orange_window_Bullate.png);
@@ -737,7 +742,7 @@
         height: 19px;
         width: 19px;
         left: 0px;
-        top: 4px;
+        top: 7px;
     }
     .BlackBullet h5{
         font-size: 21px;
@@ -779,7 +784,8 @@
     .PBC_block7{
         padding-bottom: 40px;
     }
-    .PBC_block7 p{
+    .PBC_block7 h4,
+    .PBC_block9_inner p{
         font-size: 26px;
         font-weight: 500;
         color: #353a42;
@@ -788,31 +794,96 @@
         margin-bottom: 20px;
     }
     .PBC_B7_innerBlock_SubWrpr{
-        width: 50%;
+        width: 68%;
         margin-top: 20px;
     }
-    .PBC_B7_innerBlock_SubWrpr{
-
+    .PBC_B7_innerBlock_Flex{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .PBC_B7_MiniBlock{
+        width: calc(50% - 15px);
+    }
+    .PBC_B7_innerBlock_SubWrpr .BlackBullet {
+        display: block;
+    }
+    .BlackBullet h6{
+        font-size: 21px;
+        font-weight: 500;
+        color: #353a42;
+        line-height: 27px;
+        padding-left: 30px;
+    }
+    .PBC_B7_innerBlock_SubWrpr h3{
+        margin-bottom: 10px;
+    }
+    .PBC_block7_innerBlock{
+        position: relative;
+    }
+    .PBC_block7_innerBlock img{
+        position: absolute;
+        right: -120px;
+        top: 50%;
+        transform: translateY(-57%);
+        z-index: -1;
+    }
+    .PBC_block7_wrprBlue p{
+        max-width: unset;
+        margin-right: 15px;
+    }
+    .PBC_block7_wrprBlue .PBC_block6_wrprWhite{
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+    .PBC_block7_wrprBlue h6{
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 39px;
+        background: linear-gradient(0deg, rgba(1, 11, 36, 1) 0%, rgba(16, 81, 118, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin : 10px 0;
+    }
+    .PBC_block7_wrprBlue{
+        padding: 24px;
     }
 
 
+    /* ================== block8 ============= */
 
+    .PBC_block8{
+        padding: 40px 0;
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_block8_BGimage.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .PBC_block8_wrprBlue .BlackBullet{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .PBC_block8_wrprBlue h5{
+        margin-left: 18px;
+    }
+    .PBC_block8_wrprBlue{
+        margin-top: 15px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* ================== block9 ============= */
+    .PBC_block9{
+        padding: 40px 0;
+    }
+    .PBC_block9 .PBC_block6_wrprWhite{
+        margin-top: 15px;
+    }
+    .PBC_block9 .PBC_block6_wrprWhite p{
+        margin: 5px 0;
+    }
+    .PBC_block9_inner{
+        padding-top: 40px;
+    }
 
 
 
