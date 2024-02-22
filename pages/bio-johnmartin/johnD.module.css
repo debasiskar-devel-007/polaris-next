@@ -452,6 +452,30 @@
         top: -105px;
         right: -5px;
     }
+
+    /* ----------block1----------- */
+    .j_martin_page_block1_main_width {
+        padding: 15px 0;
+    }
+    .block1_white_box_grey_bar {
+        margin-bottom: 10px;
+    }
+    .block1_white_box_left_sec {
+        width: 100%;
+    }
+    .j_martin_page_block1_white_box {
+        padding: 10px;
+    }
+    .white_box_left_sec_img_box {
+        margin-bottom: 10px;
+    }
+    .block1_white_box_grey_bar h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .block1_white_box_right_sec p {
+        margin-bottom: 10px;
+    }
 }
 
 
