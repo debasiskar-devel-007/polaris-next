@@ -18,6 +18,9 @@ export default function Index() {
         <meta name="keywords" content="Ambulatory Surgery Center, ASC, Ambulatory Surgical Center, Surgery Center Development, Ambulatory Surgery Center Course, Polaris Business Consultants"></meta>
         <meta property="og:description" content="Join the Ambulatory Surgery Center Development Course by Polaris Business Consultants. Gain insights into ASC establishment, regulatory compliance, strategic planning, and more. Let's embark on this transformative journey together!"></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_Polaris_Business_Consultants_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
      <Navbar />
@@ -277,6 +280,37 @@ export default function Index() {
      {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
      </div> */}
+      <div className={styles.PBC_block5}>
+         <div className={styles.common_width}>
+            <h1>STRATEGIC REAL ESTATE PLANNING: NAVIGATING REQUIREMENTS AND OWNERSHIP  STRUCTURES IN ASC DEVELOPMENT</h1>
+            <div className={styles.PBC_block5_wrpr}>
+               <h2>Real Estate</h2>
+               <p>Estimate Amount of Real Estate Required Based on Preliminary Design</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Size of facility  </h3>
+                  <h3>Anticipated daily patient volume</h3>
+                  <h3>Planned expansion</h3>
+                  <h3>Parking requirements</h3>
+                  <h3>Retention ponds and other infrastructure</h3>
+               </div>
+               <p>How Will Real Estate be Held?</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Owned {" "}
+                     <span>Held in ASC</span>
+                     <span>Create separate real estate company</span>
+                     <span>Involve real estate development company</span>
+                  </h3>
+                  <h3>Leased {" "}
+                     <span>Involve real estate development company</span>
+                  </h3>
+               </div>
+               <p>Identify real estate development partner</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Local vs. National</h3>
+               </div>
+            </div>
+         </div>
+      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>

@@ -64,6 +64,8 @@
     border: 2px solid #ffffff;
     border-radius: 10px;
     padding: 20px; 
+    display: flex;
+    justify-content: center;
 }
 .box_section::after {
     position: absolute;
@@ -82,8 +84,8 @@
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
-    text-align: center;
-    padding-left: 0;
+    /* text-align: center; */
+    padding-left: 20px;
 }
 .box_section h2::before {
     position: absolute;
@@ -92,7 +94,7 @@
     background-size: 100% 100%;
     width: 9px;
     height: 38px;
-    top: 6px;
+    top: 5px;
     left: 0;
 }
 .box_section.yellow_box {
@@ -212,6 +214,7 @@
     box-shadow: 0px 0px 10px -5px #252525;
     padding: 15px;
     margin-bottom: 25px;
+    z-index: 9;
 }
 .block2_yellow_bar::after {
     position: absolute;
@@ -232,7 +235,7 @@
     background: linear-gradient(180deg, rgba(253,253,253,1) 20%, rgba(205,211,213,1) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0px 2px 5px #636363);
+    filter: drop-shadow(1px 2px 3px #a0a0a0);
     display: inline;
     margin-bottom: 15px;
     font-family: "Roboto", sans-serif;
@@ -284,7 +287,9 @@
     left: 25px;
 }
 .service_block2_left_cont {
+    position: relative;
     padding-right: 635px;
+    z-index: 99;
 }
 .service_block2_left_cont p {
     font-size: 26px;
@@ -829,6 +834,9 @@
         width: 45%;
         margin-bottom: 20px;
     }
+    .box_section h2::before {
+        top: 3px;
+    }
     .skyblue_box {
         margin: 0 auto;
     }
@@ -1290,6 +1298,9 @@
         height: 70px;
         top: 5px;
     }
+    .box_section h2::before {
+        top: 0;
+    }
 
       /* ---------block1---------- */
     .service_page_block1_main_width {
@@ -1396,6 +1407,9 @@
     .service_page_block6_sky_box h4 {
         font-size: 25px;
         line-height: 30px;
+    }
+    .service_page_block6_part2_full_width {
+        background: none;
     }
 
     /* ---------block6-part2------------- */
@@ -1754,7 +1768,7 @@
         font-size: 35px;
         line-height: 40px;
         padding-left: 60px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .service_bnr_left_cont h1::before {
         width: 70px;
