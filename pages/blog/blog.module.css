@@ -92,7 +92,7 @@
     border-radius: 10px; border: 3px solid #bdc1c5; padding: 17px; width: calc(50% - 17px); display: flex; flex-direction: column; justify-content: space-between; background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/blog_page/about_block/blog_bg_img2.webp),url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/blog_page/about_block/blog_bg_colr.webp); background-repeat: no-repeat; background-position: bottom -40px center,center; background-size: auto, 100% 100%;    margin-bottom: 25px; }
 
 .pol_blog_img_sec {
-    background-color: #fff; padding: 10px; margin-bottom: 15px;
+    background-color: #fff; padding: 10px; margin-bottom: 15px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .pol_blog_img_sec_innr {
@@ -114,7 +114,7 @@
 }
 
 .pol_blog_flx_innr p{
-    font-size: 15px; line-height: 20px; color: #1d2129; font-weight: 700;text-align: center;
+    font-size: 14px; line-height: 20px; color: #1d2129; font-weight: 700;text-align: center;
 }
 .pol_blog_orng_div {background: linear-gradient(180deg, rgba(255,158,32,1) 0%, rgba(254,110,20,1) 100%); width: fit-content; padding: 10px 20px; border-radius: 8px; margin-bottom: 20px; margin: 0 auto 35px;}
 .pol_blog_orng_div p {  font-size: 22px; line-height: 27px; color: #fff; font-weight: 500; text-align: center;}
@@ -123,7 +123,7 @@
 
 .blog_para h4 { font-size: 20px; line-height: 25px; color: #132243; font-weight: 500; text-align: center;}
 
-.continue_bttn {padding: 12px 26px; width: fit-content; margin: 0 auto; background: linear-gradient(180deg, rgba(245,245,246,1) 0%, rgba(147,153,165,1) 100%); border-radius: 8px; border: 2px solid #fff; margin-top: auto; cursor: pointer;}
+.continue_bttn {padding: 12px 26px; width: fit-content; margin: 0 auto; background: linear-gradient(180deg, rgba(245,245,246,1) 0%, rgba(147,153,165,1) 100%); border-radius: 8px; border: 2px solid #bdc1c5; margin-top: auto; cursor: pointer;}
 
 .continue_bttn h5 {
     font-size: 30px; line-height: 35px; color: #1d2129; font-weight: 500; text-align: center;
@@ -190,11 +190,14 @@
 
         .pol_orng_wrpr::after{display: none;}
         .pol_orng_wrpr{padding: 15px;}
-        .pol_blog_div {width: calc(100% - 0px);}
-        .pol_blog_div .pol_blog_flx_innr {
-            padding: 10px;
-            width: 48%;
-        }
+        
+}
+@media (max-width: 899px){
+    .pol_blog_div {width: calc(100% - 0px);}
+    .pol_blog_div .pol_blog_flx_innr {
+        padding: 10px;
+        width: 48%;
+    }
 }
 
 @media (max-width: 599px){
