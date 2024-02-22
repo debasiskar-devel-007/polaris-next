@@ -146,7 +146,7 @@ export default function Homes() {
 
 <Head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <title>Home</title>
+        <title>Polaris Business Consultants</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
