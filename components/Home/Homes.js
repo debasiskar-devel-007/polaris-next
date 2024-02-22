@@ -143,12 +143,18 @@ export default function Homes() {
   return (
     <>
 
+
 <Head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>Home</title>
         <link
           rel="icon"
           href="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_fav_icon_new.png"
         />
+         <meta property="og:title" content="Polaris Business Consultants: Experts in Strategic Healthcare & Financial Consulting"></meta>
+        <meta name="keywords" content=" Polaris Business Consultants, healthcare consulting, ambulatory surgical center development, financial planning, operational improvement, workflow automation, healthcare industry."></meta>
+        <meta property="og:description" content=" Polaris Business Consultants is your partner in creating sustainable strategic, financial, and operational strategies for continued growth and success. Our services include ambulatory surgical center development training, healthcare consulting specializing in strategic and financial planning, transactions support, and operational improvement."></meta>
+        <meta property="og:url" content=" https://polaris.betoparedes.com/"></meta>
         </Head>
 
       <div className={styles.polaris_home_main_wrp}>
@@ -161,7 +167,7 @@ export default function Homes() {
                 <h1><span>POLARIS BUSINESS CONSULTANTS</span></h1>
               </div>
               <div className={styles.polaris_home_sub_left1_wrp}>
-                <h1>Experts in <span>Strategic</span> Healthcare & Financial  Consulting</h1>
+                <h1><span className={styles.spn1}>Experts in <span className={styles.gredtxt}>Strategic</span> </span> <span className={styles.spn2}>Healthcare & Financial</span> <span className={styles.spn3}> Consulting</span></h1>
                 <div className={styles.polaris_home_sub_left1_mini1_wrp}>
                   <p>Your partner in creating sustainable strategic, financial, and operational strategies to provide for continued
                     growth and success.</p>
