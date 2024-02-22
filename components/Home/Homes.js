@@ -155,6 +155,9 @@ export default function Homes() {
         <meta name="keywords" content=" Polaris Business Consultants, healthcare consulting, ambulatory surgical center development, financial planning, operational improvement, workflow automation, healthcare industry."></meta>
         <meta property="og:description" content=" Polaris Business Consultants is your partner in creating sustainable strategic, financial, and operational strategies for continued growth and success. Our services include ambulatory surgical center development training, healthcare consulting specializing in strategic and financial planning, transactions support, and operational improvement."></meta>
         <meta property="og:url" content=" https://polaris.betoparedes.com/"></meta>
+        <meta property="og:image" content="https://all-frontend-assets.s3.amazonaws.com/polaris_project/og_img/Polaris_Ambulatory_home_OG_image.webp"></meta>
+        <meta property="og:image:width" content="1200"></meta>
+        <meta property="og:image:height" content="627"></meta>
         </Head>
 
       <div className={styles.polaris_home_main_wrp}>
