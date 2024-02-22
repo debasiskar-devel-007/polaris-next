@@ -127,6 +127,109 @@
     margin-bottom: 0;
 }
 
+/* -----------block2------------ */
+.j_martin_page_block2_blue_box {
+    background: linear-gradient(95deg, rgba(1,25,73,1) 0%, rgba(0,84,167,1) 100%);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+.block2_grey_bar {
+    position: relative;
+    width: fit-content;
+    background: linear-gradient(180deg, rgba(245,246,248,1) 0%, rgba(162,172,191,1) 100%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    top: -45px;
+}
+.block2_grey_bar h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+.block2_blue_box_sub_white_box {
+    position: relative;
+    background: #e6edf4;
+    border-radius: 6px;
+    padding: 15px;
+    top: -20px;
+}
+.block2_blue_box_sub_white_box p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.block2_white_box_sub_heading {
+    background: #bed1e4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.block2_white_box_sub_heading h2 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #01082a;
+    text-align: center;
+}
+.block2_bullet_cont_main_wrpr {
+    display: flex;
+    justify-content: space-between;
+}
+.bullet_cont_part_main_width {
+    width: 35%;
+}
+.orange_bullet_cont {
+    position: relative;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.orange_bullet_cont::before {
+    position: absolute;
+    content: '';
+    background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/orange_bullet_img.webp);
+    background-size: 100% 100%;
+    width: 21px;
+    height: 21px;
+    top: 5px;
+    left: 0;
+}
+.green_bullet_cont_wrpr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.green_bullet_cont {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 55px;
+    margin-bottom: 10px;
+}
+.green_bullet_cont::before {
+    position: absolute;
+    content: '';
+    background: #29a90b;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 30px;
+}
+.bullet_cont_part_main_width.part_3 {
+    width: 25%;
+}
+
+
 
 
 
