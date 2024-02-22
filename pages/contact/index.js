@@ -119,6 +119,8 @@ export default function Index() {
 
         if (!user?.contact_number) {
             errorObject.contact_number = " Phone Number is Required";
+        }else if (user.contact_number.toString().length != 14) {
+            errorObject.contact_number = "* Phone Number must be 10 digits";
         }
 
         
@@ -182,6 +184,7 @@ export default function Index() {
                           <h3>We would love to hear from you. </h3>
                           <h1>John D Martin</h1>
                           <p>Managing Director</p>
+                          <div className={styles.contact_block_social_flx}>
                           <div className={styles.contact_block_sub_sec1_mini1_wrapper}>
                            <p> <span><Link href='mailto:JMartin@PolarisBusinessConsultants.com'>JMartin@PolarisBusinessConsultants.com</Link></span></p>
                           </div>
@@ -193,6 +196,7 @@ export default function Index() {
                           </div>
                           <div className={styles.contact_block_sub_sec1_mini4_wrapper}>
                            <p> <span><Link href=' https://www.instagram.com/kajabi/' target="_blank">www.instagram.com/kajabi</Link></span></p>
+                          </div>
                           </div>
                         </div>
                         <div className={styles.contact_block_sub_sec2_wrapper}>
