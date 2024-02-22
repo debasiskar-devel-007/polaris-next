@@ -277,6 +277,37 @@ export default function Index() {
      {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
      </div> */}
+      <div className={styles.PBC_block5}>
+         <div className={styles.common_width}>
+            <h1>STRATEGIC REAL ESTATE PLANNING: NAVIGATING REQUIREMENTS AND OWNERSHIP  STRUCTURES IN ASC DEVELOPMENT</h1>
+            <div className={styles.PBC_block5_wrpr}>
+               <h2>Real Estate</h2>
+               <p>Estimate Amount of Real Estate Required Based on Preliminary Design</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Size of facility  </h3>
+                  <h3>Anticipated daily patient volume</h3>
+                  <h3>Planned expansion</h3>
+                  <h3>Parking requirements</h3>
+                  <h3>Retention ponds and other infrastructure</h3>
+               </div>
+               <p>How Will Real Estate be Held?</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Owned {" "}
+                     <span>Held in ASC</span>
+                     <span>Create separate real estate company</span>
+                     <span>Involve real estate development company</span>
+                  </h3>
+                  <h3>Leased {" "}
+                     <span>Involve real estate development company</span>
+                  </h3>
+               </div>
+               <p>Identify real estate development partner</p>
+               <div className={styles.PBC_block5_wrprInner}>
+                  <h3>Local vs. National</h3>
+               </div>
+            </div>
+         </div>
+      </div>
      <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div>
