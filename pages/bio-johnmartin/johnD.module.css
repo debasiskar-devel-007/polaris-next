@@ -278,7 +278,8 @@
     line-height: 40px;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 0;
+    text-shadow: 1px 1px 6px #494949;
+    margin-bottom: 5px;
 }
 .sky_bar_left_section p {
     font-size: 20px;
@@ -291,6 +292,7 @@
     line-height: 35px;
     font-weight: 500;
     color: #ffffff;
+    text-shadow: 1px 1px 6px #494949;
 }
 .sky_bar_main_wrpr {
     display: flex;
@@ -311,7 +313,10 @@
     font-size: 35px;
     line-height: 40px;
     font-weight: 700;
-    color: #020b33;
+    background: linear-gradient(180deg, rgba(62,102,124,1) 0%, rgba(21,40,52,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     margin-bottom: 10px;
 }
 .block3_cont_part p {
@@ -325,6 +330,11 @@
 /* ----------block4----------- */
 .j_martin_page_block4_main_width .orange_bullet_cont {
     margin-right: 25px;
+}
+
+/* -------------block5------------ */
+.j_martin_page_block5_main_width .orange_bullet_cont {
+    width: 24%;
 }
 
 

@@ -24,7 +24,7 @@ export default function index() {
 
       {/* ---------------------------------------------biswarup------------------------------------------- */}
 
-      <div className="polaris_j_martin_page_main_width">
+      {/* <div className="polaris_j_martin_page_main_width">
 
         <div className={styles.polaris_j_martin_page_full_width}>
 
@@ -126,13 +126,13 @@ export default function index() {
             </div>
           </div>
 
-      <div className={styles.common_width}>
+          <div className={styles.common_width}>
         <div className={styles.blue_heading}>
           <h1>Resume Details</h1>
         </div>
-      </div>
+          </div>
 
-      <div className={styles.j_martin_page_block3_main_width}>
+          <div className={styles.j_martin_page_block3_main_width}>
         <div className={styles.common_width}>
           <div className={styles.j_martin_page_grey_box}>
             
@@ -173,9 +173,9 @@ export default function index() {
             </div>
           </div>
         </div>
-      </div>
+          </div>
 
-      <div className={styles.j_martin_page_block4_main_width}>
+          <div className={styles.j_martin_page_block4_main_width}>
         <div className={styles.common_width}>
           <div className={styles.j_martin_page_grey_box}>
             
@@ -217,11 +217,50 @@ export default function index() {
             </div>
           </div>
         </div>
-      </div>
+          </div>
+
+          <div className={styles.j_martin_page_block5_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_grey_box}>
+            
+            <div className={styles.block3_sky_bar}>
+              <div className={styles.sky_bar_main_wrpr}>
+
+                <div className={styles.sky_bar_left_section}>
+                  <h2>Caribbean Healthcare Partners</h2>
+                  <p>St. Christopher and Nevis, West Indies</p>
+                </div>
+
+                <div className={styles.sky_bar_right_section}>
+                  <h3>April, 2018 – December, 2020</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.block3_cont_part}>
+              <h2>Chief Executive Officer / Chief Financial Officer</h2>
+              <p>Caribbean Healthcare Partners is a company that was formed to develop an orthopedic and spine surgical facility in the Federation of St. Christopher (St. Kitts) & Nevis. My responsibilities included:</p>
+
+              <div className={styles.block3_bullet_cont_part}>
+                <div className={styles.orange_bullet_cont_wrpr}>
+                  <h3 className={styles.orange_bullet_cont}>All aspects of financial projections including assumptions and financial results</h3>
+                  <h3 className={styles.orange_bullet_cont}>Staff planning</h3>
+                  <h3 className={styles.orange_bullet_cont}>Service planning</h3>
+                  <h3 className={styles.orange_bullet_cont}>Facility sizing and design management</h3>
+                  <h3 className={styles.orange_bullet_cont}>Strategic planning including development of a non-surgical clinic</h3>
+                  <h3 className={styles.orange_bullet_cont}>Design of investment structure</h3>
+                  <h3 className={styles.orange_bullet_cont}>Cash flow management</h3>
+                  <h3 className={styles.orange_bullet_cont}>Negotiations with equity investors</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
 
     </div>
 
-      </div>
+      </div> */}
 
       {/* ---------------------------------------------biswarup--------------------------------------------- */}
 
@@ -240,7 +279,7 @@ export default function index() {
       <div className={styles.polaris_JDM_BIO_width}>
 
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BIO.webp" />
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
         </div>
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
