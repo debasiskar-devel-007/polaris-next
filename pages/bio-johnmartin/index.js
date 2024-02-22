@@ -213,77 +213,67 @@ export default function index() {
                 <h2>Service Line Strategies</h2>
               </div>
               <p>Assessed and implemented strategies in every major service line within a full-service hospital setting including:</p>
-             <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Orthopedics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>General Surgery</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Minimally Invasive Surgery</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Oncology</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Cardiology</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Bariatrics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Women’s Health</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Pediatrics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Behavior Health / Autism</p>
-              </div>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Orthopedics</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>General Surgery</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Minimally Invasive Surgery</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Oncology</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Cardiology</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Bariatrics</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Women’s Health</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Pediatrics</p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                  <p>Behavior Health / Autism</p>
+                </div>
 
-             </div>
+              </div>
             </div>
           </div>
           <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
-          <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
-            <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
-              <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
-                <h2>Service Line Strategies</h2>
-              </div>
-              <p>Assessed and implemented strategies in every major service line within a full-service hospital setting including:</p>
-             <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Orthopedics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>General Surgery</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Minimally Invasive Surgery</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Oncology</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Cardiology</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Bariatrics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Women’s Health</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Pediatrics</p>
-              </div>
-              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                <p>Behavior Health / Autism</p>
-              </div>
+            <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                  <h2>International Development</h2>
+                </div>
+                <h6>Roatan, Honduras</h6>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                    <p>Worked with local hospital owner, physicians and developer to create plans for an ambulatory surgery center to be developed in an 
+“economic free trade zone” on the island of Roatan</p>
+                  </div>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                    <p>Initial capital and operating budgets were developed</p>
+                  </div>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                    <p>Investment framework developed for future investors in the project</p>
+                  </div>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                    <p>Designed to provide advanced surgery services to locals and as a travel medicine program</p>
+                  </div>
+                  
+                  
+                
+                 
 
-             </div>
+                </div>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
