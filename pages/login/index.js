@@ -103,7 +103,7 @@ console.log("errorrrrr",errorObject)
 
                     />
 
-            <div className={styles.login_flex}> <div className={styles.checkbx}> <FormGroup className={styles.Checkbox}> <FormControlLabel control={<Checkbox defaultChecked />} label="Remember Me" /></FormGroup> </div>
+            <div className={styles.login_flex}> <div className={styles.checkbx}> <FormGroup className={styles.Checkbox}> <FormControlLabel control={<Checkbox />} label="Remember Me" /></FormGroup> </div>
               <div className={styles.frgt_pwd}><Link>Forget Password</Link></div> </div>
 
              <div className={styles.pol_btn}> <button className={styles.polaris_home_button}>submit</button> </div>
@@ -114,9 +114,9 @@ console.log("errorrrrr",errorObject)
         </div>
         
       </div>
-      <div className={styles.login_main_wrpr}>
+      {/* <div className={styles.login_main_wrpr}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/login/Polarise_Login_Page.webp'/>
-      </div>
+      </div> */}
     </>
   )
 }
