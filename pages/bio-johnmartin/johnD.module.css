@@ -1271,6 +1271,15 @@
         left: 50px;}
 .two_mini{width: 100% !important;}
 .three_mini{width: 100% !important;}
+.four_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 32%;}
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .four_mini .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 32%;} 
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .four_mini .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 32%;} 
+.five_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 19%;}
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .five_mini .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 19%;} 
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .five_mini .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 19%;}
+.six_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 32% !important;}
+.seven_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 48% !important;}
+.eight_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 100% !important;}
 
 @media (max-width: 1630px){
     .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 44px;
