@@ -325,6 +325,51 @@ export default function index() {
             </div>
           </div>
 
+          <div className={styles.j_martin_page_block7_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+              <div className={styles.j_martin_page_sub_box}>
+                <div className={styles.block3_sky_bar}>
+                  <div className={styles.sky_bar_main_wrpr}>
+
+                    <div className={styles.sky_bar_left_section}>
+                      <h2>JD Martin Company, LLC</h2>
+                      <p>1547 N State Street,PMB 107, Greenfield, IN 46140</p>
+                    </div>
+
+                    <div className={styles.sky_bar_right_section}>
+                      <h3>June, 2012 – December, 2014</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={styles.cont_part_main}>
+                <div className={styles.block3_cont_part}>
+                  <h2>Principal</h2>
+                  <p>After the success I enjoyed as Chief Executive Officer of OrthoIndy Enterprises, I left to start a healthcare consulting firm.</p>
+                  <p>This firm focuses on:</p>
+
+                  <div className={styles.block3_bullet_cont_part}>
+                    <div className={styles.orange_bullet_cont_wrpr}>
+                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                      <h3 className={styles.orange_bullet_cont}>Financial Planning</h3>
+                      <h3 className={styles.orange_bullet_cont}>Operational Planning</h3>
+                      <h3 className={styles.orange_bullet_cont}>Physician/Hospital Integration</h3>
+                    </div>
+                  </div>
+
+                  <p>Early projects have included developing orthopaedic centers of excellence, general surgery centers of excellence, integration with primary care, and due diligence on orthopaedic focused hospital expansions.</p>
+
+                </div>
+                </div>
+
+               </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
 
     </div>

@@ -330,7 +330,7 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
 }
 .cont_part_main {
-    padding: 10px;
+    padding: 0 10px;
 }
 
 /* ----------block4----------- */
@@ -391,6 +391,11 @@
 }
 .j_martin_page_block6_main_width.j_martin_page_block5_main_width .orange_bullet_cont:nth-child(4) {
     width: 22%;
+}
+
+/* ----------block7------------- */
+.j_martin_page_block7_main_width .orange_bullet_cont {
+    margin-right: 25px;
 }
 
 
