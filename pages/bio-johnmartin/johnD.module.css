@@ -64,6 +64,10 @@
     right: -140px;
 }
 
+
+.polaris_j_martin_page_full_width {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(243,245,246,1) 100%);
+}
 /* ---------block1---------- */
 .j_martin_page_block1_main_width {
     padding: 40px 0;
