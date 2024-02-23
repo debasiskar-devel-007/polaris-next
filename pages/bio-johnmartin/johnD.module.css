@@ -398,6 +398,59 @@
     margin-right: 25px;
 }
 
+/* ---------------block8--------------- */
+.block3_cont_top_sec_wrpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.block3_cont_part p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.cont_top_sec_wrpr_right h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.j_martin_page_block8_main_width .block1_white_box_left_sec {
+    float: right;
+    margin-left: 30px;
+}
+.j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.j_martin_page_block8_main_width .cont_part_main {
+    padding: 0 20px;
+}
+.block1_white_box_cont_sec {
+    margin: 10px 0 30px 0;
+}
+.cont_part2_left_sec h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #858a94;
+}
+.cont_part2_right_sec h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #858a94;
+}
+.part2_cont {
+    margin-top: 30px;
+}
+.j_martin_page_block8_main_width .block1_white_box_right_sec_cont p:last-child {
+    margin-bottom: 0;
+}
+
 
 
 
@@ -467,6 +520,11 @@
     .blue_heading h1 {
         font-size: 55px;
         line-height: 60px;
+    }
+
+    /* -------------block8----------- */
+    .j_martin_page_block8_main_width .block1_white_box_left_sec {
+        margin-left: 25px;
     }
 }
 @media (max-width: 1520px) {
@@ -620,6 +678,11 @@
     /* -------------block6----------- */
     .j_martin_page_block6_main_width.j_martin_page_block5_main_width .orange_bullet_cont:nth-child(3) {
         width: 25%;
+    }
+
+    /* -------------block8----------- */
+    .j_martin_page_block8_main_width .block1_white_box_left_sec {
+        margin-left: 20px;
     }
 }
 @media (max-width: 1260px) {
@@ -839,6 +902,49 @@
     .j_martin_page_block6_main_width.j_martin_page_block5_main_width .orange_bullet_cont {
         margin-right: 15px;
     }
+
+    /* -----------block8------------- */
+    .block1_white_box_cont_sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .j_martin_page_block8_main_width .block1_white_box_left_sec {
+        width: fit-content;
+        display: block;
+        float: unset;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .white_box_left_sec_img_box {
+        margin-bottom: 0;
+    }
+    .block3_cont_part h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .block3_cont_part p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .cont_top_sec_wrpr_right h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+        line-height: 31px;  
+        margin-bottom: 15px;
+    }
+    .cont_part2_left_sec h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .cont_part2_right_sec h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .part2_cont {
+        margin-top: 20px;
+    }
 }
 @media (max-width: 999px) {
     .block2_bullet_cont_main_wrpr {
@@ -1013,6 +1119,48 @@
     }
     .cont_part_main {
         padding: 0 10px;
+    }
+
+    /* -----------block8------------ */
+    .block3_cont_top_sec_wrpr {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .block3_cont_part h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .block3_cont_part p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 4px;
+    }
+    .cont_top_sec_wrpr_right h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .block1_white_box_cont_sec {
+        margin: 0 0 20px 0;
+    }
+    .j_martin_page_block8_main_width .cont_part_main {
+        padding: 0 10px;
+    }
+    .j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .cont_part2_left_sec h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .cont_part2_right_sec h4 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .part2_cont {
+        margin-top: 15px;
     }
 }
 @media (max-width: 599px) {
@@ -1195,6 +1343,46 @@
     /* -----------block5------------- */
     .j_martin_page_block5_main_width .orange_bullet_cont:nth-child(8) {
         margin-bottom: 0;
+    }
+
+    /* -----------block8------------ */
+    .block3_cont_part h2 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .block3_cont_part p {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 4px;
+    }
+    .cont_top_sec_wrpr_right h3 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .block1_white_box_cont_sec {
+        margin: 0 0 10px 0;
+    }
+    .j_martin_page_block8_main_width .cont_part_main {
+        padding: 0 10px;
+    }
+    .j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .cont_part2_left_sec h3 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .cont_part2_right_sec h4 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .part2_cont {
+        margin-top: 10px;
+    }
+    .j_martin_page_block8_main_width .block1_white_box_left_sec {
+        margin-top: 15px;
     }
 }
 

@@ -68,7 +68,7 @@ export default function Homes() {
   }
 
   const phoneFormatting = (event) => {
-    console.log("event", event);
+    console.log("event....", event);
     if (event.target.value.split("").length <= 14) {
       var formatted = formatPhoneText(event.target.value);
       let name = event.target.name;

@@ -370,6 +370,88 @@ export default function index() {
             </div>
           </div>
 
+          <div className={styles.j_martin_page_block8_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>OrthoIndy Enterprises</h2>
+                        <p>8450 Northwest Boulevard Indianapolis, IN 46278</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Aug, 2004 – June, 2012</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+
+                      <div className={styles.block3_cont_top_sec_wrpr}>
+
+                        <div className={styles.cont_top_sec_wrpr_left}>
+                          <h2>Chief Executive Officer</h2>
+                          <p>(OrthoIndy/OrthoIndy Enterprises)</p>
+                        </div>
+
+                        <div className={styles.cont_top_sec_wrpr_right}>
+                          <h3>Oct, 2006 – June, 2012</h3>
+                        </div>
+                        
+                      </div>
+
+                      <div className={styles.block1_white_box_cont_sec}>
+
+                        <div className={styles.block1_white_box_left_sec}>
+                          <div className={styles.white_box_left_sec_img_box}>
+                            <div className={styles.left_sec_img_sub_box}>
+                              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/john_d_martin_block8_right_img.webp'></img>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={styles.block1_white_box_right_sec_cont}>
+                          <p>After success opening Indiana Orthopaedic Hospital, I earned the opportunity to become the CEO of OrthoIndy in October of 2006.  Our focus had been on planning and opening the hospital for several years, so the practice was in need of attention.  Since taking over in 2006, my focus has been on improving operations, adjusting to the new healthcare climate, rightsizing existing locations, developing key new locations, identifying new markets, and enterprise level strategic planning.</p>
+
+                          <p>Under my direction, we have reduced staff 17%, increased physician staff by 24%, and improved service to our patients and physicians. We have also opened two new full service outpatient locations under my direction: one in Brownsburg and one in Greenwood.  We have entered new markets in Jennings, Dunn, and Hancock County. Two years ago we identified the need to create a management company and take advantage of our experience in running hospital orthopedic departments and physician practices. I led the project to create OrthoIndy Enterprises. OrthoIndy Enterprises is a management company that employs all of our non-clinical employees. We are positioned to provide management services to hospitals and physician practices throughout a five state area.</p>
+
+                          <p>I have also been responsible for fostering our relationship with St. Vincent Hospital Indianapolis, St. Vincent Carmel, Community Health Network, and Hancock Regional Hospital among others.  Under my direction, we have significantly improved our physician/hospital relationships.  We are beginning to partner more closely with certain hospitals in our market and in surrounding communities.</p>
+                        </div>
+
+                      </div>
+
+                      <div className={styles.block3_cont_top_sec_wrpr}>
+                        <div className={styles.cont_part2_left_sec}>
+                          <h3>Indiana Orthopaedic Hospital, Chief Executive Officer</h3>
+                        </div>
+
+                        <div className={styles.cont_part2_right_sec}>
+                          <h4>Aug, 2004 – Oct, 2006</h4>
+                        </div>
+                      </div>
+
+                      <div className={styles.part2_cont}>
+                        <div className={styles.block1_white_box_right_sec_cont}>
+                        <p>I began my career with OrthoIndy as the Chief Executive Officer for their new hospital, the Indiana Orthopaedic Hospital.  Formed as a 100% physician owned and operated hospital, my responsibility was to take the facility from mid-construction to Medicare certified and open for operations.  We opened on time and within budget on March 1, 2005.  It was my responsibility to ensure that we complied with all state and federal guidelines to open.  I was also responsible for ensuring that we opened with a fully electronic health record.  We opened with Meditech fully operational and utilizing all of its components for a completely electronic health record.  We passed both our pre-occupancy survey and our full survey 3 weeks later with no major citations.  Our Medicare certification was retroactive to our date of opening.</p>
+
+                        <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
