@@ -424,6 +424,25 @@ export default function index() {
                         </div>
 
                       </div>
+
+                      <div className={styles.block3_cont_top_sec_wrpr}>
+                        <div className={styles.cont_part2_left_sec}>
+                          <h3>Indiana Orthopaedic Hospital, Chief Executive Officer</h3>
+                        </div>
+
+                        <div className={styles.cont_part2_right_sec}>
+                          <h4>Aug, 2004 – Oct, 2006</h4>
+                        </div>
+                      </div>
+
+                      <div className={styles.part2_cont}>
+                        <div className={styles.block1_white_box_right_sec_cont}>
+                        <p>I began my career with OrthoIndy as the Chief Executive Officer for their new hospital, the Indiana Orthopaedic Hospital.  Formed as a 100% physician owned and operated hospital, my responsibility was to take the facility from mid-construction to Medicare certified and open for operations.  We opened on time and within budget on March 1, 2005.  It was my responsibility to ensure that we complied with all state and federal guidelines to open.  I was also responsible for ensuring that we opened with a fully electronic health record.  We opened with Meditech fully operational and utilizing all of its components for a completely electronic health record.  We passed both our pre-occupancy survey and our full survey 3 weeks later with no major citations.  Our Medicare certification was retroactive to our date of opening.</p>
+
+                        <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
 
