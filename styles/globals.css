@@ -437,3 +437,27 @@ a {
 .home_polaris_blk5_sub_sec_wrp___UDtg .MuiFormHelperText-root.Mui-error{
 margin-left: 1px;
 }
+
+
+
+/* --------------------login----------------- */
+
+.login_inpt_fields__3mGC9 .MuiFormLabel-root {color: #fff !important; font-family: "Poppins", sans-serif; }
+
+.login_inpt_fields__3mGC9 fieldset,
+.login_inpt_fields__3mGC9 .MuiInputLabel-shrink {
+  display: none !important;
+}
+
+.login_login_flex___Kq1R .MuiTypography-root { color: #fff !important;}
+.login_inpt_fields__3mGC9 .MuiFormHelperText-root.Mui-error {
+  color: #fff;
+  position: absolute;
+  bottom: -24px;
+  font-size: 14px;
+  margin-left: 1px;
+}
+
+.login_login_flex___Kq1R  .MuiSvgIcon-root {color: #fff;}
+
+.login_inpt_fields__3mGC9 .MuiInputBase-input {color: #fff !important; padding-right: 50px !important;}
