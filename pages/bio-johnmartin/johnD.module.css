@@ -1301,7 +1301,8 @@
         height: 15px;
         top: 5px;
         left: 50px;}
-
+.two_mini{width: 100% !important;}
+.three_mini{width: 100% !important;}
 
 @media (max-width: 1630px){
     .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 44px;
