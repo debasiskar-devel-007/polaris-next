@@ -106,7 +106,7 @@ export default function Homes() {
     let errorObject = {};
 
     if (!user?.first_name) {
-      errorObject.first_name = "First Name is Required";
+      errorObject.first_name = "Name is Required";
     }
     if (!user?.email_id) {
       errorObject.email_id = "Email is Required";

@@ -618,20 +618,58 @@ export default function Index() {
          <div className={styles.common_width}>
             <h1>MODULE 6: GO LIVE</h1>
             <p>Welcome to Module 6 of the Ambulatory Surgical Center Development Class – the pivotal stage of Go Live. In this crucial phase, we dive into the grand opening, rigorously testing both clinical and non-clinical systems to ensure a seamless transition. Accreditation preparedness takes center stage, setting the foundation for operational excellence. As we navigate through Go-Live Planning, your insights matter. Share your top questions and concerns through the Completion Survey, guiding our coaching program tailored to address your needs. Completing the survey unlocks a valuable Go-Live Planning Checklist, empowering you with essential tools for a successful launch. Join us in this dynamic transition towards operational excellence in ambulatory surgical center development.</p>
-            {/* <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block9_wrprBlue} ${styles.PBC_block11_wrprBlue}`}>
+            <div className={`${styles.PBC_block6_wrprBlue} ${styles.PBC_block11_wrprBlue}`}>
                   <h3>SEAMLESS UNVEILING: NAVIGATING GO-LIVE AND ENSURING EXCELLENCE IN ASC OPERATIONS SURGICAL CENTER DEVELOPMENT</h3>
-               <div className={`${styles.PBC_block6_wrprWhite} ${styles.BlackBullet}`}>
-
+               <div className={`${styles.PBC_block6_wrprWhite}`}>
+                  <span className={styles.BlackBullet}>
+                     <h5>Grand Opening</h5>
+                     <h5>Test Clinical Systems</h5>
+                     <h5>Test Non-Clinical Systems</h5>
+                     <h5>Accreditation Preparedness</h5>
+                  </span>
+                  <h6>Completion Survey (take before next module)</h6>
+                  <span className={styles.BlackBullet}>
+                     <h5>What is your top question or concern about Go-Live Planning?</h5>
+                     <h5>What other questions or concerns do you have about the process?</h5>
+                  </span>
+                  <h6>Bonus: Go-Live Planning Checklist</h6>
+                  <span className={styles.BlackBullet}>
+                     <h5>Receive bonus when survey is completed</h5>
+                  </span>
                </div>
-            </div> */}
+            </div>
+            <span className={styles.PBC_block11_subWrpr}>
+               <span className={styles.PBC_B11_InnerBlock}>
+                  <h3>TRAINING SERIES</h3>
+                  <span className={styles.PBC_B11_Submini}>
+                     <h6>Six modules over 6 weeks</h6>
+                     <h6>Price: $2,495</h6>
+                     <h6>Discount: $500 during initial sales period or first 10 registrations</h6>
+                  </span>
+               </span>
+               <span className={styles.PBC_B11_InnerBlock}>
+                  <h3>COACHING PROGRAM</h3>
+                  <span className={styles.PBC_B11_SubInnerBlock}>
+                  <span>
+                     <h6>Up to 10 members per group</h6>
+                     <h6>Facilitated interaction among participants</h6>
+                     <h6>Price: $950/month. Meet 2x/month; 90 minute per week</h6>
+                  </span>
+                  <span>
+                     <h6>Individual mentoring: $1,250/month. Meet 4x/month; 1 hour sessions</h6>
+                     <h6>Discount: $500 for the first month to the first 5 sign-up</h6>
+                  </span>
+                  </span>
+               </span>
+            </span>
          </div>
       </div>
      {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
      </div> */}
-     <div className={styles.demo_img}>
+     {/* <div className={styles.demo_img}>
         <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk4_img.webp'/>
-     </div>
+     </div> */}
     <Footer />
     </>
    
