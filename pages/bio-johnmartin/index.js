@@ -532,6 +532,83 @@ export default function index() {
             </div>
           </div>
 
+          <div className={styles.j_martin_page_block10_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>BKD, LLP (formerly Olive LLP)</h2>
+                        <p>201 North Illinois Street Suite 700 Indianapolis, IN  46204</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>May, 1999 – Sep, 2000</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Consultant – Healthcare</h2>
+                      <p>As a consultant with BKD Healthcare Services, I was responsible for working primarily with physician practices, radiology practices, management services organizations, small hospitals and multi-specialty clinics on operational performance issues. The scope of these engagements included: </p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Making recommendations regarding entity specific turnaround opportunities</h3>
+                          <h3 className={styles.orange_bullet_cont}>Analysis of lost revenue opportunities and plans for future recapture</h3>
+                          <h3 className={styles.orange_bullet_cont}>Development of finance policies and procedures</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational and financial improvement planning and recommendation</h3>
+                          <h3 className={styles.orange_bullet_cont}>Information systems evaluation and recommendation</h3>
+                        </div>
+                      </div>
+
+                      <p>I was also charged with writing business plans to address opportunities in the radiology niche market and for healthcare information technology services.  These business plans detailed specific opportunities for practice expansion.</p>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block11_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Radiology Associates of Indianapolis</h2>
+                        <p>1500 Albany Street, Suite 906 Beech Grove, IN  46107</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Oct, 1995 – April, 1999</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Administrator</h2>
+                      <p>I was responsible for the day-to-day operations of the practice. I kept physician leadership informed of current industry trends affecting the group practice environment. Also kept physician leadership up-to-date on financial and operational status of the corporation. I managed a staff of 15 FTE’s who were responsible for carrying out daily activities as directed. I had four key areas of responsibility including: information systems selection, design and implementation; financial reporting, compliance monitoring and opportunity analysis; human resources benefit management and design, physician recruiting support, and pension administration; and administrative responsibility for daily operations, general insurance coverage, and hospital relationship management.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
