@@ -660,6 +660,19 @@ export default function index() {
 
 
                     </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>October, 2009, transaction between OrthoIndy and Ascension / St. Vincent was completed</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>During 2012, the Level II trauma program was created at Ascension / St. Vincent and OrthoIndy moved its program to the 86th Street campus
+                      </p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>In June, 2012, left OrthoIndy to open a healthcare consulting company
+                      </p>
+                    </div>
+                    <h5 className={`${styles.green_bullet_cont} ${styles.two_mini}`}>During tenure as CEO of OrthoIndy and the Indiana Orthopaedic Hospital, enterprise grew from $96M in annual revenue to $205M in annual revenue and 900 employees
+                    </h5>
 
 
                     <h6>Clinic</h6>
