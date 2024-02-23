@@ -396,13 +396,13 @@ export default function index() {
 
                         <div className={styles.cont_top_sec_wrpr_left}>
                           <h2>Chief Executive Officer</h2>
-                          <p>(OrthoIndy/OrthoIndy Enterprises)</p>
+                          <h3>(OrthoIndy/OrthoIndy Enterprises)</h3>
                         </div>
 
                         <div className={styles.cont_top_sec_wrpr_right}>
                           <h3>Oct, 2006 – June, 2012</h3>
                         </div>
-                        
+
                       </div>
 
                       <div className={styles.block1_white_box_cont_sec}>
@@ -437,13 +437,93 @@ export default function index() {
 
                       <div className={styles.part2_cont}>
                         <div className={styles.block1_white_box_right_sec_cont}>
-                        <p>I began my career with OrthoIndy as the Chief Executive Officer for their new hospital, the Indiana Orthopaedic Hospital.  Formed as a 100% physician owned and operated hospital, my responsibility was to take the facility from mid-construction to Medicare certified and open for operations.  We opened on time and within budget on March 1, 2005.  It was my responsibility to ensure that we complied with all state and federal guidelines to open.  I was also responsible for ensuring that we opened with a fully electronic health record.  We opened with Meditech fully operational and utilizing all of its components for a completely electronic health record.  We passed both our pre-occupancy survey and our full survey 3 weeks later with no major citations.  Our Medicare certification was retroactive to our date of opening.</p>
+                          <p>I began my career with OrthoIndy as the Chief Executive Officer for their new hospital, the Indiana Orthopaedic Hospital.  Formed as a 100% physician owned and operated hospital, my responsibility was to take the facility from mid-construction to Medicare certified and open for operations.  We opened on time and within budget on March 1, 2005.  It was my responsibility to ensure that we complied with all state and federal guidelines to open.  I was also responsible for ensuring that we opened with a fully electronic health record.  We opened with Meditech fully operational and utilizing all of its components for a completely electronic health record.  We passed both our pre-occupancy survey and our full survey 3 weeks later with no major citations.  Our Medicare certification was retroactive to our date of opening.</p>
 
-                        <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
+                          <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
                         </div>
                       </div>
-                      
+
                     </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block9_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>St. Francis Hospital and Health Centers</h2>
+                        <p>1500 Albany Street Suite 1101,Beech Grove, IN  46107</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Sep, 2000 – Aug, 2004</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Director of Financial Planning and Business Development</h2>
+                      <p>In this position, I have been responsible for all of the major capital projects of St. Francis Hospital.  I have done the financial feasibility work on all of our projects with a capital value greater than $150,000.  The three largest active projects with which I have been involved include the new $60,000,000 cardiac facility, the $20,000,000 expansion project in Mooresville, and the new (as of July, 2002) developer owned medical office building on our Indianapolis Campus.  I report directly to the regional chief financial officer, and spend the majority of my time supporting our senior management team.</p>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Business Development</h2>
+                      <p>My business development responsibilities include bringing new lines of business to the hospital, evaluating current lines of business for expansion/improvement opportunities, and evaluating joint venture opportunities with our physician partners. In addition to the three projects mentioned above, I have performed all of the financial feasibility work on at least 6 joint ventures and numerous other new hospital programs. Typical business development analysis will include one or more of the following elements:</p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate the market for and financial feasibility of entering into a new business opportunity. This includes determining market need for the service being considered, capital required to launch the new business venture and the long-term probability of financial success.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate financing alternatives available to the new venture. I determine the proper mix of equity, debt, and working capital line of credit for the long-term success of the new venture.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate the best location and facilities required for the new venture. This includes determining whether or not the venture should be located in hospital, joint venture, or developer owned facilities.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Finally, I have negotiated several transactions that include having a developer/owner build and own a building on hospital owned ground. I have assisted in negotiating the underlying ground lease and related financial terms.</h3>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Financial/Capital Planning</h2>
+                      
+                      <div className={styles.block1_white_box_main_width}>
+                        <div className={styles.block1_white_box_main_wrpr}>
+
+                          <div className={styles.block1_white_box_left_sec}>
+                            <div className={styles.white_box_left_sec_img_box}>
+                              <div className={styles.left_sec_img_sub_box}>
+                                <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/j_martin_page_block9_left_img.webp'></img>
+                              </div>
+                            </div>
+                          </div> 
+
+                          <div className={styles.block1_white_box_right_sec}>
+                            <p>My financial planning responsibilities include determining how to improve the financial and operational performance of existing lines of business. This includes evaluating opportunities for growth, cost reductions, and operational improvement. I work with product line managers and directors to set improvement plans and then deliver those plans to senior management.</p>
+
+                            <p>My capital planning responsibilities include determining the growth opportunities available for projects with an initial investment in excess of $500,000. Analysis includes market opportunity, financial statement proforma development, discounted cash flow analysis, and calculation of internal rate of return. These projects are often evaluated with a team of six or eight managers/directors. My responsibilities include leading the evaluation team, building a business and financial plan, and then writing and presenting the recommendation(s) to senior management.</p>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Decision Support</h2>
+                      <p>I am also responsible for the development and maintenance of a hospital (and system) wide decision support system.  This system is designed to enhance decision making at the operational and capital/business planning levels.</p>
+
+                    </div>
+
                   </div>
 
                 </div>
@@ -475,10 +555,10 @@ export default function index() {
       <div className={styles.polaris_JDM_BIO_width}>
 
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
+          {/* <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" /> */}
         </div>
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BLOCK1_img.webp" />
         </div>
         {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
@@ -765,11 +845,560 @@ export default function index() {
                       <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_green} ${styles.three_mini}`}>
                         <p>Transaction structure included a total package of $40M in real estate and other debt facilities</p>
                       </div>
-                    
 
 
 
 
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub6_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                        <h2>Facility Development</h2>
+                      </div>
+                      <h6>Cardiac Hospital Due Diligence</h6>
+                      <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                        <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                          <p>$75.0M Cardiac Hospital project </p>
+                        </div>
+                        <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                          <p>Included local health system, large cardiology group, and a large cardiovascular
+                            surgery group</p>
+                        </div>
+                        <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                          <p>Designated, single-purpose facility
+                            attached to local hospital emergency room</p>
+                        </div>
+                        <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                          <p>Managed financial and operational due diligence</p>
+                        </div>
+
+
+
+
+
+                      </div>
+                      <div className={styles.four_mini}>
+                        <h6>Cardiac Hospital Due Diligence</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Debt funded transaction to purchase a local
+                              hospital out of bankruptcy</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Included a local physician group and a
+                              healthcare REIT</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational
+                              due diligence</p>
+                          </div>
+
+
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div className={styles.five_mini}>
+                        <h6>Indiana Orthopaedic Hospital Main Campus</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>100% physician owned</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>135,000 square feet</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>42 inpatient beds</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>10 operating rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>2 minor procedure rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>35 pre- and post-operative
+                              rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>10 PACU beds</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>2 ICU capable rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Physical therapy</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Laboratory</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Included renovation and
+                              addition of medical
+                              office space</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and
+                              operational due diligence</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Pharmacy</p>
+                          </div>
+
+
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div className={styles.five_mini}>
+                        <h6>OrthoIndy / Indiana Orthopaedic Hospital Brownsburg</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>39,000 square feet </p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>2 operating rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>2 minor procedure rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Physical therapy</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Medical practice clinic exam space</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div className={styles.five_mini}>
+                        <h6>OrthoIndy / Indiana Orthopaedic Hospital Greenwood</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>78,000 square feet </p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>4 operating rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>2 minor procedure rooms</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Physical therapy</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Imaging including MRI</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Medical practice
+                              clinic exam space</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.six_mini}`}>
+                        <h6>Orthopedic Specialty Hospital Joint Venture</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Large regional hospital system</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Large orthopedic group</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Close existing small hospital-owned facility</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Develop larger orthopedic specialty hospital</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Include inpatient, outpatient, imaging</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational
+                              due diligence
+                            </p>
+                          </div>
+
+
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                        <h6>Hospital Facility Expansion Phase I</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Managed first expansion of $25M, doubled size of facility, expanded service offering</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                        <h6>Hospital Facility Expansion Phase II</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Started financial due diligence on second expansion of the facility</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                        <h6>Neurosurgery / Orthopedic Surgery Program</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Led program out of CT where a major healthcare system
+                              broke ground on $150M orthopedic and spine center.  </p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Hospital project lead only consulted with a handful of ortho MDs and no
+                              spine MDs, which created conflict and challenges. </p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Developed a plan that charted a way for all parties to work together for an optimal outcome. </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                        <h6>Hospital Replacement</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Worked with a large healthcare system to develop a plan of alternate uses for a facility that was being decommissioned</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                        <h6>Neighborhood Hospital</h6>
+                        <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Worked with a large healthcare system to develop a small neighborhood hospital in an underserved market</p>
+                          </div>
+                          <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                            <p>Performed financial and operational due diligence</p>
+                          </div>
+
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.polaris_j_martin_page_key_main_sub7_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub6_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                        <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                          <h2>Surgery Center Development</h2>
+                        </div>
+
+
+                        <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                          <h6>Franciscan Surgery Center</h6>
+                          <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Worked with large healthcare system to develop a joint venture multi-specialty surgery center</p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Surgery center was on the ground floor of a medical office building for which I conducted the financial and feasibility due diligence</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                          <h6>Southeast Surgery Center</h6>
+                          <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Worked with large healthcare system to create a joint venture
+                                orthopedic surgery center </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Joint venture partner was a large orthopedic practice
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Surgery center was on the ground floor of the same medical
+                                office building
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Became one of the top orthopedic surgery centers in the country
+                                at that time
+
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Performed financial and operational due diligence</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                          <h6>South Emerson Surgery Center</h6>
+                          <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Worked with large healthcare system to create a joint venture
+                                orthopedic surgery center
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Joint venture partner was a small orthopedic practice
+
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Performed financial and operational due diligence
+
+                              </p>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                        <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                          <h6>Mooresville Multi-Specialty Surgery Center</h6>
+                          <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Worked with large healthcare system to develop a joint
+                                venture multi-specialty surgery center
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Surgery center was part of an overall campus expansion plan
+
+                              </p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Performed financial and operational due diligence
+
+
+                              </p>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                        <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                          <h6>Orthopedic Surgery Center (Montana)</h6>
+                          <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Worked with a large healthcare system and the largest orthopedic surgery group in the region to develop a joint venture surgery center</p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Surgery center was part of a retail big box store redevelopment plan</p>
+                            </div>
+                            <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                              <p>Performed financial due diligence, assisted in design of facility, and right-sizing of capital plan for the project</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub8_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub7_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub6_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                        <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                            <h2>Renovation / Expansion</h2>
+                          </div>
+
+
+                          <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                            <h6>Laboratory / Imaging Expansion</h6>
+                            <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                <p>Oversaw renovation of laboratory, imaging center, women’s center and pediatric inpatient unit</p>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                            <h6>Southeast Surgery Center</h6>
+                            <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                <p>Negotiated a mobile PET CT</p>
+                              </div>
+                              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                <p>Added treatment rooms
+                                </p>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                            <h6>Medical Office Building</h6>
+                            <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                              <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                <p>Developed medical office building on health system campus</p>
+                              </div>
+                              <div className={`${styles.green_bullet_cont_wrpr} ${styles.ten_mini}`}>
+                                <h5 className={styles.green_bullet_cont}>135,000 sq. ft</h5>
+                                <h5 className={styles.green_bullet_cont}>2 surgery centers</h5>
+                                <h5 className={styles.green_bullet_cont}>3 office floors</h5>
+                                <h5 className={styles.green_bullet_cont}>One floor built to hospital occupancy standards</h5>
+
+                              </div>
+
+                            </div>
+                          </div>
+
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub9_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub8_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub7_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub6_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                        <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                          <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                            <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                              <h2>Orthopedic Institute Development</h2>
+                            </div>
+
+                            <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                              <h6>Large Michigan based orthopedic group</h6>
+                              <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                  <p>Worked with a 35-MD orthopedic group in MI </p>
+                                </div>
+                                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                  <p>Developed plan to approach the local major hospital about creating a comprehensive
+                                    orthopedic institute.
+                                  </p>
+                                </div>
+
+                              </div>
+                            </div>
+
+                            <div className={`${styles.five_mini} ${styles.eight_mini} `}>
+                              <h6>Large Michigan based orthopedic group</h6>
+                              <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                  <p>Led a complex planning project that resulted in</p>
+                                </div>
+                                <div className={`${styles.green_bullet_cont_wrpr} ${styles.eleven_mini}`}>
+                                  <h5 className={styles.green_bullet_cont}>Conceptual plans for a new, stand-alone facility</h5>
+                                  <h5 className={styles.green_bullet_cont}>Included physician office space
+                                  </h5>
+                                  <h5 className={styles.green_bullet_cont}>Inpatient and outpatient surgery
+                                  </h5>
+                                  <h5 className={styles.green_bullet_cont}>30 inpatient beds
+                                  </h5>
+
+                                </div>
+
+                              </div>
+                            </div>
+
+                            <div className={`${styles.five_mini} ${styles.seven_mini} `}>
+                              <h6>Memphis Project</h6>
+                              <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                  <p>Worked with a 25-MD orthopedic group in TN</p>
+                                </div>
+                                <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                                  <p>Developed plan to approach the local major hospital about creating a comprehensive
+                                    orthopedic institute.
+
+                                  </p>
+                                </div>
+
+                              </div>
+                            </div>
+
+
+
+
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
