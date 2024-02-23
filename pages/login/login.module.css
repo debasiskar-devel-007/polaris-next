@@ -17,6 +17,7 @@
     border-radius: 8px;
     width: 590px;
     position: relative;
+    max-width: 96%;
 }
 
 .polar_logo img {display: block; width: auto; max-width: 100%; margin: 0 auto;}
@@ -64,4 +65,33 @@
 
 .polar_logo {
     margin-bottom: 55px;
+}
+
+
+@media(max-width:768px){
+    .polar_logo {
+        margin-bottom: 24px;
+    }
+}
+
+@media(max-width:499px){
+    .padd_form {
+        padding: 20px;
+    }
+
+    .polar_logo {
+        margin-bottom: 15px;
+    }
+
+    .login_flex {margin-bottom: 25px;}
+}
+
+@media (max-width: 399px){
+    .padd_form {
+        padding: 20px 5px;
+    }
+    .login_sub_wrpr { padding: 8px;}
+    .login_flex {
+        margin-bottom: 18px;
+    }
 }
