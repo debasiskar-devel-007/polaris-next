@@ -398,6 +398,38 @@
     margin-right: 25px;
 }
 
+/* ---------------block8--------------- */
+.block3_cont_top_sec_wrpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.block3_cont_part p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.cont_top_sec_wrpr_right h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.j_martin_page_block8_main_width .block1_white_box_left_sec {
+    float: right;
+    margin-right: 35px;
+}
+.j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.j_martin_page_block8_main_width .cont_part_main {
+    padding: 0 20px;
+}
+
 
 
 
