@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/Navbar'
 import Head from 'next/head'
 import React from 'react'
 import styles from './johnD.module.css'
+import Link from 'next/link'
 
 export default function index() {
   return (
@@ -1545,6 +1546,26 @@ export default function index() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub10_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub10_sec1_blk}>
+              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_logo.png'/>
+            </div>
+            <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_blk}>
+              <h1>John D Martin</h1>
+              <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
+              <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_1blk}>
+                <p><Link href="tel:(317) 437-6120">(317) 437-6120</Link></p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_2blk}>
+                  <p><Link href="mailto:JMartin@PolarisBusinessConsultants.com ">JMartin@PolarisBusinessConsultants.com </Link></p>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
