@@ -1468,6 +1468,10 @@
 .six_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 32% !important;}
 .seven_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 48% !important;}
 .eight_mini .polaris_j_martin_page_key_main_sub2_sec1_green{width: 100% !important;}
+.ten_mini .green_bullet_cont{width: 18% !important;}
+.ten_mini .green_bullet_cont:last-child{width: 43% !important;}
+.ten_mini .green_bullet_cont:nth-of-type(2){width: 21% !important;}
+.eleven_mini .green_bullet_cont{width: 25% !important;}
 
 @media (max-width: 1630px){
     .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 44px;
