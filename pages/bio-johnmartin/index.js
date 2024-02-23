@@ -41,7 +41,7 @@ export default function index() {
             </div>
           </div>
 
-          <div className={styles.j_martin_page_block1_main_width}>
+          {/* <div className={styles.j_martin_page_block1_main_width}>
             <div className={styles.common_width}>
               <div className={styles.j_martin_page_block1_white_box}>
                 <div className={styles.block1_white_box_grey_bar}>
@@ -126,18 +126,18 @@ export default function index() {
             </div>
           </div>
 
-          <div className={styles.common_width}>
-            <div className={styles.blue_heading}>
-              <h1>Resume Details</h1>
-            </div>
-          </div>
-
-          <div className={styles.j_martin_page_block3_main_width}>
             <div className={styles.common_width}>
-              <div className={styles.j_martin_page_grey_box}>
+        <div className={styles.blue_heading}>
+          <h1>Resume Details</h1>
+        </div>
+             </div>
 
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
+             <div className={styles.j_martin_page_block3_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_grey_box}>
+            
+            <div className={styles.block3_sky_bar}>
+              <div className={styles.sky_bar_main_wrpr}>
 
                     <div className={styles.sky_bar_left_section}>
                       <h2>Polaris Business Consultants</h2>
@@ -169,18 +169,18 @@ export default function index() {
                     </div>
                   </div>
 
-                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
-                </div>
-              </div>
+              <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
             </div>
           </div>
+        </div>
+               </div>
 
-          <div className={styles.j_martin_page_block4_main_width}>
-            <div className={styles.common_width}>
-              <div className={styles.j_martin_page_grey_box}>
-
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
+               <div className={styles.j_martin_page_block4_main_width}>
+        <div className={styles.common_width}>
+          <div className={styles.j_martin_page_grey_box}>
+            
+            <div className={styles.block3_sky_bar}>
+              <div className={styles.sky_bar_main_wrpr}>
 
                     <div className={styles.sky_bar_left_section}>
                       <h2>JD Martin Enterprises</h2>
@@ -213,15 +213,17 @@ export default function index() {
                     </div>
                   </div>
 
-                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
-                </div>
-              </div>
+              <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
             </div>
           </div>
+        </div>
+               </div> */}
 
         </div>
 
-      </div>
+    </div>
+
+      
 
       {/* ---------------------------------------------biswarup--------------------------------------------- */}
 
@@ -240,7 +242,7 @@ export default function index() {
       <div className={styles.polaris_JDM_BIO_width}>
 
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BIO.webp" />
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
         </div>
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
