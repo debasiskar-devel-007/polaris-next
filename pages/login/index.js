@@ -25,15 +25,15 @@ export default function Index() {
 
    
     if (!user?.email_id) {
-      errorObject.email_id = "Email is Required";
+      errorObject.email_id = "*Email is Required";
     } else if (!/\S+@\S+\.\S+/.test(user.email_id)) {
-      errorObject.email_id = "* Invalid email format";
+      errorObject.email_id = "*Invalid email format";
     }
 
 
     
     if (!user?.password) {
-      errorObject.password = "Password is required";
+      errorObject.password = "*Password is required";
     }
 
     if (Object.keys(errorObject).length > 0) {
@@ -104,7 +104,7 @@ console.log("errorrrrr",errorObject)
                     />
 
             <div className={styles.login_flex}> <div className={styles.checkbx}> <FormGroup className={styles.Checkbox}> <FormControlLabel control={<Checkbox />} label="Remember Me" /></FormGroup> </div>
-              <div className={styles.frgt_pwd}><Link>Forget Password</Link></div> </div>
+              <div className={styles.frgt_pwd}><Link>Forget Password?</Link></div> </div>
 
              <div className={styles.pol_btn}> <button className={styles.polaris_home_button}>submit</button> </div>
            </form>

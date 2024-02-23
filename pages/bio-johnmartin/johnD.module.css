@@ -185,9 +185,9 @@
 }
 .orange_bullet_cont {
     position: relative;
-    font-size: 25px;
-    line-height: 30px;
-    font-weight: 500;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
     color: #000000;
     padding-left: 30px;
     margin-bottom: 15px;
@@ -404,7 +404,7 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-.block3_cont_part p {
+.block3_cont_part h3 {
     font-size: 20px;
     line-height: 25px;
     font-weight: 400;
@@ -449,6 +449,55 @@
 }
 .j_martin_page_block8_main_width .block1_white_box_right_sec_cont p:last-child {
     margin-bottom: 0;
+}
+
+/* ------------block9------------- */
+.j_martin_page_block9_main_width .block3_cont_part h3 {
+    color: #5d5f62;
+    padding-left: 55px;
+}
+.j_martin_page_block9_main_width .orange_bullet_cont::before {
+    left: 20px;
+}
+.j_martin_page_block9_main_width .orange_bullet_cont {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.block1_white_box_main_width {
+    padding: 15px 0;
+}
+.j_martin_page_block9_main_width .block3_cont_part {
+    margin-bottom: 20px;
+}
+.j_martin_page_block9_main_width .cont_part_main {
+    padding: 0 20px;
+}
+.j_martin_page_block9_main_width .block3_cont_part:last-child {
+    margin-bottom: 0;
+}
+
+/* -----------block10-------------- */
+.j_martin_page_block10_main_width .cont_part_main {
+    padding: 0 20px;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont {
+    margin-right: 20px;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont:first-child {
+    width: 45%;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont:nth-child(3) {
+    width: 45%;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont:nth-child(5) {
+    width: 45%;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont:nth-child(2) {
+    width: 52%;
+}
+.j_martin_page_block10_main_width .orange_bullet_cont:nth-child(4) {
+    width: 52%;
 }
 
 
@@ -552,6 +601,14 @@
         font-size: 50px;
         line-height: 55px;
     }
+
+    /* ----------block10------------ */
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(2) {
+        width: 50%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(4) {
+        width: 50%;
+    }
 }
 @media (max-width: 1420px) {
     .j_martin_page_banner_main_width {
@@ -622,6 +679,23 @@
     /* -------------block6----------- */
     .j_martin_page_block6_main_width.j_martin_page_block5_main_width .orange_bullet_cont:nth-child(4) {
         width: 28%;
+    }
+
+    /* -----------block10-------------- */
+    .j_martin_page_block10_main_width .orange_bullet_cont:first-child {
+        width: 48%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(3) {
+        width: 48%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(5) {
+        width: 48%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(2) {
+        width: 48%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(4) {
+        width: 48%;
     }
 }
 @media (max-width: 1366px) {
@@ -922,10 +996,10 @@
         font-size: 30px;
         line-height: 35px;
     }
-    .block3_cont_part p {
+    /* .block3_cont_part p {
         font-size: 18px;
         line-height: 23px;
-    }
+    } */
     .cont_top_sec_wrpr_right h3 {
         font-size: 18px;
         line-height: 23px;
@@ -944,6 +1018,35 @@
     }
     .part2_cont {
         margin-top: 20px;
+    }
+
+    /* ------------block9------------ */
+    .j_martin_page_block9_main_width .block1_white_box_left_sec {
+        width: 37%;
+        margin-bottom: 20px;
+    }
+    .j_martin_page_block9_main_width .block3_cont_part {
+        margin-bottom: 0px;
+    }
+
+    /* -----------block10-------------- */
+    .j_martin_page_block10_main_width .orange_bullet_cont {
+        margin-right: 0;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:first-child {
+        width: 100%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(3) {
+        width: 100%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(5) {
+        width: 100%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(2) {
+        width: 100%;
+    }
+    .j_martin_page_block10_main_width .orange_bullet_cont:nth-child(4) {
+        width: 100%;
     }
 }
 @media (max-width: 999px) {
@@ -1038,8 +1141,8 @@
         line-height: 33px;
     }
     .orange_bullet_cont {
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 22px !important;
+        line-height: 28px !important;
         padding-left: 25px;
     }
     .orange_bullet_cont::before {
@@ -1131,7 +1234,7 @@
         line-height: 30px;
         margin-bottom: 5px;
     }
-    .block3_cont_part p {
+    .block3_cont_part h3 {
         font-size: 20px;
         line-height: 25px;
         margin-bottom: 4px;
@@ -1161,6 +1264,26 @@
     }
     .part2_cont {
         margin-top: 15px;
+    }
+
+    /* ------------block9------------ */
+    .j_martin_page_block9_main_width .block1_white_box_left_sec {
+        width: 60%;
+        margin-bottom: 0;
+    }
+    .j_martin_page_block9_main_width .cont_part_main {
+        padding: 0 10px;
+    }
+    .j_martin_page_block9_main_width .block3_cont_part h3 {
+        padding-left: 35px;
+    }
+    .j_martin_page_block9_main_width .block3_cont_part h3::before {
+      left: 10px;
+    }
+
+    /* -----------block10-------------- */
+    .j_martin_page_block10_main_width .cont_part_main {
+        padding: 0 10px;
     }
 }
 @media (max-width: 599px) {
@@ -1262,8 +1385,8 @@
         line-height: 28px;
     }
     .orange_bullet_cont {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 20px !important;
+        line-height: 25px !important;
         padding-left: 20px;
         margin-bottom: 10px;
     }
@@ -1351,7 +1474,7 @@
         line-height: 28px;
         margin-bottom: 5px;
     }
-    .block3_cont_part p {
+    .block3_cont_part h3 {
         font-size: 18px;
         line-height: 23px;
         margin-bottom: 4px;
@@ -1383,6 +1506,20 @@
     }
     .j_martin_page_block8_main_width .block1_white_box_left_sec {
         margin-top: 15px;
+    }
+
+    /* ------------block9------------ */
+    .j_martin_page_block9_main_width .block1_white_box_left_sec {
+        width: 100%;
+    }
+    .block1_white_box_main_width {
+        padding: 10px 0;
+    }
+    .j_martin_page_block9_main_width .block3_cont_part h3 {
+        padding-left: 20px;
+    }
+    .j_martin_page_block9_main_width .block3_cont_part h3::before {
+      left: 0;
     }
 }
 

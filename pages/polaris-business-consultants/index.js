@@ -25,7 +25,6 @@ export default function Index() {
       <div className={styles.common_width}>
          <div className={styles.PBC_banner_wrpr}>
             <div className={styles.PBC_bannerTop}>
-               {/* <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/docGlobe.png" /> */}
                <h1>Polaris Business Consultants</h1>
             </div>
             <div className={styles.PBC_bannerBottom}>
@@ -35,9 +34,7 @@ export default function Index() {
          </div>
       </div>
      </div>
-     {/* <div className={styles.demo_1img}>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_banner_img.webp'/>
-     </div> */}
+
 
      {/* -------------- block1 ------------ */}
 
@@ -123,9 +120,7 @@ export default function Index() {
             </div>
          </div>
       </div>
-     {/* <div className={styles.demo_img}>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk1_img.webp'/>
-     </div> */}
+
 
       {/* -------------- block3 ------------ */}
       <div className={styles.PBC_block3}>
@@ -274,9 +269,7 @@ export default function Index() {
             </div>
          </div>
       </div>
-     {/* <div className={styles.demo_img}>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk2_img.webp'/>
-     </div> */}
+
       <div className={styles.PBC_block5}>
          <div className={styles.common_width}>
             <h1>STRATEGIC REAL ESTATE PLANNING: NAVIGATING REQUIREMENTS AND OWNERSHIP  STRUCTURES IN ASC DEVELOPMENT</h1>
@@ -664,12 +657,6 @@ export default function Index() {
             </span>
          </div>
       </div>
-     {/* <div className={styles.demo_img}>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk3_img.webp'/>
-     </div> */}
-     {/* <div className={styles.demo_img}>
-        <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/business_blk4_img.webp'/>
-     </div> */}
     <Footer />
     </>
    
