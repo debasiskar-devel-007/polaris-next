@@ -675,23 +675,15 @@ export default function index() {
                     </h5>
 
 
-                    <h6>Clinic</h6>
+                    <h6>Morgan County</h6>
                     <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
-                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                        <p>Designed to bring advanced services to the island for both
-                          island nationals and as a component of the medical travel program</p>
+                      <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_green} ${styles.three_mini}`}>
+                        <p>In 2014, through my consulting company and in partnership with Katz, Sapper & Miller (a regional consulting and accounting firm) I performed the financial due diligence on a complex transaction to acquire a local hospital out of bankruptcy</p>
                       </div>
-                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                        <p>Developed a medical clinic in Frigate Bay, St. Kitts</p>
+                      <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_green} ${styles.three_mini}`}>
+                        <p>Transaction structure included a total package of $40M in real estate and other debt facilities</p>
                       </div>
-                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                        <p>Facility provided physical therapy, pain management including injections,
-                          5 patient exam rooms, laboratory services, x-ray/C-Arm, ultrasound,
-                          and DXA scanning</p>
-                      </div>
-                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
-                        <p>Project was put on hold due to COVID</p>
-                      </div>
+                    
 
 
 
