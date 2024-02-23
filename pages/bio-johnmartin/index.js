@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/Navbar'
 import Head from 'next/head'
 import React from 'react'
 import styles from './johnD.module.css'
+import Link from 'next/link'
 
 export default function index() {
   return (
@@ -532,6 +533,147 @@ export default function index() {
             </div>
           </div>
 
+          <div className={styles.j_martin_page_block10_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>BKD, LLP (formerly Olive LLP)</h2>
+                        <p>201 North Illinois Street Suite 700 Indianapolis, IN  46204</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>May, 1999 – Sep, 2000</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Consultant – Healthcare</h2>
+                      <p>As a consultant with BKD Healthcare Services, I was responsible for working primarily with physician practices, radiology practices, management services organizations, small hospitals and multi-specialty clinics on operational performance issues. The scope of these engagements included: </p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Making recommendations regarding entity specific turnaround opportunities</h3>
+                          <h3 className={styles.orange_bullet_cont}>Analysis of lost revenue opportunities and plans for future recapture</h3>
+                          <h3 className={styles.orange_bullet_cont}>Development of finance policies and procedures</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational and financial improvement planning and recommendation</h3>
+                          <h3 className={styles.orange_bullet_cont}>Information systems evaluation and recommendation</h3>
+                        </div>
+                      </div>
+
+                      <p>I was also charged with writing business plans to address opportunities in the radiology niche market and for healthcare information technology services.  These business plans detailed specific opportunities for practice expansion.</p>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block11_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Radiology Associates of Indianapolis</h2>
+                        <p>1500 Albany Street, Suite 906 Beech Grove, IN  46107</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Oct, 1995 – April, 1999</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Administrator</h2>
+                      <p>I was responsible for the day-to-day operations of the practice. I kept physician leadership informed of current industry trends affecting the group practice environment. Also kept physician leadership up-to-date on financial and operational status of the corporation. I managed a staff of 15 FTE’s who were responsible for carrying out daily activities as directed. I had four key areas of responsibility including: information systems selection, design and implementation; financial reporting, compliance monitoring and opportunity analysis; human resources benefit management and design, physician recruiting support, and pension administration; and administrative responsibility for daily operations, general insurance coverage, and hospital relationship management.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block12_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Fairbanks Hospital</h2>
+                        <p>8102 Clearvista Parkway Indianapolis, IN  46256</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Mar, 1993 - Oct, 1995</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Chief Financial Officer</h2>
+                      <p>Responsible for the overall financial well-being and security of the hospital. Reported to and advised the President on all financial issues. Also responsible for long range, strategic financial planning and forecasting for the facility as well as installation and integration of a Unix based hospital-wide network.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block13_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Indiana Home Health Services</h2>
+                        <p>2039 N Capitol Avenue Indianapolis, IN</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Oct, 1986 - Feb, 1993</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Accounting Manager</h2>
+                      <p>Responsible for the daily activities of our accounting and patient accounts departments.  Reported to the Chief Financial Officer.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -554,12 +696,12 @@ export default function index() {
       {/* <Navbar /> */}
       <div className={styles.polaris_JDM_BIO_width}>
 
-        <div className={styles.JDM_bio_page}>
-          {/* <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" /> */}
+        {/* <div className={styles.JDM_bio_page}>
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
         </div>
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BLOCK1_img.webp" />
-        </div>
+        </div> */}
         {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
       </div> */}
@@ -1404,6 +1546,26 @@ export default function index() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub10_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub10_sec1_blk}>
+              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_logo.png'/>
+            </div>
+            <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_blk}>
+              <h1>John D Martin</h1>
+              <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
+              <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_1blk}>
+                <p><Link href="tel:(317) 437-6120">(317) 437-6120</Link></p>
+                </div>
+                <div className={styles.polaris_j_martin_page_key_main_sub10_sec2_mini_2blk}>
+                  <p><Link href="mailto:JMartin@PolarisBusinessConsultants.com ">JMartin@PolarisBusinessConsultants.com </Link></p>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
