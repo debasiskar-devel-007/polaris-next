@@ -609,6 +609,70 @@ export default function index() {
             </div>
           </div>
 
+          <div className={styles.j_martin_page_block12_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Fairbanks Hospital</h2>
+                        <p>8102 Clearvista Parkway Indianapolis, IN  46256</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Mar, 1993 - Oct, 1995</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Chief Financial Officer</h2>
+                      <p>Responsible for the overall financial well-being and security of the hospital. Reported to and advised the President on all financial issues. Also responsible for long range, strategic financial planning and forecasting for the facility as well as installation and integration of a Unix based hospital-wide network.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block13_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Indiana Home Health Services</h2>
+                        <p>2039 N Capitol Avenue Indianapolis, IN</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Oct, 1986 - Feb, 1993</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Accounting Manager</h2>
+                      <p>Responsible for the daily activities of our accounting and patient accounts departments.  Reported to the Chief Financial Officer.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -631,12 +695,12 @@ export default function index() {
       {/* <Navbar /> */}
       <div className={styles.polaris_JDM_BIO_width}>
 
-        <div className={styles.JDM_bio_page}>
-          {/* <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" /> */}
+        {/* <div className={styles.JDM_bio_page}>
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
         </div>
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BLOCK1_img.webp" />
-        </div>
+        </div> */}
         {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
       </div> */}
