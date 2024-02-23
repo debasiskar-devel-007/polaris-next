@@ -396,7 +396,7 @@ export default function index() {
 
                         <div className={styles.cont_top_sec_wrpr_left}>
                           <h2>Chief Executive Officer</h2>
-                          <p>(OrthoIndy/OrthoIndy Enterprises)</p>
+                          <h3>(OrthoIndy/OrthoIndy Enterprises)</h3>
                         </div>
 
                         <div className={styles.cont_top_sec_wrpr_right}>
@@ -442,8 +442,88 @@ export default function index() {
                         <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
                         </div>
                       </div>
-                      
+
                     </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block9_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>St. Francis Hospital and Health Centers</h2>
+                        <p>1500 Albany Street Suite 1101,Beech Grove, IN  46107</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Sep, 2000 – Aug, 2004</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Director of Financial Planning and Business Development</h2>
+                      <p>In this position, I have been responsible for all of the major capital projects of St. Francis Hospital.  I have done the financial feasibility work on all of our projects with a capital value greater than $150,000.  The three largest active projects with which I have been involved include the new $60,000,000 cardiac facility, the $20,000,000 expansion project in Mooresville, and the new (as of July, 2002) developer owned medical office building on our Indianapolis Campus.  I report directly to the regional chief financial officer, and spend the majority of my time supporting our senior management team.</p>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Business Development</h2>
+                      <p>My business development responsibilities include bringing new lines of business to the hospital, evaluating current lines of business for expansion/improvement opportunities, and evaluating joint venture opportunities with our physician partners. In addition to the three projects mentioned above, I have performed all of the financial feasibility work on at least 6 joint ventures and numerous other new hospital programs. Typical business development analysis will include one or more of the following elements:</p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate the market for and financial feasibility of entering into a new business opportunity. This includes determining market need for the service being considered, capital required to launch the new business venture and the long-term probability of financial success.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate financing alternatives available to the new venture. I determine the proper mix of equity, debt, and working capital line of credit for the long-term success of the new venture.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Evaluate the best location and facilities required for the new venture. This includes determining whether or not the venture should be located in hospital, joint venture, or developer owned facilities.</h3>
+                          <h3 className={styles.orange_bullet_cont}>Finally, I have negotiated several transactions that include having a developer/owner build and own a building on hospital owned ground. I have assisted in negotiating the underlying ground lease and related financial terms.</h3>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Financial/Capital Planning</h2>
+                      
+                      <div className={styles.block1_white_box_main_width}>
+                        <div className={styles.block1_white_box_main_wrpr}>
+
+                          <div className={styles.block1_white_box_left_sec}>
+                            <div className={styles.white_box_left_sec_img_box}>
+                              <div className={styles.left_sec_img_sub_box}>
+                                <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/j_martin_page_block9_left_img.webp'></img>
+                              </div>
+                            </div>
+                          </div> 
+
+                          <div className={styles.block1_white_box_right_sec}>
+                            <p>My financial planning responsibilities include determining how to improve the financial and operational performance of existing lines of business. This includes evaluating opportunities for growth, cost reductions, and operational improvement. I work with product line managers and directors to set improvement plans and then deliver those plans to senior management.</p>
+
+                            <p>My capital planning responsibilities include determining the growth opportunities available for projects with an initial investment in excess of $500,000. Analysis includes market opportunity, financial statement proforma development, discounted cash flow analysis, and calculation of internal rate of return. These projects are often evaluated with a team of six or eight managers/directors. My responsibilities include leading the evaluation team, building a business and financial plan, and then writing and presenting the recommendation(s) to senior management.</p>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div className={styles.block3_cont_part}>
+                      <h2>Decision Support</h2>
+                      <p>I am also responsible for the development and maintenance of a hospital (and system) wide decision support system.  This system is designed to enhance decision making at the operational and capital/business planning levels.</p>
+
+                    </div>
+
                   </div>
 
                 </div>
@@ -475,10 +555,10 @@ export default function index() {
       <div className={styles.polaris_JDM_BIO_width}>
 
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" />
+          {/* <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BIO_img.webp" /> */}
         </div>
         <div className={styles.JDM_bio_page}>
-          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
+          <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/POLARIS_JOHN_D_MARTIN_BLOCK1_img.webp" />
         </div>
         {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
