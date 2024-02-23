@@ -1006,6 +1006,9 @@
         font-size: 22px;
         line-height: 30px;
     }
+    .cont_part_main {
+        padding: 0 10px;
+    }
 }
 @media (max-width: 599px) {
     .j_martin_page_banner_main_width {
