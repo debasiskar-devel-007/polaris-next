@@ -372,9 +372,9 @@ export default function index() {
 
         </div>
 
-    </div>
+      </div>
 
-      
+
 
       {/* ---------------------------------------------biswarup--------------------------------------------- */}
 
@@ -398,14 +398,14 @@ export default function index() {
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
         </div>
-        <div className={styles.JDM_bio_page}>
+        {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
-      </div>
+      </div> */}
 
       </div>
 
       {/* -------------------------------------------------------------------souvik--------------------------------------------------------------------------- */}
-      {/* <div className={styles.polaris_j_martin_page_key_main_main_blk}>
+      <div className={styles.polaris_j_martin_page_key_main_main_blk}>
         <div className={styles.common_width}>
           <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
             <h1>Key Career Accomplishments</h1>
@@ -491,6 +491,7 @@ export default function index() {
               </div>
             </div>
           </div>
+
           <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
             <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
               <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
@@ -521,8 +522,167 @@ export default function index() {
               </div>
             </div>
           </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                    <h2>St. Kitts and Nevis</h2>
+                  </div>
+                  <h6>Oceans Medical Clinic</h6>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Working with physician to bring advanced treatments to the island of St. Kitts</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Facility provides physical therapy, pain management including injections, 5 patient exam rooms, diagnostic cardiology, laboratory services, x-ray / C-Arm, ultrasound, and DXA scanning</p>
+                    </div>
+
+                  </div>
+                  <h6>Surgical Facility</h6>
+                  <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Worked with Caribbean Healthcare Partners to develop a spine and
+                        orthopedic surgical facility in St. Kitts and Nevis</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Selected architecture firm and designed facility</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>The surgical facility was designed to be a travel-medicine destination</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Developed financial due diligence package, investor
+                        presentation, investment documents, and secure investment
+                        for the facility</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Worked with founder of Caribbean Healthcare Partners to raise capital
+                        for the operating company</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Project was put on hold due to COVID</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Selected real estate developer to raise capital for the construction and to
+                        manage development of the real estate and building</p>
+                    </div>
+
+                  </div>
+
+                  <h6>Clinic</h6>
+                  <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Designed to bring advanced services to the island for both
+                        island nationals and as a component of the medical travel program</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Developed a medical clinic in Frigate Bay, St. Kitts</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Facility provided physical therapy, pain management including injections,
+                        5 patient exam rooms, laboratory services, x-ray/C-Arm, ultrasound,
+                        and DXA scanning</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Project was put on hold due to COVID</p>
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                      <h2>Transactions</h2>
+                    </div>
+                    <h6>Orthopaedics Indianapolis (“OrthoIndy”) / Indiana Orthopaedic Hospital</h6>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Began career in August, 2004 as CEO of the Indiana Orthopaedic Hospital</p>
+                      </div>
+                      <div className={styles.green_bullet_cont_wrpr}>
+                        <h5 className={styles.green_bullet_cont}>Hospital was successfully opened on March 1, 2005</h5>
+                        <h5 className={styles.green_bullet_cont}>Hospital nationally recognized by PressGaney and HealthGrades</h5>
+                        <h5 className={styles.green_bullet_cont}>Achieved profitability and made owner distributions by the end of the first twelve months of operations</h5>
+                      </div>
+
+
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>In 2006, transitioned to CEO of OrthoIndy and the Indiana Orthopaedic Hospital</p>
+                      </div>
+                      <div className={styles.green_bullet_cont_wrpr}>
+                        <h5 className={styles.green_bullet_cont}>Streamlined organization through consolidation of entities</h5>
+                        <h5 className={styles.green_bullet_cont}>Reduced overhead by consolidating certain locations and building strategically placed centers in
+                          Brownsburg and Greenwood</h5>
+                        <h5 className={styles.green_bullet_cont}>Reduced overhead 17% while increasing the number of
+                          physicians by 24%</h5>
+                        <h5 className={styles.green_bullet_cont}>Developed strategy to organize new centers as combination hospital outpatient surgical departments
+                          and physician office clinics</h5>
+                        <h5 className={styles.green_bullet_cont}>Added freestanding physical therapy locations under the hospital license</h5>
+
+                      </div>
+
+
+                    </div>
+
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Developed strategy during 2007 and 2008 to create a strategic partnership with Ascension / St. Vincent Indianapolis</p>
+                      </div>
+                      <div className={`${styles.green_bullet_cont_wrpr} ${styles.one_mini}`}>
+                        <h5 className={styles.green_bullet_cont}>Purpose of the partnership to improve orthopedic standard of care throughout the state of Indiana</h5>
+                        <h5 className={styles.green_bullet_cont}>Four key elements to the transaction:</h5>
+                     </div>
+                     <div className={styles.blue_bullet_cont_wrp}>
+                      <p className={styles.blue_bullet_cont}><span>Ownership:</span> Ascension/St. Vincent to own 20% of the Indiana Orthopaedic Hospital</p>
+                     </div>
+
+
+                    </div>
+                   
+
+                    <h6>Clinic</h6>
+                    <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Designed to bring advanced services to the island for both
+                          island nationals and as a component of the medical travel program</p>
+                      </div>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Developed a medical clinic in Frigate Bay, St. Kitts</p>
+                      </div>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Facility provided physical therapy, pain management including injections,
+                          5 patient exam rooms, laboratory services, x-ray/C-Arm, ultrasound,
+                          and DXA scanning</p>
+                      </div>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Project was put on hold due to COVID</p>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> */}
+      </div>
       <Footer />
     </>
   )
