@@ -136,47 +136,47 @@ export default function index() {
             <div className={styles.common_width}>
               <div className={styles.j_martin_page_grey_box}>
 
-               <div className={styles.j_martin_page_sub_box}>
+                <div className={styles.j_martin_page_sub_box}>
 
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
 
-                    <div className={styles.sky_bar_left_section}>
-                      <h2>Polaris Business Consultants</h2>
-                      <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
-                    </div>
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Polaris Business Consultants</h2>
+                        <p>9292 N Meridian Street Suite 150 Indianapolis, IN 46260</p>
+                      </div>
 
-                    <div className={styles.sky_bar_right_section}>
-                      <h3>September, 2023 – Current</h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.cont_part_main}>
-                <div className={styles.block3_cont_part}>
-                  <h2>Managing Director – Healthcare Consulting</h2>
-                  <p>In September, 2023, JD Martin Healthcare Advisors was combined into Polaris Business Consultants. The focus of this consulting practice remains the same:</p>
-
-                  <div className={styles.block3_bullet_cont_part}>
-                    <div className={styles.orange_bullet_cont_wrpr}>
-                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
-                      <h3 className={styles.orange_bullet_cont}>Project Development</h3>
-                      <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
-                      <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
-                    </div>
-
-                    <div className={styles.green_bullet_cont_wrpr}>
-                      <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
-                      <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>September, 2023 – Current</h3>
+                      </div>
                     </div>
                   </div>
 
-                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
-                </div>
-                </div>
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Managing Director – Healthcare Consulting</h2>
+                      <p>In September, 2023, JD Martin Healthcare Advisors was combined into Polaris Business Consultants. The focus of this consulting practice remains the same:</p>
 
-               </div>
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                          <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+                          <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
+                          <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+                        </div>
+
+                        <div className={styles.green_bullet_cont_wrpr}>
+                          <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                          <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                        </div>
+                      </div>
+
+                      <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
+                    </div>
+                  </div>
+
+                </div>
 
               </div>
             </div>
@@ -185,48 +185,48 @@ export default function index() {
           <div className={styles.j_martin_page_block4_main_width}>
             <div className={styles.common_width}>
               <div className={styles.j_martin_page_grey_box}>
-            
-               <div className={styles.j_martin_page_sub_box}>
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
 
-                    <div className={styles.sky_bar_left_section}>
-                      <h2>JD Martin Enterprises</h2>
-                      <h2>d/b/a JD Martin Healthcare Advisors</h2>
-                      <p>9046 E 10th Street Indianapolis, IN 46219</p>
-                    </div>
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
 
-                    <div className={styles.sky_bar_right_section}>
-                      <h3>April, 2018 – Current</h3>
-                    </div>
-                  </div>
-                </div>
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>JD Martin Enterprises</h2>
+                        <h2>d/b/a JD Martin Healthcare Advisors</h2>
+                        <p>9046 E 10th Street Indianapolis, IN 46219</p>
+                      </div>
 
-                <div className={styles.cont_part_main}>
-                <div className={styles.block3_cont_part}>
-                  <h2>Managing Partner</h2>
-                  <p>In April, 2018, I became the Managing Partner of JD Martin Enterprises d/b/a JD Martin Healthcare Advisors. The focus of my consulting practice is:</p>
-
-                  <div className={styles.block3_bullet_cont_part}>
-                    <div className={styles.orange_bullet_cont_wrpr}>
-                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
-                      <h3 className={styles.orange_bullet_cont}>Project Development</h3>
-                      <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
-                      <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
-                    </div>
-
-                    <div className={styles.green_bullet_cont_wrpr}>
-                      <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
-                      <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>April, 2018 – Current</h3>
+                      </div>
                     </div>
                   </div>
 
-                  <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
-                </div>
-                </div>
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Managing Partner</h2>
+                      <p>In April, 2018, I became the Managing Partner of JD Martin Enterprises d/b/a JD Martin Healthcare Advisors. The focus of my consulting practice is:</p>
 
-               </div>
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational and Process Improvement</h3>
+                          <h3 className={styles.orange_bullet_cont}>Project Development</h3>
+                          <h3 className={styles.orange_bullet_cont}>Capital Transactions</h3>
+                          <h3 className={styles.orange_bullet_cont}>Financial Management</h3>
+                        </div>
+
+                        <div className={styles.green_bullet_cont_wrpr}>
+                          <h5 className={styles.green_bullet_cont}>Financial Projections</h5>
+                          <h5 className={styles.green_bullet_cont}>Operational and Capital Budgeting</h5>
+                        </div>
+                      </div>
+
+                      <p>Through my consulting practice I served as the Chief Executive Officer and the Chief Financial Officer of Caribbean Healthcare Partners. I have also served as the part-time Chief Financial Officer of other companies. My company focuses on all aspects of financial management and project development for large capital projects.</p>
+                    </div>
+                  </div>
+
+                </div>
 
               </div>
             </div>
@@ -236,44 +236,44 @@ export default function index() {
             <div className={styles.common_width}>
               <div className={styles.j_martin_page_grey_box}>
 
-              <div className={styles.j_martin_page_sub_box}>
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
 
-                    <div className={styles.sky_bar_left_section}>
-                      <h2>Caribbean Healthcare Partners</h2>
-                      <p>St. Christopher and Nevis, West Indies</p>
-                    </div>
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Caribbean Healthcare Partners</h2>
+                        <p>St. Christopher and Nevis, West Indies</p>
+                      </div>
 
-                    <div className={styles.sky_bar_right_section}>
-                      <h3>April, 2018 – December, 2020</h3>
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>April, 2018 – December, 2020</h3>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className={styles.cont_part_main}>
-                <div className={styles.block3_cont_part}>
-                  <h2>Chief Executive Officer / Chief Financial Officer</h2>
-                  <p>Caribbean Healthcare Partners is a company that was formed to develop an orthopedic and spine surgical facility in the Federation of St. Christopher (St. Kitts) & Nevis. My responsibilities included:</p>
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Chief Executive Officer / Chief Financial Officer</h2>
+                      <p>Caribbean Healthcare Partners is a company that was formed to develop an orthopedic and spine surgical facility in the Federation of St. Christopher (St. Kitts) & Nevis. My responsibilities included:</p>
 
-                  <div className={styles.block3_bullet_cont_part}>
-                    <div className={styles.orange_bullet_cont_wrpr}>
-                      <h3 className={styles.orange_bullet_cont}>All aspects of financial projections including assumptions and financial results</h3>
-                      <h3 className={styles.orange_bullet_cont}>Staff planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Service planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Facility sizing and design management</h3>
-                      <h3 className={styles.orange_bullet_cont}>Strategic planning including development of a non-surgical clinic</h3>
-                      <h3 className={styles.orange_bullet_cont}>Design of investment structure</h3>
-                      <h3 className={styles.orange_bullet_cont}>Cash flow management</h3>
-                      <h3 className={styles.orange_bullet_cont}>Negotiations with equity investors</h3>
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>All aspects of financial projections including assumptions and financial results</h3>
+                          <h3 className={styles.orange_bullet_cont}>Staff planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Service planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Facility sizing and design management</h3>
+                          <h3 className={styles.orange_bullet_cont}>Strategic planning including development of a non-surgical clinic</h3>
+                          <h3 className={styles.orange_bullet_cont}>Design of investment structure</h3>
+                          <h3 className={styles.orange_bullet_cont}>Cash flow management</h3>
+                          <h3 className={styles.orange_bullet_cont}>Negotiations with equity investors</h3>
+                        </div>
+
+                      </div>
+
                     </div>
-
                   </div>
 
                 </div>
-                </div>
-
-               </div>
 
               </div>
             </div>
@@ -283,43 +283,170 @@ export default function index() {
             <div className={styles.common_width}>
               <div className={styles.j_martin_page_grey_box}>
 
-              <div className={styles.j_martin_page_sub_box}>
-                <div className={styles.block3_sky_bar}>
-                  <div className={styles.sky_bar_main_wrpr}>
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
 
-                    <div className={styles.sky_bar_left_section}>
-                      <h2>Katz, Sapper & Miller (KSM)</h2>
-                      <p>800 East 96th Street ,Suite 500 Indianapolis, IN 46240</p>
-                    </div>
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>Katz, Sapper & Miller (KSM)</h2>
+                        <p>800 East 96th Street ,Suite 500 Indianapolis, IN 46240</p>
+                      </div>
 
-                    <div className={styles.sky_bar_right_section}>
-                      <h3>January, 2015 – March, 2018</h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.cont_part_main}>
-                <div className={styles.block3_cont_part}>
-                  <h2>Managing Director, Healthcare Consulting</h2>
-                  <p>In January, 2015, I became the Managing Director, Healthcare Consulting for KSM.  In this role, I am responsible for growth of the hospital consulting practice within the firm.  While our firm provides comprehensive consulting services to our physician and hospital clients, initially we are focused on the following service areas from a marketing and growth perspective:</p>
-
-                  <div className={styles.block3_bullet_cont_part}>
-                    <div className={styles.orange_bullet_cont_wrpr}>
-                      <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Market Assessment</h3>
-                      <h3 className={styles.orange_bullet_cont}>Financial Planning</h3>
-                      <h3 className={styles.orange_bullet_cont}>Operational Improvement</h3>
-                      <h3 className={styles.orange_bullet_cont}>Physician/Hospital Integration</h3>
-                      <h3 className={styles.orange_bullet_cont}>Healthcare Reform Preparedness</h3>
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>January, 2015 – March, 2018</h3>
+                      </div>
                     </div>
                   </div>
 
-                  <p>Early projects have included development of specialty specific institutes, market analyses, strategic planning, new service development, hospital acquisition due diligence, physician manpower needs assessments, practice combinations, physician/hospital integration strategies and execution</p>
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Managing Director, Healthcare Consulting</h2>
+                      <p>In January, 2015, I became the Managing Director, Healthcare Consulting for KSM.  In this role, I am responsible for growth of the hospital consulting practice within the firm.  While our firm provides comprehensive consulting services to our physician and hospital clients, initially we are focused on the following service areas from a marketing and growth perspective:</p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Market Assessment</h3>
+                          <h3 className={styles.orange_bullet_cont}>Financial Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational Improvement</h3>
+                          <h3 className={styles.orange_bullet_cont}>Physician/Hospital Integration</h3>
+                          <h3 className={styles.orange_bullet_cont}>Healthcare Reform Preparedness</h3>
+                        </div>
+                      </div>
+
+                      <p>Early projects have included development of specialty specific institutes, market analyses, strategic planning, new service development, hospital acquisition due diligence, physician manpower needs assessments, practice combinations, physician/hospital integration strategies and execution</p>
+
+                    </div>
+                  </div>
 
                 </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block7_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>JD Martin Company, LLC</h2>
+                        <p>1547 N State Street,PMB 107, Greenfield, IN 46140</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>June, 2012 – December, 2014</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+                      <h2>Principal</h2>
+                      <p>After the success I enjoyed as Chief Executive Officer of OrthoIndy Enterprises, I left to start a healthcare consulting firm.</p>
+                      <p>This firm focuses on:</p>
+
+                      <div className={styles.block3_bullet_cont_part}>
+                        <div className={styles.orange_bullet_cont_wrpr}>
+                          <h3 className={styles.orange_bullet_cont}>Strategic Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Financial Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Operational Planning</h3>
+                          <h3 className={styles.orange_bullet_cont}>Physician/Hospital Integration</h3>
+                        </div>
+                      </div>
+
+                      <p>Early projects have included developing orthopaedic centers of excellence, general surgery centers of excellence, integration with primary care, and due diligence on orthopaedic focused hospital expansions.</p>
+
+                    </div>
+                  </div>
+
                 </div>
 
-               </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.j_martin_page_block8_main_width}>
+            <div className={styles.common_width}>
+              <div className={styles.j_martin_page_grey_box}>
+
+                <div className={styles.j_martin_page_sub_box}>
+                  <div className={styles.block3_sky_bar}>
+                    <div className={styles.sky_bar_main_wrpr}>
+
+                      <div className={styles.sky_bar_left_section}>
+                        <h2>OrthoIndy Enterprises</h2>
+                        <p>8450 Northwest Boulevard Indianapolis, IN 46278</p>
+                      </div>
+
+                      <div className={styles.sky_bar_right_section}>
+                        <h3>Aug, 2004 – June, 2012</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.cont_part_main}>
+                    <div className={styles.block3_cont_part}>
+
+                      <div className={styles.block3_cont_top_sec_wrpr}>
+
+                        <div className={styles.cont_top_sec_wrpr_left}>
+                          <h2>Chief Executive Officer</h2>
+                          <p>(OrthoIndy/OrthoIndy Enterprises)</p>
+                        </div>
+
+                        <div className={styles.cont_top_sec_wrpr_right}>
+                          <h3>Oct, 2006 – June, 2012</h3>
+                        </div>
+                        
+                      </div>
+
+                      <div className={styles.block1_white_box_cont_sec}>
+
+                        <div className={styles.block1_white_box_left_sec}>
+                          <div className={styles.white_box_left_sec_img_box}>
+                            <div className={styles.left_sec_img_sub_box}>
+                              <img src='https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/john_d_martin/john_d_martin_block8_right_img.webp'></img>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={styles.block1_white_box_right_sec_cont}>
+                          <p>After success opening Indiana Orthopaedic Hospital, I earned the opportunity to become the CEO of OrthoIndy in October of 2006.  Our focus had been on planning and opening the hospital for several years, so the practice was in need of attention.  Since taking over in 2006, my focus has been on improving operations, adjusting to the new healthcare climate, rightsizing existing locations, developing key new locations, identifying new markets, and enterprise level strategic planning.</p>
+
+                          <p>Under my direction, we have reduced staff 17%, increased physician staff by 24%, and improved service to our patients and physicians. We have also opened two new full service outpatient locations under my direction: one in Brownsburg and one in Greenwood.  We have entered new markets in Jennings, Dunn, and Hancock County. Two years ago we identified the need to create a management company and take advantage of our experience in running hospital orthopedic departments and physician practices. I led the project to create OrthoIndy Enterprises. OrthoIndy Enterprises is a management company that employs all of our non-clinical employees. We are positioned to provide management services to hospitals and physician practices throughout a five state area.</p>
+
+                          <p>I have also been responsible for fostering our relationship with St. Vincent Hospital Indianapolis, St. Vincent Carmel, Community Health Network, and Hancock Regional Hospital among others.  Under my direction, we have significantly improved our physician/hospital relationships.  We are beginning to partner more closely with certain hospitals in our market and in surrounding communities.</p>
+                        </div>
+
+                      </div>
+
+                      <div className={styles.block3_cont_top_sec_wrpr}>
+                        <div className={styles.cont_part2_left_sec}>
+                          <h3>Indiana Orthopaedic Hospital, Chief Executive Officer</h3>
+                        </div>
+
+                        <div className={styles.cont_part2_right_sec}>
+                          <h4>Aug, 2004 – Oct, 2006</h4>
+                        </div>
+                      </div>
+
+                      <div className={styles.part2_cont}>
+                        <div className={styles.block1_white_box_right_sec_cont}>
+                        <p>I began my career with OrthoIndy as the Chief Executive Officer for their new hospital, the Indiana Orthopaedic Hospital.  Formed as a 100% physician owned and operated hospital, my responsibility was to take the facility from mid-construction to Medicare certified and open for operations.  We opened on time and within budget on March 1, 2005.  It was my responsibility to ensure that we complied with all state and federal guidelines to open.  I was also responsible for ensuring that we opened with a fully electronic health record.  We opened with Meditech fully operational and utilizing all of its components for a completely electronic health record.  We passed both our pre-occupancy survey and our full survey 3 weeks later with no major citations.  Our Medicare certification was retroactive to our date of opening.</p>
+
+                        <p>I was also responsible for negotiating payer contracts and ensuring profitability.  I was able to secure managed care contracts with all major payers in our market within our first year of operation.  Additionally, we were able to pay off all of our revolving debt and produced a profit in our first 12 months of operation.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                </div>
 
               </div>
             </div>
@@ -327,9 +454,9 @@ export default function index() {
 
         </div>
 
-    </div>
+      </div>
 
-      
+
 
       {/* ---------------------------------------------biswarup--------------------------------------------- */}
 
@@ -353,14 +480,14 @@ export default function index() {
         <div className={styles.JDM_bio_page}>
           <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/POLARIS_JOHN_D_MARTIN_BLOCK1.webp" />
         </div>
-        <div className={styles.JDM_bio_page}>
+        {/* <div className={styles.JDM_bio_page}>
         <img src="https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/polaris_john_d_block2.webp"/>
-      </div>
+      </div> */}
 
       </div>
 
       {/* -------------------------------------------------------------------souvik--------------------------------------------------------------------------- */}
-      {/* <div className={styles.polaris_j_martin_page_key_main_main_blk}>
+      <div className={styles.polaris_j_martin_page_key_main_main_blk}>
         <div className={styles.common_width}>
           <div className={styles.polaris_j_martin_page_key_main_main_sub_blk}>
             <h1>Key Career Accomplishments</h1>
@@ -446,6 +573,7 @@ export default function index() {
               </div>
             </div>
           </div>
+
           <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
             <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
               <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
@@ -476,8 +604,180 @@ export default function index() {
               </div>
             </div>
           </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                    <h2>St. Kitts and Nevis</h2>
+                  </div>
+                  <h6>Oceans Medical Clinic</h6>
+                  <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Working with physician to bring advanced treatments to the island of St. Kitts</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Facility provides physical therapy, pain management including injections, 5 patient exam rooms, diagnostic cardiology, laboratory services, x-ray / C-Arm, ultrasound, and DXA scanning</p>
+                    </div>
+
+                  </div>
+                  <h6>Surgical Facility</h6>
+                  <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Worked with Caribbean Healthcare Partners to develop a spine and
+                        orthopedic surgical facility in St. Kitts and Nevis</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Selected architecture firm and designed facility</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>The surgical facility was designed to be a travel-medicine destination</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Developed financial due diligence package, investor
+                        presentation, investment documents, and secure investment
+                        for the facility</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Worked with founder of Caribbean Healthcare Partners to raise capital
+                        for the operating company</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Project was put on hold due to COVID</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Selected real estate developer to raise capital for the construction and to
+                        manage development of the real estate and building</p>
+                    </div>
+
+                  </div>
+
+                  <h6>Clinic</h6>
+                  <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Designed to bring advanced services to the island for both
+                        island nationals and as a component of the medical travel program</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Developed a medical clinic in Frigate Bay, St. Kitts</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Facility provided physical therapy, pain management including injections,
+                        5 patient exam rooms, laboratory services, x-ray/C-Arm, ultrasound,
+                        and DXA scanning</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>Project was put on hold due to COVID</p>
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.polaris_j_martin_page_key_main_sub5_main_blk}>
+            <div className={styles.polaris_j_martin_page_key_main_sub4_main_blk}>
+              <div className={styles.polaris_j_martin_page_key_main_sub3_main_blk}>
+                <div className={styles.polaris_j_martin_page_key_main_sub2_main_blk}>
+                  <div className={styles.polaris_j_martin_page_key_main_sub1_main_blk}>
+                    <div className={styles.polaris_j_martin_page_key_main_sub1_sec1_blk}>
+                      <h2>Transactions</h2>
+                    </div>
+                    <h6>Orthopaedics Indianapolis (“OrthoIndy”) / Indiana Orthopaedic Hospital</h6>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Began career in August, 2004 as CEO of the Indiana Orthopaedic Hospital</p>
+                      </div>
+                      <div className={styles.green_bullet_cont_wrpr}>
+                        <h5 className={styles.green_bullet_cont}>Hospital was successfully opened on March 1, 2005</h5>
+                        <h5 className={styles.green_bullet_cont}>Hospital nationally recognized by PressGaney and HealthGrades</h5>
+                        <h5 className={styles.green_bullet_cont}>Achieved profitability and made owner distributions by the end of the first twelve months of operations</h5>
+                      </div>
+
+
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>In 2006, transitioned to CEO of OrthoIndy and the Indiana Orthopaedic Hospital</p>
+                      </div>
+                      <div className={styles.green_bullet_cont_wrpr}>
+                        <h5 className={styles.green_bullet_cont}>Streamlined organization through consolidation of entities</h5>
+                        <h5 className={styles.green_bullet_cont}>Reduced overhead by consolidating certain locations and building strategically placed centers in
+                          Brownsburg and Greenwood</h5>
+                        <h5 className={styles.green_bullet_cont}>Reduced overhead 17% while increasing the number of
+                          physicians by 24%</h5>
+                        <h5 className={styles.green_bullet_cont}>Developed strategy to organize new centers as combination hospital outpatient surgical departments
+                          and physician office clinics</h5>
+                        <h5 className={styles.green_bullet_cont}>Added freestanding physical therapy locations under the hospital license</h5>
+
+                      </div>
+
+
+                    </div>
+
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_blk}>
+                      <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                        <p>Developed strategy during 2007 and 2008 to create a strategic partnership with Ascension / St. Vincent Indianapolis</p>
+                      </div>
+                      <div className={`${styles.green_bullet_cont_wrpr} ${styles.one_mini}`}>
+                        <h5 className={styles.green_bullet_cont}>Purpose of the partnership to improve orthopedic standard of care throughout the state of Indiana</h5>
+                        <h5 className={styles.green_bullet_cont}>Four key elements to the transaction:</h5>
+                      </div>
+                      <div className={styles.blue_bullet_cont_wrp}>
+                        <p className={styles.blue_bullet_cont}><span>Ownership:</span> Ascension/St. Vincent to own 20% of the Indiana Orthopaedic Hospital</p>
+                        <p className={styles.blue_bullet_cont}><span>Management:</span> OrthoIndy to manage the Ascension / St. Vincent orthopedic program in central
+                          Indiana under a joint venture management agreement</p>
+                        <p className={styles.blue_bullet_cont}><span>Partnership:</span> OrthoIndy to be the statewide orthopedic provider for Ascension
+                          / St. Vincent Indiana
+                        </p>
+                        <p className={styles.blue_bullet_cont}><span>Program Development:</span> Ascension / St. Vincent to develop a Level II trauma program to be
+                          staffed by OrthoIndy trauma surgeons at the Ascension / St. Vincent Indianapolis campus
+                          on west 86th Street</p>
+                      </div>
+
+
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>October, 2009, transaction between OrthoIndy and Ascension / St. Vincent was completed</p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>During 2012, the Level II trauma program was created at Ascension / St. Vincent and OrthoIndy moved its program to the 86th Street campus
+                      </p>
+                    </div>
+                    <div className={styles.polaris_j_martin_page_key_main_sub2_sec1_green}>
+                      <p>In June, 2012, left OrthoIndy to open a healthcare consulting company
+                      </p>
+                    </div>
+                    <h5 className={`${styles.green_bullet_cont} ${styles.two_mini}`}>During tenure as CEO of OrthoIndy and the Indiana Orthopaedic Hospital, enterprise grew from $96M in annual revenue to $205M in annual revenue and 900 employees
+                    </h5>
+
+
+                    <h6>Morgan County</h6>
+                    <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_blk} ${styles.flex_wrp_4sub}`}>
+                      <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_green} ${styles.three_mini}`}>
+                        <p>In 2014, through my consulting company and in partnership with Katz, Sapper & Miller (a regional consulting and accounting firm) I performed the financial due diligence on a complex transaction to acquire a local hospital out of bankruptcy</p>
+                      </div>
+                      <div className={`${styles.polaris_j_martin_page_key_main_sub2_sec1_green} ${styles.three_mini}`}>
+                        <p>Transaction structure included a total package of $40M in real estate and other debt facilities</p>
+                      </div>
+                    
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> */}
+      </div>
       <Footer />
     </>
   )

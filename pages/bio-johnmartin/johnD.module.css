@@ -330,7 +330,7 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
 }
 .cont_part_main {
-    padding: 10px;
+    padding: 0 10px;
 }
 
 /* ----------block4----------- */
@@ -391,6 +391,64 @@
 }
 .j_martin_page_block6_main_width.j_martin_page_block5_main_width .orange_bullet_cont:nth-child(4) {
     width: 22%;
+}
+
+/* ----------block7------------- */
+.j_martin_page_block7_main_width .orange_bullet_cont {
+    margin-right: 25px;
+}
+
+/* ---------------block8--------------- */
+.block3_cont_top_sec_wrpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.block3_cont_part p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.cont_top_sec_wrpr_right h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.j_martin_page_block8_main_width .block1_white_box_left_sec {
+    float: right;
+    margin-right: 35px;
+}
+.j_martin_page_block8_main_width .block1_white_box_right_sec_cont p {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.j_martin_page_block8_main_width .cont_part_main {
+    padding: 0 20px;
+}
+.block1_white_box_cont_sec {
+    margin: 10px 0 30px 0;
+}
+.cont_part2_left_sec h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #858a94;
+}
+.cont_part2_right_sec h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #858a94;
+}
+.part2_cont {
+    margin-top: 30px;
+}
+.j_martin_page_block8_main_width .block1_white_box_right_sec_cont p:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -1006,6 +1064,9 @@
         font-size: 22px;
         line-height: 30px;
     }
+    .cont_part_main {
+        padding: 0 10px;
+    }
 }
 @media (max-width: 599px) {
     .j_martin_page_banner_main_width {
@@ -1190,7 +1251,6 @@
     }
 }
 
-
         /* ---------------------------------------------biswarup------------------------------------------- */
 
 
@@ -1227,7 +1287,7 @@
         top: 5px;
         left: 0;}  
 .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 24%;}   
-.polaris_j_martin_page_key_main_sub3_main_blk h6{font-size: 25px;line-height: 31px;font-weight: 500;color: #305477;margin-bottom: 35px;position: relative;} 
+.polaris_j_martin_page_key_main_sub3_main_blk h6{font-size: 25px;line-height: 31px;font-weight: 500;color: #305477;margin-bottom: 35px;position: relative;text-transform: uppercase;} 
 .polaris_j_martin_page_key_main_sub3_main_blk h6::after{      position: absolute;
     content: '';
     background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/jhon_p_under_line.png);
@@ -1241,6 +1301,30 @@
 .polaris_j_martin_page_key_main_sub3_main_blk .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 48%;} 
 .polaris_j_martin_page_key_main_sub3_main_blk .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 48%;}  
 
+
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 100%;} 
+.flex_wrp_4sub{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green{width: 48%;}
+.polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 48%;} 
+
+.polaris_j_martin_page_key_main_sub5_main_blk .green_bullet_cont{width: 48%;}
+.polaris_j_martin_page_key_main_sub5_main_blk .polaris_j_martin_page_key_main_sub3_main_blk h6::after{width: 100%;}
+.one_mini .green_bullet_cont{width: 100%;}
+.blue_bullet_cont_wrp{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.blue_bullet_cont{font-size: 18px !important;line-height: 24px !important;font-weight: 500 !important;color: #000;position: relative;    padding-left: 73px;
+    margin-bottom: 10px;width: 48%;}
+    .blue_bullet_cont span{color: #0225d9;}
+    .blue_bullet_cont::before{    position: absolute;
+        content: '';
+        background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/blue_bullet_point.png);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 15px;
+        top: 5px;
+        left: 50px;}
+.two_mini{width: 100% !important;}
+.three_mini{width: 100% !important;}
+
 @media (max-width: 1630px){
     .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 44px;
         line-height: 58px;}
@@ -1248,6 +1332,13 @@
 
 @media (max-width: 1530px) {
     .polaris_j_martin_page_key_main_sub2_sec1_green{    width: 23%;}
+}
+@media (max-width: 1199px){
+    .polaris_j_martin_page_key_main_sub3_main_blk .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 100%;} 
+    .polaris_j_martin_page_key_main_sub3_main_blk .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 100%;} 
+    .polaris_j_martin_page_key_main_sub3_main_blk h6::after{    width: 100%;} 
+    .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green{width: 100%;}
+    .polaris_j_martin_page_key_main_sub4_main_blk .polaris_j_martin_page_key_main_sub3_main_blk .flex_wrp_4sub .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(2){width: 100%;} 
 }
 @media (max-width: 999px) {
     .polaris_j_martin_page_key_main_sub2_sec1_green{    width: 40%;}
@@ -1268,4 +1359,11 @@
             top: 6px;}
             .polaris_j_martin_page_key_main_sub2_main_blk p{font-size: 23px;
                 line-height: 29px;}
+}
+@media (max-width: 499px){
+    .polaris_j_martin_page_key_main_sub2_main_blk p{font-size: 20px;
+        line-height: 26px;}
+        .polaris_j_martin_page_key_main_sub2_sec1_green p::after{    width: 15px;
+            height: 15px;
+            top: 5px;}
 }
