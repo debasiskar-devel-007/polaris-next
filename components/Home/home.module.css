@@ -180,6 +180,7 @@ padding-top: 26px;    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-sh
     position: absolute;
     background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/green_bullet_point.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 23px;
     height: 24px;
     left: -31px;
@@ -192,6 +193,7 @@ padding-top: 26px;    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-sh
       position: absolute;
       background-image: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/home/green_bullet_point.png);
       background-repeat: no-repeat;
+      background-size: 100% 100%;
       width: 23px;
       height: 24px;
       left: -31px;
@@ -627,8 +629,78 @@ display: none;
   }
   .polaris_blk3_1sub_wrp {
     padding: 10px;
+    margin-bottom: 15px;
   }
   .polaris_blk3_evn_od_heading {
+    padding: 10px;
+  }
+  .polaris_blk3_evn_od_heading_white {
+    padding: 10px;
+  }
+  .polaris_blk3_evn_od_heading_gray {
+    padding: 10px;
+  }
+  .polaris_blk3_evn_od_heading_white p::after {
+    width: 15px;
+    height: 15px;
+    left: -20px;
+    top: 4px;
+  }
+  .polaris_blk3_evn_od_heading_gray p::after {
+    width: 15px;
+    height: 15px;
+    left: -20px;
+    top: 4px;
+  }
+  .polaris_blk3_evn_od_heading_white p {
+    margin-left: 20px;
+  }
+  .polaris_blk3_evn_od_heading_gray p {
+    margin-left: 20px;
+  }
+  .polaris_blk3_evn_od {
+    margin-bottom: 10px;
+  }
+  .polaris_blk3_evn_od:last-child {
+    margin: 0;
+  }
+  .polaris_blk3_sub_sec_mini_wrp {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .polaris_blk3_main_wrp {
+    padding: 15px 0;
+  }
+  .polaris_blk4_main_sub_wrp h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .polaris_blk4_sub_sec_wrp {
+    padding: 10px;
+  }
+  .polaris_blk4_sub_sec_img_wrp {
+    margin-bottom: 10px;
+  }
+  .polaris_blk4_sub_sec_heading_wrp {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .polaris_blk4_sub_sec_p_wrp p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .polaris_blk4_sub_sec_p_wrp {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .team_sec_btn a {
+    padding: 10px;
+  }
+  .polaris_blk5_sub_sec_wrp {
+    padding: 15px;
+  }
+  .polaris_blk5_main_wrp .polaris_home_button {
     padding: 10px;
   }
 }
