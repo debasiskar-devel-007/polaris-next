@@ -1594,6 +1594,7 @@
         content: '';
         background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/blue_bullet_point.png);
         background-repeat: no-repeat;
+        background-size: 100% 100%;
         width: 15px;
         height: 15px;
         top: 5px;
