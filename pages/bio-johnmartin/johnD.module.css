@@ -1706,17 +1706,25 @@ background-repeat: no-repeat;background-size: cover;background-position: center;
 .polaris_j_martin_page_key_main_sub10_main_blk{flex-direction: column;    padding: 25px 25px;}
 .polaris_j_martin_page_key_main_sub10_sec1_blk{width: 50%;margin-bottom: 20px;}
 .polaris_j_martin_page_key_main_sub10_sec2_blk{width: 100%;}
+
+.polaris_j_martin_page_key_main_main_sub_blk {
+    padding: 20px;
+}
 }
 @media (max-width: 999px) {
     .polaris_j_martin_page_key_main_sub2_sec1_green{    width: 40%;}
     .polaris_j_martin_page_key_main_sub2_sec1_green:nth-of-type(3){width: 40%;}  
     .polaris_j_martin_page_key_main_sub1_sec1_blk h2{    font-size: 35px;
         line-height: 41px;}
-        .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 40px;
-            line-height: 46px;}
+        .polaris_j_martin_page_key_main_main_sub_blk h1{    font-size: 35px;
+            line-height: 40px;}
             .polaris_j_martin_page_key_main_sub10_sec2_mini_blk{flex-direction: column;}
             .polaris_j_martin_page_key_main_sub10_sec2_mini_1blk{width: 100%;margin-bottom: 30px;}
 .polaris_j_martin_page_key_main_sub10_sec2_mini_2blk{width: 100%;}
+
+.polaris_j_martin_page_key_main_sub2_sec1_green {
+    margin-bottom: 0;
+}
 }
 @media (max-width: 768px){
     .polaris_j_martin_page_key_main_sub2_sec1_green{    width: 100%;}
@@ -1737,11 +1745,48 @@ background-repeat: no-repeat;background-size: cover;background-position: center;
                         line-height: 27px;}
                         .polaris_j_martin_page_key_main_sub1_sec1_blk h2{    font-size: 30px;
                             line-height: 36px;}
+
+    .polaris_j_martin_page_key_main_main_sub_blk h1 {    
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .polaris_j_martin_page_key_main_main_sub_blk {
+        padding: 15px;
+    }
 }
 @media (max-width: 499px){
     .polaris_j_martin_page_key_main_sub2_main_blk p{font-size: 20px;
-        line-height: 26px;}
+        line-height: 26px;    margin-bottom: 10px;}
         .polaris_j_martin_page_key_main_sub2_sec1_green p::after{    width: 15px;
             height: 15px;
             top: 5px;}
+
+        .polaris_j_martin_page_key_main_main_sub_blk {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .polaris_j_martin_page_key_main_main_sub_blk h1 {    
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .polaris_j_martin_page_key_main_sub1_main_blk {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .polaris_j_martin_page_key_main_sub1_sec1_blk {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .polaris_j_martin_page_key_main_sub1_sec1_blk h2 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .polaris_j_martin_page_key_main_sub3_main_blk h6::after {
+            bottom: -6px;
+        }
+        .polaris_j_martin_page_key_main_sub3_main_blk h6 {
+            margin-bottom: 15px;
+        }
 }
