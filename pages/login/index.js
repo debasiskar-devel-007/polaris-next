@@ -33,7 +33,7 @@ export default function Index() {
 
     
     if (!user?.password) {
-      errorObject.password = "*Password is required";
+      errorObject.password = "*Password is Required";
     }
 
     if (Object.keys(errorObject).length > 0) {
