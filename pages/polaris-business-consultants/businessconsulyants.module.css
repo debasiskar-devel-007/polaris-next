@@ -927,6 +927,7 @@
     .PBC_B6_Miniwrpr {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
     .PBC_B6_Miniwrpr p{
         padding-left: 30px;
@@ -936,6 +937,7 @@
     .PBC_B6_Miniwrpr2{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .PBC_B6_Miniwrpr2 .PBC_B4_wrpr2_InnerBoxs{
         width: calc(50% - 15px);
@@ -1055,6 +1057,7 @@
     .PBC_B11_SubInnerBlock{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     .PBC_B11_SubInnerBlock span{
         width: calc(50% - 5px);
@@ -1423,6 +1426,49 @@
     }
 }
 @media screen and (max-width: 1199px){
+    .businessconsulyants_PBC_block10__78SxD h1{    font-size: 30px;
+        line-height: 37px;}
+    .PBC_block10{
+        padding-bottom: 20px;
+    }
+    .PBC_block9_inner{
+        padding-top: 20px;
+    }
+    .PBC_block9{
+        padding: 20px 0;
+    }
+    .PBC_block8{padding: 20px 0;}
+    .PBC_block7{
+        padding-bottom: 20px;
+    }
+    .PBC_block6_innerBlock{padding: 20px 0;}
+    .PBC_block6{
+        padding: 20px 0;
+    }
+    .PBC_block4_wrpr4{
+        padding: 20px 0;
+    }
+    .PBC_B4_wrpr1_Inner2,
+    .PBC_block6_wrprBlue{    margin-top: 0px;
+        margin-bottom: 20px;}
+    .PBC_block3{padding: 20px 0;}
+    .PBC_block1{padding: 20px 0;}
+    .PBC_block2{padding: 20px 0;}
+    .PBC_B3_inner{flex-wrap: wrap;}
+    .PBC_B11_InnerBlock:first-child{    background: none, url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris-business-consultants/PBC_B11_InnerBlock1BGimage2.webp);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .PBC_B11_Submini{
+        
+        width: 100%;
+    }
+    .PBC_B11_SubInnerBlock span{
+        width: calc(100% - 5px);
+    }
+    .PBC_B10_wrpr_Inner1 .PBC_B4_wrpr2_InnerBoxs{
+        width: calc(100% - 15px);
+    }
+    .PBC_B6_Miniwrpr2 .PBC_B4_wrpr2_InnerBoxs{
+        width: calc(100% - 15px);
+    }
     .PBC_B7_MiniBlock{
         width: calc(100% - 15px);
     }
@@ -1454,6 +1500,7 @@
     }
     .PBC_block11_subWrpr{
         flex-direction: column;
+        margin-bottom: 20px;
     }
     .PBC_B11_InnerBlock{
         width: 100%;
@@ -1466,6 +1513,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        margin-bottom: 20px;
     }
     .PBC_block10_InnerBlockWrpr{
         width: 100%;
@@ -1478,7 +1526,7 @@
     }
     .PBC_B6_innerBlock_SubWrpr{
         width: 100%;
-        padding-bottom: 400px;
+        padding-bottom: 37%;
     }
     .PBC_block7 .PBC_block6_wrprWhite p{
         width: 100%;
@@ -1491,7 +1539,7 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: -59px;
-        width: 710px;
+        width: 64%;
     }
     .PBC_block5_wrpr{
         width: 100%;
@@ -1501,14 +1549,16 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        padding: 20px 0;
     }
     .PBC_block4_wrpr1{
         background-position: top 0 center;
-        background-size: 991px;
+        background-size: 100%;
+        padding: 20px 0;
     }
     .PBC_B4_wrpr1_Inner1{
         width: 100%;
-        padding-top: 69%;
+        padding-top: 65%;
     }    
     .PBC_block3_wrpr {
         width: 100%;
@@ -1563,8 +1613,8 @@
     .PBC_block9 h1, 
     .PBC_block10 h1, 
     .PBC_block11 h1{
-        font-size: 35px;
-        line-height: 41px;
+        font-size: 30px;
+        line-height: 37px;
     }
     .PBC_block1_wrpr p,
     .PBC_block2_wrpr p, 
@@ -1609,15 +1659,27 @@
     }
 }
 @media screen and (max-width: 799px){
+    .PBC_bannerBottom p{padding-right: 0;}
     .PBC_banner {
         background-position: bottom -262px right 87px, center;
     }
+    .PBC_block6_innerBlock img {
+        top: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -59px;
+        width: 67%;
+    }
+    .PBC_block4_wrpr4 .PBC_B4_wrpr1_Inner2Box h6{    font-size: 18px;    line-height: 24px;}
 }
 @media screen and (max-width: 650px){
+    .PBC_B10_InnerBlockHeader h4{word-break: break-all;}
+    .PBC_block6_wrprBlue h3{word-break: break-all;}
+    .BlackBullet h5{    white-space: wrap;}
     .PBC_banner {
-        background-position: bottom -262px right 37px, center;
-        background-size: 140%, cover;
-        padding-bottom: 72%;
+        background-position: bottom 0px right 65px, center;
+        background-size: 100%, cover;
+        padding-bottom: 79%;
         padding-top: 279px;
     }
     .PBC_bannerTop::before{
@@ -1628,6 +1690,36 @@
         text-align: center;
         margin-bottom: 15px;
     }
+    .PBC_InnerBox ul{
+        column-count: 1;
+    }
+    .PBC_block6_innerBlock img {
+        top: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -59px;
+        width: 81%;
+    }
+    .PBC_B4_wrpr2_InnerBoxs p span{white-space: wrap;}
+}
+@media screen and (max-width: 499px){
+    .PBC_block4_wrpr2 h1, 
+    .PBC_block6 h1, 
+    .PBC_block7_innerBlock h2,
+    .PBC_block5 h1, 
+    .PBC_block8 h1{
+        font-size: 25px;
+        line-height: 31px;
+    }
+}
+@media screen and (max-width: 399px){
+    .PBC_block6_innerBlock img {
+    top: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -59px;
+    width: 100%;
+}
 }
 
 
