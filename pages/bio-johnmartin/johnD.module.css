@@ -1627,11 +1627,13 @@ background-repeat: no-repeat;background-size: cover;background-position: center;
 .polaris_j_martin_page_key_main_sub10_sec2_mini_blk{display: flex;justify-content: space-between;align-items: center;} 
 .polaris_j_martin_page_key_main_sub10_sec2_mini_1blk{width: 35%;position: relative;}
 .polaris_j_martin_page_key_main_sub10_sec2_mini_2blk{width: 60%;position: relative;}
-.polaris_j_martin_page_key_main_sub10_sec2_mini_1blk p{    margin-left: 60px;
+.polaris_j_martin_page_key_main_sub10_sec2_mini_1blk p {    
+    margin-left: 60px;
     font-size: 30px;
     line-height: 36px;
     font-weight: 500;
-    color: #fff;}
+    color: #fff;
+}
 .polaris_j_martin_page_key_main_sub10_sec2_mini_2blk p{    margin-left: 60px;
         font-size: 30px;
         line-height: 36px;
