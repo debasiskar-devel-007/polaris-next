@@ -431,8 +431,8 @@
 .service_page_block5_main_width {
     background: url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_right_img.webp), url(https://all-frontend-assets.s3.amazonaws.com/polaris_project/polaris_service_page/p_services_block5_bg_img.webp);
     background-repeat: no-repeat, no-repeat;
-    background-size: auto, 100% 100%;
-    background-position: bottom -75px left 205px, top left;
+    background-size: 535px, 100% 100%;
+    background-position: bottom -65px left 255px, top left;
     padding: 40px 0;
 }
 .skyblue_bullet {
@@ -1145,6 +1145,7 @@
 
      /* -------------block5-------------- */
     .service_page_block5_main_width {
+        background-size: 575px, 100% 100%;
         background-position: bottom -65px left -25px, top left;
     }
     .service_block5_right_cont {
