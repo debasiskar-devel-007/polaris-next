@@ -1300,11 +1300,15 @@
         top: 5px;
     }
     .box_section h2::before {
-        top: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .service_bnr_left_cont p {
         color: #ffffff;
         text-shadow: 1px 1px 5px #000000;
+    }
+    .box_section {
+        flex-direction: column;
     }
 
       /* ---------block1---------- */
@@ -1516,6 +1520,10 @@
     }
     .service_bnr_left_cont {
         padding-bottom: 395px;
+    }
+    .box_section h2 {
+        text-align: center;
+        padding: 0;
     }
 
       /* ---------block1---------- */
@@ -2030,7 +2038,7 @@
     .part3_white_box_left_sec h5::before {
         width: 22px;
         height: 22px;
-        top: 0;
+        top: 2px;
     }
     .part3_white_box_left_sec h5 {
         padding-left: 25px;
