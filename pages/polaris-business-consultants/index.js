@@ -20,8 +20,8 @@ export default function Index() {
         <meta property="og:url" content=" https://polaris.betoparedes.com/contact "></meta>
         </Head>
 
-     <Navbar />
      <div className={styles.PBC_banner}>
+     <Navbar />
       <div className={styles.common_width}>
          <div className={styles.PBC_banner_wrpr}>
             <div className={styles.PBC_bannerTop}>
