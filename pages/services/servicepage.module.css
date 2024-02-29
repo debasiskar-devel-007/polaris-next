@@ -1926,12 +1926,12 @@
     .service_page_block4_main_width .cont_part1_sub_bullet_cont h5 {
         font-size: 18px;
         line-height: 23px;
-        padding-left: 35px;
+        padding-left: 45px;
         margin-right: 0;
     }
     .cont_part1_sub_bullet_cont h5::before {
         top: 5px;
-        left: 15px;
+        left: 25px;
     }
 
      /* -------------block5-------------- */
@@ -1946,12 +1946,12 @@
     .skyblue_bullet {
         font-size: 18px;
         line-height: 23px;
-        padding-left: 35px;
+        padding-left: 45px;
         margin-right: 0;
     }
     .skyblue_bullet::before {
         top: 5px;
-        left: 15px;
+        left: 25px;
     }
 
      /* -----------block6-skybox------------- */
